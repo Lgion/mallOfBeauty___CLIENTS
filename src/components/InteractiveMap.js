@@ -4,14 +4,14 @@ export function renderInteractiveMap() {
   const settings = getStoreSettings();
 
   const galleryImages = [
-    { src: "/imgs/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
-    { src: "/imgs/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
-    { src: "/imgs/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
-    { src: "/imgs/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
-    { src: "/imgs/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
-    { src: "/imgs/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
-    { src: "/imgs/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
-    { src: "/imgs/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" }
+    { src: "./imgs/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
+    { src: "./imgs/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
+    { src: "./imgs/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
+    { src: "./imgs/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
+    { src: "./imgs/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
+    { src: "./imgs/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
+    { src: "./imgs/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
+    { src: "./imgs/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" }
   ];
 
   return `

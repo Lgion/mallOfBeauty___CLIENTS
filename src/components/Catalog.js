@@ -5,10 +5,10 @@ export function formatPriceFCFA(amount) {
 }
 
 export const CATALOG_CATEGORIES = [
-  { id: "all", label: "Tous", img: "/imgs/categories/CATALOGUE.jpeg" },
-  { id: "soins-visage", label: "Visage & Sérums", img: "/imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
-  { id: "soins-corps", label: "Soins Corps & Laits", img: "/imgs/categories/SOINS_CORPS_LAITS_LUXE.jpeg" },
-  { id: "soins-cheveux", label: "Capillaire & Défrisants", img: "/imgs/categories/SOINS_CAPILLAIRES_DÉFRISANTS.jpeg" }
+  { id: "all", label: "Tous", img: "./imgs/categories/CATALOGUE.jpeg" },
+  { id: "soins-visage", label: "Visage & Sérums", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
+  { id: "soins-corps", label: "Soins Corps & Laits", img: "./imgs/categories/SOINS_CORPS_LAITS_LUXE.jpeg" },
+  { id: "soins-cheveux", label: "Capillaire & Défrisants", img: "./imgs/categories/SOINS_CAPILLAIRES_DÉFRISANTS.jpeg" }
 ];
 
 export function filterProducts(filteredCategory = "all", searchQuery = "") {

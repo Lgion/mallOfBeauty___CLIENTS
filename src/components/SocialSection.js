@@ -55,7 +55,7 @@ export function renderSocialSection(activePlatformId = "instagram", isFeedExpand
   const mockPosts = [
     {
       network: "instagram",
-      image: "/imgs/stand_pagnes.jpg",
+      image: "./imgs/stand_pagnes.jpg",
       badge: "Instagram",
       caption: "✨ Arrivage exclusif de la semaine : Nouveaux motifs Vlisco Grand Super Wax 6 yards en boutique aux Vallons !",
       stats: "❤️ 342 • 💬 28",
@@ -63,7 +63,7 @@ export function renderSocialSection(activePlatformId = "instagram", isFeedExpand
     },
     {
       network: "tiktok",
-      image: "/imgs/stands_esthetique.jpg",
+      image: "./imgs/stands_esthetique.jpg",
       badge: "TikTok",
       caption: "🎬 Démo routine du soir : Comment traiter les taches solaires à Abidjan avec les sérums K-Beauty !",
       stats: "▶ 14.8k vues • 890 j'aime",
@@ -71,7 +71,7 @@ export function renderSocialSection(activePlatformId = "instagram", isFeedExpand
     },
     {
       network: "facebook",
-      image: "/imgs/stand_maroquinerie.jpg",
+      image: "./imgs/stand_maroquinerie.jpg",
       badge: "Facebook",
       caption: "👜 Arrivage maroquinerie italienne & pochettes haute élégance disponibles dès aujourd'hui aux 2 Plateaux.",
       stats: "👍 419 • 💬 53",
@@ -79,7 +79,7 @@ export function renderSocialSection(activePlatformId = "instagram", isFeedExpand
     },
     {
       network: "instagram",
-      image: "/imgs/stand1.jpg",
+      image: "./imgs/stand1.jpg",
       badge: "Instagram",
       caption: "💎 Rayon soins dermo-experts : découvrez nos coffrets cadeaux et formules bébé hypoallergéniques.",
       stats: "❤️ 512 • 💬 46",
@@ -87,7 +87,7 @@ export function renderSocialSection(activePlatformId = "instagram", isFeedExpand
     },
     {
       network: "tiktok",
-      image: "/imgs/devanture_face.jpg",
+      image: "./imgs/devanture_face.jpg",
       badge: "TikTok",
       caption: "📍 Visite guidée de notre boutique Rue des Jardins, en face de la pharmacie Saint-Gilles.",
       stats: "▶ 22.3k vues • 1.4k j'aime",
@@ -95,7 +95,7 @@ export function renderSocialSection(activePlatformId = "instagram", isFeedExpand
     },
     {
       network: "x",
-      image: "/imgs/stand5.jpg",
+      image: "./imgs/stand5.jpg",
       badge: "X (Twitter)",
       caption: "📢 Flash Réassort : Les flacons Beauty of Joseon Ginseng et Anua Heartleaf sont à nouveau disponibles !",
       stats: "🔁 87 • ❤️ 230",

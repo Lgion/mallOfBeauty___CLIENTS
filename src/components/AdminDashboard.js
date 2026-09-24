@@ -259,19 +259,19 @@ function renderFeaturedTab(products) {
 
 function renderProductsTab(products) {
   const availableImages = [
-    { label: "Stands Cosmétiques", src: "/imgs/stands_esthetique.jpg" },
-    { label: "Rayon K-Beauty 1", src: "/imgs/stand5.jpg" },
-    { label: "Rayon K-Beauty 2", src: "/imgs/stand4.jpg" },
-    { label: "Soins Bébés 1", src: "/imgs/stand2.jpg" },
-    { label: "Soins Bébés 2", src: "/imgs/stand0.jpg" },
-    { label: "Soins & Crèmes", src: "/imgs/stand1.jpg" },
-    { label: "Pagnes Vlisco 1", src: "/imgs/stand_pagnes.jpg" },
-    { label: "Pagnes Vlisco 2", src: "/imgs/stand_pagnes_.jpg" },
-    { label: "Voiles & Robes", src: "/imgs/vitrine_interieur_habits_hauts.jpg" },
-    { label: "Maroquinerie & Sacs", src: "/imgs/stand_maroquinerie.jpg" },
-    { label: "Perruques HD", src: "/imgs/stand_perruques.jpg" },
-    { label: "Bar Maquillage", src: "/imgs/stand_makeup.jpg" },
-    { label: "Façade Boutique", src: "/imgs/devanture_face.jpg" }
+    { label: "Stands Cosmétiques", src: "./imgs/stands_esthetique.jpg" },
+    { label: "Rayon K-Beauty 1", src: "./imgs/stand5.jpg" },
+    { label: "Rayon K-Beauty 2", src: "./imgs/stand4.jpg" },
+    { label: "Soins Bébés 1", src: "./imgs/stand2.jpg" },
+    { label: "Soins Bébés 2", src: "./imgs/stand0.jpg" },
+    { label: "Soins & Crèmes", src: "./imgs/stand1.jpg" },
+    { label: "Pagnes Vlisco 1", src: "./imgs/stand_pagnes.jpg" },
+    { label: "Pagnes Vlisco 2", src: "./imgs/stand_pagnes_.jpg" },
+    { label: "Voiles & Robes", src: "./imgs/vitrine_interieur_habits_hauts.jpg" },
+    { label: "Maroquinerie & Sacs", src: "./imgs/stand_maroquinerie.jpg" },
+    { label: "Perruques HD", src: "./imgs/stand_perruques.jpg" },
+    { label: "Bar Maquillage", src: "./imgs/stand_makeup.jpg" },
+    { label: "Façade Boutique", src: "./imgs/devanture_face.jpg" }
   ];
 
   return `
@@ -355,7 +355,7 @@ function renderProductsTab(products) {
           <!-- Sélecteur d'image parmi les photos réelles -->
           <div class="form-group">
             <label class="form-label">Sélectionner une Photo de la Boutique :</label>
-            <input type="text" id="form-product-image" class="form-input" value="/imgs/stands_esthetique.jpg" required>
+            <input type="text" id="form-product-image" class="form-input" value="./imgs/stands_esthetique.jpg" required>
             <div class="image-preview-picker">
               ${availableImages.map(img => `
                 <img src="${img.src}" alt="${img.label}" class="image-picker-option" title="${img.label}" onclick="document.getElementById('form-product-image').value = '${img.src}'; document.querySelectorAll('.image-picker-option').forEach(el=>el.classList.remove('selected')); this.classList.add('selected');">
@@ -870,7 +870,7 @@ function renderSettingsTab(settings) {
             <div>
               <div class="form-group">
                 <label class="form-label">Image ou Chemin du QR Code Wave</label>
-                <input type="text" id="set-wave-qrcode" class="form-input" value="${settings.contacts.waveQrCode || '/imgs/wave_qr_code.svg'}" placeholder="/imgs/wave_qr_code.svg ou URL">
+                <input type="text" id="set-wave-qrcode" class="form-input" value="${settings.contacts.waveQrCode || './imgs/wave_qr_code.svg'}" placeholder="./imgs/wave_qr_code.svg ou URL">
               </div>
 
               <div class="form-group" style="margin-top: 10px;">
@@ -882,7 +882,7 @@ function renderSettingsTab(settings) {
             <!-- Aperçu QR Code en direct -->
             <div style="text-align: center; background: #FFFFFF; border: 1.5px solid #BAE6FD; border-radius: 12px; padding: 12px; width: 140px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
               <span style="font-size: 0.72rem; color: #0284C7; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 6px;">Aperçu QR Code</span>
-              <img src="${settings.contacts.waveQrCode || '/imgs/wave_qr_code.svg'}" id="wave-qrcode-admin-preview" alt="Aperçu QR Code Wave" style="width: 110px; height: 110px; object-fit: contain; border-radius: 8px; background: #FFF; padding: 4px;">
+              <img src="${settings.contacts.waveQrCode || './imgs/wave_qr_code.svg'}" id="wave-qrcode-admin-preview" alt="Aperçu QR Code Wave" style="width: 110px; height: 110px; object-fit: contain; border-radius: 8px; background: #FFF; padding: 4px;">
             </div>
           </div>
         </div>

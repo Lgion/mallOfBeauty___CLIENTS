@@ -7,9 +7,9 @@ export const INITIAL_PRODUCTS = [
     "price": 110000,
     "isFeatured": true,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -29,9 +29,9 @@ export const INITIAL_PRODUCTS = [
     "price": 72500,
     "isFeatured": true,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -51,9 +51,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -73,9 +73,9 @@ export const INITIAL_PRODUCTS = [
     "price": 72000,
     "isFeatured": true,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -95,9 +95,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -117,9 +117,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": true,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -139,9 +139,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -161,9 +161,9 @@ export const INITIAL_PRODUCTS = [
     "price": 85500,
     "isFeatured": true,
     "stock": 6,
-    "image": "/strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png",
+    "image": "./strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png",
     "gallery": [
-      "/strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png"
+      "./strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -183,9 +183,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -205,9 +205,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -227,9 +227,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": true,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -249,9 +249,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -271,9 +271,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -293,9 +293,9 @@ export const INITIAL_PRODUCTS = [
     "price": 85500,
     "isFeatured": true,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -315,9 +315,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -337,9 +337,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": true,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -359,9 +359,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -381,9 +381,9 @@ export const INITIAL_PRODUCTS = [
     "price": 72500,
     "isFeatured": true,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -403,9 +403,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -425,9 +425,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -447,9 +447,9 @@ export const INITIAL_PRODUCTS = [
     "price": 40500,
     "isFeatured": true,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -469,9 +469,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -491,9 +491,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -513,9 +513,9 @@ export const INITIAL_PRODUCTS = [
     "price": 63500,
     "isFeatured": true,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -535,9 +535,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -557,9 +557,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -579,9 +579,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": true,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -601,9 +601,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -623,9 +623,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -645,9 +645,9 @@ export const INITIAL_PRODUCTS = [
     "price": 43500,
     "isFeatured": true,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -667,9 +667,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -689,9 +689,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -711,9 +711,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": true,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -733,9 +733,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -755,9 +755,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -777,9 +777,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -799,9 +799,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -821,9 +821,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -843,9 +843,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": true,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -865,9 +865,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -887,9 +887,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -909,9 +909,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": true,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -931,9 +931,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -953,9 +953,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -975,9 +975,9 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": true,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -997,9 +997,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1019,9 +1019,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1041,9 +1041,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1063,9 +1063,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1085,9 +1085,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": true,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1107,9 +1107,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1129,9 +1129,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "XTREME BRITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1151,9 +1151,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "XTREME BRITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1173,9 +1173,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39900,
     "isFeatured": true,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1195,9 +1195,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1217,9 +1217,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1239,9 +1239,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1261,9 +1261,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1283,9 +1283,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1305,9 +1305,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1327,9 +1327,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1349,9 +1349,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": true,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP VIT D",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1371,9 +1371,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP VIT D",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1393,9 +1393,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1415,9 +1415,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": true,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1437,9 +1437,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1459,9 +1459,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1481,9 +1481,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1503,9 +1503,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": true,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1525,9 +1525,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1547,9 +1547,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1569,9 +1569,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1591,9 +1591,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1613,9 +1613,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1635,9 +1635,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1657,9 +1657,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1679,9 +1679,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1701,9 +1701,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1723,9 +1723,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1745,9 +1745,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": true,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1767,9 +1767,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1789,9 +1789,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1811,9 +1811,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1833,9 +1833,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24600,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1855,9 +1855,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1877,9 +1877,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN HONEY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1899,9 +1899,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN HONEY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1921,9 +1921,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1943,9 +1943,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19800,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1965,9 +1965,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14600,
     "isFeatured": true,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1987,9 +1987,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25200,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2009,9 +2009,9 @@ export const INITIAL_PRODUCTS = [
     "price": 52650,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2031,9 +2031,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23450,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUMERIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2053,9 +2053,9 @@ export const INITIAL_PRODUCTS = [
     "price": 31590,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUMERIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2075,9 +2075,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2097,9 +2097,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2119,9 +2119,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2141,9 +2141,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2163,9 +2163,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2185,9 +2185,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2207,9 +2207,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2229,9 +2229,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2251,9 +2251,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2273,9 +2273,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": true,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2295,9 +2295,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20400,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CAROTEIN SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2317,9 +2317,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2339,9 +2339,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2361,9 +2361,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25900,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2383,9 +2383,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2405,9 +2405,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2427,9 +2427,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2449,9 +2449,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2471,9 +2471,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2493,9 +2493,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2515,9 +2515,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2537,9 +2537,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2559,9 +2559,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2581,9 +2581,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2603,9 +2603,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2625,9 +2625,9 @@ export const INITIAL_PRODUCTS = [
     "price": 52650,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2647,9 +2647,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23450,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2669,9 +2669,9 @@ export const INITIAL_PRODUCTS = [
     "price": 31590,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2691,9 +2691,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TAMARIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2713,9 +2713,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TAMARIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2735,9 +2735,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TAMARIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2757,9 +2757,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2779,9 +2779,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2801,9 +2801,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22700,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2823,9 +2823,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2845,9 +2845,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2867,9 +2867,9 @@ export const INITIAL_PRODUCTS = [
     "price": 68500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI SANTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2889,9 +2889,9 @@ export const INITIAL_PRODUCTS = [
     "price": 58500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI VELOURS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2911,9 +2911,9 @@ export const INITIAL_PRODUCTS = [
     "price": 75500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2933,9 +2933,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2955,9 +2955,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2977,9 +2977,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2999,9 +2999,9 @@ export const INITIAL_PRODUCTS = [
     "price": 46500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3021,9 +3021,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16300,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3043,9 +3043,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16300,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3065,9 +3065,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12900,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3087,9 +3087,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12900,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3109,9 +3109,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3131,9 +3131,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12900,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3153,9 +3153,9 @@ export const INITIAL_PRODUCTS = [
     "price": 86500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3175,9 +3175,9 @@ export const INITIAL_PRODUCTS = [
     "price": 61500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3197,9 +3197,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3219,9 +3219,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3241,9 +3241,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3263,9 +3263,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3285,9 +3285,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3307,9 +3307,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3329,9 +3329,9 @@ export const INITIAL_PRODUCTS = [
     "price": 33800,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3351,9 +3351,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3373,9 +3373,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3395,9 +3395,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3417,9 +3417,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3439,9 +3439,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3461,9 +3461,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3483,9 +3483,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3505,9 +3505,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3527,9 +3527,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3549,9 +3549,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3571,9 +3571,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3593,9 +3593,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3615,9 +3615,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3637,9 +3637,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3659,9 +3659,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3681,9 +3681,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CETAPHIL BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3703,9 +3703,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12400,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CETAPHIL BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3725,9 +3725,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23400,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HONEST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3747,9 +3747,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27000,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKARI VOILE DE CORPS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3769,10 +3769,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
     ],
     "brand": "FB LUXURY AMANDE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3792,9 +3792,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
     ],
     "brand": "FB LUXURY AMANDE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3814,10 +3814,10 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
     ],
     "brand": "FB LUXURY CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3837,9 +3837,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13800,
     "isFeatured": false,
     "stock": 7,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
     ],
     "brand": "FB LUXURY CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3859,11 +3859,11 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3883,9 +3883,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3905,9 +3905,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3927,9 +3927,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3949,9 +3949,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3971,9 +3971,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3993,9 +3993,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4015,9 +4015,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4037,9 +4037,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4059,9 +4059,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4081,9 +4081,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12800,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4103,9 +4103,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4125,9 +4125,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4147,9 +4147,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4169,9 +4169,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4191,9 +4191,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4213,9 +4213,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4235,9 +4235,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4257,11 +4257,11 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4281,9 +4281,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4303,9 +4303,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4325,9 +4325,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4347,9 +4347,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB CAROTTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4369,9 +4369,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "FB CAROTTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4391,9 +4391,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12800,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DRM 4",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4413,9 +4413,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "Z & C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4435,9 +4435,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "Z & C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4457,9 +4457,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "Z & C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4479,9 +4479,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4501,9 +4501,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4523,9 +4523,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4545,9 +4545,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4567,9 +4567,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4589,9 +4589,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4611,9 +4611,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4633,9 +4633,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4655,9 +4655,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4677,9 +4677,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4699,9 +4699,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4721,9 +4721,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4743,9 +4743,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4765,9 +4765,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4787,9 +4787,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4809,9 +4809,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HP 25 VERT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4831,9 +4831,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OVERWHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4853,9 +4853,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4875,9 +4875,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4897,9 +4897,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4919,9 +4919,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3800,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4941,9 +4941,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4963,9 +4963,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4985,9 +4985,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SH 18",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5007,9 +5007,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5029,9 +5029,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5051,9 +5051,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5073,9 +5073,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5095,9 +5095,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5117,9 +5117,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5139,9 +5139,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EUCERIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5161,9 +5161,9 @@ export const INITIAL_PRODUCTS = [
     "price": 68500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5183,9 +5183,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5205,9 +5205,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5227,9 +5227,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5249,9 +5249,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5271,9 +5271,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5293,9 +5293,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5315,9 +5315,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5337,9 +5337,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5359,9 +5359,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DH7",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5381,9 +5381,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2800,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TROPICAL ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5403,9 +5403,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5425,9 +5425,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5447,9 +5447,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5469,9 +5469,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5491,9 +5491,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5513,9 +5513,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5535,9 +5535,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5557,9 +5557,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TROPICLEAR INTENSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5579,9 +5579,9 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TROPICLEAR INTENSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5601,9 +5601,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TROPICLEAR INTENSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5623,9 +5623,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5645,9 +5645,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5667,9 +5667,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5689,9 +5689,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5711,9 +5711,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5733,9 +5733,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5755,9 +5755,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5777,9 +5777,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5799,9 +5799,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5821,9 +5821,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5843,9 +5843,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5865,9 +5865,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5887,9 +5887,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5909,9 +5909,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/strives/images/prod_07_Vaseline_Almond_Smooth.jpg",
+    "image": "./strives/images/prod_07_Vaseline_Almond_Smooth.jpg",
     "gallery": [
-      "/strives/images/prod_07_Vaseline_Almond_Smooth.jpg"
+      "./strives/images/prod_07_Vaseline_Almond_Smooth.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5931,9 +5931,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5953,9 +5953,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5975,9 +5975,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5997,9 +5997,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6019,9 +6019,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6041,9 +6041,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6063,9 +6063,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6085,9 +6085,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6107,9 +6107,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6129,9 +6129,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6151,10 +6151,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 27,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_01.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_01.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_01.png",
-      "/strives/images/cat_09_Jergens_Shea_Butter_02.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_01.png",
+      "./strives/images/cat_09_Jergens_Shea_Butter_02.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6174,9 +6174,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_02.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_02.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_02.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_02.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6196,9 +6196,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_03.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_03.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_03.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_03.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6218,9 +6218,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_04.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_04.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_04.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_04.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6240,9 +6240,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OLAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6262,9 +6262,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "KERRI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6284,9 +6284,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6306,9 +6306,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6328,9 +6328,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6350,9 +6350,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6372,9 +6372,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": true,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6394,9 +6394,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6416,9 +6416,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6438,9 +6438,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6460,9 +6460,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGAN OIL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6482,9 +6482,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGAN OIL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6504,9 +6504,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6526,9 +6526,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6548,9 +6548,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6570,9 +6570,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6592,9 +6592,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6614,9 +6614,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6636,9 +6636,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6658,9 +6658,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6680,9 +6680,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6702,9 +6702,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6724,9 +6724,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6746,9 +6746,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6768,9 +6768,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6790,9 +6790,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5900,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6812,9 +6812,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6834,9 +6834,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6856,9 +6856,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6878,9 +6878,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6900,9 +6900,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6922,9 +6922,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6944,9 +6944,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": true,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6966,9 +6966,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": true,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6988,9 +6988,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": true,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7010,9 +7010,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7032,9 +7032,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7054,9 +7054,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7076,9 +7076,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7098,9 +7098,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": true,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7120,9 +7120,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7142,9 +7142,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3700,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7164,9 +7164,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10200,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7186,9 +7186,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8200,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7208,9 +7208,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7230,9 +7230,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7252,9 +7252,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7274,9 +7274,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7296,9 +7296,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7318,9 +7318,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7340,9 +7340,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7362,9 +7362,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6700,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7384,9 +7384,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7406,9 +7406,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7428,9 +7428,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7450,9 +7450,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7472,9 +7472,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": true,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7494,9 +7494,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7516,9 +7516,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7538,9 +7538,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7560,9 +7560,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7582,9 +7582,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7604,9 +7604,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HYPERCREAM",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7626,9 +7626,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HYPERCREAM",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7648,9 +7648,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HYPERCREAM",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7670,9 +7670,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BAUME COCONUT OIL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7692,9 +7692,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7714,9 +7714,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7736,9 +7736,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7758,9 +7758,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7780,9 +7780,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7802,9 +7802,9 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7824,9 +7824,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7846,9 +7846,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7868,9 +7868,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7890,9 +7890,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7912,9 +7912,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7934,9 +7934,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7956,9 +7956,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7978,9 +7978,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14700,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8000,9 +8000,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8022,9 +8022,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8044,9 +8044,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8066,9 +8066,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8088,9 +8088,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10300,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8110,9 +8110,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10300,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8132,9 +8132,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8154,9 +8154,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8176,9 +8176,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8198,9 +8198,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8220,9 +8220,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8242,9 +8242,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BEAUTY FUBLIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8264,9 +8264,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BEAUTY FUBLIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8286,9 +8286,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8308,9 +8308,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8330,9 +8330,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8352,9 +8352,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8374,9 +8374,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8396,9 +8396,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8418,9 +8418,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8440,9 +8440,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8462,9 +8462,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR ARGAN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8484,9 +8484,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR ARGAN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8506,9 +8506,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PR ARGAN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8528,9 +8528,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8550,9 +8550,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14600,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8572,9 +8572,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8594,9 +8594,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8616,9 +8616,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8638,9 +8638,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8660,9 +8660,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8682,9 +8682,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8704,9 +8704,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8726,9 +8726,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8748,9 +8748,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8770,9 +8770,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8792,9 +8792,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8814,9 +8814,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8836,9 +8836,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8858,9 +8858,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8880,9 +8880,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8902,9 +8902,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8924,9 +8924,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8946,9 +8946,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8968,9 +8968,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ CHOC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8990,9 +8990,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "QEI+ INDIA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9012,9 +9012,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MEKAKO",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9034,9 +9034,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "JARIBU",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9056,9 +9056,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NAIR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9078,9 +9078,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "VEET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9100,9 +9100,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LAMISOL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9122,9 +9122,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "JOLLY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9144,9 +9144,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MARY KAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9166,9 +9166,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22800,
     "isFeatured": false,
     "stock": 50,
-    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "image": "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
     "gallery": [
-      "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
+      "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9188,9 +9188,9 @@ export const INITIAL_PRODUCTS = [
     "price": 56500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9210,9 +9210,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9232,9 +9232,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9254,9 +9254,9 @@ export const INITIAL_PRODUCTS = [
     "price": 56500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9276,9 +9276,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9298,9 +9298,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9320,9 +9320,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9342,9 +9342,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9364,9 +9364,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "image": "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
     "gallery": [
-      "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
+      "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9386,9 +9386,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9408,9 +9408,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9430,9 +9430,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9452,9 +9452,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9474,10 +9474,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 45,
-    "image": "/strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+    "image": "./strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
     "gallery": [
-      "/strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
-      "/strives/images/cat_49_OLLY_-_Women_s_Multi_02.jpg"
+      "./strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+      "./strives/images/cat_49_OLLY_-_Women_s_Multi_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9497,10 +9497,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/strives/images/cat_50_OLLY_-_Libido_01.jpg",
+    "image": "./strives/images/cat_50_OLLY_-_Libido_01.jpg",
     "gallery": [
-      "/strives/images/cat_50_OLLY_-_Libido_01.jpg",
-      "/strives/images/cat_50_OLLY_-_Libido_02.jpg"
+      "./strives/images/cat_50_OLLY_-_Libido_01.jpg",
+      "./strives/images/cat_50_OLLY_-_Libido_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9520,10 +9520,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 6,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9543,9 +9543,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 49,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9565,9 +9565,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9587,9 +9587,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 41,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9609,9 +9609,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 41,
-    "image": "/strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png",
+    "image": "./strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png",
     "gallery": [
-      "/strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png"
+      "./strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9631,10 +9631,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+    "image": "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
     "gallery": [
-      "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
-      "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_02.png"
+      "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+      "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_02.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9654,9 +9654,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9676,9 +9676,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42000,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9698,9 +9698,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9720,9 +9720,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9742,9 +9742,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9764,9 +9764,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9786,9 +9786,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9808,9 +9808,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 19,
-    "image": "/strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png",
+    "image": "./strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png",
     "gallery": [
-      "/strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png"
+      "./strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9830,9 +9830,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45000,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9852,9 +9852,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9874,9 +9874,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9896,9 +9896,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9918,9 +9918,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9940,9 +9940,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9962,9 +9962,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9984,9 +9984,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10006,9 +10006,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10028,9 +10028,9 @@ export const INITIAL_PRODUCTS = [
     "price": 11500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10050,9 +10050,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10072,9 +10072,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10094,9 +10094,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10116,9 +10116,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10138,9 +10138,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10160,9 +10160,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10182,9 +10182,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10204,9 +10204,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 33,
-    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
+    "image": "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
     "gallery": [
-      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
+      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10226,9 +10226,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10248,9 +10248,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10270,9 +10270,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10292,9 +10292,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6900,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10314,9 +10314,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10336,9 +10336,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": true,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10358,9 +10358,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10380,9 +10380,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10402,9 +10402,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10424,9 +10424,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10446,9 +10446,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10468,9 +10468,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10490,9 +10490,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10512,9 +10512,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10534,9 +10534,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10556,9 +10556,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10578,9 +10578,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10600,9 +10600,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10622,9 +10622,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10644,9 +10644,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16800,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10666,9 +10666,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10688,9 +10688,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10710,9 +10710,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10732,9 +10732,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10754,9 +10754,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15200,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10776,9 +10776,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4200,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10798,9 +10798,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25700,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10820,9 +10820,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26900,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10842,9 +10842,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10864,9 +10864,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28300,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10886,9 +10886,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18700,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10908,9 +10908,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10930,9 +10930,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": true,
     "stock": 50,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10952,9 +10952,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 20,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10974,9 +10974,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 27,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10996,9 +10996,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 13,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11018,9 +11018,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11040,9 +11040,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11062,9 +11062,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11084,9 +11084,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11106,9 +11106,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11128,9 +11128,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11150,9 +11150,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13000,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11172,9 +11172,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11194,9 +11194,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11216,9 +11216,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11238,9 +11238,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14800,
     "isFeatured": false,
     "stock": 5,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
     ],
     "brand": "SHEA MOISTURE KIDS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11260,10 +11260,10 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
     ],
     "brand": "SHEA MOISTURE KIDS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11283,9 +11283,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11305,9 +11305,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11327,9 +11327,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11349,9 +11349,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11371,9 +11371,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7800,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11393,9 +11393,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11415,9 +11415,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11437,9 +11437,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MINE BOTANICALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11459,9 +11459,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MINE BOTANICALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11481,9 +11481,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MINE BOTANICALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11503,9 +11503,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11525,9 +11525,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11547,9 +11547,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11569,9 +11569,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24600,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11591,9 +11591,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11613,9 +11613,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11635,9 +11635,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11657,9 +11657,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11679,9 +11679,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11701,9 +11701,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11723,9 +11723,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11745,9 +11745,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11767,9 +11767,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11789,9 +11789,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11811,9 +11811,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11833,9 +11833,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LA ROSEE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11855,9 +11855,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15900,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LA ROSEE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11877,9 +11877,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 45,
-    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "image": "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
+      "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11899,10 +11899,10 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 42,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11922,9 +11922,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 21,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11944,9 +11944,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 18,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11966,9 +11966,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 46,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11988,9 +11988,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12010,9 +12010,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12032,9 +12032,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12054,10 +12054,10 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+    "image": "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
     "gallery": [
-      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
-      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
+      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12077,10 +12077,10 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12100,9 +12100,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12122,9 +12122,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg",
+    "image": "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg",
     "gallery": [
-      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
+      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12144,9 +12144,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12166,9 +12166,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12188,9 +12188,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12210,9 +12210,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12232,10 +12232,10 @@ export const INITIAL_PRODUCTS = [
     "price": 13800,
     "isFeatured": false,
     "stock": 31,
-    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
+    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
     "gallery": [
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12255,9 +12255,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png",
+    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png",
     "gallery": [
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12277,9 +12277,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10800,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12299,9 +12299,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12321,9 +12321,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12343,9 +12343,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png",
+    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png",
     "gallery": [
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png"
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12365,10 +12365,10 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
+    "image": "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
     "gallery": [
-      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
-      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
+      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
+      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12388,9 +12388,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12410,9 +12410,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12432,9 +12432,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12454,9 +12454,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12476,9 +12476,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12498,9 +12498,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12520,9 +12520,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12542,9 +12542,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12564,9 +12564,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12586,9 +12586,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12608,9 +12608,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12630,9 +12630,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12652,9 +12652,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12674,9 +12674,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12696,9 +12696,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12718,9 +12718,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12740,9 +12740,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12762,9 +12762,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12784,9 +12784,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12806,9 +12806,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12828,9 +12828,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7200,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12850,9 +12850,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12872,9 +12872,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12894,9 +12894,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12916,9 +12916,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12938,9 +12938,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12960,9 +12960,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12982,9 +12982,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4800,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13004,9 +13004,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13026,9 +13026,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13048,9 +13048,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13070,9 +13070,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13092,9 +13092,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13114,9 +13114,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13136,9 +13136,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13158,9 +13158,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13180,9 +13180,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13202,9 +13202,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13224,9 +13224,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13246,9 +13246,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13268,9 +13268,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13290,9 +13290,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13312,9 +13312,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13334,9 +13334,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13356,9 +13356,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13378,9 +13378,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13400,9 +13400,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13422,9 +13422,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13444,9 +13444,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13466,9 +13466,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13488,9 +13488,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13510,9 +13510,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13532,9 +13532,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17600,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13554,9 +13554,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13576,9 +13576,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15900,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13598,9 +13598,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13620,9 +13620,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13642,9 +13642,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13664,9 +13664,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13686,9 +13686,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13708,9 +13708,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13730,9 +13730,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13752,9 +13752,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13774,9 +13774,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13796,9 +13796,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13818,9 +13818,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13840,9 +13840,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13862,9 +13862,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13884,9 +13884,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13906,9 +13906,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13928,9 +13928,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13950,9 +13950,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13972,9 +13972,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13994,9 +13994,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14016,9 +14016,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14038,9 +14038,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14060,9 +14060,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14082,9 +14082,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14104,9 +14104,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14126,9 +14126,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14148,9 +14148,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13600,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14170,9 +14170,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14192,9 +14192,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14214,9 +14214,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14236,9 +14236,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14258,9 +14258,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14280,9 +14280,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14302,9 +14302,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14324,9 +14324,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14346,9 +14346,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14368,9 +14368,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14390,9 +14390,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15200,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14412,9 +14412,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14434,9 +14434,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14456,9 +14456,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14478,9 +14478,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14500,9 +14500,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14522,9 +14522,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14544,9 +14544,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14566,9 +14566,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14588,9 +14588,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14610,9 +14610,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14632,9 +14632,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14654,9 +14654,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14676,9 +14676,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14698,9 +14698,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14720,9 +14720,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14742,9 +14742,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14764,9 +14764,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14786,9 +14786,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14808,9 +14808,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14830,9 +14830,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14852,9 +14852,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14874,9 +14874,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14896,9 +14896,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14918,9 +14918,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14940,9 +14940,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14962,9 +14962,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14984,9 +14984,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15006,9 +15006,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 37,
-    "image": "/strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
+    "image": "./strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
     "gallery": [
-      "/strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg"
+      "./strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15028,9 +15028,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30800,
     "isFeatured": false,
     "stock": 44,
-    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "image": "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
     "gallery": [
-      "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
+      "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15050,10 +15050,10 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 43,
-    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
+    "image": "./strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
     "gallery": [
-      "/strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
-      "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
+      "./strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
+      "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15073,9 +15073,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15095,9 +15095,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 14,
-    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg",
+    "image": "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg",
     "gallery": [
-      "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
+      "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15117,9 +15117,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38600,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15139,9 +15139,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15161,9 +15161,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15183,9 +15183,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15205,9 +15205,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15227,9 +15227,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15249,9 +15249,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15271,9 +15271,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15293,9 +15293,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15315,9 +15315,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15337,9 +15337,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15359,9 +15359,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15381,9 +15381,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15403,9 +15403,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15425,9 +15425,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15447,9 +15447,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15469,9 +15469,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15491,9 +15491,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15513,9 +15513,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15535,9 +15535,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15557,9 +15557,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15579,9 +15579,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15601,9 +15601,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15623,9 +15623,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15645,9 +15645,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15667,9 +15667,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15689,9 +15689,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15711,9 +15711,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15733,9 +15733,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15755,9 +15755,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15777,9 +15777,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15799,9 +15799,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15821,9 +15821,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15843,9 +15843,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15865,9 +15865,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15887,9 +15887,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23200,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15909,9 +15909,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15931,9 +15931,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15953,9 +15953,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15975,9 +15975,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15997,9 +15997,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16019,9 +16019,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16041,9 +16041,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16063,9 +16063,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16085,9 +16085,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16107,9 +16107,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16129,9 +16129,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16151,9 +16151,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 19,
-    "image": "/strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg",
+    "image": "./strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg",
     "gallery": [
-      "/strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg"
+      "./strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16173,9 +16173,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16195,9 +16195,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16217,9 +16217,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16239,9 +16239,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16261,9 +16261,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16283,9 +16283,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16305,9 +16305,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16327,9 +16327,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16349,9 +16349,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16371,9 +16371,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16393,9 +16393,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16415,9 +16415,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16437,9 +16437,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16459,9 +16459,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16481,9 +16481,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16503,9 +16503,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16525,9 +16525,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16547,9 +16547,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16569,9 +16569,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16591,9 +16591,9 @@ export const INITIAL_PRODUCTS = [
     "price": 53500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16613,9 +16613,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19700,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16635,9 +16635,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28200,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16657,9 +16657,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16679,9 +16679,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39200,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16701,9 +16701,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16723,9 +16723,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16745,9 +16745,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26600,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16767,9 +16767,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16789,9 +16789,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16811,9 +16811,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16833,9 +16833,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16855,9 +16855,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16877,9 +16877,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16899,9 +16899,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16921,9 +16921,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15200,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16943,9 +16943,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22400,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16965,9 +16965,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16987,9 +16987,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26700,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17009,9 +17009,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17031,9 +17031,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17053,9 +17053,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36900,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17075,9 +17075,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17097,9 +17097,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17119,9 +17119,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17141,9 +17141,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17163,9 +17163,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17185,9 +17185,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25300,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17207,9 +17207,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17229,9 +17229,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17251,9 +17251,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "image": "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
     "gallery": [
-      "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
+      "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17273,9 +17273,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "image": "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
     "gallery": [
-      "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
+      "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17295,9 +17295,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
+    "image": "./strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
     "gallery": [
-      "/strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg"
+      "./strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17317,9 +17317,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png",
+    "image": "./strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png",
     "gallery": [
-      "/strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png"
+      "./strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17339,9 +17339,9 @@ export const INITIAL_PRODUCTS = [
     "price": 34500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17361,9 +17361,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17383,9 +17383,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17405,9 +17405,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 23,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17427,9 +17427,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17449,9 +17449,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17471,9 +17471,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16800,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17493,9 +17493,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17515,9 +17515,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17537,9 +17537,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17559,9 +17559,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17581,9 +17581,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17603,9 +17603,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17625,9 +17625,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17647,9 +17647,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24200,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17669,9 +17669,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17691,9 +17691,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17713,9 +17713,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17735,9 +17735,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17757,9 +17757,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17779,9 +17779,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17801,9 +17801,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17823,9 +17823,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17845,9 +17845,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17867,9 +17867,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17889,9 +17889,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17911,9 +17911,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17933,9 +17933,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17955,9 +17955,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16400,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17977,9 +17977,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10900,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17999,10 +17999,10 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18022,9 +18022,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18044,9 +18044,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18066,9 +18066,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18088,9 +18088,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35800,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18110,9 +18110,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16800,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18132,9 +18132,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18154,9 +18154,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18176,9 +18176,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20700,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18198,9 +18198,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18220,9 +18220,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26100,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18242,9 +18242,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18264,9 +18264,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "image": "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
+      "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18286,9 +18286,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18308,9 +18308,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18330,9 +18330,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18352,9 +18352,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18374,9 +18374,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18396,9 +18396,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18418,9 +18418,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18440,9 +18440,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18462,9 +18462,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18484,9 +18484,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18506,9 +18506,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18528,9 +18528,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18550,9 +18550,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18572,9 +18572,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18594,9 +18594,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18616,9 +18616,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18638,9 +18638,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18660,9 +18660,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18682,9 +18682,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38900,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18704,9 +18704,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26100,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18726,9 +18726,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18748,9 +18748,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18770,9 +18770,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18792,9 +18792,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18814,9 +18814,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18836,9 +18836,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "image": "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
+      "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18858,9 +18858,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18880,9 +18880,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "image": "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
     "gallery": [
-      "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
+      "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18902,9 +18902,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18924,9 +18924,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18946,9 +18946,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18968,9 +18968,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18990,9 +18990,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19012,9 +19012,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19034,9 +19034,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19056,9 +19056,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19078,9 +19078,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19100,9 +19100,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19122,9 +19122,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19144,9 +19144,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19166,9 +19166,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19188,9 +19188,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19210,9 +19210,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23900,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19232,9 +19232,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19254,9 +19254,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23900,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19276,9 +19276,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19298,9 +19298,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19320,9 +19320,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19342,9 +19342,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30600,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19364,9 +19364,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39900,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19386,9 +19386,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27100,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19408,9 +19408,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48100,
     "isFeatured": false,
     "stock": 36,
-    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19430,9 +19430,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19452,9 +19452,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39100,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19474,9 +19474,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29100,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19496,9 +19496,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39300,
     "isFeatured": false,
     "stock": 14,
-    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19518,9 +19518,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19540,9 +19540,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19562,9 +19562,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19584,9 +19584,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19606,9 +19606,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19628,9 +19628,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19650,9 +19650,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19672,9 +19672,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19694,9 +19694,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19716,9 +19716,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19738,9 +19738,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19760,9 +19760,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19782,9 +19782,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19804,9 +19804,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19826,9 +19826,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19848,9 +19848,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19870,9 +19870,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19892,9 +19892,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19914,9 +19914,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19936,9 +19936,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19958,9 +19958,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19980,9 +19980,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20002,9 +20002,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20024,9 +20024,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20046,9 +20046,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20068,9 +20068,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20090,9 +20090,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25400,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20112,9 +20112,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20134,9 +20134,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20156,9 +20156,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20178,9 +20178,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20200,9 +20200,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20222,9 +20222,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20244,9 +20244,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16700,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20266,9 +20266,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "OTHINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20288,9 +20288,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "URBANSKIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20310,9 +20310,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "URBANSKIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20332,9 +20332,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "URBANSKIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20354,9 +20354,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20376,9 +20376,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20398,9 +20398,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20420,9 +20420,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20442,9 +20442,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20464,9 +20464,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20486,9 +20486,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20508,9 +20508,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20530,9 +20530,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20552,9 +20552,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20574,9 +20574,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20596,9 +20596,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20618,9 +20618,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20640,9 +20640,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20662,9 +20662,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20684,9 +20684,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20706,9 +20706,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20728,9 +20728,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "3 BALLERINA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20750,9 +20750,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "YARI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20772,9 +20772,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "YARI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20794,9 +20794,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20816,9 +20816,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20838,9 +20838,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20860,9 +20860,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20882,9 +20882,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 48,
-    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20904,9 +20904,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 15,
-    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20926,9 +20926,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "image": "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
+      "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20948,9 +20948,9 @@ export const INITIAL_PRODUCTS = [
     "price": 11500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20970,9 +20970,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20992,9 +20992,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21014,9 +21014,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21036,10 +21036,10 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+    "image": "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
     "gallery": [
-      "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
-      "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_02.jpg"
+      "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+      "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_02.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21059,9 +21059,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21081,9 +21081,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 36,
-    "image": "/strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg",
+    "image": "./strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg",
     "gallery": [
-      "/strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg"
+      "./strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21103,9 +21103,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21125,9 +21125,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21147,9 +21147,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MORFOSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21169,9 +21169,9 @@ export const INITIAL_PRODUCTS = [
     "price": 65500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21191,9 +21191,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21213,9 +21213,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21235,9 +21235,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45000,
     "isFeatured": false,
     "stock": 37,
-    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "image": "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
     "gallery": [
-      "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
+      "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21257,9 +21257,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21279,9 +21279,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 44,
-    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "image": "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
     "gallery": [
-      "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
+      "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21301,10 +21301,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
+    "image": "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
     "gallery": [
-      "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
-      "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_02.png"
+      "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
+      "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_02.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21324,9 +21324,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png",
+    "image": "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png",
     "gallery": [
-      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
+      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21346,10 +21346,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
+    "image": "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
     "gallery": [
-      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
-      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
+      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
+      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21369,9 +21369,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21391,9 +21391,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21413,9 +21413,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 20,
-    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21435,9 +21435,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 20,
-    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21457,9 +21457,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 9,
-    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21479,9 +21479,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21501,9 +21501,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21523,9 +21523,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21545,9 +21545,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21567,9 +21567,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21589,9 +21589,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21611,9 +21611,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21633,9 +21633,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21655,9 +21655,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21677,9 +21677,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21699,9 +21699,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21721,9 +21721,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21743,9 +21743,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 23,
-    "image": "/strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg",
+    "image": "./strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg",
     "gallery": [
-      "/strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg"
+      "./strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21765,9 +21765,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21787,9 +21787,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21809,9 +21809,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21831,9 +21831,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21853,9 +21853,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21875,9 +21875,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14000,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21897,9 +21897,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21919,9 +21919,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21941,9 +21941,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21963,9 +21963,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21985,9 +21985,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22007,9 +22007,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22029,9 +22029,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22051,9 +22051,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22073,9 +22073,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22095,9 +22095,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 39,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22117,9 +22117,9 @@ export const INITIAL_PRODUCTS = [
     "price": 1500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22139,9 +22139,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22161,9 +22161,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22183,9 +22183,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22205,9 +22205,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4000,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22227,9 +22227,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22249,9 +22249,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22271,9 +22271,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5200,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22293,9 +22293,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22315,9 +22315,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22337,9 +22337,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22359,9 +22359,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22381,9 +22381,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22403,9 +22403,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22425,9 +22425,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22447,9 +22447,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22469,9 +22469,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22491,9 +22491,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22513,9 +22513,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22535,9 +22535,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22557,9 +22557,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22579,9 +22579,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22601,9 +22601,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22623,9 +22623,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22645,9 +22645,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22667,9 +22667,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22689,9 +22689,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22711,9 +22711,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22733,9 +22733,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 30,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22755,9 +22755,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22777,9 +22777,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22799,9 +22799,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22821,9 +22821,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22843,9 +22843,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22865,9 +22865,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22887,9 +22887,9 @@ export const INITIAL_PRODUCTS = [
     "price": 150000,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22909,9 +22909,9 @@ export const INITIAL_PRODUCTS = [
     "price": 100000,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22931,9 +22931,9 @@ export const INITIAL_PRODUCTS = [
     "price": 55000,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22953,9 +22953,9 @@ export const INITIAL_PRODUCTS = [
     "price": 105000,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22975,9 +22975,9 @@ export const INITIAL_PRODUCTS = [
     "price": 110000,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22997,9 +22997,9 @@ export const INITIAL_PRODUCTS = [
     "price": 110000,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23019,9 +23019,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23041,9 +23041,9 @@ export const INITIAL_PRODUCTS = [
     "price": 210000,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23063,9 +23063,9 @@ export const INITIAL_PRODUCTS = [
     "price": 105000,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23085,9 +23085,9 @@ export const INITIAL_PRODUCTS = [
     "price": 150000,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23107,9 +23107,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23129,9 +23129,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23151,9 +23151,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23173,9 +23173,9 @@ export const INITIAL_PRODUCTS = [
     "price": 160000,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23195,9 +23195,9 @@ export const INITIAL_PRODUCTS = [
     "price": 190000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23217,9 +23217,9 @@ export const INITIAL_PRODUCTS = [
     "price": 160000,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23239,9 +23239,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23261,9 +23261,9 @@ export const INITIAL_PRODUCTS = [
     "price": 115000,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23283,9 +23283,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23305,9 +23305,9 @@ export const INITIAL_PRODUCTS = [
     "price": 150000,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23327,9 +23327,9 @@ export const INITIAL_PRODUCTS = [
     "price": 200000,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23349,9 +23349,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23371,9 +23371,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23393,9 +23393,9 @@ export const INITIAL_PRODUCTS = [
     "price": 95000,
     "isFeatured": false,
     "stock": 32,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23415,9 +23415,9 @@ export const INITIAL_PRODUCTS = [
     "price": 100000,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23437,9 +23437,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 17,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23459,9 +23459,9 @@ export const INITIAL_PRODUCTS = [
     "price": 140000,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23481,9 +23481,9 @@ export const INITIAL_PRODUCTS = [
     "price": 95000,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23503,9 +23503,9 @@ export const INITIAL_PRODUCTS = [
     "price": 115000,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23525,9 +23525,9 @@ export const INITIAL_PRODUCTS = [
     "price": 120000,
     "isFeatured": false,
     "stock": 47,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23547,9 +23547,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23569,9 +23569,9 @@ export const INITIAL_PRODUCTS = [
     "price": 160000,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23591,9 +23591,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23613,9 +23613,9 @@ export const INITIAL_PRODUCTS = [
     "price": 190000,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23635,9 +23635,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23657,9 +23657,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23679,9 +23679,9 @@ export const INITIAL_PRODUCTS = [
     "price": 155000,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23701,9 +23701,9 @@ export const INITIAL_PRODUCTS = [
     "price": 140000,
     "isFeatured": false,
     "stock": 28,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23723,9 +23723,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23745,9 +23745,9 @@ export const INITIAL_PRODUCTS = [
     "price": 70000,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23767,9 +23767,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23789,9 +23789,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23811,9 +23811,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23833,9 +23833,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23855,9 +23855,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23877,9 +23877,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23899,9 +23899,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23921,9 +23921,9 @@ export const INITIAL_PRODUCTS = [
     "price": 75000,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23943,9 +23943,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23965,9 +23965,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23000,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23987,9 +23987,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24009,9 +24009,9 @@ export const INITIAL_PRODUCTS = [
     "price": 500,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24031,9 +24031,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24053,9 +24053,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24075,9 +24075,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24097,9 +24097,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24119,9 +24119,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 10,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24141,9 +24141,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24163,9 +24163,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24185,9 +24185,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24207,9 +24207,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24229,9 +24229,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24251,9 +24251,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24273,9 +24273,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24295,9 +24295,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30000,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "HOMME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24317,9 +24317,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "PARAPLUIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24339,9 +24339,9 @@ export const INITIAL_PRODUCTS = [
     "price": 90000,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24361,9 +24361,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24383,9 +24383,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24405,9 +24405,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24427,9 +24427,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24449,9 +24449,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24471,9 +24471,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24493,9 +24493,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "./imgs/stands_esthetique.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "./imgs/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",

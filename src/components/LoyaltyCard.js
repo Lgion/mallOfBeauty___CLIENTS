@@ -19,7 +19,7 @@ export function renderLoyaltyCard() {
             <div class="loyalty-card-metal" id="visual-loyalty-card">
               <div class="loyalty-card-top">
                 <div style="display: flex; align-items: center; gap: 10px;">
-                  <img src="/imgs/logo.jpeg" alt="Logo" style="height: 38px; border-radius: 4px;">
+                  <img src="./imgs/logo.jpeg" alt="Logo" style="height: 38px; border-radius: 4px;">
                   <span style="font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; color: #FFF; letter-spacing: 0.08em;">MALL OF BEAUTY</span>
                 </div>
                 <div class="loyalty-chip"></div>

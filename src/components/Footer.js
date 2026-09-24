@@ -11,7 +11,7 @@ export function renderFooter() {
           <!-- Col 1 : Marque & Slogan -->
           <div class="footer-col">
             <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
-              <img src="/imgs/logo.jpeg" alt="Mall of Beauty" style="height: 52px; border-radius: 6px;">
+              <img src="./imgs/logo.jpeg" alt="Mall of Beauty" style="height: 52px; border-radius: 6px;">
               <div>
                 <h3 style="font-size: 1.3rem; color: #FFF; margin: 0;">MALL OF BEAUTY</h3>
                 <span style="font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; letter-spacing: 0.12em;">Les Vallons • Cocody</span>

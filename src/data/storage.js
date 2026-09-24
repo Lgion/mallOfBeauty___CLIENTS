@@ -332,7 +332,7 @@ function initData() {
         const initMap = new Map(INITIAL_PRODUCTS.map(p => [p.id, p]));
         const updated = storedProds.map(p => {
           const fresh = initMap.get(p.id);
-          if (fresh && fresh.image && fresh.image.startsWith("/strives/images/")) {
+          if (fresh && fresh.image && (fresh.image.includes("/strives/images/") || fresh.image.startsWith("./strives/images/"))) {
             return { ...p, image: fresh.image, gallery: fresh.gallery || [fresh.image] };
           }
           return p;
@@ -348,6 +348,49 @@ function initData() {
       console.warn("Erreur synchronisation images strives:", e);
     }
   }
+
+  // Auto-migration pour forcer les chemins relatifs (évite 404 sur sous-dossier GitHub Pages)
+  const ASSETS_FIX_KEY = "mob_relative_assets_v2";
+  if (!localStorage.getItem(ASSETS_FIX_KEY)) {
+    try {
+      const storedProds = JSON.parse(localStorage.getItem(STORAGE_KEYS.PRODUCTS) || "[]");
+      if (Array.isArray(storedProds) && storedProds.length > 0) {
+        const fixed = storedProds.map(p => ({
+          ...p,
+          image: getAssetUrl(p.image),
+          gallery: Array.isArray(p.gallery) ? p.gallery.map(getAssetUrl) : [getAssetUrl(p.image)]
+        }));
+        localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(fixed));
+      }
+      
+      const storedCatalog = JSON.parse(localStorage.getItem(STORAGE_KEYS.FULL_CATALOG) || "[]");
+      if (Array.isArray(storedCatalog) && storedCatalog.length > 0) {
+        const fixedCatalog = storedCatalog.map(c => ({
+          ...c,
+          image: c.image ? getAssetUrl(c.image) : c.image
+        }));
+        localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fixedCatalog));
+      }
+
+      const storedSettings = JSON.parse(localStorage.getItem(STORAGE_KEYS.STORE_SETTINGS) || "null");
+      if (storedSettings && storedSettings.contacts && storedSettings.contacts.waveQrCode) {
+        storedSettings.contacts.waveQrCode = getAssetUrl(storedSettings.contacts.waveQrCode);
+        localStorage.setItem(STORAGE_KEYS.STORE_SETTINGS, JSON.stringify(storedSettings));
+      }
+      localStorage.setItem(ASSETS_FIX_KEY, "true");
+    } catch (e) {
+      console.warn("Erreur migration chemins relatifs:", e);
+    }
+  }
+}
+
+// Helper pour normaliser tout chemin d'image en chemin relatif compatible avec GitHub Pages
+export function getAssetUrl(path) {
+  if (!path || typeof path !== "string") return "./imgs/stands_esthetique.jpg";
+  if (/^(https?:|data:|blob:)/i.test(path)) return path;
+  if (path.startsWith("./")) return path;
+  if (path.startsWith("/")) return "." + path;
+  return "./" + path;
 }
 
 initData();
@@ -356,10 +399,19 @@ initData();
 export function getProducts() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.PRODUCTS);
-    return data ? JSON.parse(data) : INITIAL_PRODUCTS;
+    const list = data ? JSON.parse(data) : INITIAL_PRODUCTS;
+    return list.map(p => ({
+      ...p,
+      image: getAssetUrl(p.image),
+      gallery: Array.isArray(p.gallery) && p.gallery.length > 0 ? p.gallery.map(getAssetUrl) : [getAssetUrl(p.image)]
+    }));
   } catch (e) {
     console.error(e);
-    return INITIAL_PRODUCTS;
+    return INITIAL_PRODUCTS.map(p => ({
+      ...p,
+      image: getAssetUrl(p.image),
+      gallery: Array.isArray(p.gallery) && p.gallery.length > 0 ? p.gallery.map(getAssetUrl) : [getAssetUrl(p.image)]
+    }));
   }
 }
 
@@ -373,6 +425,7 @@ export function getProductById(id) {
     const full = getFullCatalog();
     const catItem = full.find(c => c.id === id || c.id === id.replace("mob-excel-", "mob-cat-000").replace(/mob-cat-000(\d{4})/, "mob-cat-$1"));
     if (catItem) {
+      const img = getAssetUrl(catItem.image || "./imgs/stands_esthetique.jpg");
       return {
         id: catItem.id,
         name: `${catItem.brand} - ${catItem.name}`,
@@ -380,8 +433,8 @@ export function getProductById(id) {
         price: catItem.price,
         category: catItem.category,
         categoryLabel: catItem.category,
-        image: catItem.image || "/imgs/stands_esthetique.jpg",
-        gallery: catItem.gallery || (catItem.image ? [catItem.image] : ["/imgs/stands_esthetique.jpg"]),
+        image: img,
+        gallery: catItem.gallery && catItem.gallery.length > 0 ? catItem.gallery.map(getAssetUrl) : [img],
         shortDesc: catItem.description,
         description: catItem.description,
         usage: "Appliquer selon votre routine beauté habituelle.",
@@ -396,14 +449,16 @@ export function getProductById(id) {
 
 export function addProduct(productData) {
   const products = getProducts();
+  const defaultImg = getAssetUrl(productData.image || "./imgs/devanture_face.jpg");
   const newProduct = {
     id: "mob-" + Date.now().toString(36),
     createdAt: new Date().toISOString(),
     rating: 5.0,
     reviewsCount: 1,
-    gallery: [productData.image || "/imgs/devanture_face.jpg"],
+    gallery: [defaultImg],
     tags: productData.tags || ["Nouveauté"],
-    ...productData
+    ...productData,
+    image: defaultImg
   };
   products.unshift(newProduct);
   localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(products));
@@ -703,9 +758,10 @@ export function resetAnalyticsClicks() {
 export function getFullCatalog() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.FULL_CATALOG);
-    return data ? JSON.parse(data) : fullCatalogData;
+    const list = data ? JSON.parse(data) : fullCatalogData;
+    return list.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
   } catch (e) {
-    return fullCatalogData;
+    return fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
   }
 }
 

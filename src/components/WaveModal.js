@@ -2,7 +2,7 @@ import { getStoreSettings, getCart, getProductById } from "../data/storage.js";
 
 export function renderWaveModal() {
   const settings = getStoreSettings();
-  const waveQrCode = settings.contacts.waveQrCode || "/imgs/wave_qr_code.svg";
+  const waveQrCode = settings.contacts.waveQrCode || "./imgs/wave_qr_code.svg";
   const wavePaymentUrl = settings.contacts.wavePaymentUrl || "https://pay.wave.com/m/M_CI_mallofbeauty";
 
   // Calcul automatique du panier en cours
@@ -23,7 +23,7 @@ export function renderWaveModal() {
         <div class="wave-exact-header">
           <div style="display: flex; align-items: center; gap: 12px;">
             <div class="wave-exact-penguin-box">
-              <img src="/imgs/wave_penguin.svg" alt="Wave Penguin" class="wave-exact-penguin-img">
+              <img src="./imgs/wave_penguin.svg" alt="Wave Penguin" class="wave-exact-penguin-img">
             </div>
             <div>
               <h3 id="wave-exact-title" class="wave-exact-header-title">Paiement Wave</h3>

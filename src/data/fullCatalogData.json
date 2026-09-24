@@ -93,9 +93,9 @@
     "description": "Soin ciblé lait par DIAMOND GLOW pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png",
+    "image": "./strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png",
     "gallery": [
-      "/strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png"
+      "./strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png"
     ]
   },
   {
@@ -2064,10 +2064,10 @@
     "description": "Soin ciblé lait par FB LUXURY AMANDE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
     ]
   },
   {
@@ -2080,9 +2080,9 @@
     "description": "Soin ciblé savon par FB LUXURY AMANDE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
     ]
   },
   {
@@ -2095,10 +2095,10 @@
     "description": "Soin ciblé lait par FB LUXURY CARROT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
     ]
   },
   {
@@ -2111,9 +2111,9 @@
     "description": "Soin ciblé savon par FB LUXURY CARROT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg",
+    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg",
     "gallery": [
-      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
+      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
     ]
   },
   {
@@ -2126,11 +2126,11 @@
     "description": "Soin ciblé lait par FB SUPREME pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
     ]
   },
   {
@@ -2143,9 +2143,9 @@
     "description": "Soin ciblé creme baume par FB SUPREME pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
     ]
   },
   {
@@ -2170,9 +2170,9 @@
     "description": "Soin ciblé savon par FB SUPREME pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg"
     ]
   },
   {
@@ -2185,9 +2185,9 @@
     "description": "Soin ciblé serum par FB SUPREME pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg"
     ]
   },
   {
@@ -2356,11 +2356,11 @@
     "description": "Soin ciblé lait par FB ROYAL pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
     ]
   },
   {
@@ -2373,9 +2373,9 @@
     "description": "Soin ciblé savon par FB ROYAL pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg"
     ]
   },
   {
@@ -2388,9 +2388,9 @@
     "description": "Article authentique de la maison FB ROYAL. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
     ]
   },
   {
@@ -2403,9 +2403,9 @@
     "description": "Soin ciblé serum par FB ROYAL pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg",
+    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg",
     "gallery": [
-      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg"
+      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg"
     ]
   },
   {
@@ -3270,9 +3270,9 @@
     "description": "Soin ciblé lait almond smooth mourtade par VASELINE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_07_Vaseline_Almond_Smooth.jpg",
+    "image": "./strives/images/prod_07_Vaseline_Almond_Smooth.jpg",
     "gallery": [
-      "/strives/images/prod_07_Vaseline_Almond_Smooth.jpg"
+      "./strives/images/prod_07_Vaseline_Almond_Smooth.jpg"
     ]
   },
   {
@@ -3405,10 +3405,10 @@
     "description": "Soin ciblé lait shea par JERGENS pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_01.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_01.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_01.png",
-      "/strives/images/cat_09_Jergens_Shea_Butter_02.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_01.png",
+      "./strives/images/cat_09_Jergens_Shea_Butter_02.png"
     ]
   },
   {
@@ -3421,9 +3421,9 @@
     "description": "Soin ciblé lait nourishing honey (496ml) par JERGENS pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_02.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_02.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_02.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_02.png"
     ]
   },
   {
@@ -3436,9 +3436,9 @@
     "description": "Soin ciblé lait hydrating coconut (496ml) par JERGENS pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_03.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_03.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_03.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_03.png"
     ]
   },
   {
@@ -3451,9 +3451,9 @@
     "description": "Soin ciblé lait original scent cherry almond (621ml) par JERGENS pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_09_Jergens_Shea_Butter_04.png",
+    "image": "./strives/images/cat_09_Jergens_Shea_Butter_04.png",
     "gallery": [
-      "/strives/images/cat_09_Jergens_Shea_Butter_04.png"
+      "./strives/images/cat_09_Jergens_Shea_Butter_04.png"
     ]
   },
   {
@@ -5062,9 +5062,9 @@
     "description": "Soin ciblé lait hydratant par CLINIQUE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "image": "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
     "gallery": [
-      "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
+      "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
     ]
   },
   {
@@ -5173,9 +5173,9 @@
     "description": "Article authentique de la maison CLINIQUE. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "image": "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
     "gallery": [
-      "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
+      "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
     ]
   },
   {
@@ -5236,10 +5236,10 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+    "image": "./strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
     "gallery": [
-      "/strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
-      "/strives/images/cat_49_OLLY_-_Women_s_Multi_02.jpg"
+      "./strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+      "./strives/images/cat_49_OLLY_-_Women_s_Multi_02.jpg"
     ]
   },
   {
@@ -5252,10 +5252,10 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_50_OLLY_-_Libido_01.jpg",
+    "image": "./strives/images/cat_50_OLLY_-_Libido_01.jpg",
     "gallery": [
-      "/strives/images/cat_50_OLLY_-_Libido_01.jpg",
-      "/strives/images/cat_50_OLLY_-_Libido_02.jpg"
+      "./strives/images/cat_50_OLLY_-_Libido_01.jpg",
+      "./strives/images/cat_50_OLLY_-_Libido_02.jpg"
     ]
   },
   {
@@ -5268,10 +5268,10 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ]
   },
   {
@@ -5284,9 +5284,9 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ]
   },
   {
@@ -5299,9 +5299,9 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png"
     ]
   },
   {
@@ -5314,9 +5314,9 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png",
+    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png",
     "gallery": [
-      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png"
+      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png"
     ]
   },
   {
@@ -5329,9 +5329,9 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png",
+    "image": "./strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png",
     "gallery": [
-      "/strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png"
+      "./strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png"
     ]
   },
   {
@@ -5344,10 +5344,10 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+    "image": "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
     "gallery": [
-      "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
-      "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_02.png"
+      "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+      "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_02.png"
     ]
   },
   {
@@ -5444,9 +5444,9 @@
     "description": "Article authentique de la maison GUMMIES. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png",
+    "image": "./strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png",
     "gallery": [
-      "/strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png"
+      "./strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png"
     ]
   },
   {
@@ -5663,9 +5663,9 @@
     "description": "Article authentique de la maison TEINTURE. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
+    "image": "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
     "gallery": [
-      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
+      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ]
   },
   {
@@ -6062,9 +6062,9 @@
     "description": "Soin ciblé savon noir (pm) par SHEA MOISTURE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg"
     ]
   },
   {
@@ -6077,9 +6077,9 @@
     "description": "Soin ciblé savon noir (gm) par SHEA MOISTURE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg"
     ]
   },
   {
@@ -6092,9 +6092,9 @@
     "description": "Soin ciblé savon coconut milk & acacia senegal par SHEA MOISTURE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg"
     ]
   },
   {
@@ -6107,9 +6107,9 @@
     "description": "Soin ciblé savon hibiscus par SHEA MOISTURE pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg"
     ]
   },
   {
@@ -6242,9 +6242,9 @@
     "description": "Formule pédiatrique haute tolérance hypoallergénique (SHEA MOISTURE KIDS) pour la peau délicate des nouveau-nés et bébés.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
     ]
   },
   {
@@ -6257,10 +6257,10 @@
     "description": "Formule pédiatrique haute tolérance hypoallergénique (SHEA MOISTURE KIDS) pour la peau délicate des nouveau-nés et bébés.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
+    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
     "gallery": [
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
-      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
+      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
     ]
   },
   {
@@ -6597,9 +6597,9 @@
     "description": "Article authentique de la maison DEFRISANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "image": "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
+      "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ]
   },
   {
@@ -6612,10 +6612,10 @@
     "description": "Article authentique de la maison DEFRISANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ]
   },
   {
@@ -6628,9 +6628,9 @@
     "description": "Article authentique de la maison DEFRISANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ]
   },
   {
@@ -6643,9 +6643,9 @@
     "description": "Article authentique de la maison DEFRISANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg"
     ]
   },
   {
@@ -6658,9 +6658,9 @@
     "description": "Article authentique de la maison DEFRISANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg",
+    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg",
     "gallery": [
-      "/strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg"
+      "./strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg"
     ]
   },
   {
@@ -6709,10 +6709,10 @@
     "description": "Article authentique de la maison DEFRISANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+    "image": "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
     "gallery": [
-      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
-      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
+      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ]
   },
   {
@@ -6725,10 +6725,10 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
     ]
   },
   {
@@ -6741,9 +6741,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg"
     ]
   },
   {
@@ -6756,9 +6756,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg",
+    "image": "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg",
     "gallery": [
-      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
+      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
     ]
   },
   {
@@ -6771,9 +6771,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ]
   },
   {
@@ -6798,9 +6798,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg"
     ]
   },
   {
@@ -6813,9 +6813,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ]
   },
   {
@@ -6828,10 +6828,10 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
+    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
     "gallery": [
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
     ]
   },
   {
@@ -6844,9 +6844,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png",
+    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png",
     "gallery": [
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
     ]
   },
   {
@@ -6871,9 +6871,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg",
+    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg",
     "gallery": [
-      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
+      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
     ]
   },
   {
@@ -6898,9 +6898,9 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png",
+    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png",
     "gallery": [
-      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png"
+      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png"
     ]
   },
   {
@@ -6913,10 +6913,10 @@
     "description": "Article authentique de la maison ACTIVILONG. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
+    "image": "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
     "gallery": [
-      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
-      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
+      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
+      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
     ]
   },
   {
@@ -8357,9 +8357,9 @@
     "description": "Article authentique de la maison SERUM TRAITANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
+    "image": "./strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
     "gallery": [
-      "/strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg"
+      "./strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg"
     ]
   },
   {
@@ -8372,9 +8372,9 @@
     "description": "Article authentique de la maison SERUM TRAITANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "image": "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
     "gallery": [
-      "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
+      "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
     ]
   },
   {
@@ -8387,10 +8387,10 @@
     "description": "Soin ciblé gelet glow recipe vit c (guava) par SERUM TRAITANT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
+    "image": "./strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
     "gallery": [
-      "/strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
-      "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
+      "./strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
+      "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
     ]
   },
   {
@@ -8415,9 +8415,9 @@
     "description": "Soin ciblé gelee glow recipe ( blackbery) par SERUM TRAITANT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg",
+    "image": "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg",
     "gallery": [
-      "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
+      "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
     ]
   },
   {
@@ -8550,9 +8550,9 @@
     "description": "Soin ciblé beauty of joseon glow serum propolis + niacinamide par SERUM TRAITANT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ]
   },
   {
@@ -8565,9 +8565,9 @@
     "description": "Article authentique de la maison SERUM TRAITANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ]
   },
   {
@@ -8616,9 +8616,9 @@
     "description": "Article authentique de la maison SERUM TRAITANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ]
   },
   {
@@ -8631,9 +8631,9 @@
     "description": "Article authentique de la maison SERUM TRAITANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ]
   },
   {
@@ -9006,9 +9006,9 @@
     "description": "Article authentique de la maison SERUM TRAITANT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg",
+    "image": "./strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg",
     "gallery": [
-      "/strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg"
+      "./strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg"
     ]
   },
   {
@@ -9249,9 +9249,9 @@
     "description": "Soin ciblé paulas choice serum niacinamide 20% par SERUM TRAITANT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ]
   },
   {
@@ -9612,9 +9612,9 @@
     "description": "Soin ciblé beauty of joseon rice spf50 (creme solaire) par CREME TRAITEMENT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "image": "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
     "gallery": [
-      "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
+      "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
     ]
   },
   {
@@ -9627,9 +9627,9 @@
     "description": "Article authentique de la maison CREME TRAITEMENT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "image": "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
     "gallery": [
-      "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
+      "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
     ]
   },
   {
@@ -9642,9 +9642,9 @@
     "description": "Soin ciblé creme solaire tocobo spf50 pa++++ par CREME TRAITEMENT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
+    "image": "./strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
     "gallery": [
-      "/strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg"
+      "./strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg"
     ]
   },
   {
@@ -9657,9 +9657,9 @@
     "description": "Soin ciblé creme solaire juice moisturizing raund lab spf50 pa par CREME TRAITEMENT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png",
+    "image": "./strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png",
     "gallery": [
-      "/strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png"
+      "./strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png"
     ]
   },
   {
@@ -9708,9 +9708,9 @@
     "description": "Soin ciblé centalla tone brightening creme par CREME TRAITEMENT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png"
     ]
   },
   {
@@ -9723,9 +9723,9 @@
     "description": "Soin ciblé centella creme solaire bleu blanc par CREME TRAITEMENT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
     ]
   },
   {
@@ -9882,9 +9882,9 @@
     "description": "Soin ciblé centalla creme visage% par CREME TRAITEMENT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png"
     ]
   },
   {
@@ -10041,10 +10041,10 @@
     "description": "Soin ciblé centella creme solaire probio cica enrich par CREME TRAITEMENT pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
     ]
   },
   {
@@ -10189,9 +10189,9 @@
     "description": "Article authentique de la maison TONER. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "image": "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
+      "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ]
   },
   {
@@ -10228,9 +10228,9 @@
     "description": "Article authentique de la maison TONER. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ]
   },
   {
@@ -10267,9 +10267,9 @@
     "description": "Article authentique de la maison TONER. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ]
   },
   {
@@ -10294,9 +10294,9 @@
     "description": "Article authentique de la maison TONER. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png",
+    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png",
     "gallery": [
-      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png"
+      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png"
     ]
   },
   {
@@ -10513,9 +10513,9 @@
     "description": "Article authentique de la maison DIVERS TRAITEMENT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "image": "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
+      "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ]
   },
   {
@@ -10540,9 +10540,9 @@
     "description": "Article authentique de la maison DIVERS TRAITEMENT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "image": "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
     "gallery": [
-      "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
+      "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
     ]
   },
   {
@@ -10831,9 +10831,9 @@
     "description": "Article authentique de la maison DIVERS TRAITEMENT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ]
   },
   {
@@ -10882,9 +10882,9 @@
     "description": "Article authentique de la maison DIVERS TRAITEMENT. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ]
   },
   {
@@ -11641,9 +11641,9 @@
     "description": "Article authentique de la maison MEGA GROWTH. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ]
   },
   {
@@ -11656,9 +11656,9 @@
     "description": "Article authentique de la maison MEGA GROWTH. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ]
   },
   {
@@ -11671,9 +11671,9 @@
     "description": "Article authentique de la maison MEGA GROWTH. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "image": "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
+      "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ]
   },
   {
@@ -11686,9 +11686,9 @@
     "description": "Article authentique de la maison MEGA GROWTH. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ]
   },
   {
@@ -11725,9 +11725,9 @@
     "description": "Article authentique de la maison LES SOINS DE CHEVEUX. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ]
   },
   {
@@ -11740,10 +11740,10 @@
     "description": "Soin ciblé creme oh la la curl aunt jackies's (violet) par LES SOINS DE CHEVEUX pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+    "image": "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
     "gallery": [
-      "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
-      "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_02.jpg"
+      "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+      "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_02.jpg"
     ]
   },
   {
@@ -11768,9 +11768,9 @@
     "description": "Soin ciblé creme aunt jackies in control moisturing par LES SOINS DE CHEVEUX pour purifier, unifier le teint et restaurer la barrière cutanée.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg",
+    "image": "./strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg",
     "gallery": [
-      "/strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg"
+      "./strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg"
     ]
   },
   {
@@ -11819,9 +11819,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ]
   },
   {
@@ -11834,9 +11834,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ]
   },
   {
@@ -11849,9 +11849,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ]
   },
   {
@@ -11864,9 +11864,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "image": "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
     "gallery": [
-      "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
+      "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
     ]
   },
   {
@@ -11891,9 +11891,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "image": "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
     "gallery": [
-      "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
+      "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
     ]
   },
   {
@@ -11906,10 +11906,10 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
+    "image": "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
     "gallery": [
-      "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
-      "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_02.png"
+      "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
+      "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_02.png"
     ]
   },
   {
@@ -11922,9 +11922,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png",
+    "image": "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png",
     "gallery": [
-      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
+      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
     ]
   },
   {
@@ -11937,10 +11937,10 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
+    "image": "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
     "gallery": [
-      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
-      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
+      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
+      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
     ]
   },
   {
@@ -11977,9 +11977,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ]
   },
   {
@@ -11992,9 +11992,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ]
   },
   {
@@ -12007,9 +12007,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ]
   },
   {
@@ -12166,9 +12166,9 @@
     "description": "Article authentique de la maison MAKE UP. Garanti original sélectionné par Mall of Beauty.",
     "badge": "Authentique Garanti",
     "inStock": true,
-    "image": "/strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg",
+    "image": "./strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg",
     "gallery": [
-      "/strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg"
+      "./strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg"
     ]
   },
   {

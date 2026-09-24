@@ -26,7 +26,7 @@ export function renderNavbar() {
       <div class="container header-container">
         <!-- Logo & Titre -->
         <a href="#accueil" class="brand-logo-link">
-          <img src="/imgs/logo.jpeg" alt="Logo Mall of Beauty" class="brand-logo-img">
+          <img src="./imgs/logo.jpeg" alt="Logo Mall of Beauty" class="brand-logo-img">
           <div class="brand-text-block">
             <span class="brand-name">MALL OF BEAUTY</span>
             <span class="brand-sub">LES VALLONS • ABIDJAN</span>

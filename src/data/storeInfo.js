@@ -31,7 +31,7 @@ export const STORE_INFO = {
     wave: "+2250777027235",
     waveDisplay: "+225 07 77 02 72 35",
     wavePaymentUrl: "https://pay.wave.com/m/M_CI_mallofbeauty",
-    waveQrCode: "/imgs/wave_qr_code.svg",
+    waveQrCode: "./imgs/wave_qr_code.svg",
     email: "contact@mallofbeauty.ci",
     instagram: "https://www.instagram.com/mallofbeauty_mofb?stkn=cDQ3N2gxb2kzZXli&utm_source=qr",
     tiktok: "https://www.tiktok.com/@mallofbeauty1?_r=1&_t=ZS-99xD0ZjS2OP",

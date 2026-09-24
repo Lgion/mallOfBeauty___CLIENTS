@@ -928,7 +928,7 @@ window.MoB = {
       document.getElementById("form-product-shortdesc").value = p.shortDesc || "";
       document.getElementById("form-product-desc").value = p.description || "";
       document.getElementById("form-product-usage").value = p.usage || "";
-      document.getElementById("form-product-image").value = p.image || "/imgs/stands_esthetique.jpg";
+      document.getElementById("form-product-image").value = p.image || "./imgs/stands_esthetique.jpg";
       document.getElementById("form-product-featured").checked = !!p.isFeatured;
     }, 50);
   },
@@ -954,7 +954,7 @@ window.MoB = {
     const shortDesc = document.getElementById("form-product-shortdesc").value.trim();
     const description = document.getElementById("form-product-desc").value.trim();
     const usage = document.getElementById("form-product-usage").value.trim();
-    const image = document.getElementById("form-product-image").value.trim() || "/imgs/stands_esthetique.jpg";
+    const image = document.getElementById("form-product-image").value.trim() || "./imgs/stands_esthetique.jpg";
     const isFeatured = document.getElementById("form-product-featured").checked;
 
     const productPayload = {
@@ -1151,7 +1151,7 @@ window.MoB = {
     const current = getStoreSettings();
     const waveDisplay = document.getElementById("set-wave") ? document.getElementById("set-wave").value.trim() : (current.contacts.waveDisplay || "+225 07 77 02 72 35");
     const wavePaymentUrl = document.getElementById("set-wave-url") ? document.getElementById("set-wave-url").value.trim() : (current.contacts.wavePaymentUrl || "https://pay.wave.com/m/M_CI_mallofbeauty");
-    const waveQrCode = document.getElementById("set-wave-qrcode") ? document.getElementById("set-wave-qrcode").value.trim() : (current.contacts.waveQrCode || "/imgs/wave_qr_code.svg");
+    const waveQrCode = document.getElementById("set-wave-qrcode") ? document.getElementById("set-wave-qrcode").value.trim() : (current.contacts.waveQrCode || "./imgs/wave_qr_code.svg");
 
     updateStoreSettings({
       slogan,
