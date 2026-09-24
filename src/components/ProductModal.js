@@ -21,7 +21,7 @@ export function renderProductModal(productId) {
           <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>
         </button>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 32px; @media(max-width: 700px){grid-template-columns: 1fr;}">
+        <div class="product-modal-grid">
           <!-- Image -->
           <div style="display: flex; flex-direction: column; gap: 14px;">
             <div style="width: 100%; aspect-ratio: 1; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle); background: #111;">

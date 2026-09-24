@@ -161,9 +161,9 @@ export const INITIAL_PRODUCTS = [
     "price": 85500,
     "isFeatured": true,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3769,9 +3769,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 25,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
+      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
     ],
     "brand": "FB LUXURY AMANDE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3791,9 +3792,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 12,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
     ],
     "brand": "FB LUXURY AMANDE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3813,9 +3814,10 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
+      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
     ],
     "brand": "FB LUXURY CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3835,9 +3837,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13800,
     "isFeatured": false,
     "stock": 7,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
     ],
     "brand": "FB LUXURY CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3857,9 +3859,11 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3879,9 +3883,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3923,9 +3927,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3945,9 +3949,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4253,9 +4257,11 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4275,9 +4281,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4297,9 +4303,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4319,9 +4325,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5903,9 +5909,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_07_Vaseline_Almond_Smooth.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_07_Vaseline_Almond_Smooth.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6145,9 +6151,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_09_Jergens_Shea_Butter_01.png",
+      "/strives/images/cat_09_Jergens_Shea_Butter_02.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6167,9 +6174,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_02.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_09_Jergens_Shea_Butter_02.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6189,9 +6196,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_03.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_09_Jergens_Shea_Butter_03.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6211,9 +6218,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_04.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_09_Jergens_Shea_Butter_04.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9159,9 +9166,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22800,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9357,9 +9364,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9467,9 +9474,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+      "/strives/images/cat_49_OLLY_-_Women_s_Multi_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9489,9 +9497,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_50_OLLY_-_Libido_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_50_OLLY_-_Libido_01.jpg",
+      "/strives/images/cat_50_OLLY_-_Libido_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9511,9 +9520,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9533,9 +9543,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9555,9 +9565,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9577,9 +9587,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9599,9 +9609,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 41,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9621,9 +9631,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+      "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_02.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9797,9 +9808,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10193,9 +10204,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 33,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10919,9 +10930,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": true,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10941,9 +10952,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10963,9 +10974,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10985,9 +10996,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 13,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11227,9 +11238,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14800,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
     ],
     "brand": "SHEA MOISTURE KIDS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11249,9 +11260,10 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
+      "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
     ],
     "brand": "SHEA MOISTURE KIDS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11865,9 +11877,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 45,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11887,9 +11899,10 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 42,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
+      "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11909,9 +11922,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11931,9 +11944,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 18,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11953,9 +11966,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12041,9 +12054,10 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+      "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12063,9 +12077,10 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
+      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12085,9 +12100,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12107,9 +12122,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12129,9 +12144,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12173,9 +12188,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12195,9 +12210,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12217,9 +12232,10 @@ export const INITIAL_PRODUCTS = [
     "price": 13800,
     "isFeatured": false,
     "stock": 31,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
+      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12239,9 +12255,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 27,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12283,9 +12299,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12327,9 +12343,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12349,9 +12365,10 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
+      "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14989,9 +15006,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15011,9 +15028,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30800,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15033,9 +15050,10 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 43,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
+      "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15077,9 +15095,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15319,9 +15337,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15341,9 +15359,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 35,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15429,9 +15447,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 8,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15451,9 +15469,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16133,9 +16151,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 19,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16573,9 +16591,9 @@ export const INITIAL_PRODUCTS = [
     "price": 53500,
     "isFeatured": false,
     "stock": 22,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17233,9 +17251,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17255,9 +17273,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17277,9 +17295,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 29,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17299,9 +17317,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17387,9 +17405,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17409,9 +17427,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 6,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17695,9 +17713,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 11,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17981,9 +17999,10 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
+      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18245,9 +18264,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18311,9 +18330,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18377,9 +18396,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18421,9 +18440,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18817,9 +18836,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 16,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18861,9 +18880,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 5,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19389,9 +19408,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48100,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19477,9 +19496,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39300,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20863,9 +20882,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 48,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20885,9 +20904,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 15,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20907,9 +20926,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20929,9 +20948,9 @@ export const INITIAL_PRODUCTS = [
     "price": 11500,
     "isFeatured": false,
     "stock": 46,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20995,9 +21014,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 14,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21017,9 +21036,10 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 26,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+      "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_02.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21061,9 +21081,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 36,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21149,9 +21169,9 @@ export const INITIAL_PRODUCTS = [
     "price": 65500,
     "isFeatured": false,
     "stock": 24,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21171,9 +21191,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 40,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21193,9 +21213,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21215,9 +21235,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45000,
     "isFeatured": false,
     "stock": 37,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21259,9 +21279,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 44,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21281,9 +21301,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 38,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
+      "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_02.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21303,9 +21324,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 50,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21325,9 +21346,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 21,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
+      "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21391,9 +21413,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21413,9 +21435,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 20,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21435,9 +21457,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 9,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21721,9 +21743,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 23,
-    "image": "/imgs/stands_esthetique.jpg",
+    "image": "/strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg",
     "gallery": [
-      "/imgs/stands_esthetique.jpg"
+      "/strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",

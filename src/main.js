@@ -107,9 +107,7 @@ function updateModals() {
       fullCatalogRoot.innerHTML = renderFullCatalogModal({
         query: state.fcQuery,
         category: state.fcCategory,
-        brand: state.fcBrand,
-        page: state.fcPage,
-        perPage: state.fcPerPage
+        brand: state.fcBrand
       });
       setupFullCatalogEvents();
     } else {
@@ -215,6 +213,79 @@ function setupCatalogEvents() {
       updateCatalogLive();
     });
   }
+
+  // Activer le défilement tactile au doigt (Touch Swipe) sur la grille des produits phares
+  setupCatalogSwipeGestures();
+}
+
+function setupCatalogSwipeGestures() {
+  const container = document.getElementById("products-grid-container");
+  if (!container || container.__swipeAttached) return;
+  container.__swipeAttached = true;
+
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let touchStartTime = 0;
+  let isTouching = false;
+
+  container.addEventListener("touchstart", (e) => {
+    if (!e.touches || e.touches.length === 0) return;
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+    touchStartTime = Date.now();
+    isTouching = true;
+  }, { passive: true });
+
+  container.addEventListener("touchend", (e) => {
+    if (!isTouching) return;
+    isTouching = false;
+    if (!e.changedTouches || e.changedTouches.length === 0) return;
+
+    const deltaX = e.changedTouches[0].clientX - touchStartX;
+    const deltaY = e.changedTouches[0].clientY - touchStartY;
+    const elapsed = Date.now() - touchStartTime;
+
+    // Détection d'un balayage tactile horizontal (geste au doigt gauche/droite)
+    if (Math.abs(deltaX) > 35 && Math.abs(deltaX) > Math.abs(deltaY) * 1.1 && elapsed < 650) {
+      if (deltaX < 0) {
+        // Balayage vers la gauche => Page suivante
+        window.MoB.scrollCatalogStep(1);
+      } else {
+        // Balayage vers la droite => Page précédente
+        window.MoB.scrollCatalogStep(-1);
+      }
+    }
+  }, { passive: true });
+
+  // Glisser-déposer à la souris (drag-to-swipe pour ordinateur)
+  let mouseStartX = 0;
+  let mouseStartY = 0;
+  let mouseStartTime = 0;
+  let isMouseDown = false;
+
+  container.addEventListener("mousedown", (e) => {
+    if (e.target.closest("button") || e.target.closest("a") || e.target.closest(".product-actions")) return;
+    isMouseDown = true;
+    mouseStartX = e.clientX;
+    mouseStartY = e.clientY;
+    mouseStartTime = Date.now();
+  });
+
+  window.addEventListener("mouseup", (e) => {
+    if (!isMouseDown) return;
+    isMouseDown = false;
+    const deltaX = e.clientX - mouseStartX;
+    const deltaY = e.clientY - mouseStartY;
+    const elapsed = Date.now() - mouseStartTime;
+
+    if (Math.abs(deltaX) > 40 && Math.abs(deltaX) > Math.abs(deltaY) * 1.1 && elapsed < 650) {
+      if (deltaX < 0) {
+        window.MoB.scrollCatalogStep(1);
+      } else {
+        window.MoB.scrollCatalogStep(-1);
+      }
+    }
+  });
 }
 
 function refreshCatalogSection() {
@@ -285,25 +356,6 @@ function setupFullCatalogEvents() {
       state.fcCategory = "all";
       state.fcBrand = "all";
       state.fcPage = 1;
-      updateModals();
-    });
-  }
-
-  // Pagination
-  const prevBtn = document.getElementById("fc-prev-page-btn");
-  if (prevBtn) {
-    prevBtn.addEventListener("click", () => {
-      if (state.fcPage > 1) {
-        state.fcPage--;
-        updateModals();
-      }
-    });
-  }
-
-  const nextBtn = document.getElementById("fc-next-page-btn");
-  if (nextBtn) {
-    nextBtn.addEventListener("click", () => {
-      state.fcPage++;
       updateModals();
     });
   }
@@ -493,9 +545,11 @@ window.MoB = {
   },
   scrollCatalogStep(direction) {
     const track = document.getElementById("catalog-scroll-track");
-    if (track) {
-      track.scrollBy({ left: direction * track.clientWidth, behavior: "smooth" });
-    }
+    if (!track) return;
+    const totalPages = document.querySelectorAll(".catalog-page-slide").length || 1;
+    const current = state.catalogPage || 1;
+    const next = Math.max(1, Math.min(totalPages, current + direction));
+    this.scrollToCatalogPage(next);
   },
   handleCatalogScroll(track) {
     if (!track) return;

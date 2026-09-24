@@ -1,0 +1,982 @@
+[
+  {
+    "catalog_id": "mob-cat-0008",
+    "excel_id": "mob-excel-8",
+    "brand": "DIAMOND GLOW",
+    "name": "LAIT",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "85 500 FCFA",
+    "image": "/strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0194",
+    "excel_id": "mob-excel-194",
+    "brand": "FB ROYAL",
+    "name": "LAIT",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "23 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
+    "gallery_count": 3
+  },
+  {
+    "catalog_id": "mob-cat-0176",
+    "excel_id": "mob-excel-176",
+    "brand": "FB SUPREME",
+    "name": "LAIT",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "22 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
+    "gallery_count": 3
+  },
+  {
+    "catalog_id": "mob-cat-0195",
+    "excel_id": "mob-excel-195",
+    "brand": "FB ROYAL",
+    "name": "SAVON",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "14 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0179",
+    "excel_id": "mob-excel-179",
+    "brand": "FB SUPREME",
+    "name": "SAVON",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "12 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0196",
+    "excel_id": "mob-excel-196",
+    "brand": "FB ROYAL",
+    "name": "BAUME",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "20 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0177",
+    "excel_id": "mob-excel-177",
+    "brand": "FB SUPREME",
+    "name": "CREME BAUME",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "17 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0197",
+    "excel_id": "mob-excel-197",
+    "brand": "FB ROYAL",
+    "name": "SERUM",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "14 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0180",
+    "excel_id": "mob-excel-180",
+    "brand": "FB SUPREME",
+    "name": "SERUM",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "15 500 FCFA",
+    "image": "/strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0174",
+    "excel_id": "mob-excel-174",
+    "brand": "FB LUXURY CARROT",
+    "name": "LAIT",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "21 500 FCFA",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0172",
+    "excel_id": "mob-excel-172",
+    "brand": "FB LUXURY AMANDE",
+    "name": "LAIT",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "18 500 FCFA",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0175",
+    "excel_id": "mob-excel-175",
+    "brand": "FB LUXURY CARROT",
+    "name": "SAVON",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "13 800 FCFA",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0173",
+    "excel_id": "mob-excel-173",
+    "brand": "FB LUXURY AMANDE",
+    "name": "SAVON",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "12 500 FCFA",
+    "image": "/strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0269",
+    "excel_id": "mob-excel-269",
+    "brand": "VASELINE",
+    "name": "LAIT ALMOND SMOOTH MOURTADE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "10 500 FCFA",
+    "image": "/strives/images/prod_07_Vaseline_Almond_Smooth.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0280",
+    "excel_id": "mob-excel-280",
+    "brand": "JERGENS",
+    "name": "LAIT SHEA",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "16 500 FCFA",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0281",
+    "excel_id": "mob-excel-281",
+    "brand": "JERGENS",
+    "name": "LAIT NOURISHING HONEY (496ml)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "14 500 FCFA",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_02.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0282",
+    "excel_id": "mob-excel-282",
+    "brand": "JERGENS",
+    "name": "LAIT HYDRATING COCONUT (496ml)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "14 500 FCFA",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_03.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0283",
+    "excel_id": "mob-excel-283",
+    "brand": "JERGENS",
+    "name": "LAIT ORIGINAL SCENT CHERRY ALMOND (621ml)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "16 500 FCFA",
+    "image": "/strives/images/cat_09_Jergens_Shea_Butter_04.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0754",
+    "excel_id": "mob-excel-754",
+    "brand": "SERUM TRAITANT",
+    "name": "PAULAS CHOICE SERUM NIACINAMIDE 20%",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "53 500 FCFA",
+    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0882",
+    "excel_id": "mob-excel-882",
+    "brand": "DIVERS TRAITEMENT",
+    "name": "PAULAS CHOICE C5 SUPER BOOST",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 100 FCFA",
+    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0886",
+    "excel_id": "mob-excel-886",
+    "brand": "DIVERS TRAITEMENT",
+    "name": "PAULAS CHOICE BOOSTER AZELAIC ACID 10%",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "39 300 FCFA",
+    "image": "/strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0734",
+    "excel_id": "mob-excel-734",
+    "brand": "SERUM TRAITANT",
+    "name": "GLOW RECIPE FRAIS SACILIC",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "36 600 FCFA",
+    "image": "/strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0684",
+    "excel_id": "mob-excel-684",
+    "brand": "SERUM TRAITANT",
+    "name": "GELET GLOW RECIPE VIT C (GUAVA)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "36 600 FCFA",
+    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0686",
+    "excel_id": "mob-excel-686",
+    "brand": "SERUM TRAITANT",
+    "name": "GELEE GLOW RECIPE ( BLACKBERY)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "36 600 FCFA",
+    "image": "/strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0702",
+    "excel_id": "mob-excel-702",
+    "brand": "SERUM TRAITANT",
+    "name": "ANUA NIACINAMIDE 10% TXA 4%",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "28 500 FCFA",
+    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0703",
+    "excel_id": "mob-excel-703",
+    "brand": "SERUM TRAITANT",
+    "name": "ANUA BLEMISH 20%",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "30 500 FCFA",
+    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0833",
+    "excel_id": "mob-excel-833",
+    "brand": "TONER",
+    "name": "ANUA 77%",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "28 500 FCFA",
+    "image": "/strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0697",
+    "excel_id": "mob-excel-697",
+    "brand": "SERUM TRAITANT",
+    "name": "BEAUTY OF JOSEON GLOW SERUM PROPOLIS + NIACINAMIDE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "28 500 FCFA",
+    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0698",
+    "excel_id": "mob-excel-698",
+    "brand": "SERUM TRAITANT",
+    "name": "BEAUTY OF JOSEON RICE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "25 500 FCFA",
+    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0836",
+    "excel_id": "mob-excel-836",
+    "brand": "TONER",
+    "name": "BEAUTY OF JOSEON GLOW REPLENISHING RICE MILK",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "28 500 FCFA",
+    "image": "/strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0683",
+    "excel_id": "mob-excel-683",
+    "brand": "SERUM TRAITANT",
+    "name": "COSRX BOOSTER AHA BHA Vit C",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "30 800 FCFA",
+    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0858",
+    "excel_id": "mob-excel-858",
+    "brand": "DIVERS TRAITEMENT",
+    "name": "COSRX TONER CICA 7 SOLUTION",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "25 500 FCFA",
+    "image": "/strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0682",
+    "excel_id": "mob-excel-682",
+    "brand": "SERUM TRAITANT",
+    "name": "GOOD MOLECULS DISCOLORATION CORRECTING",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "28 900 FCFA",
+    "image": "/strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0830",
+    "excel_id": "mob-excel-830",
+    "brand": "TONER",
+    "name": "GOOD MOLECULS GLUCOLIC TONER",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "18 500 FCFA",
+    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0856",
+    "excel_id": "mob-excel-856",
+    "brand": "DIVERS TRAITEMENT",
+    "name": "POUDRE GOOD MOLECULS EXFOLIANT",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "8 500 FCFA",
+    "image": "/strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0784",
+    "excel_id": "mob-excel-784",
+    "brand": "CREME TRAITEMENT",
+    "name": "BEAUTY OF JOSEON RICE SPF50 (creme solaire)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "30 500 FCFA",
+    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0785",
+    "excel_id": "mob-excel-785",
+    "brand": "CREME TRAITEMENT",
+    "name": "BEAUTY OF JOSEON RICE + B5 SPF50 (bleu)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "35 500 FCFA",
+    "image": "/strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0787",
+    "excel_id": "mob-excel-787",
+    "brand": "CREME TRAITEMENT",
+    "name": "CREME SOLAIRE JUICE MOISTURIZING RAUND LAB SPF50 PA",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "35 500 FCFA",
+    "image": "/strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0786",
+    "excel_id": "mob-excel-786",
+    "brand": "CREME TRAITEMENT",
+    "name": "CREME SOLAIRE TOCOBO SPF50 PA++++",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "16 500 FCFA",
+    "image": "/strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0818",
+    "excel_id": "mob-excel-818",
+    "brand": "CREME TRAITEMENT",
+    "name": "CENTELLA CREME SOLAIRE PROBIO CICA ENRICH",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "32 500 FCFA",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0792",
+    "excel_id": "mob-excel-792",
+    "brand": "CREME TRAITEMENT",
+    "name": "CENTELLA CREME SOLAIRE BLEU BLANC",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "27 500 FCFA",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0791",
+    "excel_id": "mob-excel-791",
+    "brand": "CREME TRAITEMENT",
+    "name": "CENTALLA TONE BRIGHTENING CREME",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "18 900 FCFA",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0805",
+    "excel_id": "mob-excel-805",
+    "brand": "CREME TRAITEMENT",
+    "name": "CENTALLA CREME VISAGE%",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "27 500 FCFA",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0838",
+    "excel_id": "mob-excel-838",
+    "brand": "TONER",
+    "name": "CENTELLA BOOSTING TONER",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "30 500 FCFA",
+    "image": "/strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0426",
+    "excel_id": "mob-excel-426",
+    "brand": "CLINIQUE",
+    "name": "MOISTURE SURGE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "28 500 FCFA",
+    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0417",
+    "excel_id": "mob-excel-417",
+    "brand": "CLINIQUE",
+    "name": "LAIT HYDRATANT",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "22 800 FCFA",
+    "image": "/strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0955",
+    "excel_id": "mob-excel-955",
+    "brand": "LES SOINS DE CHEVEUX",
+    "name": "CASTOR OIL",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "20 500 FCFA",
+    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0552",
+    "excel_id": "mob-excel-552",
+    "brand": "ACTIVILONG",
+    "name": "LEAVE IN CASTOR OIL",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "7 500 FCFA",
+    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0555",
+    "excel_id": "mob-excel-555",
+    "brand": "ACTIVILONG",
+    "name": "PURE OIL CASTOR",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "4 500 FCFA",
+    "image": "/strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0512",
+    "excel_id": "mob-excel-512",
+    "brand": "SHEA MOISTURE KIDS",
+    "name": "SHAMPOING CONDITIONNER",
+    "category": "Maman & Bébé",
+    "priceFormatted": "14 500 FCFA",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0511",
+    "excel_id": "mob-excel-511",
+    "brand": "SHEA MOISTURE KIDS",
+    "name": "GEL DOUCHE BB CAMOMILLE & ARGAN",
+    "category": "Maman & Bébé",
+    "priceFormatted": "14 800 FCFA",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0497",
+    "excel_id": "mob-excel-497",
+    "brand": "SHEA MOISTURE",
+    "name": "SAVON NOIR (pm)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "6 500 FCFA",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0498",
+    "excel_id": "mob-excel-498",
+    "brand": "SHEA MOISTURE",
+    "name": "SAVON NOIR (gm)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "14 500 FCFA",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0499",
+    "excel_id": "mob-excel-499",
+    "brand": "SHEA MOISTURE",
+    "name": "SAVON COCONUT MILK & ACACIA SENEGAL",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "12 500 FCFA",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0500",
+    "excel_id": "mob-excel-500",
+    "brand": "SHEA MOISTURE",
+    "name": "SAVON HIBISCUS",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "12 500 FCFA",
+    "image": "/strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0549",
+    "excel_id": "mob-excel-549",
+    "brand": "ACTIVILONG",
+    "name": "SHAMPOO KARITE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "8 500 FCFA",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0559",
+    "excel_id": "mob-excel-559",
+    "brand": "ACTIVILONG",
+    "name": "BAUME SOIN DEMELANT KARITE ALOE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "8 500 FCFA",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0550",
+    "excel_id": "mob-excel-550",
+    "brand": "ACTIVILONG",
+    "name": "HAIRSPRAY HIBISCUS",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "7 500 FCFA",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0554",
+    "excel_id": "mob-excel-554",
+    "brand": "ACTIVILONG",
+    "name": "SHAMPOO CASTOR",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "7 500 FCFA",
+    "image": "/strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0562",
+    "excel_id": "mob-excel-562",
+    "brand": "ACTIVILONG",
+    "name": "KIT DE LISSAGE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "13 500 FCFA",
+    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0551",
+    "excel_id": "mob-excel-551",
+    "brand": "ACTIVILONG",
+    "name": "DEFRISANT ACTIVILONG MACADAMIA",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "6 500 FCFA",
+    "image": "/strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0956",
+    "excel_id": "mob-excel-956",
+    "brand": "LES SOINS DE CHEVEUX",
+    "name": "CREME OH LA LA CURL AUNT JACKIES'S (violet)",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "15 500 FCFA",
+    "image": "/strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0958",
+    "excel_id": "mob-excel-958",
+    "brand": "LES SOINS DE CHEVEUX",
+    "name": "CREME AUNT JACKIES IN CONTROL MOISTURING",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "Sur demande",
+    "image": "/strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0540",
+    "excel_id": "mob-excel-540",
+    "brand": "DEFRISANT",
+    "name": "MEGA GROWTH",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "12 000 FCFA",
+    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0951",
+    "excel_id": "mob-excel-951",
+    "brand": "MEGA GROWTH",
+    "name": "GROWTH LOTION",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "12 500 FCFA",
+    "image": "/strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0952",
+    "excel_id": "mob-excel-952",
+    "brand": "MEGA GROWTH",
+    "name": "LONG N HEALTHY",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "11 500 FCFA",
+    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0949",
+    "excel_id": "mob-excel-949",
+    "brand": "MEGA GROWTH",
+    "name": "SPRAY",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "5 000 FCFA",
+    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0950",
+    "excel_id": "mob-excel-950",
+    "brand": "MEGA GROWTH",
+    "name": "SHAMPOO",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "8 000 FCFA",
+    "image": "/strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0541",
+    "excel_id": "mob-excel-541",
+    "brand": "DEFRISANT",
+    "name": "DARK AND LOVELY KID",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "6 000 FCFA",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0542",
+    "excel_id": "mob-excel-542",
+    "brand": "DEFRISANT",
+    "name": "KIDS ORGANIC 1 PACK",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "6 000 FCFA",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0543",
+    "excel_id": "mob-excel-543",
+    "brand": "DEFRISANT",
+    "name": "KIDS ORGANIC 2 PACK",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "12 000 FCFA",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0544",
+    "excel_id": "mob-excel-544",
+    "brand": "DEFRISANT",
+    "name": "JUST FOR ME KIDS",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "5 000 FCFA",
+    "image": "/strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0548",
+    "excel_id": "mob-excel-548",
+    "brand": "DEFRISANT",
+    "name": "DARK AND LOVELY",
+    "category": "Capillaire & Perruques",
+    "priceFormatted": "6 500 FCFA",
+    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0464",
+    "excel_id": "mob-excel-464",
+    "brand": "TEINTURE",
+    "name": "DARK AND LOVELY",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "5 000 FCFA",
+    "image": "/strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0556",
+    "excel_id": "mob-excel-556",
+    "brand": "ACTIVILONG",
+    "name": "TIPRAY DEMELANT ACTI KID MANGUE",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "13 800 FCFA",
+    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0557",
+    "excel_id": "mob-excel-557",
+    "brand": "ACTIVILONG",
+    "name": "SHAMPOO KIDS",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "8 500 FCFA",
+    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0561",
+    "excel_id": "mob-excel-561",
+    "brand": "ACTIVILONG",
+    "name": "LEAVE ACTI KID",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "8 500 FCFA",
+    "image": "/strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0968",
+    "excel_id": "mob-excel-968",
+    "brand": "MAKE UP",
+    "name": "RARE BEAUTY FD (430W)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "38 500 FCFA",
+    "image": "/strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0970",
+    "excel_id": "mob-excel-970",
+    "brand": "MAKE UP",
+    "name": "HUDA BEAUTY FD (455R)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "38 500 FCFA",
+    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0969",
+    "excel_id": "mob-excel-969",
+    "brand": "MAKE UP",
+    "name": "HUDA BEAUTY FD (430N)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "38 500 FCFA",
+    "image": "/strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0965",
+    "excel_id": "mob-excel-965",
+    "brand": "MAKE UP",
+    "name": "BASE MILK",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "45 000 FCFA",
+    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0967",
+    "excel_id": "mob-excel-967",
+    "brand": "MAKE UP",
+    "name": "MATT BRONZER MILK",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "20 000 FCFA",
+    "image": "/strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0962",
+    "excel_id": "mob-excel-962",
+    "brand": "MAKE UP",
+    "name": "BASE PORFESSIONNAL  BENEFIT (GM)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "65 500 FCFA",
+    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0963",
+    "excel_id": "mob-excel-963",
+    "brand": "MAKE UP",
+    "name": "BASE PORFESSIONNAL BENEFIT (MY)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "35 500 FCFA",
+    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0964",
+    "excel_id": "mob-excel-964",
+    "brand": "MAKE UP",
+    "name": "BASE PROFESSIONNAL BENEFIT (PM)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "14 500 FCFA",
+    "image": "/strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0973",
+    "excel_id": "mob-excel-973",
+    "brand": "MAKE UP",
+    "name": "MAC COMPACT (NC42)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "25 000 FCFA",
+    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0974",
+    "excel_id": "mob-excel-974",
+    "brand": "MAKE UP",
+    "name": "MAC COMPACT (NC43)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "25 000 FCFA",
+    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0975",
+    "excel_id": "mob-excel-975",
+    "brand": "MAKE UP",
+    "name": "MAC COMPACT (NW45)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "25 000 FCFA",
+    "image": "/strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0988",
+    "excel_id": "mob-excel-988",
+    "brand": "MAKE UP",
+    "name": "CONCEALAR (LA GIRL & PRO CONCEAL)",
+    "category": "Maquillage & Teint",
+    "priceFormatted": "5 000 FCFA",
+    "image": "/strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0431",
+    "excel_id": "mob-excel-431",
+    "brand": "GUMMIES",
+    "name": "OLLY WOMEN",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 000 FCFA",
+    "image": "/strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0432",
+    "excel_id": "mob-excel-432",
+    "brand": "GUMMIES",
+    "name": "OLLY LIBIDO",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 000 FCFA",
+    "image": "/strives/images/cat_50_OLLY_-_Libido_01.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0433",
+    "excel_id": "mob-excel-433",
+    "brand": "GUMMIES",
+    "name": "OLLY COLLAGEN",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 000 FCFA",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0434",
+    "excel_id": "mob-excel-434",
+    "brand": "GUMMIES",
+    "name": "OLLY SKIN (BLEU)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 000 FCFA",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0435",
+    "excel_id": "mob-excel-435",
+    "brand": "GUMMIES",
+    "name": "OLLY HSN (BEAUTY)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 500 FCFA",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0436",
+    "excel_id": "mob-excel-436",
+    "brand": "GUMMIES",
+    "name": "OLLY COMPLEXION (VERT)",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 000 FCFA",
+    "image": "/strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0446",
+    "excel_id": "mob-excel-446",
+    "brand": "GUMMIES",
+    "name": "GOLI SUPERFRUITS",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "48 000 FCFA",
+    "image": "/strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png",
+    "gallery_count": 1
+  },
+  {
+    "catalog_id": "mob-cat-0438",
+    "excel_id": "mob-excel-438",
+    "brand": "GUMMIES",
+    "name": "NAUTURE MADE COLLAGEN",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "38 000 FCFA",
+    "image": "/strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+    "gallery_count": 2
+  },
+  {
+    "catalog_id": "mob-cat-0437",
+    "excel_id": "mob-excel-437",
+    "brand": "GUMMIES",
+    "name": "NATURE MADE HSN",
+    "category": "Dermocosmétique & Soins",
+    "priceFormatted": "38 000 FCFA",
+    "image": "/strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png",
+    "gallery_count": 1
+  }
+]

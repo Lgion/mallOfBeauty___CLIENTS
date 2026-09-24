@@ -60,46 +60,70 @@ export function renderAdminDashboard(activeTab = "products") {
         <!-- Zone de Contenu -->
         <div class="admin-content-area">
           <!-- Cartes Statistiques Cliquables (8 Couleurs Distinctes & Raccourcis Directs) -->
+          <!-- Cartes Statistiques Iconiques en Ligne Unique (avec infobulle au survol et bulle rouge chiffrée) -->
           <div class="admin-stats-row">
-            <div class="admin-stat-card card-products ${currentTab === 'products' ? 'active-stat' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')" title="Gérer le catalogue complet des produits">
-              <span class="admin-stat-num">${products.length}</span>
-              <span class="admin-stat-label">Total Produits</span>
-              <span class="admin-stat-hint">📦 Voir le catalogue</span>
+            <div class="admin-stat-card card-products ${currentTab === 'products' ? 'active-stat' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')" title="Catalogue complet des produits (${products.length})">
+              <span class="admin-stat-icon">📦</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${products.length}</span>
+              </span>
+              <div class="admin-stat-tooltip">Total Produits (${products.length})</div>
             </div>
-            <div class="admin-stat-card card-featured ${currentTab === 'featured' ? 'active-stat' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')" title="Gérer la sélection des produits phares en vitrine">
-              <span class="admin-stat-num">${featuredCount}</span>
-              <span class="admin-stat-label">Produits Phares</span>
-              <span class="admin-stat-hint">⭐ Sélection vitrine</span>
+
+            <div class="admin-stat-card card-featured ${currentTab === 'featured' ? 'active-stat' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')" title="Produits Phares en vitrine (${featuredCount})">
+              <span class="admin-stat-icon">⭐</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${featuredCount}</span>
+              </span>
+              <div class="admin-stat-tooltip">Produits Phares (${featuredCount})</div>
             </div>
-            <div class="admin-stat-card card-appointments ${currentTab === 'appointments' ? 'active-stat' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')" title="Gérer les rendez-vous de consultation beauté">
-              <span class="admin-stat-num">${appointments.length}</span>
-              <span class="admin-stat-label">RDV Diagnostic (${pendingAppointments} att.)</span>
-              <span class="admin-stat-hint">📅 Gérer le formulaire</span>
+
+            <div class="admin-stat-card card-appointments ${currentTab === 'appointments' ? 'active-stat' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')" title="RDV Diagnostic Beauté (${appointments.length} dont ${pendingAppointments} en attente)">
+              <span class="admin-stat-icon">📅</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${appointments.length}</span>
+              </span>
+              <div class="admin-stat-tooltip">RDV Diagnostic (${appointments.length})</div>
             </div>
-            <div class="admin-stat-card card-personal-shopper ${currentTab === 'personal-shopper' ? 'active-stat' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')" title="Gérer les demandes de Personal Shopper & Conciergerie">
-              <span class="admin-stat-num">${psRequests.length}</span>
-              <span class="admin-stat-label">Conciergerie VIP (${pendingPS} att.)</span>
-              <span class="admin-stat-hint">💎 Suivi & acompte 60%</span>
+
+            <div class="admin-stat-card card-personal-shopper ${currentTab === 'personal-shopper' ? 'active-stat' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')" title="Conciergerie VIP (${psRequests.length} dont ${pendingPS} en attente)">
+              <span class="admin-stat-icon">💎</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${psRequests.length}</span>
+              </span>
+              <div class="admin-stat-tooltip">Conciergerie VIP (${psRequests.length})</div>
             </div>
-            <div class="admin-stat-card card-loyalty ${currentTab === 'loyalty' ? 'active-stat' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')" title="Gérer les adhérents à la Carte Privilège">
-              <span class="admin-stat-num">${loyaltyMembers.length}</span>
-              <span class="admin-stat-label">Membres Privilège</span>
-              <span class="admin-stat-hint">👑 Anniversaires & -10%</span>
+
+            <div class="admin-stat-card card-loyalty ${currentTab === 'loyalty' ? 'active-stat' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')" title="Membres Carte Privilège (${loyaltyMembers.length})">
+              <span class="admin-stat-icon">👑</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${loyaltyMembers.length}</span>
+              </span>
+              <div class="admin-stat-tooltip">Carte Privilège (${loyaltyMembers.length})</div>
             </div>
-            <div class="admin-stat-card card-contacts ${currentTab === 'contacts' ? 'active-stat' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')" title="Gérer les messages reçus depuis le formulaire de contact">
-              <span class="admin-stat-num">${contacts.length}</span>
-              <span class="admin-stat-label">Messages Contact (${unreadContacts} non lus)</span>
-              <span class="admin-stat-hint">💬 Voir les messages</span>
+
+            <div class="admin-stat-card card-contacts ${currentTab === 'contacts' ? 'active-stat' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')" title="Messages Contact (${contacts.length} dont ${unreadContacts} non lus)">
+              <span class="admin-stat-icon">💬</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${contacts.length}</span>
+              </span>
+              <div class="admin-stat-tooltip">Messages Contact (${contacts.length})</div>
             </div>
-            <div class="admin-stat-card card-analytics ${currentTab === 'analytics' ? 'active-stat' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')" title="Consulter les statistiques de clics CTA">
-              <span class="admin-stat-num">${analytics.total || 0}</span>
-              <span class="admin-stat-label">Clics CTA Totaux</span>
-              <span class="admin-stat-hint">📊 WhatsApp, GSM, Réseaux</span>
+
+            <div class="admin-stat-card card-analytics ${currentTab === 'analytics' ? 'active-stat' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')" title="Clics CTA Totaux (${analytics.total || 0})">
+              <span class="admin-stat-icon">📊</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${analytics.total || 0}</span>
+              </span>
+              <div class="admin-stat-tooltip">Clics CTA (${analytics.total || 0})</div>
             </div>
-            <div class="admin-stat-card card-settings ${currentTab === 'settings' ? 'active-stat' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')" title="Modifier les coordonnées et horaires de la boutique">
-              <span class="admin-stat-num">9h-19h</span>
-              <span class="admin-stat-label">Horaires & Contact</span>
-              <span class="admin-stat-hint">⚙️ Infos boutique</span>
+
+            <div class="admin-stat-card card-settings ${currentTab === 'settings' ? 'active-stat' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')" title="Horaires & Coordonnées Boutique (9h-19h)">
+              <span class="admin-stat-icon">⚙️</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">9h</span>
+              </span>
+              <div class="admin-stat-tooltip">Horaires & Infos Boutique</div>
             </div>
           </div>
 
@@ -152,11 +176,11 @@ function renderFeaturedTab(products) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">⭐ Gestion des Produits Phares (Vitrine d'Accueil)</h4>
-        <p style="font-size: 0.85rem; color: #FDE68A; margin: 0;">Articles d'exception sélectionnés pour la vitrine principale de Mall of Beauty.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">⭐ Gestion des Produits Phares (Vitrine d'Accueil)</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Articles d'exception sélectionnés pour la vitrine principale de Mall of Beauty.</p>
       </div>
       <div style="display: flex; gap: 10px; align-items: center;">
-        <span class="badge" style="background: rgba(245, 158, 11, 0.3); color: #FBBF24; border: 1.5px solid #F59E0B; font-weight: 800; font-size: 0.85rem; padding: 6px 14px;">
+        <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1.5px solid #FDE68A; font-weight: 800; font-size: 0.85rem; padding: 6px 14px;">
           ${featured.length} Produits Phares Actifs
         </span>
         <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.switchAdminTab('products')">
@@ -165,7 +189,7 @@ function renderFeaturedTab(products) {
       </div>
     </div>
 
-    <div class="admin-callout-info" style="border-left-color: #F59E0B; background: rgba(69, 36, 6, 0.45);">
+    <div class="admin-callout-info">
       💡 <strong>Règle Vitrine :</strong> Les produits marqués « ★ Phare » sont les seuls affichés dans la vitrine principale d'accueil. Cliquez sur « ★ Phare » pour retirer un article de la vitrine, ou rendez-vous sur l'onglet <em>Total Produits</em> pour en ajouter de nouveaux.
     </div>
 
@@ -185,10 +209,10 @@ function renderFeaturedTab(products) {
         <tbody>
           ${featured.length === 0 ? `
             <tr>
-              <td colspan="7" style="text-align: center; padding: 48px 20px; color: #FDE68A;">
+              <td colspan="7" style="text-align: center; padding: 48px 20px; color: #0F172A;">
                 <span style="font-size: 2.2rem; display: block; margin-bottom: 8px;">⭐</span>
                 <strong>Aucun produit mis en avant pour le moment.</strong><br>
-                <span style="font-size: 0.88rem; color: #FCD34D;">Rendez-vous dans l'onglet « Total Produits » pour sélectionner les articles vitrine.</span><br>
+                <span style="font-size: 0.88rem; color: #64748B;">Rendez-vous dans l'onglet « Total Produits » pour sélectionner les articles vitrine.</span><br>
                 <button class="btn btn-gold btn-sm" style="margin-top: 14px;" onclick="window.MoB.switchAdminTab('products')">
                   Choisir des produits phares dans le catalogue
                 </button>
@@ -200,16 +224,16 @@ function renderFeaturedTab(products) {
                 <img src="${p.image}" alt="${p.name}" class="product-thumb-cell">
               </td>
               <td>
-                <strong style="color: #FFF;">${p.name}</strong><br>
-                <span style="font-size: 0.8rem; color: #CBD5E1;">${p.brand}</span>
+                <strong style="color: #0F172A;">${p.name}</strong><br>
+                <span style="font-size: 0.8rem; color: #64748B;">${p.brand}</span>
               </td>
               <td>
-                <span class="badge" style="background: rgba(245, 158, 11, 0.2); color: #FDE68A; border: 1px solid rgba(245, 158, 11, 0.4); font-size: 0.72rem;">${p.category}</span>
+                <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1px solid #FDE68A; font-size: 0.72rem; font-weight: 700;">${p.category}</span>
               </td>
               <td>
-                <strong style="color: #FBBF24;">${formatPriceFCFA(p.price)}</strong>
+                <strong style="color: #0F172A; font-weight: 800;">${formatPriceFCFA(p.price)}</strong>
               </td>
-              <td style="color: #F8FAFC;">${p.stock}</td>
+              <td style="color: #334155; font-weight: 600;">${p.stock}</td>
               <td>
                 <button class="btn-action-sm btn-gold" onclick="window.MoB.handleToggleFeatured('${p.id}')" title="Cliquer pour retirer de la vitrine d'accueil">
                   ★ Phare (En Vitrine)
@@ -253,8 +277,8 @@ function renderProductsTab(products) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">Gestion des Articles du Catalogue (CRUD)</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Créez, modifiez, supprimez et définissez les produits phares mis en avant dans la vitrine.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">Gestion des Articles du Catalogue (CRUD)</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Créez, modifiez, supprimez et définissez les produits phares mis en avant dans la vitrine.</p>
       </div>
       <button class="btn btn-gold btn-sm" onclick="window.MoB.toggleAddProductForm()">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
@@ -265,7 +289,7 @@ function renderProductsTab(products) {
     <!-- Formulaire d'Ajout ou Édition -->
     ${showAddProductForm ? `
       <div class="admin-form-box" id="product-form-box">
-        <h4 style="color: var(--gold-light); margin-bottom: 16px;">
+        <h4 style="color: #0F172A; margin-bottom: 16px; font-weight: 700;">
           ${editingProductId ? '✏️ Modifier le produit' : '✨ Nouveau produit'}
         </h4>
 
@@ -340,8 +364,8 @@ function renderProductsTab(products) {
           </div>
 
           <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
-            <input type="checkbox" id="form-product-featured" style="width: 18px; height: 18px; accent-color: var(--gold-primary);">
-            <label for="form-product-featured" style="font-size: 0.95rem; color: var(--gold-light); font-weight: 600; cursor: pointer;">
+            <input type="checkbox" id="form-product-featured" style="width: 18px; height: 18px; accent-color: #D97706;">
+            <label for="form-product-featured" style="font-size: 0.95rem; color: #0F172A; font-weight: 600; cursor: pointer;">
               ⭐ Définir comme « Produit Phare » (Mis en avant sur le site vitrine)
             </label>
           </div>
@@ -375,16 +399,16 @@ function renderProductsTab(products) {
                 <img src="${p.image}" alt="${p.name}" class="product-thumb-cell">
               </td>
               <td>
-                <strong style="color: #FFF;">${p.name}</strong><br>
-                <span style="font-size: 0.8rem; color: var(--text-dim);">${p.brand}</span>
+                <strong style="color: #0F172A;">${p.name}</strong><br>
+                <span style="font-size: 0.8rem; color: #64748B;">${p.brand}</span>
               </td>
               <td>
-                <span class="badge badge-gold" style="font-size: 0.72rem;">${p.category}</span>
+                <span class="badge" style="background: #F1F5F9; color: #334155; border: 1px solid #CBD5E1; font-size: 0.72rem; font-weight: 700;">${p.category}</span>
               </td>
               <td>
-                <strong style="color: var(--gold-light);">${formatPriceFCFA(p.price)}</strong>
+                <strong style="color: #0F172A; font-weight: 800;">${formatPriceFCFA(p.price)}</strong>
               </td>
-              <td>${p.stock}</td>
+              <td style="color: #334155; font-weight: 600;">${p.stock}</td>
               <td>
                 <button class="btn-action-sm ${p.isFeatured ? 'btn-gold' : 'btn-dark'}" onclick="window.MoB.handleToggleFeatured('${p.id}')">
                   ${p.isFeatured ? '★ Phare' : '☆ Non'}
@@ -412,10 +436,10 @@ function renderAppointmentsTab(appointments) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">📅 Formulaire « Consultation & Diagnostic Beauté » (CRUD)</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Suivi des demandes soumises via la section de réservation de diagnostic personnalisé.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">📅 Formulaire « Consultation & Diagnostic Beauté » (CRUD)</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Suivi des demandes soumises via la section de réservation de diagnostic personnalisé.</p>
       </div>
-      <span class="badge badge-gold">${appointments.length} Réservations</span>
+      <span class="badge" style="background: #ECFDF5; color: #065F46; border: 1px solid #A7F3D0; font-weight: 700;">${appointments.length} Réservations</span>
     </div>
 
     <div class="admin-callout-info">
@@ -436,21 +460,21 @@ function renderAppointmentsTab(appointments) {
         </thead>
         <tbody>
           ${appointments.length === 0 ? `
-            <tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 30px;">Aucune réservation pour le moment. Cliquez sur « Recharger Données Factices » pour réinjecter des exemples.</td></tr>
+            <tr><td colspan="6" style="text-align: center; color: #64748B; padding: 30px;">Aucune réservation pour le moment. Cliquez sur « Recharger Données Factices » pour réinjecter des exemples.</td></tr>
           ` : appointments.map(a => `
             <tr>
               <td>
-                <strong style="color: #FFF;">${a.fullName}</strong><br>
-                <span style="font-size: 0.78rem; color: var(--gold-light);">${a.preferredDate || 'Date non précisée'} à ${a.preferredTime || ''}</span>
+                <strong style="color: #0F172A;">${a.fullName}</strong><br>
+                <span style="font-size: 0.78rem; color: #059669; font-weight: 700;">${a.preferredDate || 'Date non précisée'} à ${a.preferredTime || ''}</span>
               </td>
               <td>
-                <a href="tel:${a.phone}" style="color: var(--gold-light); font-weight: 600;">${a.phone}</a>
+                <a href="tel:${a.phone}" style="color: #0F172A; font-weight: 700;">${a.phone}</a>
               </td>
               <td>
-                <strong>${a.type}</strong><br>
-                <span style="font-size: 0.8rem; color: var(--text-muted);">${a.mode}</span>
+                <strong style="color: #0F172A;">${a.type}</strong><br>
+                <span style="font-size: 0.8rem; color: #475569;">${a.mode}</span>
               </td>
-              <td style="max-width: 250px; font-size: 0.82rem; color: var(--text-muted);">
+              <td style="max-width: 250px; font-size: 0.82rem; color: #475569;">
                 ${a.notes || 'Pas de note particulière'}
               </td>
               <td>
@@ -483,10 +507,10 @@ function renderPersonalShopperTab(psRequests) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">💎 Formulaire « Conciergerie VIP & Personal Shopper » (CRUD)</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Suivi du sourcing sur-mesure d'articles rares et application de la règle d'acompte de 60%.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">💎 Formulaire « Conciergerie VIP & Personal Shopper » (CRUD)</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Suivi du sourcing sur-mesure d'articles rares et application de la règle d'acompte de 60%.</p>
       </div>
-      <span class="badge badge-gold">${psRequests.length} Demandes VIP</span>
+      <span class="badge" style="background: #FAF5FF; color: #6B21A8; border: 1px solid #E9D5FF; font-weight: 700;">${psRequests.length} Demandes VIP</span>
     </div>
 
     <div class="admin-callout-info">
@@ -507,19 +531,19 @@ function renderPersonalShopperTab(psRequests) {
         </thead>
         <tbody>
           ${psRequests.length === 0 ? `
-            <tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 30px;">Aucune demande de sourcing pour le moment. Cliquez sur « Recharger Données Factices » pour injecter des exemples.</td></tr>
+            <tr><td colspan="6" style="text-align: center; color: #64748B; padding: 30px;">Aucune demande de sourcing pour le moment. Cliquez sur « Recharger Données Factices » pour injecter des exemples.</td></tr>
           ` : psRequests.map(r => `
             <tr>
               <td>
-                <strong style="color: #FFF;">${r.clientName}</strong><br>
-                <a href="tel:${r.clientPhone}" style="font-size: 0.8rem; color: var(--gold-light);">${r.clientPhone}</a>
+                <strong style="color: #0F172A;">${r.clientName}</strong><br>
+                <a href="tel:${r.clientPhone}" style="font-size: 0.8rem; color: #7C3AED; font-weight: 700;">${r.clientPhone}</a>
               </td>
               <td>
-                <strong>${r.itemRequested}</strong><br>
-                <span style="font-size: 0.78rem; color: var(--text-dim);">${r.category}</span>
+                <strong style="color: #0F172A;">${r.itemRequested}</strong><br>
+                <span style="font-size: 0.78rem; color: #64748B;">${r.category}</span>
               </td>
               <td>
-                <strong style="color: var(--gold-light);">${r.targetBudget || 'Non précisé'}</strong>
+                <strong style="color: #0F172A; font-weight: 800;">${r.targetBudget || 'Non précisé'}</strong>
               </td>
               <td>
                 <select class="form-select" style="font-size: 0.78rem; padding: 4px 8px; width: auto;" onchange="window.MoB.handleUpdatePSDeposit('${r.id}', this.value)">
@@ -557,10 +581,10 @@ function renderLoyaltyTab(members) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">👑 Formulaire « Adhésion Carte Privilège VIP » (CRUD)</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Fichier des adhérents enregistrés via la carte VIP virtuelle avec suivi des remises anniversaire (-10%) et cycles.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">👑 Formulaire « Adhésion Carte Privilège VIP » (CRUD)</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Fichier des adhérents enregistrés via la carte VIP virtuelle avec suivi des remises anniversaire (-10%) et cycles.</p>
       </div>
-      <span class="badge badge-gold">${members.length} Adhérents VIP</span>
+      <span class="badge" style="background: #FDF2F8; color: #9D174D; border: 1px solid #FBCFE8; font-weight: 700;">${members.length} Adhérents VIP</span>
     </div>
 
     <div class="admin-callout-info">
@@ -582,21 +606,21 @@ function renderLoyaltyTab(members) {
         </thead>
         <tbody>
           ${members.length === 0 ? `
-            <tr><td colspan="7" style="text-align: center; color: var(--text-dim); padding: 30px;">Aucun adhérent enregistré pour le moment. Cliquez sur « Recharger Données Factices ».</td></tr>
+            <tr><td colspan="7" style="text-align: center; color: #64748B; padding: 30px;">Aucun adhérent enregistré pour le moment. Cliquez sur « Recharger Données Factices ».</td></tr>
           ` : members.map(m => `
             <tr>
-              <td style="font-size: 0.78rem; color: var(--text-dim);">${new Date(m.createdAt).toLocaleDateString('fr-FR')}</td>
-              <td><strong style="color: #FFF;">${m.fullName}</strong></td>
+              <td style="font-size: 0.78rem; color: #64748B;">${new Date(m.createdAt).toLocaleDateString('fr-FR')}</td>
+              <td><strong style="color: #0F172A;">${m.fullName}</strong></td>
               <td>
-                <a href="https://wa.me/${m.phone.replace(/[^0-9]/g, '')}" target="_blank" style="color: var(--gold-light); font-weight: 600;">
+                <a href="https://wa.me/${m.phone.replace(/[^0-9]/g, '')}" target="_blank" style="color: #059669; font-weight: 700;">
                   ${m.phone}
                 </a>
               </td>
               <td>
-                <span class="badge badge-gold" style="font-size: 0.75rem;">🎂 ${m.birthDate || 'Non renseigné'}</span>
+                <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1px solid #FDE68A; font-size: 0.75rem; font-weight: 700;">🎂 ${m.birthDate || 'Non renseigné'}</span>
               </td>
-              <td style="font-size: 0.85rem; color: var(--text-secondary);">${m.neighborhood || 'Abidjan'}</td>
-              <td style="font-size: 0.85rem; color: var(--text-muted);">${m.favoriteCategory || 'Toutes collections'}</td>
+              <td style="font-size: 0.85rem; color: #334155;">${m.neighborhood || 'Abidjan'}</td>
+              <td style="font-size: 0.85rem; color: #64748B;">${m.favoriteCategory || 'Toutes collections'}</td>
               <td>
                 <div style="display: flex; gap: 6px;">
                   <a href="https://wa.me/${m.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(`Bonjour ${m.fullName}, Mall of Beauty vous remercie de votre fidélité au Club Privilège !`)}" target="_blank" class="btn-action-sm btn-whatsapp" title="Envoyer un message WhatsApp">
@@ -619,10 +643,10 @@ function renderContactsTab(contacts) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">💬 Formulaire « Contact & Devis MoB » (CRUD)</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Messages envoyés directement par les internautes depuis le formulaire de contact du site.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">💬 Formulaire « Contact & Devis MoB » (CRUD)</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Messages envoyés directement par les internautes depuis le formulaire de contact du site.</p>
       </div>
-      <span class="badge badge-gold">${contacts.length} Messages Reçus</span>
+      <span class="badge" style="background: #FFF7ED; color: #9A3412; border: 1px solid #FED7AA; font-weight: 700;">${contacts.length} Messages Reçus</span>
     </div>
 
     <div class="admin-callout-info">
@@ -643,22 +667,22 @@ function renderContactsTab(contacts) {
         </thead>
         <tbody>
           ${contacts.length === 0 ? `
-            <tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 30px;">Aucun message reçu pour le moment. Cliquez sur « Recharger Données Factices ».</td></tr>
+            <tr><td colspan="6" style="text-align: center; color: #64748B; padding: 30px;">Aucun message reçu pour le moment. Cliquez sur « Recharger Données Factices ».</td></tr>
           ` : contacts.map(c => `
             <tr>
               <td>
-                <strong style="color: #FFF;">${c.name}</strong><br>
-                <span style="font-size: 0.78rem; color: var(--text-dim);">${new Date(c.createdAt).toLocaleDateString('fr-FR')} à ${new Date(c.createdAt).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
+                <strong style="color: #0F172A;">${c.name}</strong><br>
+                <span style="font-size: 0.78rem; color: #64748B;">${new Date(c.createdAt).toLocaleDateString('fr-FR')} à ${new Date(c.createdAt).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
               </td>
               <td>
-                <a href="https://wa.me/${c.phone.replace(/[^0-9]/g, '')}" target="_blank" style="color: var(--gold-light); font-weight: 600;">
+                <a href="https://wa.me/${c.phone.replace(/[^0-9]/g, '')}" target="_blank" style="color: #059669; font-weight: 700;">
                   ${c.phone}
                 </a>
               </td>
               <td>
-                <strong style="color: var(--gold-light); font-size: 0.88rem;">${c.subject}</strong>
+                <strong style="color: #0F172A; font-size: 0.88rem;">${c.subject}</strong>
               </td>
-              <td style="max-width: 280px; font-size: 0.84rem; color: var(--text-secondary); line-height: 1.4;">
+              <td style="max-width: 280px; font-size: 0.84rem; color: #334155; line-height: 1.4;">
                 ${c.message}
               </td>
               <td>
@@ -699,8 +723,8 @@ function renderAnalyticsTab(analytics) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">📊 Tableau de Bord Analytique & Tracking des Clics CTA</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Suivi en temps réel des interactions sur vos boutons d'action (CTA) et réseaux sociaux.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">📊 Tableau de Bord Analytique & Tracking des Clics CTA</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Suivi en temps réel des interactions sur vos boutons d'action (CTA) et réseaux sociaux.</p>
       </div>
       <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.handleResetAnalytics()">
         🔄 Réinitialiser les Compteurs
@@ -709,64 +733,64 @@ function renderAnalyticsTab(analytics) {
 
     <!-- Grille des Métriques Détaillées -->
     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px;">
-      <div class="luxury-card" style="padding: 20px; background: rgba(30, 41, 59, 0.4); border-color: rgba(96, 165, 250, 0.4);">
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-          <span style="font-size: 0.75rem; text-transform: uppercase; color: #93C5FD; font-weight: 700;">Appels Directs GSM</span>
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #2563EB;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+          <span style="font-size: 0.75rem; text-transform: uppercase; color: #2563EB; font-weight: 700;">Appels Directs GSM</span>
           <span style="font-size: 1.3rem;">📞</span>
         </div>
-        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 700; color: #FFF;">${gsm}</div>
-        <div style="font-size: 0.78rem; color: var(--text-dim); margin-top: 4px;">Clics sur le numéro portable classique</div>
+        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${gsm}</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Clics sur le numéro portable classique</div>
       </div>
 
-      <div class="luxury-card" style="padding: 20px; background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.4);">
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-          <span style="font-size: 0.75rem; text-transform: uppercase; color: #34D399; font-weight: 700;">WhatsApp Business</span>
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #059669;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+          <span style="font-size: 0.75rem; text-transform: uppercase; color: #059669; font-weight: 700;">WhatsApp Business</span>
           <span style="font-size: 1.3rem;">💬</span>
         </div>
-        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 700; color: #FFF;">${wa}</div>
-        <div style="font-size: 0.78rem; color: var(--text-dim); margin-top: 4px;">Commandes & prises de contact</div>
+        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${wa}</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Commandes & prises de contact</div>
       </div>
 
-      <div class="luxury-card" style="padding: 20px; background: rgba(225, 48, 108, 0.1); border-color: rgba(225, 48, 108, 0.4);">
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-          <span style="font-size: 0.75rem; text-transform: uppercase; color: #F472B6; font-weight: 700;">Visites Instagram</span>
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #DB2777;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+          <span style="font-size: 0.75rem; text-transform: uppercase; color: #DB2777; font-weight: 700;">Visites Instagram</span>
           <span style="font-size: 1.3rem;">📷</span>
         </div>
-        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 700; color: #FFF;">${ig}</div>
-        <div style="font-size: 0.78rem; color: var(--text-dim); margin-top: 4px;">Redirections vers @mallofbeauty_mofb</div>
+        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${ig}</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Redirections vers @mallofbeauty_mofb</div>
       </div>
 
-      <div class="luxury-card" style="padding: 20px; background: rgba(37, 244, 238, 0.08); border-color: rgba(37, 244, 238, 0.4);">
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-          <span style="font-size: 0.75rem; text-transform: uppercase; color: #38BDF8; font-weight: 700;">Vidéos TikTok</span>
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #0891B2;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+          <span style="font-size: 0.75rem; text-transform: uppercase; color: #0891B2; font-weight: 700;">Vidéos TikTok</span>
           <span style="font-size: 1.3rem;">🎵</span>
         </div>
-        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 700; color: #FFF;">${tt}</div>
-        <div style="font-size: 0.78rem; color: var(--text-dim); margin-top: 4px;">Redirections vers @mallofbeauty1</div>
+        <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${tt}</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Redirections vers @mallofbeauty1</div>
       </div>
     </div>
 
     <!-- Récapitulatif des Conversions Formulaires -->
-    <div class="luxury-card" style="padding: 24px; background: rgba(14, 14, 18, 0.95); margin-bottom: 24px;">
-      <h5 style="color: var(--gold-light); font-size: 1rem; margin-bottom: 16px;">Engagement & Soumissions de Formulaires</h5>
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center;">
-        <div style="padding: 16px; background: var(--bg-tertiary); border-radius: var(--radius-md);">
-          <div style="font-size: 1.6rem; font-weight: 700; color: #FBBF24;">${booking}</div>
-          <div style="font-size: 0.82rem; color: var(--text-muted); margin-top: 4px;">RDV Conseils Validés</div>
+    <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0; margin-bottom: 24px;">
+      <h5 style="color: #0F172A; font-size: 1rem; margin-bottom: 16px; font-weight: 700;">Engagement & Soumissions de Formulaires</h5>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; text-align: center;">
+        <div style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md);">
+          <div style="font-size: 1.6rem; font-weight: 800; color: #D97706;">${booking}</div>
+          <div style="font-size: 0.82rem; color: #475569; margin-top: 4px; font-weight: 600;">RDV Conseils Validés</div>
         </div>
-        <div style="padding: 16px; background: var(--bg-tertiary); border-radius: var(--radius-md);">
-          <div style="font-size: 1.6rem; font-weight: 700; color: #60A5FA;">${shopper}</div>
-          <div style="font-size: 0.82rem; color: var(--text-muted); margin-top: 4px;">Demandes Personal Shopper</div>
+        <div style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md);">
+          <div style="font-size: 1.6rem; font-weight: 800; color: #2563EB;">${shopper}</div>
+          <div style="font-size: 0.82rem; color: #475569; margin-top: 4px; font-weight: 600;">Demandes Personal Shopper</div>
         </div>
-        <div style="padding: 16px; background: var(--bg-tertiary); border-radius: var(--radius-md);">
-          <div style="font-size: 1.6rem; font-weight: 700; color: #E879F9;">${loyalty}</div>
-          <div style="font-size: 0.82rem; color: var(--text-muted); margin-top: 4px;">Adhésions Carte Privilège</div>
+        <div style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md);">
+          <div style="font-size: 1.6rem; font-weight: 800; color: #DB2777;">${loyalty}</div>
+          <div style="font-size: 0.82rem; color: #475569; margin-top: 4px; font-weight: 600;">Adhésions Carte Privilège</div>
         </div>
       </div>
       
-      <div style="margin-top: 20px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.06); font-size: 0.8rem; color: var(--text-dim); display: flex; justify-content: space-between;">
-        <span>Dernier événement : <strong>${analytics.lastEvent || 'Aucun'}</strong></span>
-        <span>Dernière mise à jour : <strong>${new Date(analytics.updatedAt || Date.now()).toLocaleTimeString('fr-FR')}</strong></span>
+      <div style="margin-top: 20px; padding-top: 14px; border-top: 1px solid #E2E8F0; font-size: 0.8rem; color: #64748B; display: flex; justify-content: space-between;">
+        <span>Dernier événement : <strong style="color: #0F172A;">${analytics.lastEvent || 'Aucun'}</strong></span>
+        <span>Dernière mise à jour : <strong style="color: #0F172A;">${new Date(analytics.updatedAt || Date.now()).toLocaleTimeString('fr-FR')}</strong></span>
       </div>
     </div>
   `;
@@ -776,8 +800,8 @@ function renderSettingsTab(settings) {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">⚙️ Paramètres Généraux de l'Établissement (CRUD)</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Modifiez vos coordonnées, bannières et horaires en temps réel.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">⚙️ Paramètres Généraux de l'Établissement (CRUD)</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Modifiez vos coordonnées, bannières et horaires en temps réel.</p>
       </div>
     </div>
 
@@ -822,13 +846,13 @@ function renderSettingsTab(settings) {
         </div>
 
         <!-- Section Spéciale Wave Côte d'Ivoire & QR Code -->
-        <div style="background: rgba(29, 195, 244, 0.08); border: 1.5px solid rgba(29, 195, 244, 0.35); border-radius: var(--radius-md); padding: 20px; margin: 24px 0;">
+        <div style="background: #F0F9FF; border: 1.5px solid #BAE6FD; border-radius: 12px; padding: 20px; margin: 24px 0;">
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
             <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
-              <rect width="32" height="32" rx="16" fill="#1DC3F4"/>
+              <rect width="32" height="32" rx="16" fill="#008BE5"/>
               <path d="M16 6C10.48 6 6 10.48 6 16C6 21.52 10.48 26 16 26C21.52 26 26 21.52 26 16C26 10.48 21.52 6 16 6ZM14.2 21.5L9.5 16.8L11.2 15.1L14.2 18.1L20.8 11.5L22.5 13.2L14.2 21.5Z" fill="white"/>
             </svg>
-            <h4 style="font-size: 1.05rem; color: #38BDF8; margin: 0; font-weight: 700;">Configuration Paiement Wave Côte d'Ivoire & QR Code</h4>
+            <h4 style="font-size: 1.05rem; color: #0369A1; margin: 0; font-weight: 700;">Configuration Paiement Wave Côte d'Ivoire & QR Code</h4>
           </div>
 
           <div class="admin-form-grid">
@@ -850,14 +874,14 @@ function renderSettingsTab(settings) {
               </div>
 
               <div class="form-group" style="margin-top: 10px;">
-                <label class="form-label" style="font-size: 0.8rem; color: #94A3B8;">Ou importer un nouveau QR Code (fichier image) :</label>
+                <label class="form-label" style="font-size: 0.8rem; color: #64748B;">Ou importer un nouveau QR Code (fichier image) :</label>
                 <input type="file" id="set-wave-qrcode-file" accept="image/*" class="form-input" style="padding: 6px;" onchange="window.MoB.handleWaveQrUpload(event)">
               </div>
             </div>
 
             <!-- Aperçu QR Code en direct -->
-            <div style="text-align: center; background: #0B1320; border: 1px solid rgba(29, 195, 244, 0.4); border-radius: 12px; padding: 12px; width: 140px;">
-              <span style="font-size: 0.72rem; color: #7DD3FC; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 6px;">Aperçu QR Code</span>
+            <div style="text-align: center; background: #FFFFFF; border: 1.5px solid #BAE6FD; border-radius: 12px; padding: 12px; width: 140px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+              <span style="font-size: 0.72rem; color: #0284C7; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 6px;">Aperçu QR Code</span>
               <img src="${settings.contacts.waveQrCode || '/imgs/wave_qr_code.svg'}" id="wave-qrcode-admin-preview" alt="Aperçu QR Code Wave" style="width: 110px; height: 110px; object-fit: contain; border-radius: 8px; background: #FFF; padding: 4px;">
             </div>
           </div>
@@ -873,27 +897,27 @@ function renderBackupTab() {
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #FFF; margin: 0;">💾 Sauvegarde & Restauration des Données</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Exportez votre base de données ou réinitialisez les données factices d'origine.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">💾 Sauvegarde & Restauration des Données</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Exportez votre base de données ou réinitialisez les données factices d'origine.</p>
       </div>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
-      <div class="luxury-card" style="padding: 24px;">
-        <h4 style="color: var(--gold-light); margin-bottom: 8px;">🔄 Recharger Données Factices</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">Réinjecte instantanément toutes les réservations, demandes VIP, cartes privilège et messages clients d'Abidjan pour tester les formulaires.</p>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+      <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
+        <h4 style="color: #0F172A; margin-bottom: 8px; font-weight: 700;">🔄 Recharger Données Factices</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Réinjecte instantanément toutes les réservations, demandes VIP, cartes privilège et messages clients d'Abidjan pour tester les formulaires.</p>
         <button class="btn btn-gold btn-sm" onclick="window.MoB.reloadAllDummyData()">Recharger les Données Factices</button>
       </div>
 
-      <div class="luxury-card" style="padding: 24px;">
-        <h4 style="color: var(--gold-light); margin-bottom: 8px;">Exporter les Données</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">Téléchargez une sauvegarde JSON complète contenant vos produits, rendez-vous et réglages.</p>
+      <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
+        <h4 style="color: #0F172A; margin-bottom: 8px; font-weight: 700;">Exporter les Données</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Téléchargez une sauvegarde JSON complète contenant vos produits, rendez-vous et réglages.</p>
         <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.exportDatabase()">Télécharger le fichier JSON</button>
       </div>
 
-      <div class="luxury-card" style="padding: 24px; border-color: rgba(225, 29, 72, 0.4); grid-column: 1 / -1;">
-        <h4 style="color: #FB7185; margin-bottom: 8px;">Réinitialisation Totale d'Usine</h4>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">Efface le stockage local et réinitialise l'application complète aux paramètres d'origine.</p>
+      <div class="luxury-card" style="padding: 24px; background: #FFF1F2; border: 1.5px solid #FECDD3; grid-column: 1 / -1;">
+        <h4 style="color: #BE123C; margin-bottom: 8px; font-weight: 700;">Réinitialisation Totale d'Usine</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Efface le stockage local et réinitialise l'application complète aux paramètres d'origine.</p>
         <button class="btn btn-danger btn-sm" onclick="window.MoB.confirmResetFactory()">Restaurer les données initiales</button>
       </div>
     </div>

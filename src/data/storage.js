@@ -322,6 +322,32 @@ function initData() {
   if (!localStorage.getItem(STORAGE_KEYS.CART)) {
     localStorage.setItem(STORAGE_KEYS.CART, JSON.stringify([]));
   }
+
+  // Synchronisation des images réelles téléchargées
+  const IMAGES_SYNC_KEY = "mob_strives_images_synced_v1";
+  if (!localStorage.getItem(IMAGES_SYNC_KEY)) {
+    try {
+      const storedProds = JSON.parse(localStorage.getItem(STORAGE_KEYS.PRODUCTS) || "[]");
+      if (Array.isArray(storedProds) && storedProds.length > 0) {
+        const initMap = new Map(INITIAL_PRODUCTS.map(p => [p.id, p]));
+        const updated = storedProds.map(p => {
+          const fresh = initMap.get(p.id);
+          if (fresh && fresh.image && fresh.image.startsWith("/strives/images/")) {
+            return { ...p, image: fresh.image, gallery: fresh.gallery || [fresh.image] };
+          }
+          return p;
+        });
+        localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(updated));
+      } else {
+        localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
+      }
+
+      localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
+      localStorage.setItem(IMAGES_SYNC_KEY, "true");
+    } catch (e) {
+      console.warn("Erreur synchronisation images strives:", e);
+    }
+  }
 }
 
 initData();
@@ -339,7 +365,33 @@ export function getProducts() {
 
 export function getProductById(id) {
   const products = getProducts();
-  return products.find(p => p.id === id);
+  const found = products.find(p => p.id === id);
+  if (found) return found;
+
+  // Si c'est un article du Grand Catalogue (mob-cat-XXXX ou mob-excel-N)
+  if (id && (id.startsWith("mob-cat-") || id.startsWith("mob-excel-"))) {
+    const full = getFullCatalog();
+    const catItem = full.find(c => c.id === id || c.id === id.replace("mob-excel-", "mob-cat-000").replace(/mob-cat-000(\d{4})/, "mob-cat-$1"));
+    if (catItem) {
+      return {
+        id: catItem.id,
+        name: `${catItem.brand} - ${catItem.name}`,
+        brand: catItem.brand,
+        price: catItem.price,
+        category: catItem.category,
+        categoryLabel: catItem.category,
+        image: catItem.image || "/imgs/stands_esthetique.jpg",
+        gallery: catItem.gallery || (catItem.image ? [catItem.image] : ["/imgs/stands_esthetique.jpg"]),
+        shortDesc: catItem.description,
+        description: catItem.description,
+        usage: "Appliquer selon votre routine beauté habituelle.",
+        stock: 25,
+        rating: 4.8,
+        reviewsCount: 12
+      };
+    }
+  }
+  return null;
 }
 
 export function addProduct(productData) {
@@ -657,7 +709,7 @@ export function getFullCatalog() {
   }
 }
 
-export function searchFullCatalog({ query = "", category = "all", brand = "all", page = 1, perPage = 20 } = {}) {
+export function searchFullCatalog({ query = "", category = "all", brand = "all", page = 1, perPage = 0 } = {}) {
   const catalog = getFullCatalog();
   const q = query.trim().toLowerCase();
   
@@ -680,17 +732,23 @@ export function searchFullCatalog({ query = "", category = "all", brand = "all",
   }
 
   const total = filtered.length;
-  const totalPages = Math.ceil(total / perPage) || 1;
-  const currentPage = Math.min(Math.max(1, page), totalPages);
-  const start = (currentPage - 1) * perPage;
-  const items = filtered.slice(start, start + perPage);
+  let items = filtered;
+  let totalPages = 1;
+  let currentPage = 1;
+
+  if (perPage && perPage > 0) {
+    totalPages = Math.ceil(total / perPage) || 1;
+    currentPage = Math.min(Math.max(1, page), totalPages);
+    const start = (currentPage - 1) * perPage;
+    items = filtered.slice(start, start + perPage);
+  }
 
   return {
     items,
     total,
     totalPages,
     currentPage,
-    perPage
+    perPage: perPage || total
   };
 }
 
