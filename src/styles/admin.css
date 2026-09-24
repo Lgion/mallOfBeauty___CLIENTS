@@ -1,0 +1,538 @@
+/* --- TABLEAU DE BORD D'ADMINISTRATION CRUD (MoB) --- */
+.admin-modal-wrap {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.admin-modal-wrap.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.admin-window {
+  background: #090D16;
+  border: 1.5px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 1200px;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.95), 0 0 40px rgba(99, 102, 241, 0.12);
+  overflow: hidden;
+  position: relative;
+}
+
+.admin-topbar {
+  padding: 18px 28px;
+  background: linear-gradient(90deg, #0F172A 0%, #1E1B4B 45%, #0F172A 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-topbar-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-badge-role {
+  background: rgba(212, 175, 55, 0.18);
+  border: 1px solid var(--gold-primary);
+  color: var(--gold-light);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.admin-nav-header {
+  padding: 12px 28px 8px;
+  background: #0D1322;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.admin-content-area {
+  padding: 24px 28px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+/* Stats Cards (8 Couleurs Distinctes & Cliquables) */
+.admin-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 990px) {
+  .admin-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 580px) {
+  .admin-stats-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.admin-stat-card {
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  text-align: left;
+  user-select: none;
+}
+
+.admin-stat-num {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  transition: transform 0.2s ease;
+}
+
+.admin-stat-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.admin-stat-hint {
+  font-size: 0.72rem;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+}
+
+/* --- 1. Total Produits : Bleu Royal / Indigo --- */
+.admin-stat-card.card-products {
+  background: linear-gradient(145deg, rgba(79, 70, 229, 0.16) 0%, rgba(30, 27, 75, 0.55) 100%);
+  border: 1.5px solid rgba(99, 102, 241, 0.35);
+}
+.admin-stat-card.card-products .admin-stat-num {
+  color: #818CF8;
+}
+.admin-stat-card.card-products .admin-stat-label {
+  color: #C7D2FE;
+}
+.admin-stat-card.card-products .admin-stat-hint {
+  color: #A5B4FC;
+}
+.admin-stat-card.card-products:hover,
+.admin-stat-card.card-products.active-stat {
+  border-color: #818CF8;
+  background: linear-gradient(145deg, rgba(79, 70, 229, 0.38) 0%, rgba(49, 46, 129, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(99, 102, 241, 0.5), inset 0 0 12px rgba(129, 140, 248, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- 2. Produits Phares : Or Solaire / Ambre --- */
+.admin-stat-card.card-featured {
+  background: linear-gradient(145deg, rgba(245, 158, 11, 0.16) 0%, rgba(69, 36, 6, 0.55) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+}
+.admin-stat-card.card-featured .admin-stat-num {
+  color: #FBBF24;
+}
+.admin-stat-card.card-featured .admin-stat-label {
+  color: #FDE68A;
+}
+.admin-stat-card.card-featured .admin-stat-hint {
+  color: #FCD34D;
+}
+.admin-stat-card.card-featured:hover,
+.admin-stat-card.card-featured.active-stat {
+  border-color: #FBBF24;
+  background: linear-gradient(145deg, rgba(245, 158, 11, 0.38) 0%, rgba(120, 53, 15, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(245, 158, 11, 0.5), inset 0 0 12px rgba(251, 191, 36, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- 3. RDV Diagnostic : Émeraude / Menthe Fraîche --- */
+.admin-stat-card.card-appointments {
+  background: linear-gradient(145deg, rgba(16, 185, 129, 0.16) 0%, rgba(6, 78, 59, 0.55) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.35);
+}
+.admin-stat-card.card-appointments .admin-stat-num {
+  color: #34D399;
+}
+.admin-stat-card.card-appointments .admin-stat-label {
+  color: #A7F3D0;
+}
+.admin-stat-card.card-appointments .admin-stat-hint {
+  color: #6EE7B7;
+}
+.admin-stat-card.card-appointments:hover,
+.admin-stat-card.card-appointments.active-stat {
+  border-color: #34D399;
+  background: linear-gradient(145deg, rgba(16, 185, 129, 0.38) 0%, rgba(6, 95, 70, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(16, 185, 129, 0.5), inset 0 0 12px rgba(52, 211, 153, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- 4. Conciergerie VIP : Améthyste / Violet Royal --- */
+.admin-stat-card.card-personal-shopper {
+  background: linear-gradient(145deg, rgba(139, 92, 246, 0.16) 0%, rgba(46, 16, 101, 0.55) 100%);
+  border: 1.5px solid rgba(139, 92, 246, 0.35);
+}
+.admin-stat-card.card-personal-shopper .admin-stat-num {
+  color: #A78BFA;
+}
+.admin-stat-card.card-personal-shopper .admin-stat-label {
+  color: #DDD6FE;
+}
+.admin-stat-card.card-personal-shopper .admin-stat-hint {
+  color: #C4B5FD;
+}
+.admin-stat-card.card-personal-shopper:hover,
+.admin-stat-card.card-personal-shopper.active-stat {
+  border-color: #A78BFA;
+  background: linear-gradient(145deg, rgba(139, 92, 246, 0.38) 0%, rgba(76, 29, 149, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(139, 92, 246, 0.5), inset 0 0 12px rgba(167, 139, 250, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- 5. Membres Privilège : Magenta / Rose Fuchsia --- */
+.admin-stat-card.card-loyalty {
+  background: linear-gradient(145deg, rgba(236, 72, 153, 0.16) 0%, rgba(80, 7, 36, 0.55) 100%);
+  border: 1.5px solid rgba(236, 72, 153, 0.35);
+}
+.admin-stat-card.card-loyalty .admin-stat-num {
+  color: #F472B6;
+}
+.admin-stat-card.card-loyalty .admin-stat-label {
+  color: #FCE7F3;
+}
+.admin-stat-card.card-loyalty .admin-stat-hint {
+  color: #FBCFE8;
+}
+.admin-stat-card.card-loyalty:hover,
+.admin-stat-card.card-loyalty.active-stat {
+  border-color: #F472B6;
+  background: linear-gradient(145deg, rgba(236, 72, 153, 0.38) 0%, rgba(131, 24, 67, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(236, 72, 153, 0.5), inset 0 0 12px rgba(244, 114, 182, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- 6. Messages Contact : Mandarine / Corail Flamboyant --- */
+.admin-stat-card.card-contacts {
+  background: linear-gradient(145deg, rgba(249, 115, 22, 0.16) 0%, rgba(67, 20, 7, 0.55) 100%);
+  border: 1.5px solid rgba(249, 115, 22, 0.35);
+}
+.admin-stat-card.card-contacts .admin-stat-num {
+  color: #FB923C;
+}
+.admin-stat-card.card-contacts .admin-stat-label {
+  color: #FFEDD5;
+}
+.admin-stat-card.card-contacts .admin-stat-hint {
+  color: #FDBA74;
+}
+.admin-stat-card.card-contacts:hover,
+.admin-stat-card.card-contacts.active-stat {
+  border-color: #FB923C;
+  background: linear-gradient(145deg, rgba(249, 115, 22, 0.38) 0%, rgba(124, 45, 18, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(249, 115, 22, 0.5), inset 0 0 12px rgba(251, 146, 60, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- 7. Clics CTA & Réseaux : Cyan / Bleu Turquoise --- */
+.admin-stat-card.card-analytics {
+  background: linear-gradient(145deg, rgba(6, 182, 212, 0.16) 0%, rgba(8, 51, 68, 0.55) 100%);
+  border: 1.5px solid rgba(6, 182, 212, 0.35);
+}
+.admin-stat-card.card-analytics .admin-stat-num {
+  color: #22D3EE;
+}
+.admin-stat-card.card-analytics .admin-stat-label {
+  color: #CFFAFE;
+}
+.admin-stat-card.card-analytics .admin-stat-hint {
+  color: #67E8F9;
+}
+.admin-stat-card.card-analytics:hover,
+.admin-stat-card.card-analytics.active-stat {
+  border-color: #22D3EE;
+  background: linear-gradient(145deg, rgba(6, 182, 212, 0.38) 0%, rgba(21, 94, 117, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(6, 182, 212, 0.5), inset 0 0 12px rgba(34, 211, 238, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- 8. Horaires & Paramètres : Sarcelle / Aquamarine --- */
+.admin-stat-card.card-settings {
+  background: linear-gradient(145deg, rgba(20, 184, 166, 0.16) 0%, rgba(4, 47, 46, 0.55) 100%);
+  border: 1.5px solid rgba(20, 184, 166, 0.35);
+}
+.admin-stat-card.card-settings .admin-stat-num {
+  color: #2DD4BF;
+}
+.admin-stat-card.card-settings .admin-stat-label {
+  color: #CCFBF1;
+}
+.admin-stat-card.card-settings .admin-stat-hint {
+  color: #5EEAD4;
+}
+.admin-stat-card.card-settings:hover,
+.admin-stat-card.card-settings.active-stat {
+  border-color: #2DD4BF;
+  background: linear-gradient(145deg, rgba(20, 184, 166, 0.38) 0%, rgba(17, 94, 89, 0.75) 100%);
+  box-shadow: 0 0 24px rgba(20, 184, 166, 0.5), inset 0 0 12px rgba(45, 212, 191, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- CONTENEUR D'ONGLET ACTIF (MÊME COULEUR DE FOND QUE LA CARTE CLIQUÉE) --- */
+.admin-active-tab-box {
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  min-height: 480px;
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+/* Thème 1 : Total Produits (Bleu Royal / Indigo) */
+.admin-active-tab-box.theme-products {
+  background: linear-gradient(180deg, rgba(30, 27, 75, 0.94) 0%, rgba(15, 13, 45, 0.98) 100%);
+  border: 1.5px solid rgba(99, 102, 241, 0.5);
+  box-shadow: 0 12px 40px rgba(79, 70, 229, 0.25), inset 0 1px 0 rgba(165, 180, 252, 0.2);
+}
+
+/* Thème 2 : Produits Phares (Or Solaire / Ambre) */
+.admin-active-tab-box.theme-featured {
+  background: linear-gradient(180deg, rgba(69, 36, 6, 0.94) 0%, rgba(41, 21, 4, 0.98) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.5);
+  box-shadow: 0 12px 40px rgba(245, 158, 11, 0.25), inset 0 1px 0 rgba(253, 230, 138, 0.2);
+}
+
+/* Thème 3 : RDV Diagnostic (Émeraude / Menthe) */
+.admin-active-tab-box.theme-appointments {
+  background: linear-gradient(180deg, rgba(6, 78, 59, 0.94) 0%, rgba(4, 45, 34, 0.98) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.5);
+  box-shadow: 0 12px 40px rgba(16, 185, 129, 0.25), inset 0 1px 0 rgba(167, 243, 208, 0.2);
+}
+
+/* Thème 4 : Conciergerie VIP (Améthyste / Violet Royal) */
+.admin-active-tab-box.theme-personal-shopper {
+  background: linear-gradient(180deg, rgba(46, 16, 101, 0.94) 0%, rgba(28, 10, 61, 0.98) 100%);
+  border: 1.5px solid rgba(139, 92, 246, 0.5);
+  box-shadow: 0 12px 40px rgba(139, 92, 246, 0.25), inset 0 1px 0 rgba(221, 214, 254, 0.2);
+}
+
+/* Thème 5 : Membres Privilège (Magenta / Fuchsia) */
+.admin-active-tab-box.theme-loyalty {
+  background: linear-gradient(180deg, rgba(80, 7, 36, 0.94) 0%, rgba(48, 4, 22, 0.98) 100%);
+  border: 1.5px solid rgba(236, 72, 153, 0.5);
+  box-shadow: 0 12px 40px rgba(236, 72, 153, 0.25), inset 0 1px 0 rgba(252, 231, 243, 0.2);
+}
+
+/* Thème 6 : Messages Contact (Mandarine / Corail) */
+.admin-active-tab-box.theme-contacts {
+  background: linear-gradient(180deg, rgba(67, 20, 7, 0.94) 0%, rgba(42, 12, 4, 0.98) 100%);
+  border: 1.5px solid rgba(249, 115, 22, 0.5);
+  box-shadow: 0 12px 40px rgba(249, 115, 22, 0.25), inset 0 1px 0 rgba(255, 237, 213, 0.2);
+}
+
+/* Thème 7 : Analytics (Cyan / Turquoise) */
+.admin-active-tab-box.theme-analytics {
+  background: linear-gradient(180deg, rgba(8, 51, 68, 0.94) 0%, rgba(4, 30, 41, 0.98) 100%);
+  border: 1.5px solid rgba(6, 182, 212, 0.5);
+  box-shadow: 0 12px 40px rgba(6, 182, 212, 0.25), inset 0 1px 0 rgba(207, 250, 254, 0.2);
+}
+
+/* Thème 8 : Paramètres & Sauvegarde (Sarcelle / Jade) */
+.admin-active-tab-box.theme-settings,
+.admin-active-tab-box.theme-backup {
+  background: linear-gradient(180deg, rgba(4, 47, 46, 0.94) 0%, rgba(2, 28, 27, 0.98) 100%);
+  border: 1.5px solid rgba(20, 184, 166, 0.5);
+  box-shadow: 0 12px 40px rgba(20, 184, 166, 0.25), inset 0 1px 0 rgba(204, 251, 241, 0.2);
+}
+
+.admin-callout-info {
+  background: rgba(0, 0, 0, 0.3);
+  border-left: 4px solid var(--gold-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 14px 18px;
+  margin-bottom: 22px;
+  font-size: 0.86rem;
+  color: #F1F5F9;
+  line-height: 1.5;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left-width: 4px;
+}
+
+.admin-tab-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Tableau CRUD */
+.admin-table-wrap {
+  background: var(--bg-tertiary);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+}
+
+.admin-active-tab-box .admin-table-wrap {
+  background: rgba(5, 7, 12, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.admin-table th {
+  padding: 14px 18px;
+  background: #171720;
+  color: var(--gold-light);
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.admin-active-tab-box .admin-table th {
+  background: rgba(0, 0, 0, 0.45);
+  color: #F8FAFC;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.admin-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  vertical-align: middle;
+}
+
+.admin-active-tab-box .admin-table td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.admin-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.admin-active-tab-box .admin-table tr:hover td {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.product-thumb-cell {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  border: 1px solid var(--border-subtle);
+}
+
+/* Formulaire d'édition de produit */
+.admin-form-box {
+  background: #181822;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  margin-bottom: 28px;
+}
+
+.admin-active-tab-box .admin-form-box {
+  background: rgba(8, 10, 18, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+}
+
+.admin-active-tab-box .luxury-card {
+  background: rgba(8, 10, 18, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.admin-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+@media (max-width: 640px) {
+  .admin-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image-preview-picker {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.image-picker-option {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  opacity: 0.6;
+  transition: var(--transition-smooth);
+}
+
+.image-picker-option:hover, .image-picker-option.selected {
+  opacity: 1;
+  border-color: var(--gold-primary);
+  transform: scale(1.05);
+}
+
+/* Actions */
+.btn-action-sm {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border-radius: var(--radius-sm);
+}
+
+.btn-danger {
+  background: rgba(225, 29, 72, 0.15);
+  border: 1px solid rgba(225, 29, 72, 0.35);
+  color: #FB7185;
+}
+
+.btn-danger:hover {
+  background: #E11D48;
+  color: #FFF;
+}

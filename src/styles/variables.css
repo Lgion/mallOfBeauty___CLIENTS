@@ -1,0 +1,52 @@
+:root {
+  /* --- PALETTE CHROMATIQUE PRESTIGE (MoB) --- */
+  /* Ors & Champagnes */
+  --gold-primary: #D4AF37;
+  --gold-light: #F3E5AB;
+  --gold-deep: #B38F26;
+  --gold-gradient: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #AA8010 100%);
+  --gold-gradient-subtle: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(243, 229, 171, 0.05) 100%);
+  --gold-glow: 0 0 25px rgba(212, 175, 55, 0.35);
+
+  /* Noirs & Anthracites (Inspirés de la devanture laquée) */
+  --bg-primary: #0A0A0C;
+  --bg-secondary: #131317;
+  --bg-tertiary: #1C1C24;
+  --bg-card: rgba(22, 22, 28, 0.85);
+  --bg-card-hover: rgba(30, 30, 38, 0.95);
+  --border-subtle: rgba(212, 175, 55, 0.2);
+  --border-highlight: rgba(212, 175, 55, 0.45);
+
+  /* Ivoires & Blancs Poudrés */
+  --text-main: #FAF8F5;
+  --text-muted: #A3A3B2;
+  --text-dim: #717182;
+  --text-gold: #F0DC9B;
+
+  /* Accents */
+  --accent-emerald: #10B981;
+  --accent-ruby: #E11D48;
+  --accent-amber: #F59E0B;
+
+  /* --- TYPOGRAPHIES --- */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* --- ÉLÉVATIONS & OMBRES --- */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+  --shadow-gold: 0 10px 30px rgba(212, 175, 55, 0.25);
+
+  /* --- TRANSITIONS & RAYONS --- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  --transition-smooth: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-bounce: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* --- STRUCTURE --- */
+  --container-max: 1240px;
+  --header-height: 60px;
+}

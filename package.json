@@ -1,0 +1,22 @@
+{
+  "name": "mallofbeauty",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-tree": "^3.2.1",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4"
+  },
+  "main": "stylelint.config.js",
+  "description": ""
+}
