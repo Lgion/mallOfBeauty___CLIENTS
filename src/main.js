@@ -1185,7 +1185,13 @@ document.addEventListener("click", (e) => {
 });
 
 // Lancement au chargement du DOM
-document.addEventListener("DOMContentLoaded", () => {
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
+    renderApp();
+    updateModals();
+  });
+} else {
   renderApp();
   updateModals();
-});
+}
+
