@@ -3,17 +3,6 @@ import { getStoreSettings } from "../data/storage.js";
 export function renderInteractiveMap() {
   const settings = getStoreSettings();
 
-  const galleryImages = [
-    { src: "./imgs/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
-    { src: "./imgs/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
-    { src: "./imgs/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
-    { src: "./imgs/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
-    { src: "./imgs/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
-    { src: "./imgs/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
-    { src: "./imgs/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
-    { src: "./imgs/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" }
-  ];
-
   return `
     <section class="section-padding section-with-bg" id="localisation">
       <div class="section-bg-overlay bg-location-store"></div>
@@ -63,41 +52,25 @@ export function renderInteractiveMap() {
               <div style="display: flex; align-items: flex-start; gap: 12px;">
                 <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color: var(--gold-primary); flex-shrink: 0; margin-top: 2px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                 <div style="font-size: 0.95rem; color: var(--text-main);">
-                  Secrétariat : <a href="tel:${settings.contacts.phoneService}" style="color: var(--gold-light); font-weight: 600;">${settings.contacts.phoneServiceDisplay}</a><br>
-                  WhatsApp Direction : <a href="https://wa.me/${settings.contacts.whatsapp.replace(/[^0-9]/g, '')}" target="_blank" style="color: #34D399; font-weight: 600;">${settings.contacts.whatsappDisplay}</a>
+                  <strong>Commandes & WhatsApp :</strong> <a href="https://wa.me/${settings.contacts.whatsapp.replace(/[^0-9]/g, '')}" target="_blank" style="color: #34D399; font-weight: 700;">${settings.contacts.orderPhoneDisplay}</a><br>
+                  <strong>Appels Directs :</strong> <a href="tel:${settings.contacts.orderPhone}" style="color: var(--gold-light); font-weight: 600;">${settings.contacts.orderPhoneDisplay}</a>
                 </div>
               </div>
             </div>
 
-            <!-- Boutons Itinéraire & Yango -->
-            <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-              <a href="https://www.google.com/maps/dir/?api=1&destination=5.358245,-3.992812" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-sm">
+            <!-- Boutons Itinéraire, Avis Google & Yango -->
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+              <a href="${settings.contacts.googleMapsUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-sm">
                 <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
                 <span>Itinéraire Google Maps</span>
               </a>
+              <a href="${settings.contacts.googleReviewWriteUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm" title="Donner votre avis Google">
+                <span>⭐ Laisser un avis Google (4.9/5)</span>
+              </a>
               <a href="https://yango.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm" title="Commander une course avec Yango">
-                <span>🚕 Venir avec Yango</span>
+                <span>🚕 Yango</span>
               </a>
             </div>
-          </div>
-        </div>
-
-        <!-- Galerie Photos Réelles de la Boutique -->
-        <div style="margin-top: 60px;">
-          <div style="text-align: center; margin-bottom: 24px;">
-            <h3 style="font-size: 1.5rem; color: var(--gold-light);">L'Atmosphère Mall of Beauty en Images</h3>
-            <p style="font-size: 0.9rem; color: var(--text-muted);">Un univers soigné pour vous sublimer à chaque visite.</p>
-          </div>
-
-          <div class="gallery-grid">
-            ${galleryImages.map(item => `
-              <div class="gallery-item">
-                <img src="${item.src}" alt="${item.caption}" class="gallery-img" loading="lazy">
-                <div style="position: absolute; bottom: 0; inset-inline: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); padding: 12px; font-size: 0.78rem; color: #FFF; font-weight: 500;">
-                  ${item.caption}
-                </div>
-              </div>
-            `).join("")}
           </div>
         </div>
       </div>

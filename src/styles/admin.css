@@ -275,6 +275,7 @@
 .admin-stat-card.card-loyalty { border-top: 3.5px solid #DB2777; }
 .admin-stat-card.card-contacts { border-top: 3.5px solid #EA580C; }
 .admin-stat-card.card-analytics { border-top: 3.5px solid #0891B2; }
+.admin-stat-card.card-gallery { border-top: 3.5px solid #F59E0B; }
 .admin-stat-card.card-settings { border-top: 3.5px solid #0D9488; }
 
 /* Conteneur d'Onglet Actif (Blanc pur solide, bordure supérieure thématique) */
@@ -296,6 +297,7 @@
 .admin-active-tab-box.theme-loyalty { border-top: 4px solid #DB2777; }
 .admin-active-tab-box.theme-contacts { border-top: 4px solid #EA580C; }
 .admin-active-tab-box.theme-analytics { border-top: 4px solid #0891B2; }
+.admin-active-tab-box.theme-gallery { border-top: 4px solid #F59E0B; }
 .admin-active-tab-box.theme-settings,
 .admin-active-tab-box.theme-backup { border-top: 4px solid #0D9488; }
 
@@ -546,4 +548,98 @@
 .admin-window .btn-icon:hover {
   background: #334155;
   color: #FFFFFF;
+}
+
+/* --- STYLES ADMINISTRATION DE LA GALERIE --- */
+.admin-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.admin-gallery-card {
+  background: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+
+.admin-gallery-card:hover {
+  border-color: #F59E0B;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.15);
+  transform: translateY(-2px);
+}
+
+.admin-gallery-thumb-wrap {
+  width: 100%;
+  height: 160px;
+  position: relative;
+  background: #0F172A;
+  overflow: hidden;
+}
+
+.admin-gallery-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.admin-gallery-card-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+.admin-gallery-card-caption {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #0F172A;
+  line-height: 1.3;
+}
+
+.admin-gallery-card-url {
+  font-size: 0.75rem;
+  color: #64748B;
+  word-break: break-all;
+  font-family: monospace;
+}
+
+.admin-gallery-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #F1F5F9;
+}
+
+.admin-gallery-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.admin-gallery-preset-pill {
+  padding: 4px 10px;
+  background: #F1F5F9;
+  border: 1px solid #CBD5E1;
+  border-radius: 20px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.admin-gallery-preset-pill:hover {
+  background: #FEF3C7;
+  border-color: #F59E0B;
+  color: #92400E;
 }

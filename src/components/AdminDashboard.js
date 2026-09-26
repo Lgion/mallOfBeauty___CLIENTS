@@ -5,13 +5,16 @@ import {
   getLoyaltyMembers, deleteLoyaltyMember,
   getContacts, updateContactStatus, deleteContact,
   getAnalyticsClicks, resetAnalyticsClicks,
-  getStoreSettings, updateStoreSettings, resetToFactory, reloadAllDummyData
+  getStoreSettings, updateStoreSettings, resetToFactory, reloadAllDummyData,
+  getGalleryImages, addGalleryImage, updateGalleryImage, deleteGalleryImage, resetGalleryImages
 } from "../data/storage.js";
 import { formatPriceFCFA } from "./Catalog.js";
 
 let currentTab = "products";
 let editingProductId = null;
 let showAddProductForm = false;
+let editingGalleryId = null;
+let showAddGalleryForm = false;
 
 export function renderAdminDashboard(activeTab = "products") {
   currentTab = activeTab;
@@ -22,6 +25,7 @@ export function renderAdminDashboard(activeTab = "products") {
   const contacts = getContacts();
   const analytics = getAnalyticsClicks();
   const settings = getStoreSettings();
+  const galleryImages = getGalleryImages();
 
   const featuredCount = products.filter(p => p.isFeatured).length;
   const pendingAppointments = appointments.filter(a => a.status === "En attente").length;
@@ -118,6 +122,14 @@ export function renderAdminDashboard(activeTab = "products") {
               <div class="admin-stat-tooltip">Clics CTA (${analytics.total || 0})</div>
             </div>
 
+            <div class="admin-stat-card card-gallery ${currentTab === 'gallery' ? 'active-stat' : ''}" data-tab="gallery" onclick="window.MoB.switchAdminTab('gallery')" title="Galerie Photos Réelles (${galleryImages.length})">
+              <span class="admin-stat-icon">📸</span>
+              <span class="admin-stat-badge">
+                <span class="admin-stat-num">${galleryImages.length}</span>
+              </span>
+              <div class="admin-stat-tooltip">Galerie Photos (${galleryImages.length})</div>
+            </div>
+
             <div class="admin-stat-card card-settings ${currentTab === 'settings' ? 'active-stat' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')" title="Horaires & Coordonnées Boutique (9h-19h)">
               <span class="admin-stat-icon">⚙️</span>
               <span class="admin-stat-badge">
@@ -145,6 +157,7 @@ export function renderAdminTabContent(tab = "products") {
   const contacts = getContacts();
   const analytics = getAnalyticsClicks();
   const settings = getStoreSettings();
+  const galleryImages = getGalleryImages();
 
   switch (tab) {
     case "products":
@@ -161,6 +174,8 @@ export function renderAdminTabContent(tab = "products") {
       return renderContactsTab(contacts);
     case "analytics":
       return renderAnalyticsTab(analytics);
+    case "gallery":
+      return renderGalleryTab(galleryImages);
     case "settings":
       return renderSettingsTab(settings);
     case "backup":
@@ -596,6 +611,7 @@ function renderLoyaltyTab(members) {
         <thead>
           <tr>
             <th>Date Inscription</th>
+            <th>Code VIP</th>
             <th>Nom & Prénoms</th>
             <th>Contact WhatsApp</th>
             <th>Anniversaire (-10%)</th>
@@ -606,10 +622,11 @@ function renderLoyaltyTab(members) {
         </thead>
         <tbody>
           ${members.length === 0 ? `
-            <tr><td colspan="7" style="text-align: center; color: #64748B; padding: 30px;">Aucun adhérent enregistré pour le moment. Cliquez sur « Recharger Données Factices ».</td></tr>
+            <tr><td colspan="8" style="text-align: center; color: #64748B; padding: 30px;">Aucun adhérent enregistré pour le moment. Cliquez sur « Recharger Données Factices ».</td></tr>
           ` : members.map(m => `
             <tr>
               <td style="font-size: 0.78rem; color: #64748B;">${new Date(m.createdAt).toLocaleDateString('fr-FR')}</td>
+              <td><span style="font-family: monospace; font-weight: 800; color: #9A7B38; background: #FDF8ED; padding: 3px 8px; border-radius: 4px; border: 1px solid #E8D5B5; font-size: 0.85rem;">${m.clientCode || 'MOB-VIP-2026'}</span></td>
               <td><strong style="color: #0F172A;">${m.fullName}</strong></td>
               <td>
                 <a href="https://wa.me/${m.phone.replace(/[^0-9]/g, '')}" target="_blank" style="color: #059669; font-weight: 700;">
@@ -617,13 +634,13 @@ function renderLoyaltyTab(members) {
                 </a>
               </td>
               <td>
-                <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1px solid #FDE68A; font-size: 0.75rem; font-weight: 700;">🎂 ${m.birthDate || 'Non renseigné'}</span>
+                <span class="badge" style="background: #F8FAFC; color: #0F172A; border: 1px solid #E2E8F0; font-size: 0.75rem; font-weight: 700;">🎂 ${m.birthDate || 'Non renseigné'}</span>
               </td>
               <td style="font-size: 0.85rem; color: #334155;">${m.neighborhood || 'Abidjan'}</td>
-              <td style="font-size: 0.85rem; color: #64748B;">${m.favoriteCategory || 'Toutes collections'}</td>
+              <td style="font-size: 0.85rem; color: #64748B;">${m.favoriteCategory || 'Gamme Femme & Dermo'}</td>
               <td>
                 <div style="display: flex; gap: 6px;">
-                  <a href="https://wa.me/${m.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(`Bonjour ${m.fullName}, Mall of Beauty vous remercie de votre fidélité au Club Privilège !`)}" target="_blank" class="btn-action-sm btn-whatsapp" title="Envoyer un message WhatsApp">
+                  <a href="https://wa.me/${m.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(`Bonjour ${m.fullName}, Mall of Beauty vous remercie de votre fidélité au Club Privilège (Votre code VIP : ${m.clientCode || 'MOB-VIP'}).`)}" target="_blank" class="btn-action-sm btn-whatsapp" title="Envoyer un message WhatsApp">
                     💬
                   </a>
                   <button class="btn-action-sm btn-danger" onclick="window.MoB.handleDeleteLoyaltyMember('${m.id}')" title="Supprimer cet adhérent">
@@ -845,6 +862,60 @@ function renderSettingsTab(settings) {
           <input type="text" id="set-landmark" class="form-input" value="${settings.address.landmark}">
         </div>
 
+        <!-- Configuration Avis Google & Widget API / Tiers -->
+        <div style="background: #F8FAFC; border: 1.5px solid #CBD5E1; border-radius: 12px; padding: 20px; margin: 24px 0;">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+            <svg width="24" height="24" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.27 21.43 7.33 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.17 0 9.98 0 12s.45 3.83 1.25 5.42l4.03-3.15z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.27 2.57 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/></svg>
+            <div>
+              <h4 style="font-size: 1.05rem; color: #0F172A; margin: 0; font-weight: 700;">Configuration des Avis Clients Google</h4>
+              <p style="font-size: 0.8rem; color: #64748B; margin: 2px 0 0 0;">Liez votre fiche Google Maps ou connectez un widget / une clé API Google Places.</p>
+            </div>
+          </div>
+
+          <div class="admin-form-grid">
+            <div class="form-group">
+              <label class="form-label">Lien de Consultation des Avis (Fiche Google Maps)</label>
+              <input type="text" id="set-google-maps" class="form-input" value="${settings.contacts.googleMapsUrl || 'https://www.google.com/maps/dir/?api=1&destination=5.358245,-3.992812'}">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Lien Direct pour Laisser un Avis Google</label>
+              <input type="text" id="set-google-review-url" class="form-input" value="${settings.contacts.googleReviewWriteUrl || 'https://search.google.com/local/writereview?placeid=ChIJ-mallofbeauty-abidjan'}">
+            </div>
+          </div>
+
+          <div class="admin-form-grid" style="margin-top: 12px;">
+            <div class="form-group">
+              <label class="form-label">Note Globale Affichée (ex: 4.9)</label>
+              <input type="text" id="set-google-rating" class="form-input" value="${settings.contacts.googleRating || '4.9'}">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Nombre d'Avis Affiché (ex: 128)</label>
+              <input type="text" id="set-google-count" class="form-input" value="${settings.contacts.googleReviewCount || '128'}">
+            </div>
+          </div>
+
+          <div style="background: #FFFFFF; border: 1.5px dashed #94A3B8; border-radius: 8px; padding: 16px; margin-top: 14px;">
+            <h5 style="font-size: 0.88rem; color: #0F172A; margin: 0 0 6px 0; font-weight: 700;">🔑 Intégration Dynamique (Clé API Google Places ou Widget Tiers)</h5>
+            <p style="font-size: 0.78rem; color: #64748B; margin: 0 0 10px 0;">Si vous renseignez une clé Google Places ou un code de widget tiers (ex: Elfsight, EmbedSocial), le composant passera automatiquement du mode statique au mode dynamique.</p>
+            
+            <div class="admin-form-grid">
+              <div class="form-group">
+                <label class="form-label">Clé API Google Places (API Key)</label>
+                <input type="text" id="set-google-api-key" class="form-input" placeholder="AIzaSy... (optionnel)" value="${settings.contacts.googlePlacesApiKey || ''}">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Place ID Google de la boutique</label>
+                <input type="text" id="set-google-place-id" class="form-input" placeholder="ChIJ... (optionnel)" value="${settings.contacts.googlePlaceId || 'ChIJ-mallofbeauty-abidjan'}">
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-top: 10px;">
+              <label class="form-label">Code HTML/Script du Widget Tiers (ex: Elfsight, EmbedSocial)</label>
+              <textarea id="set-google-widget-code" class="form-textarea" style="height: 70px; font-family: monospace; font-size: 0.8rem;" placeholder="<div class='elfsight-app-...' data-elfsight-app-lazy></div>">${settings.contacts.googleWidgetCode || ''}</textarea>
+            </div>
+          </div>
+        </div>
+
         <!-- Section Spéciale Wave Côte d'Ivoire & QR Code -->
         <div style="background: #F0F9FF; border: 1.5px solid #BAE6FD; border-radius: 12px; padding: 20px; margin: 24px 0;">
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
@@ -924,6 +995,146 @@ function renderBackupTab() {
   `;
 }
 
+function renderGalleryTab(galleryImages) {
+  const editingItem = editingGalleryId ? galleryImages.find(img => img.id === editingGalleryId) : null;
+  const isFormOpen = showAddGalleryForm || !!editingItem;
+
+  const quickPresets = [
+    { label: "Façade Boutique", src: "./imgs/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
+    { label: "Salon VIP", src: "./imgs/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
+    { label: "Bar Maquillage", src: "./imgs/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
+    { label: "Maroquinerie", src: "./imgs/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
+    { label: "Pagnes Vlisco", src: "./imgs/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
+    { label: "Perruques HD", src: "./imgs/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
+    { label: "Soins Visage", src: "./imgs/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
+    { label: "Angle Rue Jardins", src: "./imgs/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" },
+    { label: "Façade Nuit", src: "./imgs/devanture_face_nuit.jpeg", caption: "Boutique Illuminée de Nuit" },
+    { label: "Angle Nuit", src: "./imgs/devanture_cote_nuit.jpeg", caption: "Vue d'angle de nuit" }
+  ];
+
+  return `
+    <div class="admin-tab-header">
+      <div>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">📸 Galerie Photos Réelles de la Boutique</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Gérez les photos affichées dans le bloc « L'Atmosphère Mall of Beauty en Images » sous la bannière d'accueil.</p>
+      </div>
+      <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+        <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1.5px solid #FDE68A; font-weight: 800; font-size: 0.85rem; padding: 6px 14px;">
+          ${galleryImages.length} Photos Actives
+        </span>
+        <button class="btn btn-gold btn-sm" onclick="window.MoB.toggleGalleryForm()">
+          ${isFormOpen ? '✕ Fermer le Formulaire' : '➕ Ajouter une Photo'}
+        </button>
+        <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.handleResetGallery()" title="Restaurer les 8 photos d'origine de la boutique">
+          🔄 Restaurer Photos d'Origine
+        </button>
+      </div>
+    </div>
+
+    <!-- Formulaire d'Ajout / Modification de Photo -->
+    ${isFormOpen ? `
+      <div class="luxury-card" style="padding: 24px; background: #FFFBEB; border: 1.5px solid #FDE68A; margin-bottom: 24px; border-radius: 14px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+          <h4 style="font-size: 1.05rem; color: #92400E; margin: 0; font-weight: 700;">
+            ${editingItem ? `✏️ Modifier la Photo : ${editingItem.caption}` : '➕ Ajouter une Nouvelle Photo à la Galerie'}
+          </h4>
+          <button class="btn-action-sm btn-dark" onclick="window.MoB.toggleGalleryForm()">✕ Annuler</button>
+        </div>
+
+        <form id="admin-gallery-form" onsubmit="window.MoB.handleSaveGalleryItem(event)">
+          <input type="hidden" id="gal-edit-id" value="${editingItem ? editingItem.id : ''}">
+
+          <div style="display: grid; grid-template-columns: 1fr 180px; gap: 20px; align-items: start;">
+            <div>
+              <div class="form-group" style="margin-bottom: 14px;">
+                <label class="form-label" style="color: #78350F;">URL ou Chemin de l'Image *</label>
+                <input type="text" id="gal-input-src" class="form-input" 
+                       value="${editingItem ? editingItem.src : ''}" 
+                       placeholder="./imgs/devanture_face.jpg ou https://..." 
+                       required 
+                       oninput="const p = document.getElementById('gal-preview-img'); if(p) p.src = this.value">
+              </div>
+
+              <!-- Raccourcis Photos Prêtes de la Boutique -->
+              <div style="margin-bottom: 14px;">
+                <span style="font-size: 0.78rem; font-weight: 700; color: #92400E; text-transform: uppercase;">Sélection rapide parmi les photos existantes :</span>
+                <div class="admin-gallery-presets">
+                  ${quickPresets.map(preset => `
+                    <button type="button" class="admin-gallery-preset-pill" onclick="window.MoB.selectGalleryPreset('${preset.src}', '${preset.caption.replace(/'/g, "\\'")}')">
+                      ${preset.label}
+                    </button>
+                  `).join("")}
+                </div>
+              </div>
+
+              <div class="form-group" style="margin-bottom: 18px;">
+                <label class="form-label" style="color: #78350F;">Légende / Titre de la Photo *</label>
+                <input type="text" id="gal-input-caption" class="form-input" 
+                       value="${editingItem ? editingItem.caption : ''}" 
+                       placeholder="Ex: Bar à Maquillage & Cosmétiques de Luxe" 
+                       required>
+              </div>
+
+              <div style="display: flex; gap: 10px;">
+                <button type="submit" class="btn btn-gold btn-sm">
+                  ${editingItem ? '💾 Enregistrer les Modifications' : '➕ Ajouter à la Galerie'}
+                </button>
+                <button type="button" class="btn btn-outline-gold btn-sm" onclick="window.MoB.toggleGalleryForm()">
+                  Annuler
+                </button>
+              </div>
+            </div>
+
+            <!-- Boîte de Prévisualisation -->
+            <div style="text-align: center; background: #FFFFFF; border: 1.5px solid #FCD34D; border-radius: 12px; padding: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
+              <span style="font-size: 0.72rem; color: #92400E; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 6px;">Aperçu Visuel</span>
+              <img id="gal-preview-img" 
+                   src="${editingItem ? editingItem.src : './imgs/devanture_face.jpg'}" 
+                   alt="Aperçu" 
+                   style="width: 100%; height: 140px; object-fit: cover; border-radius: 8px; border: 1px solid #E2E8F0; background: #000;"
+                   onerror="this.src='./imgs/logo.jpeg'">
+            </div>
+          </div>
+        </form>
+      </div>
+    ` : ''}
+
+    <div class="admin-callout-info" style="margin-bottom: 20px;">
+      💡 <strong>Règle d'affichage :</strong> Le bloc affiche un maximum de <strong>2 lignes</strong> sur le site. S'il y a plus d'images, les visiteurs peuvent faire défiler au scroll. Sur mobile, la taille des vignettes est automatiquement réduite de moitié pour un affichage optimal.
+    </div>
+
+    <!-- Grille des Photos de la Galerie -->
+    <div class="admin-gallery-grid">
+      ${galleryImages.length === 0 ? `
+        <div style="grid-column: 1 / -1; text-align: center; padding: 48px; background: #FFFFFF; border-radius: 12px; border: 1.5px dashed #CBD5E1;">
+          <span style="font-size: 2.5rem; display: block; margin-bottom: 10px;">📸</span>
+          <h4 style="color: #0F172A; margin-bottom: 6px;">Aucune photo dans la galerie</h4>
+          <p style="color: #64748B; margin-bottom: 16px;">Ajoutez votre première photo ou restaurez les photos par défaut.</p>
+          <button class="btn btn-gold btn-sm" onclick="window.MoB.handleResetGallery()">Restaurer les 8 photos d'origine</button>
+        </div>
+      ` : galleryImages.map(item => `
+        <div class="admin-gallery-card">
+          <div class="admin-gallery-thumb-wrap">
+            <img src="${item.src}" alt="${item.caption}" class="admin-gallery-thumb" loading="lazy">
+          </div>
+          <div class="admin-gallery-card-body">
+            <div class="admin-gallery-card-caption">${item.caption}</div>
+            <div class="admin-gallery-card-url">${item.src}</div>
+            <div class="admin-gallery-card-actions">
+              <button class="btn-action-sm btn-dark" onclick="window.MoB.startEditGalleryItem('${item.id}')" title="Modifier cette photo">
+                ✏️ Modifier
+              </button>
+              <button class="btn-action-sm btn-danger" onclick="window.MoB.handleDeleteGalleryItem('${item.id}')" title="Supprimer cette photo">
+                🗑️ Supprimer
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
 export function setEditingProductId(id) {
   editingProductId = id;
   showAddProductForm = id != null;
@@ -932,6 +1143,16 @@ export function setEditingProductId(id) {
 export function toggleAddProductFormState() {
   showAddProductForm = !showAddProductForm;
   if (!showAddProductForm) editingProductId = null;
+}
+
+export function setEditingGalleryId(id) {
+  editingGalleryId = id;
+  showAddGalleryForm = id != null;
+}
+
+export function toggleAddGalleryFormState() {
+  showAddGalleryForm = !showAddGalleryForm;
+  if (!showAddGalleryForm) editingGalleryId = null;
 }
 
 export function switchAdminTabLive(tab) {
@@ -989,6 +1210,10 @@ export function refreshAdminActiveTab() {
 
   const cardAnalytics = document.querySelector('.admin-stat-card[data-tab="analytics"] .admin-stat-num');
   if (cardAnalytics) cardAnalytics.textContent = analytics.total || 0;
+
+  const galleryImages = getGalleryImages();
+  const cardGallery = document.querySelector('.admin-stat-card[data-tab="gallery"] .admin-stat-num');
+  if (cardGallery) cardGallery.textContent = galleryImages.length;
 
   const container = document.getElementById("admin-tab-container");
   if (container) {

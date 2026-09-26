@@ -44,16 +44,21 @@
 }
 
 .brand-logo-link {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
 .brand-logo-img {
-  height: 52px;
+  height: 252px;
   width: auto;
   border-radius: var(--radius-sm);
-  filter: drop-shadow(0 2px 8px rgba(212, 175, 55, 0.4));
+  /* filter: drop-shadow(0 2px 8px rgba(212, 175, 55, 0.4)); */
+}
+
+.brand-logo-img:not(:hover)+div {
+  display: none !important;
 }
 
 .brand-text-block {
@@ -490,6 +495,7 @@
 
 .category-tabs {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 16px;
   overflow-x: auto;
@@ -667,20 +673,52 @@
   height: 100%;
 }
 
-/* --- GALERIE BOUTIQUE --- */
+/* --- GALERIE BOUTIQUE DÉPLIABLE & SCROLLABLE (2 LIGNES MAX) --- */
+.gallery-scroll-container {
+  max-height: 440px; /* Exactement 2 lignes de 205px + 16px gap + marges */
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 4px 6px 4px 2px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold-primary) rgba(255, 255, 255, 0.05);
+}
+
+.gallery-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.gallery-scroll-container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.gallery-scroll-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--gold-primary), var(--gold-deep));
+  border-radius: 4px;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .gallery-item {
   position: relative;
-  aspect-ratio: 1;
+  height: 205px;
   border-radius: var(--radius-md);
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(197, 160, 89, 0.25);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  background: #000;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gallery-item:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-light);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7), 0 0 16px rgba(197, 160, 89, 0.3);
 }
 
 .gallery-img {
@@ -691,12 +729,66 @@
 }
 
 .gallery-item:hover .gallery-img {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
+.gallery-item-caption {
+  position: absolute;
+  bottom: 0;
+  inset-inline: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.55) 60%, transparent 100%);
+  padding: 10px 12px;
+  font-size: 0.78rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+}
+
+/* Version Mobile : Dimensions de l'image réduites de moitié (~100px) et 2 lignes max */
 @media (max-width: 768px) {
   .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+
+  .gallery-item {
+    height: 100px; /* Réduit de moitié par rapport au desktop (205px -> 100px) ! */
+    border-radius: 8px;
+  }
+
+  .gallery-scroll-container {
+    max-height: 216px; /* Exactement 2 lignes de 100px + 8px de gap + marges */
+    padding-right: 3px;
+  }
+
+  .gallery-item-caption {
+    padding: 4px 6px;
+    font-size: 0.60rem;
+    line-height: 1.15;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+  }
+
+  .gallery-item {
+    height: 85px; /* Dimensions encore plus compactes sur smartphones étroits */
+    border-radius: 6px;
+  }
+
+  .gallery-scroll-container {
+    max-height: 184px; /* 2 rangées de 85px + 6px gap */
+  }
+
+  .gallery-item-caption {
+    padding: 3px 4px;
+    font-size: 0.54rem;
   }
 }
 
@@ -1094,7 +1186,7 @@
 .full-catalog-header {
   padding: 18px 26px;
   background-color: #0F172A;
-  background-image: 
+  background-image:
     repeating-linear-gradient(45deg, rgba(212, 175, 55, 0.08) 0px, rgba(212, 175, 55, 0.08) 1px, transparent 1px, transparent 14px),
     repeating-linear-gradient(-45deg, rgba(212, 175, 55, 0.08) 0px, rgba(212, 175, 55, 0.08) 1px, transparent 1px, transparent 14px);
   border-bottom: 2px solid #D4AF37;
@@ -2423,7 +2515,7 @@
   padding: 0;
 }
 
-.catalog-flank-nav > * {
+.catalog-flank-nav>* {
   pointer-events: auto;
 }
 
@@ -2702,123 +2794,55 @@
 /* ==========================================================================
    TRANSITIONS SOIGNÉES ENTRE LES BLOCS PRODUITS & FORMULAIRES
    ========================================================================== */
-.section-transition-wrap {
-  position: relative;
-  width: 100%;
-  height: 90px;
-  margin: -30px 0;
-  z-index: 15;
-  pointer-events: none;
-  overflow: visible;
+.section-divider-luxury {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
+  max-width: 860px;
+  margin: 36px auto;
+  padding: 0 24px;
 }
 
-.transition-curve-container {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.4), transparent);
 }
 
-.transition-wave-svg {
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.transition-floating-crest {
-  position: relative;
-  z-index: 18;
-  pointer-events: auto;
-}
-
-.crest-capsule {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  background: rgba(12, 12, 18, 0.96);
-  border: 1.5px solid rgba(212, 175, 55, 0.55);
-  border-radius: var(--radius-full);
-  padding: 8px 24px;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.85), 0 0 25px rgba(212, 175, 55, 0.25);
-  backdrop-filter: blur(14px);
-  max-width: 90vw;
-}
-
-.crest-capsule.dermo-theme {
-  border-color: rgba(52, 211, 153, 0.55);
-  background: linear-gradient(135deg, rgba(6, 40, 28, 0.96), rgba(10, 15, 14, 0.98));
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.85), 0 0 25px rgba(52, 211, 153, 0.25);
-}
-
-.crest-capsule.couture-theme {
-  border-color: rgba(212, 175, 55, 0.65);
-  background: linear-gradient(135deg, rgba(35, 18, 55, 0.96), rgba(14, 12, 20, 0.98));
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.85), 0 0 30px rgba(139, 92, 246, 0.3);
-}
-
-.crest-capsule.royal-theme {
-  border-color: rgba(245, 158, 11, 0.7);
-  background: linear-gradient(135deg, rgba(45, 20, 10, 0.96), rgba(16, 12, 12, 0.98));
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.85), 0 0 30px rgba(245, 158, 11, 0.35);
-}
-
-.crest-icon-badge {
-  font-size: 1.25rem;
-  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
-}
-
-.crest-text-block {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.crest-tag {
-  font-size: 0.68rem;
-  font-weight: 800;
+.divider-crest {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
   color: var(--gold-light);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+  background: rgba(18, 18, 22, 0.7);
+  padding: 6px 18px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(197, 160, 89, 0.2);
 }
 
-.dermo-theme .crest-tag {
-  color: #6EE7B7;
-}
-
-.couture-theme .crest-tag {
-  color: #FDE68A;
-}
-
-.royal-theme .crest-tag {
-  color: #FBBF24;
-}
-
-.crest-title {
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: #FFF;
-  margin-top: 1px;
+.divider-gold-dot {
+  color: var(--gold-primary);
+  font-size: 0.65rem;
 }
 
 @media (max-width: 640px) {
-  .crest-capsule {
-    padding: 6px 14px;
-    gap: 8px;
+  .section-divider-luxury {
+    gap: 12px;
+    margin: 24px auto;
+    padding: 0 16px;
   }
 
-  .crest-tag {
-    font-size: 0.6rem;
-  }
-
-  .crest-title {
-    font-size: 0.72rem;
-  }
-
-  .crest-icon-badge {
-    font-size: 1rem;
+  .divider-crest {
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    padding: 4px 12px;
   }
 }
 
@@ -2900,8 +2924,8 @@
 }
 
 .social-arc-circle-btn.active .social-btn-inner {
-  border-color: #FBBF24;
-  box-shadow: 0 0 25px rgba(245, 158, 11, 0.6), 0 12px 35px rgba(0, 0, 0, 0.8);
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 25px rgba(197, 160, 89, 0.5), 0 12px 35px rgba(0, 0, 0, 0.8);
   transform: scale(1.15);
 }
 
@@ -2977,117 +3001,266 @@
    BOUTON ARRONDI DE DÉCOUVERTE DU FLUX (RÉSEAUX SOCIAUX)
    ========================================================================== */
 .social-feed-toggle-pill-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 16px;
-  background: radial-gradient(circle at 20% 50%, rgba(35, 35, 52, 0.96), rgba(12, 12, 18, 0.98));
-  border: 2px solid rgba(212, 175, 55, 0.65);
-  border-radius: 9999px;
-  padding: 10px 24px 10px 12px;
-  color: #FFF;
-  cursor: pointer;
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(212, 175, 55, 0.25);
-  user-select: none;
-  text-align: left;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 16px !important;
+  margin: 12px auto 0 auto !important;
+  background: radial-gradient(circle at 20% 50%, rgba(35, 35, 52, 0.96), rgba(12, 12, 18, 0.98)) !important;
+  border: 2px solid rgba(212, 175, 55, 0.65) !important;
+  border-radius: 9999px !important;
+  padding: 12px 28px 12px 14px !important;
+  color: #FFF !important;
+  cursor: pointer !important;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(212, 175, 55, 0.25) !important;
+  user-select: none !important;
+  text-align: left !important;
+  max-width: 95vw !important;
+  width: auto !important;
+  box-sizing: border-box !important;
 }
 
 .social-feed-toggle-pill-btn:hover {
-  transform: translateY(-3px) scale(1.03);
-  border-color: #FDE68A;
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.85), 0 0 35px rgba(212, 175, 55, 0.5);
+  transform: translateY(-3px) scale(1.03) !important;
+  border-color: #FDE68A !important;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.85), 0 0 35px rgba(212, 175, 55, 0.5) !important;
 }
 
 .social-feed-toggle-pill-btn.expanded {
-  border-color: rgba(225, 29, 72, 0.6);
-  background: radial-gradient(circle at 20% 50%, rgba(55, 18, 30, 0.96), rgba(16, 10, 14, 0.98));
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(225, 29, 72, 0.3);
+  border-color: rgba(225, 29, 72, 0.6) !important;
+  background: radial-gradient(circle at 20% 50%, rgba(55, 18, 30, 0.96), rgba(16, 10, 14, 0.98)) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(225, 29, 72, 0.3) !important;
 }
 
 .social-feed-toggle-pill-btn.expanded:hover {
-  border-color: #FDA4AF;
+  border-color: #FDA4AF !important;
 }
 
 .feed-btn-icon-orb {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.25rem;
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(245, 158, 11, 0.2));
-  border: 1.5px solid var(--gold-primary);
-  flex-shrink: 0;
-  box-shadow: 0 0 16px rgba(212, 175, 55, 0.35);
-  transition: all 0.3s ease;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.25rem !important;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(245, 158, 11, 0.2)) !important;
+  border: 1.5px solid var(--gold-primary) !important;
+  flex-shrink: 0 !important;
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.35) !important;
+  transition: all 0.3s ease !important;
 }
 
 .social-feed-toggle-pill-btn.expanded .feed-btn-icon-orb {
-  background: rgba(225, 29, 72, 0.25);
-  border-color: #FB7185;
-  box-shadow: 0 0 16px rgba(225, 29, 72, 0.4);
+  background: rgba(225, 29, 72, 0.25) !important;
+  border-color: #FB7185 !important;
+  box-shadow: 0 0 16px rgba(225, 29, 72, 0.4) !important;
 }
 
 .feed-btn-content {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+  gap: 4px !important;
 }
 
 .feed-btn-main-text {
-  font-size: 0.94rem;
-  color: #FFF;
-  font-weight: 800;
-  letter-spacing: 0.02em;
+  font-size: 0.96rem !important;
+  color: #FFF !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.02em !important;
+  white-space: nowrap !important;
 }
 
 .feed-btn-sub-text {
-  font-size: 0.72rem;
-  color: var(--gold-light);
-  margin-top: 2px;
+  display: flex !important;
+  align-items: center !important;
+  margin-top: 2px !important;
 }
 
-.social-feed-toggle-pill-btn.expanded .feed-btn-sub-text {
-  color: #FDA4AF;
+.feed-btn-social-icons {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.feed-mini-social-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+.feed-mini-social-icon svg {
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+.feed-mini-social-icon.instagram {
+  color: #F472B6 !important;
+  background: rgba(236, 72, 153, 0.18) !important;
+  border-color: rgba(236, 72, 153, 0.4) !important;
+}
+
+.feed-mini-social-icon.tiktok {
+  color: #25F4EE !important;
+  background: rgba(37, 244, 238, 0.15) !important;
+  border-color: rgba(37, 244, 238, 0.4) !important;
+}
+
+.feed-mini-social-icon.facebook {
+  color: #60A5FA !important;
+  background: rgba(59, 130, 246, 0.18) !important;
+  border-color: rgba(59, 130, 246, 0.4) !important;
+}
+
+.feed-mini-social-icon.x {
+  color: #FFFFFF !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.social-feed-toggle-pill-btn:hover .feed-mini-social-icon {
+  transform: translateY(-1px) scale(1.1) !important;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4) !important;
 }
 
 .feed-btn-chevron-badge {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: var(--gold-light);
-  margin-left: 4px;
-  flex-shrink: 0;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: var(--gold-light) !important;
+  margin-left: 6px !important;
+  flex-shrink: 0 !important;
 }
 
 @media (max-width: 640px) {
   .social-feed-toggle-pill-btn {
-    padding: 8px 16px 8px 10px;
-    gap: 10px;
-    max-width: 95vw;
+    padding: 10px 18px 10px 12px !important;
+    gap: 12px !important;
+    max-width: 95vw !important;
   }
 
   .feed-btn-main-text {
-    font-size: 0.82rem;
+    font-size: 0.85rem !important;
+    white-space: normal !important;
   }
 
   .feed-btn-sub-text {
-    font-size: 0.65rem;
+    font-size: 0.7rem !important;
   }
 
   .feed-btn-icon-orb {
-    width: 38px;
-    height: 38px;
-    font-size: 1.1rem;
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 1.1rem !important;
   }
 
   .feed-btn-chevron-badge {
-    width: 26px;
-    height: 26px;
+    width: 26px !important;
+    height: 26px !important;
+  }
+}
+
+/* ==========================================================================
+   AVIS GOOGLE OFFICIELS DE LUXE
+   ========================================================================== */
+.google-reviews-luxury-block {
+  margin-top: 50px;
+  background: rgba(18, 18, 24, 0.88);
+  border: 1px solid var(--border-highlight);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--shadow-gold);
+}
+
+.google-reviews-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.google-logo-orb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  flex-shrink: 0;
+}
+
+.google-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.google-review-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.google-review-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-subtle);
+}
+
+.review-stars {
+  color: var(--gold-primary);
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  font-size: 0.9rem;
+  color: var(--text-main);
+  line-height: 1.5;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+.review-author {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+.review-verified {
+  color: #10B981;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .google-reviews-grid {
+    grid-template-columns: 1fr;
   }
 }

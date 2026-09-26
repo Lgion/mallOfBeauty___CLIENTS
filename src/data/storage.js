@@ -12,7 +12,8 @@ const STORAGE_KEYS = {
   ANALYTICS_CLICKS: "mob_analytics_clicks_v3",
   STORE_SETTINGS: "mob_store_settings_v1",
   CART: "mob_cart_v1",
-  REVIEWS: "mob_reviews_v1"
+  REVIEWS: "mob_reviews_v1",
+  GALLERY_IMAGES: "mob_gallery_images_v1"
 };
 
 const listeners = new Set();
@@ -599,7 +600,40 @@ export function getStoreSettings() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.STORE_SETTINGS);
     const parsed = data ? JSON.parse(data) : STORE_INFO;
-    if (parsed && parsed.contacts) {
+    if (parsed) {
+      if (!parsed.contacts) parsed.contacts = {};
+
+      // Merger avec les valeurs de référence pour garantir qu'aucune clé indispensable n'est manquante
+      parsed.contacts = {
+        ...STORE_INFO.contacts,
+        ...parsed.contacts
+      };
+
+      if (!parsed.contacts.orderPhone || parsed.contacts.orderPhone === "undefined") {
+        parsed.contacts.orderPhone = STORE_INFO.contacts.orderPhone || "+2250777027235";
+      }
+      if (!parsed.contacts.orderPhoneDisplay || parsed.contacts.orderPhoneDisplay === "undefined") {
+        parsed.contacts.orderPhoneDisplay = STORE_INFO.contacts.orderPhoneDisplay || "+225 07 77 02 72 35";
+      }
+      if (!parsed.contacts.whatsapp || parsed.contacts.whatsapp === "undefined") {
+        parsed.contacts.whatsapp = STORE_INFO.contacts.whatsapp || "+2250777027235";
+      }
+      if (!parsed.contacts.whatsappDisplay || parsed.contacts.whatsappDisplay === "undefined") {
+        parsed.contacts.whatsappDisplay = STORE_INFO.contacts.whatsappDisplay || "+225 07 77 02 72 35";
+      }
+      if (!parsed.contacts.phoneService || parsed.contacts.phoneService === "undefined") {
+        parsed.contacts.phoneService = STORE_INFO.contacts.phoneService || "+2250777027235";
+      }
+      if (!parsed.contacts.phoneServiceDisplay || parsed.contacts.phoneServiceDisplay === "undefined") {
+        parsed.contacts.phoneServiceDisplay = STORE_INFO.contacts.phoneServiceDisplay || "+225 07 77 02 72 35";
+      }
+      if (!parsed.contacts.phoneSecondary || parsed.contacts.phoneSecondary === "undefined") {
+        parsed.contacts.phoneSecondary = STORE_INFO.contacts.phoneSecondary || "+2250759937849";
+      }
+      if (!parsed.contacts.phoneSecondaryDisplay || parsed.contacts.phoneSecondaryDisplay === "undefined") {
+        parsed.contacts.phoneSecondaryDisplay = STORE_INFO.contacts.phoneSecondaryDisplay || "+225 07 59 93 78 49";
+      }
+
       if (!parsed.contacts.instagram || parsed.contacts.instagram.includes("mallofbeauty_abidjan")) {
         parsed.contacts.instagram = STORE_INFO.contacts.instagram;
       }
@@ -612,6 +646,13 @@ export function getStoreSettings() {
       if (!parsed.contacts.waveDisplay) parsed.contacts.waveDisplay = STORE_INFO.contacts.waveDisplay;
       if (!parsed.contacts.wavePaymentUrl) parsed.contacts.wavePaymentUrl = STORE_INFO.contacts.wavePaymentUrl;
       if (!parsed.contacts.waveQrCode) parsed.contacts.waveQrCode = STORE_INFO.contacts.waveQrCode;
+      if (!parsed.contacts.googleMapsUrl) parsed.contacts.googleMapsUrl = STORE_INFO.contacts.googleMapsUrl;
+      if (!parsed.contacts.googleReviewWriteUrl) parsed.contacts.googleReviewWriteUrl = STORE_INFO.contacts.googleReviewWriteUrl;
+      if (!parsed.contacts.googleRating) parsed.contacts.googleRating = STORE_INFO.contacts.googleRating;
+      if (!parsed.contacts.googleReviewCount) parsed.contacts.googleReviewCount = STORE_INFO.contacts.googleReviewCount;
+      if (parsed.contacts.googlePlacesApiKey === undefined) parsed.contacts.googlePlacesApiKey = STORE_INFO.contacts.googlePlacesApiKey || '';
+      if (parsed.contacts.googlePlaceId === undefined) parsed.contacts.googlePlaceId = STORE_INFO.contacts.googlePlaceId || '';
+      if (parsed.contacts.googleWidgetCode === undefined) parsed.contacts.googleWidgetCode = STORE_INFO.contacts.googleWidgetCode || '';
     }
     return parsed;
   } catch (e) {
@@ -684,22 +725,29 @@ export function getLoyaltyMembers() {
   }
 }
 
+export function generateClientCode() {
+  const randomNum = Math.floor(1000 + Math.random() * 9000);
+  return `MOB-VIP-${randomNum}`;
+}
+
 export function addLoyaltyMember(memberData) {
   const members = getLoyaltyMembers();
+  const clientCode = memberData.clientCode || generateClientCode();
   const newMember = {
     id: "loyalty-" + Date.now().toString(36),
+    clientCode: clientCode,
     createdAt: new Date().toISOString(),
     fullName: memberData.fullName || "Adhérent MoB",
     phone: memberData.phone || "",
     birthDate: memberData.birthDate || "",
     neighborhood: memberData.neighborhood || "Abidjan",
-    favoriteCategory: memberData.favoriteCategory || "Toutes collections",
+    favoriteCategory: memberData.favoriteCategory || "Gamme Femme & Soins Dermo",
     discountStatus: "Adhésion confirmée (-10% pour votre anniversaire)"
   };
   members.unshift(newMember);
   localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(members));
   emitChange({ type: "LOYALTY_MEMBER_ADDED", member: newMember });
-  trackClick("loyalty", `Adhésion: ${newMember.fullName}`);
+  trackClick("loyalty", `Adhésion: ${newMember.fullName} (${clientCode})`);
   return newMember;
 }
 
@@ -857,6 +905,73 @@ export function deleteContact(id) {
   return true;
 }
 
+// --- GESTION DE LA GALERIE BOUTIQUE (PHOTOS RÉELLES) ---
+export const DEFAULT_GALLERY_IMAGES = [
+  { id: "gal-1", src: "./imgs/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
+  { id: "gal-2", src: "./imgs/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
+  { id: "gal-3", src: "./imgs/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
+  { id: "gal-4", src: "./imgs/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
+  { id: "gal-5", src: "./imgs/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
+  { id: "gal-6", src: "./imgs/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
+  { id: "gal-7", src: "./imgs/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
+  { id: "gal-8", src: "./imgs/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" }
+];
+
+export function getGalleryImages() {
+  try {
+    const data = localStorage.getItem(STORAGE_KEYS.GALLERY_IMAGES);
+    if (!data) return [...DEFAULT_GALLERY_IMAGES];
+    const parsed = JSON.parse(data);
+    return Array.isArray(parsed) && parsed.length > 0 ? parsed : [...DEFAULT_GALLERY_IMAGES];
+  } catch (e) {
+    return [...DEFAULT_GALLERY_IMAGES];
+  }
+}
+
+export function addGalleryImage(imageData) {
+  const images = getGalleryImages();
+  const newImage = {
+    id: "gal-" + Date.now(),
+    src: (imageData.src || "./imgs/devanture_face.jpg").trim(),
+    caption: (imageData.caption || "Boutique Mall of Beauty").trim(),
+    createdAt: new Date().toISOString()
+  };
+  images.push(newImage);
+  localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(images));
+  emitChange({ type: "GALLERY_UPDATED", images });
+  return newImage;
+}
+
+export function updateGalleryImage(id, updatedData) {
+  const images = getGalleryImages();
+  const idx = images.findIndex(img => img.id === id);
+  if (idx !== -1) {
+    images[idx] = {
+      ...images[idx],
+      ...updatedData,
+      updatedAt: new Date().toISOString()
+    };
+    localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(images));
+    emitChange({ type: "GALLERY_UPDATED", images });
+    return images[idx];
+  }
+  return null;
+}
+
+export function deleteGalleryImage(id) {
+  const images = getGalleryImages();
+  const filtered = images.filter(img => img.id !== id);
+  localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(filtered));
+  emitChange({ type: "GALLERY_UPDATED", images: filtered });
+  return true;
+}
+
+export function resetGalleryImages() {
+  localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(DEFAULT_GALLERY_IMAGES));
+  emitChange({ type: "GALLERY_UPDATED", images: [...DEFAULT_GALLERY_IMAGES] });
+  return [...DEFAULT_GALLERY_IMAGES];
+}
+
 // --- RECHARGER TOUTES LES DONNÉES FACTICES ---
 export function reloadAllDummyData() {
   localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(DEFAULT_APPOINTMENTS));
@@ -864,6 +979,7 @@ export function reloadAllDummyData() {
   localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(DEFAULT_LOYALTY));
   localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(DEFAULT_CONTACTS));
   localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(DEFAULT_CLICKS));
+  localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(DEFAULT_GALLERY_IMAGES));
   emitChange({ type: "DUMMY_DATA_RELOADED" });
   return true;
 }
@@ -879,6 +995,7 @@ export function resetToFactory() {
   localStorage.removeItem(STORAGE_KEYS.ANALYTICS_CLICKS);
   localStorage.removeItem(STORAGE_KEYS.STORE_SETTINGS);
   localStorage.removeItem(STORAGE_KEYS.CART);
+  localStorage.removeItem(STORAGE_KEYS.GALLERY_IMAGES);
   initData();
   emitChange({ type: "FACTORY_RESET" });
 }

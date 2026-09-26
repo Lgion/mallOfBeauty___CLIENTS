@@ -25,8 +25,8 @@ export function renderLoyaltyCard() {
                 <div class="loyalty-chip"></div>
               </div>
 
-              <div class="loyalty-card-number">
-                5428 •••• •••• 3077
+              <div class="loyalty-card-number" id="card-number-display">
+                MOB • VIP • 2026
               </div>
 
               <div class="loyalty-card-bottom">
@@ -41,14 +41,30 @@ export function renderLoyaltyCard() {
               </div>
             </div>
 
+            <!-- Boîte de Succès avec Code Client Généré -->
+            <div id="loyalty-code-success-card" style="display: none; margin-top: 20px; background: rgba(18, 18, 24, 0.95); border: 1.5px solid var(--gold-primary); border-radius: var(--radius-md); padding: 20px; text-align: center; box-shadow: var(--shadow-gold);">
+              <span class="badge badge-gold" style="margin-bottom: 8px;">Adhésion Validée ✨</span>
+              <h4 style="color: #FFF; margin-bottom: 6px; font-size: 1.1rem;">Félicitations ! Voici votre Code Client VIP :</h4>
+              <div style="font-size: 1.6rem; font-weight: 800; color: var(--gold-light); font-family: monospace; letter-spacing: 0.15em; padding: 10px; background: rgba(0,0,0,0.5); border-radius: 8px; margin: 10px auto 14px; border: 1px dashed rgba(197, 160, 89, 0.4); max-width: 280px;" id="generated-client-code-display">
+                MOB-VIP-0000
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px;">
+                Conservez précieusement ce code. Il est rattaché à votre compte pour profiter de vos <strong>-10% à votre anniversaire</strong> et de vos cadeaux en boutique.
+              </p>
+              <button type="button" class="btn btn-gold btn-sm" onclick="window.MoB.copyClientCode()" id="copy-client-code-btn">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span>Copier mon Code Client</span>
+              </button>
+            </div>
+
             <!-- Formulaire d'Adhésion en Ligne -->
-            <div class="luxury-card" style="margin-top: 24px; background: rgba(15, 14, 18, 0.95); border-color: rgba(212, 175, 55, 0.3);">
+            <div class="luxury-card" id="loyalty-form-card" style="margin-top: 24px; background: rgba(15, 14, 18, 0.95); border-color: rgba(197, 160, 89, 0.3);">
               <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
                 <h3 style="font-size: 1.2rem; color: var(--gold-light);">Souscrire à la Carte Privilège</h3>
-                <span class="badge badge-gold">Gratuit</span>
+                <span class="badge badge-gold">Adhésion Gratuite</span>
               </div>
               <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 18px;">
-                Enregistrez votre date d'anniversaire pour débloquer automatiquement vos <strong>-10% valables pendant 10 jours</strong>.
+                Renseignez vos coordonnées pour générer immédiatement votre <strong>Code Client VIP</strong> et débloquer vos <strong>-10% d'anniversaire valables pendant 10 jours</strong>.
               </p>
 
               <form id="loyalty-registration-form" onsubmit="window.MoB.handleLoyaltySubmit(event)">
@@ -75,27 +91,43 @@ export function renderLoyaltyCard() {
                     <input type="text" id="loyalty-neighborhood" class="form-input" placeholder="Ex: Vallons, Marcory, Plateau...">
                   </div>
                   <div class="form-group">
-                    <label class="form-label" for="loyalty-pref">Univers Préféré</label>
+                    <label class="form-label" for="loyalty-pref">Univers Préféré *</label>
                     <select id="loyalty-pref" class="form-select">
-                      <option value="Dermocosmétique & K-Beauty">Dermocosmétique & K-Beauty</option>
-                      <option value="Pagnes Vlisco Prestige">Pagnes Vlisco Prestige</option>
+                      <option value="Gamme Femme & Soins Dermo" selected>Gamme Femme & Soins Dermo-Experts</option>
+                      <option value="Dermocosmétique USA (70%) & K-Beauty">Dermocosmétique USA (70%) & K-Beauty</option>
+                      <option value="Pagnes Vlisco Prestige">Pagnes Vlisco Prestige Officiel</option>
+                      <option value="Gamme Homme">Gamme Homme & Barbe</option>
                       <option value="Soins Bébés & Enfants">Soins Bébés & Enfants</option>
-                      <option value="Gamme Homme">Gamme Homme</option>
-                      <option value="Maroquinerie & Parfums">Maroquinerie & Parfums</option>
+                      <option value="Maroquinerie & Parfums">Maroquinerie & Parfums Rares</option>
                     </select>
                   </div>
                 </div>
 
                 <button type="submit" class="btn btn-gold btn-lg" style="width: 100%; margin-top: 8px;">
-                  <span>Activer ma Carte Privilège VIP</span>
+                  <span>Générer mon Code Client & Activer la Carte</span>
                   <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
                 </button>
               </form>
             </div>
           </div>
 
-          <!-- Les 3 Piliers d'Avantages -->
+          <!-- Les Piliers d'Avantages Privilège -->
           <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="luxury-card" style="padding: 24px;">
+              <div style="display: flex; align-items: flex-start; gap: 16px;">
+                <div style="font-size: 2rem;">👑</div>
+                <div>
+                  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
+                    <h3 style="font-size: 1.15rem; color: var(--gold-light);">Gamme Femme & Dermo-Excellence</h3>
+                    <span class="badge badge-gold">Prioritaire VIP</span>
+                  </div>
+                  <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
+                    Accès privilégié en avant-première aux nouveautés américaines certifiées (70% de la collection) et conseils dermo-experts personnalisés pour votre typologie de peau.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div class="luxury-card" style="padding: 24px;">
               <div style="display: flex; align-items: flex-start; gap: 16px;">
                 <div style="font-size: 2rem;">🎂</div>
@@ -131,11 +163,11 @@ export function renderLoyaltyCard() {
                 <div style="font-size: 2rem;">🎁</div>
                 <div>
                   <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
-                    <h3 style="font-size: 1.15rem; color: var(--gold-light);">Échantillons & Avant-Premières</h3>
+                    <h3 style="font-size: 1.15rem; color: var(--gold-light);">Échantillons & Nouveautés USA</h3>
                     <span class="badge badge-emerald">Gratuit & Prioritaire</span>
                   </div>
                   <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
-                    Testez les nouveautés K-Beauty en avant-première et recevez des doses d'essai exclusives offertes à chaque passage en boutique.
+                    Doses d'essai offertes à chaque achat et alertes réassorts privées sur les produits viraux américains et coréens.
                   </p>
                 </div>
               </div>

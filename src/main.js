@@ -11,19 +11,14 @@ import { renderCatalog, formatPriceFCFA, filterProducts, renderProductsGridConte
 import { renderProductModal } from "./components/ProductModal.js";
 import { renderFullCatalogModal } from "./components/FullCatalogModal.js";
 import { renderWaveModal } from "./components/WaveModal.js";
-import { 
-  renderTransitionProductsToAdvisory, 
-  renderTransitionAdvisoryToShopper, 
-  renderTransitionShopperToLoyalty 
-} from "./components/SectionTransitions.js";
-import { renderAdvisoryBooking } from "./components/AdvisoryBooking.js";
-import { renderPersonalShopper } from "./components/PersonalShopper.js";
-import { renderLoyaltyCard } from "./components/LoyaltyCard.js";
+import { renderVipFloatingButtons, renderVipDrawer } from "./components/VipServicesDrawer.js";
+import { renderContactFloatingDock } from "./components/ContactFloatingDock.js";
 import { renderSocialSection } from "./components/SocialSection.js";
 import { renderInteractiveMap, initMapInstance } from "./components/InteractiveMap.js";
 import { renderCartDrawer } from "./components/CartDrawer.js";
 import { 
   renderAdminDashboard, setEditingProductId, toggleAddProductFormState,
+  setEditingGalleryId, toggleAddGalleryFormState,
   switchAdminTabLive, refreshAdminActiveTab
 } from "./components/AdminDashboard.js";
 import { renderFooter } from "./components/Footer.js";
@@ -36,21 +31,28 @@ import {
   getContacts, addContact, updateContactStatus, deleteContact,
   getAnalyticsClicks, trackClick, resetAnalyticsClicks,
   getStoreSettings, updateStoreSettings, resetToFactory, reloadAllDummyData,
+  getGalleryImages, addGalleryImage, updateGalleryImage, deleteGalleryImage, resetGalleryImages,
   getCart, addToCart, updateCartQuantity, removeFromCart, clearCart,
   subscribeToDataChanges
 } from "./data/storage.js";
 
 // --- ÉTAT GLOBAL DE L'APPLICATION ---
+// Par défaut : Mini-Blocs (~100px) et Galerie repliée (folded)
+const savedViewMode = localStorage.getItem("mob_catalog_view_mode_v2") || "compact";
 const state = {
   currentCategory: "all",
   searchQuery: "",
   catalogPage: 1,
-  catalogPerPage: 9,
+  catalogViewMode: savedViewMode,
+  catalogPerPage: savedViewMode === "compact" ? 18 : 9,
+  isGalleryUnfolded: localStorage.getItem("mob_gallery_unfolded_v2") === "true",
   activeProductId: null,
   isCartOpen: false,
   isAdminOpen: false,
   adminTab: "products",
   isWaveModalOpen: false,
+  activeVipService: null, // 'conseils', 'conciergerie', 'fidelite'
+  isVipDrawerClosing: false,
   activeSocialTab: "instagram",
   isSocialFeedExpanded: false,
   isFullCatalogOpen: false,
@@ -69,23 +71,30 @@ function renderApp() {
   app.innerHTML = `
     ${renderNavbar()}
     <main>
-      ${renderHero()}
-      ${renderCatalog(state.currentCategory, state.searchQuery, state.catalogPage, state.catalogPerPage)}
-      ${renderTransitionProductsToAdvisory()}
-      ${renderAdvisoryBooking()}
-      ${renderTransitionAdvisoryToShopper()}
-      ${renderPersonalShopper()}
-      ${renderTransitionShopperToLoyalty()}
-      ${renderLoyaltyCard()}
+      ${renderHero(state.isGalleryUnfolded)}
+      ${renderCatalog(state.currentCategory, state.searchQuery, state.catalogPage, state.catalogPerPage, state.catalogViewMode)}
       ${renderSocialSection(state.activeSocialTab, state.isSocialFeedExpanded)}
       ${renderInteractiveMap()}
     </main>
     ${renderFooter()}
   `;
 
+  // Injecte les 3 boutons VIP flottants fixés à gauche
+  const dockRoot = document.getElementById("vip-dock-root");
+  if (dockRoot) {
+    dockRoot.innerHTML = renderVipFloatingButtons();
+  }
+
+  // Injecte les boutons d'appel direct GSM et WhatsApp flottants fixés à droite
+  const contactDockRoot = document.getElementById("contact-dock-root");
+  if (contactDockRoot) {
+    contactDockRoot.innerHTML = renderContactFloatingDock();
+  }
+
   // Attach event listeners for dynamic elements
   setupCatalogEvents();
   setupGlobalHeaderEvents();
+  loadLiveGoogleReviews();
 
   // Initialise la carte Leaflet
   setTimeout(() => {
@@ -137,6 +146,12 @@ function updateModals() {
     adminModalRoot.innerHTML = state.isAdminOpen ? renderAdminDashboard(state.adminTab) : "";
   }
 
+  // Salon Privé VIP & Services Exclusifs (Conseils, Conciergerie, Carte Privilège)
+  const vipDrawerRoot = document.getElementById("vip-drawer-root");
+  if (vipDrawerRoot) {
+    vipDrawerRoot.innerHTML = state.activeVipService ? renderVipDrawer(state.activeVipService, state.isVipDrawerClosing) : "";
+  }
+
   // Met à jour le compteur du panier dans le header
   const cart = getCart();
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
@@ -152,11 +167,22 @@ function updateCatalogLive() {
   const filtered = filterProducts(state.currentCategory, state.searchQuery);
 
   if (gridContainer) {
-    gridContainer.innerHTML = renderProductsGridContent(filtered, state.catalogPage, state.catalogPerPage);
+    gridContainer.innerHTML = renderProductsGridContent(filtered, state.catalogPage, state.catalogPerPage, state.catalogViewMode);
   }
 
   if (countNumber) {
     countNumber.textContent = filtered.length;
+  }
+
+  // Mettre à jour visuellement les boutons du switch d'affichage (Classique vs Mini-Blocs)
+  const viewToggle = document.getElementById("catalog-view-toggle");
+  if (viewToggle) {
+    viewToggle.querySelectorAll(".catalog-view-btn").forEach(btn => {
+      btn.classList.toggle("active", 
+        (state.catalogViewMode === "compact" && btn.id === "view-mode-compact-btn") ||
+        (state.catalogViewMode === "classic" && btn.id === "view-mode-classic-btn")
+      );
+    });
   }
 
   // Mettre à jour visuellement les onglets actifs du bandeau sticky
@@ -427,6 +453,28 @@ function setupGlobalHeaderEvents() {
       updateModals();
     });
   }
+
+  // Écouteur global pour la touche Échap (Ferme le Salon Privé VIP ou tout tiroir actif)
+  if (!window._escKeyRegistered) {
+    window._escKeyRegistered = true;
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        if (state.activeVipService) {
+          window.MoB.closeVipService();
+        } else if (state.isCartOpen) {
+          window.MoB.closeCartDrawer();
+        } else if (state.activeProductId) {
+          window.MoB.closeProductModal();
+        } else if (state.isFullCatalogOpen) {
+          window.MoB.closeFullCatalog();
+        } else if (state.isWaveModalOpen) {
+          window.MoB.closeWaveModal();
+        } else if (state.isAdminOpen) {
+          window.MoB.closeAdminModal();
+        }
+      }
+    });
+  }
 }
 
 // --- NOTIFICATION TOAST ---
@@ -471,6 +519,44 @@ function showToast(message, type = "success") {
 
 // --- EXPOSITION DES FONCTIONS GLOBALES SUR WINDOW (MoB) ---
 window.MoB = {
+  // Pliage / Dépliage de la Galerie Boutique (Fold / Unfold)
+  toggleGalleryFold(e) {
+    if (e && e.stopPropagation) e.stopPropagation();
+    state.isGalleryUnfolded = !state.isGalleryUnfolded;
+    localStorage.setItem("mob_gallery_unfolded_v2", state.isGalleryUnfolded ? "true" : "false");
+
+    const header = document.getElementById("gallery-accordion-header");
+    const body = document.getElementById("gallery-foldable-body");
+    const btnLabel = document.getElementById("gallery-toggle-btn-label");
+    const chevron = document.getElementById("gallery-toggle-chevron");
+
+    if (header) {
+      header.classList.toggle("unfolded", state.isGalleryUnfolded);
+      header.classList.toggle("folded", !state.isGalleryUnfolded);
+      header.setAttribute("aria-expanded", state.isGalleryUnfolded);
+      header.setAttribute("title", state.isGalleryUnfolded ? "Cliquer pour replier la galerie" : "Cliquer pour déplier et voir les photos");
+    }
+    if (body) {
+      body.classList.toggle("open", state.isGalleryUnfolded);
+      body.classList.toggle("closed", !state.isGalleryUnfolded);
+    }
+    if (btnLabel) {
+      btnLabel.textContent = state.isGalleryUnfolded ? "Masquer la galerie" : "Déplier la galerie";
+    }
+    if (chevron) {
+      chevron.classList.toggle("rotated", state.isGalleryUnfolded);
+    }
+  },
+
+  // Bascule du mode d'affichage catalogue (Classique vs Mini-Blocs ~100px)
+  setCatalogViewMode(mode) {
+    state.catalogViewMode = mode;
+    state.catalogPerPage = mode === "compact" ? 18 : 9;
+    state.catalogPage = 1;
+    localStorage.setItem("mob_catalog_view_mode_v2", mode);
+    updateCatalogLive();
+  },
+
   // Navigation & Filtres
   filterCategory(cat) {
     state.currentCategory = cat;
@@ -652,6 +738,31 @@ window.MoB = {
     updateModals();
   },
 
+  // Salon Privé VIP (Conseils, Conciergerie, Carte Privilège - Effet Wow)
+  openVipService(serviceId = "conseils") {
+    state.activeVipService = serviceId;
+    state.isVipDrawerClosing = false;
+    updateModals();
+    trackClick("vip_service", "Ouverture Salon VIP: " + serviceId);
+  },
+
+  switchVipTab(serviceId) {
+    state.activeVipService = serviceId;
+    updateModals();
+    trackClick("vip_tab", "Onglet Salon VIP: " + serviceId);
+  },
+
+  closeVipService() {
+    if (!state.activeVipService || state.isVipDrawerClosing) return;
+    state.isVipDrawerClosing = true;
+    updateModals();
+    setTimeout(() => {
+      state.activeVipService = null;
+      state.isVipDrawerClosing = false;
+      updateModals();
+    }, 350);
+  },
+
   // Panier
   openCartDrawer() {
     state.isCartOpen = true;
@@ -813,7 +924,7 @@ window.MoB = {
     const neighborhood = document.getElementById("loyalty-neighborhood").value.trim();
     const favoriteCategory = document.getElementById("loyalty-pref").value;
 
-    addLoyaltyMember({
+    const newMember = addLoyaltyMember({
       fullName,
       phone,
       birthDate,
@@ -821,31 +932,61 @@ window.MoB = {
       favoriteCategory
     });
 
+    // Met à jour la carte virtuelle et affiche le bloc de succès avec le code client généré
+    const cardNumberEl = document.getElementById("card-number-display");
+    if (cardNumberEl) {
+      cardNumberEl.textContent = newMember.clientCode;
+    }
+
+    const codeDisplayEl = document.getElementById("generated-client-code-display");
+    if (codeDisplayEl) {
+      codeDisplayEl.textContent = newMember.clientCode;
+    }
+
+    const successCard = document.getElementById("loyalty-code-success-card");
+    if (successCard) {
+      successCard.style.display = "block";
+      successCard.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
     confetti({
-      particleCount: 110,
+      particleCount: 120,
       spread: 85,
-      colors: ['#D4AF37', '#F3E5AB', '#FFFFFF', '#B38F26']
+      colors: ['#C5A059', '#E8D5B5', '#FFFFFF', '#9A7B38']
     });
 
-    showToast("Votre Carte Privilège a été enregistrée avec succès !", "gold");
+    showToast(`Code Client VIP : ${newMember.clientCode}`, "gold");
 
     const settings = getStoreSettings();
     const msg = 
       `*ADHÉSION CARTE PRIVILÈGE VIP - MALL OF BEAUTY*\n` +
       `━━━━━━━━━━━━━━━━━━━━\n` +
+      `🎟️ *Code Client VIP :* ${newMember.clientCode}\n` +
       `👤 *Nom :* ${fullName}\n` +
       `📞 *WhatsApp :* ${phone}\n` +
       `🎂 *Date Anniversaire (-10%) :* ${birthDate || 'À préciser'}\n` +
       `📍 *Quartier :* ${neighborhood || 'Abidjan'}\n` +
       `🏷️ *Univers Préféré :* ${favoriteCategory}\n` +
       `━━━━━━━━━━━━━━━━━━━━\n` +
-      `Je viens de souscrire à la Carte Privilège sur le site web.`;
+      `Je viens de souscrire à la Carte Privilège sur le site web. Mon Code Client VIP est : *${newMember.clientCode}*.`;
 
     const whatsappUrl = `https://wa.me/${settings.contacts.whatsapp.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(msg)}`;
     window.open(whatsappUrl, "_blank");
 
     document.getElementById("loyalty-registration-form").reset();
     updateModals();
+  },
+
+  copyClientCode() {
+    const codeEl = document.getElementById("generated-client-code-display");
+    const code = codeEl ? codeEl.textContent.trim() : "";
+    if (code) {
+      navigator.clipboard.writeText(code).then(() => {
+        showToast(`Code ${code} copié dans le presse-papiers !`, "gold");
+      }).catch(() => {
+        showToast(`Code Client : ${code}`, "gold");
+      });
+    }
   },
 
   handleDeleteLoyaltyMember(id) {
@@ -880,8 +1021,9 @@ window.MoB = {
   },
 
   // Gestion Admin (CRUD)
-  openAdminModal() {
+  openAdminModal(initialTab = "products") {
     state.isAdminOpen = true;
+    state.adminTab = initialTab;
     updateModals();
   },
   closeAdminModal() {
@@ -932,13 +1074,76 @@ window.MoB = {
       document.getElementById("form-product-featured").checked = !!p.isFeatured;
     }, 50);
   },
-  cancelProductEdit() {
-    setEditingProductId(null);
-    toggleAddProductFormState();
+  // Gestion Admin de la Galerie Boutique
+  toggleGalleryForm() {
+    toggleAddGalleryFormState();
     if (document.getElementById("admin-tab-container")) {
       refreshAdminActiveTab();
     } else {
       updateModals();
+    }
+  },
+  startEditGalleryItem(id) {
+    setEditingGalleryId(id);
+    if (document.getElementById("admin-tab-container")) {
+      refreshAdminActiveTab();
+    } else {
+      updateModals();
+    }
+  },
+  selectGalleryPreset(src, caption) {
+    const inputSrc = document.getElementById("gal-input-src");
+    const inputCap = document.getElementById("gal-input-caption");
+    const preview = document.getElementById("gal-preview-img");
+    if (inputSrc) inputSrc.value = src;
+    if (inputCap) inputCap.value = caption;
+    if (preview) preview.src = src;
+  },
+  handleSaveGalleryItem(e) {
+    if (e) e.preventDefault();
+    const editId = document.getElementById("gal-edit-id")?.value;
+    const src = document.getElementById("gal-input-src")?.value.trim();
+    const caption = document.getElementById("gal-input-caption")?.value.trim();
+    if (!src || !caption) {
+      showToast("Veuillez renseigner l'URL et la légende de la photo", "error");
+      return;
+    }
+    if (editId) {
+      updateGalleryImage(editId, { src, caption });
+      showToast("Photo mise à jour avec succès !", "success");
+    } else {
+      addGalleryImage({ src, caption });
+      showToast("Nouvelle photo ajoutée à la galerie !", "success");
+    }
+    setEditingGalleryId(null);
+    refreshAdminActiveTab();
+    this.refreshGalleryLive();
+  },
+  handleDeleteGalleryItem(id) {
+    if (confirm("Voulez-vous vraiment supprimer cette photo de la galerie ?")) {
+      deleteGalleryImage(id);
+      showToast("Photo retirée de la galerie.", "info");
+      refreshAdminActiveTab();
+      this.refreshGalleryLive();
+    }
+  },
+  handleResetGallery() {
+    if (confirm("Restaurer les 8 photos d'origine de la boutique ?")) {
+      resetGalleryImages();
+      showToast("Photos d'origine restaurées !", "gold");
+      refreshAdminActiveTab();
+      this.refreshGalleryLive();
+    }
+  },
+  refreshGalleryLive() {
+    const gallerySection = document.getElementById("galerie-boutique");
+    if (gallerySection) {
+      const temp = document.createElement("div");
+      temp.innerHTML = renderHero(state.isGalleryUnfolded);
+      const newSec = temp.querySelector("#galerie-boutique");
+      if (newSec) {
+        gallerySection.replaceWith(newSec);
+      }
     }
   },
   handleSaveProduct(e) {
@@ -1149,6 +1354,14 @@ window.MoB = {
     const landmark = document.getElementById("set-landmark").value.trim();
 
     const current = getStoreSettings();
+    const googleMapsUrl = document.getElementById("set-google-maps") ? document.getElementById("set-google-maps").value.trim() : (current.contacts.googleMapsUrl || "https://www.google.com/maps/dir/?api=1&destination=5.358245,-3.992812");
+    const googleReviewWriteUrl = document.getElementById("set-google-review-url") ? document.getElementById("set-google-review-url").value.trim() : (current.contacts.googleReviewWriteUrl || "https://search.google.com/local/writereview?placeid=ChIJ-mallofbeauty-abidjan");
+    const googleRating = document.getElementById("set-google-rating") ? document.getElementById("set-google-rating").value.trim() : (current.contacts.googleRating || "4.9");
+    const googleReviewCount = document.getElementById("set-google-count") ? document.getElementById("set-google-count").value.trim() : (current.contacts.googleReviewCount || "128");
+    const googlePlacesApiKey = document.getElementById("set-google-api-key") ? document.getElementById("set-google-api-key").value.trim() : (current.contacts.googlePlacesApiKey || "");
+    const googlePlaceId = document.getElementById("set-google-place-id") ? document.getElementById("set-google-place-id").value.trim() : (current.contacts.googlePlaceId || "ChIJ-mallofbeauty-abidjan");
+    const googleWidgetCode = document.getElementById("set-google-widget-code") ? document.getElementById("set-google-widget-code").value.trim() : (current.contacts.googleWidgetCode || "");
+
     const waveDisplay = document.getElementById("set-wave") ? document.getElementById("set-wave").value.trim() : (current.contacts.waveDisplay || "+225 07 77 02 72 35");
     const wavePaymentUrl = document.getElementById("set-wave-url") ? document.getElementById("set-wave-url").value.trim() : (current.contacts.wavePaymentUrl || "https://pay.wave.com/m/M_CI_mallofbeauty");
     const waveQrCode = document.getElementById("set-wave-qrcode") ? document.getElementById("set-wave-qrcode").value.trim() : (current.contacts.waveQrCode || "./imgs/wave_qr_code.svg");
@@ -1158,6 +1371,8 @@ window.MoB = {
       announcement,
       contacts: {
         ...current.contacts,
+        orderPhoneDisplay: current.contacts?.orderPhoneDisplay || whatsappDisplay || "+225 07 77 02 72 35",
+        orderPhone: (current.contacts?.orderPhone || whatsappDisplay || "+2250777027235").replace(/[^0-9+]/g, ''),
         whatsappDisplay,
         whatsapp: whatsappDisplay.replace(/[^0-9+]/g, ''),
         phoneServiceDisplay,
@@ -1165,7 +1380,14 @@ window.MoB = {
         waveDisplay,
         wave: waveDisplay.replace(/[^0-9+]/g, ''),
         wavePaymentUrl,
-        waveQrCode
+        waveQrCode,
+        googleMapsUrl,
+        googleReviewWriteUrl,
+        googleRating,
+        googleReviewCount,
+        googlePlacesApiKey,
+        googlePlaceId,
+        googleWidgetCode
       },
       openingHours: {
         ...current.openingHours,
@@ -1212,8 +1434,11 @@ window.MoB = {
 };
 
 // Abonnement aux changements de données (CRUD réactif)
-subscribeToDataChanges(() => {
+subscribeToDataChanges((event) => {
   updateModals();
+  if (event && (event.type === "GALLERY_UPDATED" || event.type === "DUMMY_DATA_RELOADED" || event.type === "FACTORY_RESET")) {
+    window.MoB?.refreshGalleryLive?.();
+  }
 });
 
 // Tracking global des clics Call to Action (CTA) & Réseaux Sociaux
@@ -1249,3 +1474,33 @@ if (document.readyState === "loading") {
   updateModals();
 }
 
+
+// --- CHARGEMENT DYNAMIQUE DES AVIS GOOGLE VIA API PLACES ---
+async function loadLiveGoogleReviews() {
+  const settings = getStoreSettings();
+  const apiKey = settings.contacts?.googlePlacesApiKey;
+  const placeId = settings.contacts?.googlePlaceId || "ChIJ-mallofbeauty-abidjan";
+  const grid = document.getElementById("google-reviews-cards-grid");
+
+  if (!apiKey || !placeId || !grid) return;
+
+  try {
+    // Note: Google Places Details API (via client CORS proxy ou direct)
+    const url = `https://places.googleapis.com/v1/places/${placeId}?fields=rating,userRatingCount,reviews&key=${apiKey}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("Erreur HTTP " + res.status);
+    const data = await res.json();
+
+    if (data.reviews && data.reviews.length > 0) {
+      grid.innerHTML = data.reviews.slice(0, 6).map(rev => `
+        <div class="google-review-card">
+          <div class="review-stars">${"★".repeat(Math.round(rev.rating || 5))}${"☆".repeat(5 - Math.round(rev.rating || 5))}</div>
+          <p class="review-text">« ${rev.text?.text || rev.originalText?.text || "Très satisfaite des soins et de l'accueil !"} »</p>
+          <div class="review-author">${rev.authorAttribution?.displayName || "Cliente vérifiée"} • <span class="review-verified">Avis certifié Google</span></div>
+        </div>
+      `).join("");
+    }
+  } catch (err) {
+    console.warn("Impossible de charger les avis en direct via Google Places API (utilisation du fallback statique):", err);
+  }
+}

@@ -19,7 +19,7 @@ export function renderFooter() {
             </div>
 
             <p style="font-size: 0.92rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              « <em>${settings.slogan}</em> » — Depuis près de 10 ans, le sanctuaire de la beauté authentique, des cosmétiques coréens certifiés et des pagnes Vlisco hollandais d'exception à Abidjan.
+              « <em>${settings.slogan}</em> » — Depuis près de 10 ans, le sanctuaire de la beauté authentique : plus de 70% de cosmétiques certifiés d'origine Américaine (USA), K-Beauty et pagnes Vlisco officiels à Abidjan.
             </p>
 
             <div style="display: flex; gap: 12px;">
@@ -39,13 +39,12 @@ export function renderFooter() {
           <div class="footer-col">
             <h4>Univers Boutique</h4>
             <ul class="footer-links">
-              <li><a href="#catalogue" onclick="window.MoB.filterCategory('k-beauty')">K-Beauty & Dermocosmétique</a></li>
-              <li><a href="#catalogue" onclick="window.MoB.filterCategory('bebe-enfant')">Soins Bébés & Enfants</a></li>
-              <li><a href="#catalogue" onclick="window.MoB.filterCategory('soins-homme')">Soins Homme & Front Sombre</a></li>
-              <li><a href="#catalogue" onclick="window.MoB.filterCategory('textiles-vlisco')">Pagnes Vlisco Officiels</a></li>
-              <li><a href="#catalogue" onclick="window.MoB.filterCategory('maroquinerie')">Maroquinerie & Chaussures</a></li>
-              <li><a href="#catalogue" onclick="window.MoB.filterCategory('perruques')">Perruques & Capillaire</a></li>
-              <li><a href="#catalogue" onclick="window.MoB.filterCategory('maquillage')">Maquillage & Bijoux</a></li>
+              <li><a href="#catalogue" onclick="window.MoB.filterCategory('usa')">🇺🇸 70% Origine USA</a></li>
+              <li><a href="#catalogue" onclick="window.MoB.filterCategory('soins-visage')">Visage & K-Beauty</a></li>
+              <li><a href="#catalogue" onclick="window.MoB.filterCategory('soins-corps')">Soins Corps & Laits</a></li>
+              <li><a href="#catalogue" onclick="window.MoB.filterCategory('soins-cheveux')">Capillaire & Défrisants</a></li>
+              <li><a href="#catalogue" onclick="window.MoB.openFullCatalog()">Grand Catalogue (1 136)</a></li>
+              <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('fidelite')">Gamme Femme & Club VIP</a></li>
             </ul>
           </div>
 
@@ -53,10 +52,10 @@ export function renderFooter() {
           <div class="footer-col">
             <h4>Services d'Excellence</h4>
             <ul class="footer-links">
-              <li><a href="#conseils">Diagnostic Visage Sur-Mesure</a></li>
-              <li><a href="#conseils">Suivi Réactions & SAV Beauté</a></li>
-              <li><a href="#conciergerie">Personal Shopping (Acompte 60%)</a></li>
-              <li><a href="#fidelite">Programme Carte Privilège</a></li>
+              <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('conseils')">Diagnostic Visage Sur-Mesure</a></li>
+              <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('conseils')">Suivi Réactions & SAV Beauté</a></li>
+              <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('conciergerie')">Personal Shopping (Acompte 60%)</a></li>
+              <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('fidelite')">Programme Carte Privilège</a></li>
               <li><a href="#localisation">Livraison Express Yango</a></li>
               <li><a href="#localisation">Expéditions GP & DHL Monde</a></li>
               <li><a href="javascript:void(0)" onclick="window.MoB.openAdminModal()">Espace Administration (CRUD)</a></li>
@@ -65,14 +64,15 @@ export function renderFooter() {
 
           <!-- Col 4 : Coordonnées Directes -->
           <div class="footer-col">
-            <h4>Nous Contacter</h4>
+            <h4>Commandes & Accès</h4>
             <div style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; display: flex; flex-direction: column; gap: 8px;">
               <div>📍 <strong>${settings.address.street}</strong></div>
               <div>Quartier ${settings.address.district}</div>
               <div style="color: var(--gold-light);">⭐️ ${settings.address.landmark}</div>
-              <div style="margin-top: 6px;">📞 Secrétariat : <a href="tel:${settings.contacts.phoneService}" style="color: #FFF;">${settings.contacts.phoneServiceDisplay}</a></div>
-              <div>💬 WhatsApp : <a href="https://wa.me/${settings.contacts.whatsapp.replace(/[^0-9]/g, '')}" target="_blank" style="color: #34D399;">${settings.contacts.whatsappDisplay}</a></div>
-              <div style="margin-top: 6px;">🕒 ${settings.openingHours.days} : ${settings.openingHours.hours}</div>
+              <div style="margin-top: 6px;">📞 <strong>Commandes :</strong> <a href="tel:${settings.contacts.orderPhone}" style="color: #FFF; font-weight: 700;">${settings.contacts.orderPhoneDisplay}</a></div>
+              <div>💬 <strong>WhatsApp :</strong> <a href="https://wa.me/${settings.contacts.whatsapp.replace(/[^0-9]/g, '')}" target="_blank" style="color: #34D399; font-weight: 700;">${settings.contacts.whatsappDisplay}</a></div>
+              <div>⭐ <strong>Avis Google :</strong> <a href="${settings.contacts.googleMapsUrl}" target="_blank" style="color: var(--gold-light);">4.9/5 (128 avis)</a></div>
+              <div style="margin-top: 4px;">🕒 ${settings.openingHours.days} : ${settings.openingHours.hours}</div>
             </div>
           </div>
         </div>

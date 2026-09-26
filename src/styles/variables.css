@@ -1,12 +1,14 @@
 :root {
   /* --- PALETTE CHROMATIQUE PRESTIGE (MoB) --- */
-  /* Ors & Champagnes */
-  --gold-primary: #D4AF37;
-  --gold-light: #F3E5AB;
-  --gold-deep: #B38F26;
-  --gold-gradient: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #AA8010 100%);
-  --gold-gradient-subtle: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(243, 229, 171, 0.05) 100%);
-  --gold-glow: 0 0 25px rgba(212, 175, 55, 0.35);
+  /* Ors Champagne & Or Brossé (Haute Élégance - Sans Jaune Criard) */
+  --gold-primary: #C5A059;
+  --gold-light: #E8D5B5;
+  --gold-deep: #9A7B38;
+  --gold-metallic: #D4AF37;
+  --gold-champagne: #DFBA73;
+  --gold-gradient: linear-gradient(135deg, #E8D5B5 0%, #C5A059 50%, #9A7B38 100%);
+  --gold-gradient-subtle: linear-gradient(135deg, rgba(197, 160, 89, 0.15) 0%, rgba(232, 213, 181, 0.04) 100%);
+  --gold-glow: 0 0 25px rgba(197, 160, 89, 0.28);
 
   /* Noirs & Anthracites (Inspirés de la devanture laquée) */
   --bg-primary: #0A0A0C;
@@ -14,14 +16,14 @@
   --bg-tertiary: #1C1C24;
   --bg-card: rgba(22, 22, 28, 0.85);
   --bg-card-hover: rgba(30, 30, 38, 0.95);
-  --border-subtle: rgba(212, 175, 55, 0.2);
-  --border-highlight: rgba(212, 175, 55, 0.45);
+  --border-subtle: rgba(197, 160, 89, 0.22);
+  --border-highlight: rgba(197, 160, 89, 0.45);
 
-  /* Ivoires & Blancs Poudrés */
-  --text-main: #FAF8F5;
+  /* Ivoires & Blancs Purs (Contraste Chic Blanc & Noir) */
+  --text-main: #FFFFFF;
   --text-muted: #A3A3B2;
   --text-dim: #717182;
-  --text-gold: #F0DC9B;
+  --text-gold: #E8D5B5;
 
   /* Accents */
   --accent-emerald: #10B981;
