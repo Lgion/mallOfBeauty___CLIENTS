@@ -3,7 +3,7 @@ import { STORE_INFO } from "./storeInfo.js";
 import fullCatalogData from "./fullCatalogData.json";
 
 const STORAGE_KEYS = {
-  PRODUCTS: "mob_products_v3",
+  PRODUCTS: "mob_products_v6",
   FULL_CATALOG: "mob_full_catalog_v1",
   APPOINTMENTS: "mob_appointments_v3",
   PERSONAL_SHOPPER: "mob_personal_shopper_v3",

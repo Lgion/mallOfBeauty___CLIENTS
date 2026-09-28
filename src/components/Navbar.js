@@ -38,10 +38,10 @@ export function renderNavbar() {
           <ul class="nav-links">
             <li><a href="#accueil" class="nav-link">Accueil</a></li>
             <li><a href="#catalogue" class="nav-link">Catalogue Phare</a></li>
-            <li><a href="javascript:void(0)" class="nav-link" id="open-full-catalog-nav-btn" style="color: var(--gold-primary); font-weight: 700;">Grand Catalogue (1 136)</a></li>
-            <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('conseils')" class="nav-link">Conseils & RDV</a></li>
-            <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('conciergerie')" class="nav-link">Personal Shopper</a></li>
-            <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('fidelite')" class="nav-link">Carte Privilège</a></li>
+            <!-- <li><a href="javascript:void(0)" class="nav-link" id="open-full-catalog-nav-btn" style="color: var(--gold-primary); font-weight: 700;">Grand Catalogue (1 136)</a></li> -->
+            <!--li><a href="javascript:void(0)" onclick="window.MoB.openVipService('conseils')" class="nav-link">Conseils & RDV</a></li-->
+            <!--li><a href="javascript:void(0)" onclick="window.MoB.openVipService('conciergerie')" class="nav-link">Personal Shopper</a></li-->
+            <!--li><a href="javascript:void(0)" onclick="window.MoB.openVipService('fidelite')" class="nav-link">Carte Privilège</a></li-->
             <li><a href="#communaute" class="nav-link">Réseaux Sociaux</a></li>
             <li><a href="#localisation" class="nav-link">Accès Boutique</a></li>
           </ul>

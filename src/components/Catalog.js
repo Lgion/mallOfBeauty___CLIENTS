@@ -6,8 +6,9 @@ export function formatPriceFCFA(amount) {
 
 export const CATALOG_CATEGORIES = [
   { id: "all", label: "Toutes les Pépites", img: "./imgs/categories/CATALOGUE.jpeg" },
-  { id: "usa", label: "🇺🇸 70% Origine USA", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
-  { id: "soins-visage", label: "Visage & K-Beauty", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
+  { id: "usa", label: "🇺🇸", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
+  { id: "coree", label: "🇰🇷", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
+  { id: "soins-visage", label: "Visage & Sérums", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
   { id: "soins-corps", label: "Soins Corps & Laits", img: "./imgs/categories/SOINS_CORPS_LAITS_LUXE.jpeg" },
   { id: "soins-cheveux", label: "Capillaire & Défrisants", img: "./imgs/categories/SOINS_CAPILLAIRES_DÉFRISANTS.jpeg" }
 ];
@@ -22,11 +23,19 @@ export function filterProducts(filteredCategory = "all", searchQuery = "") {
   if (filteredCategory && filteredCategory !== "all") {
     products = products.filter(p => {
       if (filteredCategory === "usa") {
-        const usaBrands = ["cerave", "the ordinary", "paula", "cetaphil", "neutrogena", "shea moisture", "johnson", "palmer", "ogx", "cantu", "aveeno", "dove", "eucerin"];
+        const usaBrands = ["cerave", "the ordinary", "paula", "cetaphil", "neutrogena", "shea moisture", "johnson", "palmer", "ogx", "cantu", "aveeno", "dove", "eucerin", "vaseline", "jergens", "dr teal", "eos", "olay", "good molecules"];
         const b = (p.brand || "").toLowerCase();
         const n = (p.name || "").toLowerCase();
         const o = (p.origin || "").toLowerCase();
         return o.includes("usa") || o.includes("états-unis") || usaBrands.some(brand => b.includes(brand) || n.includes(brand));
+      }
+      if (filteredCategory === "coree") {
+        const koreaBrands = ["cosrx", "beauty of joseon", "some by mi", "laneige", "innisfree", "etude", "dr.jart", "dr jart", "corsx", "missha", "tonymoly", "purito", "klairs", "anua", "mixsoon", "tirtir", "skin1004", "goodal"];
+        const b = (p.brand || "").toLowerCase();
+        const n = (p.name || "").toLowerCase();
+        const o = (p.origin || "").toLowerCase();
+        const desc = (p.description || "").toLowerCase() + " " + (p.shortDesc || "").toLowerCase();
+        return o.includes("corée") || o.includes("korea") || o.includes("k-beauty") || desc.includes("k-beauty") || desc.includes("coréen") || koreaBrands.some(brand => b.includes(brand) || n.includes(brand));
       }
       if (p.category === filteredCategory) return true;
       // Compatibilité tolérante par mots-clés
@@ -47,7 +56,7 @@ export function filterProducts(filteredCategory = "all", searchQuery = "") {
   // Filtrage par recherche
   if (searchQuery.trim()) {
     const q = searchQuery.toLowerCase().trim();
-    products = products.filter(p => 
+    products = products.filter(p =>
       p.name.toLowerCase().includes(q) ||
       (p.brand && p.brand.toLowerCase().includes(q)) ||
       (p.shortDesc && p.shortDesc.toLowerCase().includes(q)) ||
@@ -125,11 +134,11 @@ export function renderProductsGridContent(products, currentPage = 1, perPage = 9
               <!-- NOUVEL AFFICHAGE COMPACT (MINI-BLOCS ~100px) -->
               <div class="products-grid-compact">
                 ${pageItems.map(p => {
-                  const usaBrands = ["cerave", "the ordinary", "paula", "cetaphil", "neutrogena", "shea moisture", "johnson", "palmer", "ogx", "cantu", "aveeno", "dove", "eucerin"];
-                  const isUsa = (p.origin && p.origin.toLowerCase().includes("usa")) ||
-                    usaBrands.some(b => (p.brand || "").toLowerCase().includes(b) || (p.name || "").toLowerCase().includes(b));
+    const usaBrands = ["cerave", "the ordinary", "paula", "cetaphil", "neutrogena", "shea moisture", "johnson", "palmer", "ogx", "cantu", "aveeno", "dove", "eucerin", "vaseline", "jergens", "dr teal", "eos", "olay", "good molecules"];
+    const isUsa = (p.origin && p.origin.toLowerCase().includes("usa")) ||
+      usaBrands.some(b => (p.brand || "").toLowerCase().includes(b) || (p.name || "").toLowerCase().includes(b));
 
-                  return `
+    return `
                     <div class="product-card-compact" data-product-id="${p.id}">
                       <!-- Vignette Carrée ~100px sur 100px -->
                       <div class="compact-thumb-wrap" onclick="window.MoB.openProductModal('${p.id}')" title="${p.name}">
@@ -158,17 +167,17 @@ export function renderProductsGridContent(products, currentPage = 1, perPage = 9
                       </div>
                     </div>
                   `;
-                }).join("")}
+  }).join("")}
               </div>
             ` : `
               <!-- AFFICHAGE CLASSIQUE COMPLET -->
               <div class="products-grid">
                 ${pageItems.map(p => {
-                  const usaBrands = ["cerave", "the ordinary", "paula", "cetaphil", "neutrogena", "shea moisture", "johnson", "palmer", "ogx", "cantu", "aveeno", "dove", "eucerin"];
-                  const isUsa = (p.origin && p.origin.toLowerCase().includes("usa")) ||
-                    usaBrands.some(b => (p.brand || "").toLowerCase().includes(b) || (p.name || "").toLowerCase().includes(b));
+    const usaBrands = ["cerave", "the ordinary", "paula", "cetaphil", "neutrogena", "shea moisture", "johnson", "palmer", "ogx", "cantu", "aveeno", "dove", "eucerin", "vaseline", "jergens", "dr teal", "eos", "olay", "good molecules"];
+    const isUsa = (p.origin && p.origin.toLowerCase().includes("usa")) ||
+      usaBrands.some(b => (p.brand || "").toLowerCase().includes(b) || (p.name || "").toLowerCase().includes(b));
 
-                  return `
+    return `
                   <div class="product-card" data-product-id="${p.id}">
                     <!-- Image & Badges -->
                     <div class="product-image-wrap" style="cursor: pointer;" onclick="window.MoB.openProductModal('${p.id}')">
@@ -208,7 +217,7 @@ export function renderProductsGridContent(products, currentPage = 1, perPage = 9
                     </div>
                   </div>
                 `;
-                }).join("")}
+  }).join("")}
               </div>
             `}
           </div>
@@ -329,7 +338,7 @@ export function renderCatalog(filteredCategory = "all", searchQuery = "", curren
           <div class="category-tabs" id="category-tabs-container">
             ${CATALOG_CATEGORIES.map(c => `
               <button type="button" class="category-img-btn ${filteredCategory === c.id ? 'active' : ''}" data-category="${c.id}" style="background-image: url('${c.img}')">
-                <span class="category-img-label">${c.label}</span>
+                <span class="category-img-label ${(c.label.indexOf("🇰🇷") !== -1 || c.label.indexOf("🇺🇸") !== -1) ? 'ok' : ""}">${c.label}</span>
               </button>
             `).join("")}
           </div>

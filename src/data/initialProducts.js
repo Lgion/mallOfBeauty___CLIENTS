@@ -257,7 +257,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 33,
     "tags": [
       "Nouveauté"
@@ -279,7 +279,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 36,
     "tags": [
       "Nouveauté"
@@ -565,7 +565,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 27,
     "tags": [
       "Nouveauté"
@@ -697,7 +697,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 44,
     "tags": [
       "Nouveauté"
@@ -961,7 +961,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 15,
     "tags": [
       "Nouveauté"
@@ -983,7 +983,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 46,
     "tags": [
       "Nouveauté"
@@ -1621,7 +1621,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 28,
     "tags": [
       "Nouveauté"
@@ -1687,7 +1687,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 27,
     "tags": [
       "Nouveauté"
@@ -1709,7 +1709,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 3,
     "tags": [
       "Nouveauté"
@@ -1775,7 +1775,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 43,
     "tags": [
       "Nouveauté"
@@ -2985,7 +2985,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 22,
     "tags": [
       "Nouveauté"
@@ -3019,11 +3019,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 16300,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/dr_teals_coconut_oil_body_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/dr_teals_coconut_oil_body_lotion.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3107,11 +3107,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 13500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/dr_teals_coconut_oil_body_wash.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/dr_teals_coconut_oil_body_wash.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3689,7 +3689,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 9,
     "tags": [
       "Nouveauté"
@@ -3800,7 +3800,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 32,
     "tags": [
       "Nouveauté"
@@ -4243,7 +4243,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 17,
     "tags": [
       "Nouveauté"
@@ -4443,7 +4443,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 47,
     "tags": [
       "Nouveauté"
@@ -4509,7 +4509,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 49,
     "tags": [
       "Nouveauté"
@@ -4861,7 +4861,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 8,
     "tags": [
       "Nouveauté"
@@ -5147,7 +5147,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 43,
     "tags": [
       "Nouveauté"
@@ -5345,7 +5345,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 32,
     "tags": [
       "Nouveauté"
@@ -5389,7 +5389,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 46,
     "tags": [
       "Nouveauté"
@@ -5565,7 +5565,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 14,
     "tags": [
       "Nouveauté"
@@ -5697,7 +5697,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 13,
     "tags": [
       "Nouveauté"
@@ -5753,11 +5753,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 10500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/vaseline_essential_healing_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/vaseline_essential_healing_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5797,11 +5797,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 10500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/vaseline_cocoa_radiant_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/vaseline_cocoa_radiant_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5841,11 +5841,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 13500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/vaseline_aloe_soothe_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/vaseline_aloe_soothe_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5863,11 +5863,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 13500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/vaseline_advanced_repair_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/vaseline_advanced_repair_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5907,11 +5907,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 10500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 9,
-    "image": "./strives/images/prod_07_Vaseline_Almond_Smooth.jpg",
+    "image": "./imgs/products/usa/vaseline_almond_smooth_lotion.jpg",
     "gallery": [
-      "./strives/images/prod_07_Vaseline_Almond_Smooth.jpg"
+      "./imgs/products/usa/vaseline_almond_smooth_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6017,17 +6017,17 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 10500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/vaseline_cocoa_radiant_body_oil.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/vaseline_cocoa_radiant_body_oil.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 27,
     "tags": [
       "Nouveauté"
@@ -6071,7 +6071,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 23,
     "tags": [
       "Nouveauté"
@@ -6151,10 +6151,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 27,
-    "image": "./strives/images/cat_09_Jergens_Shea_Butter_01.png",
+    "image": "./imgs/products/usa/jergens_shea_butter_lotion.png",
     "gallery": [
-      "./strives/images/cat_09_Jergens_Shea_Butter_01.png",
-      "./strives/images/cat_09_Jergens_Shea_Butter_02.png"
+      "./imgs/products/usa/jergens_shea_butter_lotion.png"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6182,7 +6181,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 12,
     "tags": [
       "Nouveauté"
@@ -6216,11 +6215,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 16500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 34,
-    "image": "./strives/images/cat_09_Jergens_Shea_Butter_04.png",
+    "image": "./imgs/products/usa/jergens_cherry_almond_lotion.jpg",
     "gallery": [
-      "./strives/images/cat_09_Jergens_Shea_Butter_04.png"
+      "./imgs/products/usa/jergens_cherry_almond_lotion.jpg"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6578,7 +6577,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 32,
     "tags": [
       "Nouveauté"
@@ -6634,11 +6633,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 18900,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/eos_vanilla_cashmere_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/eos_vanilla_cashmere_lotion.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6656,11 +6655,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 18900,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/eos_coconut_waters_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/eos_coconut_waters_lotion.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6678,17 +6677,17 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 18900,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/eos_fresh_cozy_lotion.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/eos_fresh_cozy_lotion.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 39,
     "tags": [
       "Nouveauté"
@@ -6700,11 +6699,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 14500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/palmers_cocoa_butter_lotion.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/palmers_cocoa_butter_lotion.webp"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6732,7 +6731,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 41,
     "tags": [
       "Nouveauté"
@@ -6766,11 +6765,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 9500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/palmers_cocoa_butter_solid_jar.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/palmers_cocoa_butter_solid_jar.webp"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6944,9 +6943,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": true,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/palmers_raw_shea_lotion.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/palmers_raw_shea_lotion.webp"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6966,9 +6965,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/palmers_raw_shea_lotion_pm.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/palmers_raw_shea_lotion_pm.webp"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6988,9 +6987,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/palmers_raw_shea_soap.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/palmers_raw_shea_soap.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7098,9 +7097,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": true,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/palmers_raw_shea_cream.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/palmers_raw_shea_cream.webp"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7172,7 +7171,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 23,
     "tags": [
       "Nouveauté"
@@ -7766,7 +7765,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 2,
     "tags": [
       "Nouveauté"
@@ -7832,7 +7831,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 44,
     "tags": [
       "Nouveauté"
@@ -8668,7 +8667,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 2,
     "tags": [
       "Nouveauté"
@@ -9506,7 +9505,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 30,
     "tags": [
       "Nouveauté"
@@ -9529,7 +9528,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 31,
     "tags": [
       "Nouveauté"
@@ -10336,15 +10335,15 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": true,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/neutrogena_clear_soothe_curcuma.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/neutrogena_clear_soothe_curcuma.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 3,
     "tags": [
       "Nouveauté"
@@ -10356,11 +10355,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 3500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/neutrogena_facial_cleansing_bar_original.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/neutrogena_facial_cleansing_bar_original.webp"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10422,11 +10421,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 3500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/usa/neutrogena_facial_bar_acne_prone.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/usa/neutrogena_facial_bar_acne_prone.webp"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10520,7 +10519,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 29,
     "tags": [
       "Nouveauté"
@@ -10608,7 +10607,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 32,
     "tags": [
       "Nouveauté"
@@ -10652,7 +10651,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 6,
     "tags": [
       "Nouveauté"
@@ -10930,9 +10929,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": true,
     "stock": 50,
-    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg",
+    "image": "./imgs/products/usa/shea_moisture_african_black_soap.jpg",
     "gallery": [
-      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_03.jpg"
+      "./imgs/products/usa/shea_moisture_african_black_soap.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10952,9 +10951,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 20,
-    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg",
+    "image": "./imgs/products/usa/shea_moisture_african_black_soap_gm.jpg",
     "gallery": [
-      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_04.jpg"
+      "./imgs/products/usa/shea_moisture_african_black_soap_gm.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10974,7 +10973,7 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 27,
-    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg",
+    "image": "./strives/images/shea_moisture_coconut_hibiscus_soap.jpg",
     "gallery": [
       "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg"
     ],
@@ -10996,9 +10995,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 13,
-    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg",
+    "image": "./imgs/products/usa/shea_moisture_coconut_hibiscus_soap.jpg",
     "gallery": [
-      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_06.jpg"
+      "./imgs/products/usa/shea_moisture_coconut_hibiscus_soap.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11489,7 +11488,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 5,
     "tags": [
       "Nouveauté"
@@ -11555,7 +11554,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 5,
     "tags": [
       "Nouveauté"
@@ -11885,7 +11884,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 43,
     "tags": [
       "Nouveauté"
@@ -12152,7 +12151,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 34,
     "tags": [
       "Nouveauté"
@@ -12484,7 +12483,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 4,
     "tags": [
       "Nouveauté"
@@ -12594,7 +12593,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 24,
     "tags": [
       "Nouveauté"
@@ -12770,7 +12769,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 20,
     "tags": [
       "Nouveauté"
@@ -13386,7 +13385,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 8,
     "tags": [
       "Nouveauté"
@@ -13496,7 +13495,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 13,
     "tags": [
       "Nouveauté"
@@ -13760,7 +13759,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 16,
     "tags": [
       "Nouveauté"
@@ -13804,7 +13803,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 25,
     "tags": [
       "Nouveauté"
@@ -14222,7 +14221,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 35,
     "tags": [
       "Nouveauté"
@@ -14640,7 +14639,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 9,
     "tags": [
       "Nouveauté"
@@ -14706,7 +14705,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 36,
     "tags": [
       "Nouveauté"
@@ -14762,11 +14761,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 14500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/kbeauty/innisfree_green_tea_cleanser.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/kbeauty/innisfree_green_tea_cleanser.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15026,11 +15025,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 30800,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 44,
-    "image": "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "image": "./imgs/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.jpg",
     "gallery": [
-      "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
+      "./imgs/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15213,7 +15212,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 18,
     "tags": [
       "Nouveauté"
@@ -15335,11 +15334,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 28500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 19,
-    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./imgs/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp",
     "gallery": [
-      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./imgs/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15357,11 +15356,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 25500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 35,
-    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./imgs/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg",
     "gallery": [
-      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./imgs/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15445,11 +15444,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 28500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 8,
-    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./imgs/products/kbeauty/anua_niacinamide_10_txa_4.jpg",
     "gallery": [
-      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./imgs/products/kbeauty/anua_niacinamide_10_txa_4.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15467,11 +15466,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 30500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 20,
-    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./imgs/products/kbeauty/anua_peach_70_niacin_serum.jpg",
     "gallery": [
-      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./imgs/products/kbeauty/anua_peach_70_niacin_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15895,7 +15894,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 2,
     "tags": [
       "Nouveauté"
@@ -16225,7 +16224,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 4,
     "tags": [
       "Nouveauté"
@@ -16379,7 +16378,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 24,
     "tags": [
       "Nouveauté"
@@ -16577,7 +16576,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 47,
     "tags": [
       "Nouveauté"
@@ -16589,11 +16588,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 53500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 22,
-    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./imgs/products/usa/paulas_choice_niacinamide_20.jpg",
     "gallery": [
-      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./imgs/products/usa/paulas_choice_niacinamide_20.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16753,7 +16752,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 2,
     "tags": [
       "Nouveauté"
@@ -16907,7 +16906,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 23,
     "tags": [
       "Nouveauté"
@@ -17105,7 +17104,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 29,
     "tags": [
       "Nouveauté"
@@ -17171,7 +17170,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 37,
     "tags": [
       "Nouveauté"
@@ -17249,11 +17248,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 30500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 15,
-    "image": "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "image": "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_rice_spf50.jpg",
     "gallery": [
-      "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
+      "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_rice_spf50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17271,11 +17270,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 35500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 38,
-    "image": "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg",
+    "image": "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_aqua_fresh_b5.webp",
     "gallery": [
-      "./strives/images/prod_19_Beauty_of_Joseon_-_Relief_Sun_Rice_SPF50.jpg"
+      "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_aqua_fresh_b5.webp"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17391,7 +17390,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 28,
     "tags": [
       "Nouveauté"
@@ -17435,7 +17434,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 3,
     "tags": [
       "Nouveauté"
@@ -17523,7 +17522,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 40,
     "tags": [
       "Nouveauté"
@@ -17699,7 +17698,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 31,
     "tags": [
       "Nouveauté"
@@ -17721,7 +17720,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 31,
     "tags": [
       "Nouveauté"
@@ -17875,7 +17874,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 24,
     "tags": [
       "Nouveauté"
@@ -17897,7 +17896,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 28,
     "tags": [
       "Nouveauté"
@@ -17985,7 +17984,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 7,
     "tags": [
       "Nouveauté"
@@ -18152,11 +18151,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 28500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/kbeauty/dr_jart_cicapair_tiger_grass_cream.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/kbeauty/dr_jart_cicapair_tiger_grass_cream.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18228,7 +18227,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 39,
     "tags": [
       "Nouveauté"
@@ -18294,7 +18293,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 28,
     "tags": [
       "Nouveauté"
@@ -18328,11 +18327,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 28500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 9,
-    "image": "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg",
+    "image": "./imgs/products/kbeauty/anua_heartleaf_77_soothing_toner.jpg",
     "gallery": [
-      "./strives/images/prod_13_Anua_-_Niacinamide_10_TXA_4.jpg"
+      "./imgs/products/kbeauty/anua_heartleaf_77_soothing_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18394,11 +18393,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 28500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 5,
-    "image": "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp",
+    "image": "./imgs/products/kbeauty/beauty_of_joseon_rice_milk_toner.webp",
     "gallery": [
-      "./strives/images/prod_14_Beauty_of_Joseon_-_Glow_Serum_Propolis_Niacinamide.webp"
+      "./imgs/products/kbeauty/beauty_of_joseon_rice_milk_toner.webp"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18416,11 +18415,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 35500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/kbeauty/beauty_of_joseon_essence_water.webp",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/kbeauty/beauty_of_joseon_essence_water.webp"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18624,7 +18623,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 47,
     "tags": [
       "Nouveauté"
@@ -18658,11 +18657,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 35500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/kbeauty/tirtir_milk_skin_toner.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/kbeauty/tirtir_milk_skin_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18746,17 +18745,17 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-corps",
     "categoryLabel": "Soins Corps & Laits",
     "price": 18500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "./imgs/products/kbeauty/cosrx_advanced_snail_96_mucin_essence.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "./imgs/products/kbeauty/cosrx_advanced_snail_96_mucin_essence.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 25,
     "tags": [
       "Nouveauté"
@@ -18878,11 +18877,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 25500,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 5,
-    "image": "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg",
+    "image": "./imgs/products/kbeauty/cosrx_pure_fit_cica_toner.png",
     "gallery": [
-      "./strives/images/prod_15_COSRX_-_AHA_BHA_Vitamin_C_Booster.jpg"
+      "./imgs/products/kbeauty/cosrx_pure_fit_cica_toner.png"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18976,7 +18975,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 50,
     "tags": [
       "Nouveauté"
@@ -19130,7 +19129,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 32,
     "tags": [
       "Nouveauté"
@@ -19406,17 +19405,17 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 48100,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 36,
-    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./imgs/products/usa/paulas_choice_c5_super_boost.jpg",
     "gallery": [
-      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./imgs/products/usa/paulas_choice_c5_super_boost.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 13,
     "tags": [
       "Nouveauté"
@@ -19438,7 +19437,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 30,
     "tags": [
       "Nouveauté"
@@ -19482,7 +19481,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 28,
     "tags": [
       "Nouveauté"
@@ -19494,11 +19493,11 @@ export const INITIAL_PRODUCTS = [
     "category": "soins-visage",
     "categoryLabel": "Soins Visage & Sérums",
     "price": 39300,
-    "isFeatured": false,
+    "isFeatured": true,
     "stock": 14,
-    "image": "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg",
+    "image": "./imgs/products/usa/paulas_choice_azelaic_acid_booster.jpg",
     "gallery": [
-      "./strives/images/prod_10_Paula_s_Choice_-_S_rum_Niacinamide_20.jpg"
+      "./imgs/products/usa/paulas_choice_azelaic_acid_booster.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19900,7 +19899,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 36,
     "tags": [
       "Nouveauté"
@@ -20098,7 +20097,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 26,
     "tags": [
       "Nouveauté"
@@ -20274,7 +20273,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 39,
     "tags": [
       "Nouveauté"
@@ -20428,7 +20427,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 16,
     "tags": [
       "Nouveauté"
@@ -20472,7 +20471,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 23,
     "tags": [
       "Nouveauté"
@@ -20538,7 +20537,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 48,
     "tags": [
       "Nouveauté"
@@ -20890,7 +20889,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 28,
     "tags": [
       "Nouveauté"
@@ -21022,7 +21021,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 32,
     "tags": [
       "Nouveauté"
@@ -21067,7 +21066,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 47,
     "tags": [
       "Nouveauté"
@@ -21111,7 +21110,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 30,
     "tags": [
       "Nouveauté"
@@ -21310,7 +21309,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 24,
     "tags": [
       "Nouveauté"
@@ -21509,7 +21508,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 30,
     "tags": [
       "Nouveauté"
@@ -21619,7 +21618,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 44,
     "tags": [
       "Nouveauté"
@@ -21663,7 +21662,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 36,
     "tags": [
       "Nouveauté"
@@ -22081,7 +22080,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 20,
     "tags": [
       "Nouveauté"
@@ -22323,7 +22322,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 49,
     "tags": [
       "Nouveauté"
@@ -22587,7 +22586,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 5,
     "tags": [
       "Nouveauté"
@@ -22631,7 +22630,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 50,
     "tags": [
       "Nouveauté"
@@ -22697,7 +22696,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 42,
     "tags": [
       "Nouveauté"
@@ -22895,7 +22894,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 46,
     "tags": [
       "Nouveauté"
@@ -22961,7 +22960,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 7,
     "tags": [
       "Nouveauté"
@@ -22983,7 +22982,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 47,
     "tags": [
       "Nouveauté"
@@ -23049,7 +23048,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 12,
     "tags": [
       "Nouveauté"
@@ -23115,7 +23114,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 30,
     "tags": [
       "Nouveauté"
@@ -23269,7 +23268,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 15,
     "tags": [
       "Nouveauté"
@@ -23731,7 +23730,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 28,
     "tags": [
       "Nouveauté"
@@ -23841,7 +23840,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 4.0,
+    "rating": 4,
     "reviewsCount": 21,
     "tags": [
       "Nouveauté"
@@ -23907,7 +23906,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 19,
     "tags": [
       "Nouveauté"
@@ -24127,7 +24126,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 44,
     "tags": [
       "Nouveauté"
@@ -24325,7 +24324,7 @@ export const INITIAL_PRODUCTS = [
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
     "description": "Ce produit issu de notre sélection exclusive vous garantit une qualité premium pour sublimer votre peau.",
     "usage": "Appliquer selon votre routine beauté habituelle.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 12,
     "tags": [
       "Nouveauté"
