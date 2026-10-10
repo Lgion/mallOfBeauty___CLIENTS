@@ -33,6 +33,27 @@ export function subscribeToDataChanges(callback) {
   return () => listeners.delete(callback);
 }
 
+// Helper to push updates to Astro API (MongoDB)
+async function syncToDb(collection, method, data = null, id = null) {
+  try {
+    let url = `/api/${collection}`;
+    if (method === 'DELETE' && id) {
+      url += `?id=${id}`;
+    }
+    const options = {
+      method,
+      headers: { 'Content-Type': 'application/json' },
+    };
+    if (data && method !== 'DELETE') {
+      options.body = JSON.stringify(data);
+    }
+    await fetch(url, options);
+  } catch (err) {
+    console.error(`Failed to sync to DB for collection ${collection}`, err);
+  }
+}
+
+
 // --- DONNÉES FACTICES RÉALISTES ABIDJAN (MoB) ---
 export const DEFAULT_APPOINTMENTS = [
   {
@@ -259,7 +280,39 @@ export const DEFAULT_CLICKS = {
 };
 
 // --- INITIAL SEEDING AUTOMATIQUE & AUTO-RÉPARATION ---
-function initData() {
+async function initData() {
+  // Sync down from DB
+  const collections = ['products', 'appointments', 'personal_shopper', 'loyalty_members', 'contacts', 'store_settings', 'analytics_clicks', 'gallery_images'];
+  try {
+    for (const coll of collections) {
+      const res = await fetch(`/api/${coll}`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && (Array.isArray(data) ? data.length > 0 : Object.keys(data).length > 0)) {
+          // If it's an array, it's a list. If it's an object, it's settings/analytics.
+          localStorage.setItem(`mob_${coll}_v3`, JSON.stringify(data));
+          // Note: keys vary (v3, v6, v1) but for simplicity, we keep original keys.
+          // Let's dynamically map the internal collection names to localStorage keys.
+          let key;
+          switch (coll) {
+            case 'products': key = STORAGE_KEYS.PRODUCTS; break;
+            case 'appointments': key = STORAGE_KEYS.APPOINTMENTS; break;
+            case 'personal_shopper': key = STORAGE_KEYS.PERSONAL_SHOPPER; break;
+            case 'loyalty_members': key = STORAGE_KEYS.LOYALTY_MEMBERS; break;
+            case 'contacts': key = STORAGE_KEYS.CONTACTS; break;
+            case 'store_settings': key = STORAGE_KEYS.STORE_SETTINGS; break;
+            case 'analytics_clicks': key = STORAGE_KEYS.ANALYTICS_CLICKS; break;
+            case 'gallery_images': key = STORAGE_KEYS.GALLERY_IMAGES; break;
+          }
+          if (key) localStorage.setItem(key, JSON.stringify(data));
+        }
+      }
+    }
+    emitChange({ type: "INIT_SYNC_COMPLETE" });
+  } catch(e) {
+    console.warn("DB Sync failed, falling back to local storage", e);
+  }
+
   if (!localStorage.getItem(STORAGE_KEYS.PRODUCTS)) {
     localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
   }
@@ -350,6 +403,32 @@ function initData() {
     }
   }
 
+  // Synchronisation Cloudinary : mise à niveau automatique des URLs d'images locales vers Cloudinary CDN
+  const CLOUDINARY_SYNC_KEY = "mob_cloudinary_synced_v3";
+  if (!localStorage.getItem(CLOUDINARY_SYNC_KEY)) {
+    try {
+      const storedProds = JSON.parse(localStorage.getItem(STORAGE_KEYS.PRODUCTS) || "[]");
+      if (Array.isArray(storedProds) && storedProds.length > 0) {
+        const initMap = new Map(INITIAL_PRODUCTS.map(p => [p.id, p]));
+        const updated = storedProds.map(p => {
+          const fresh = initMap.get(p.id);
+          if (fresh && fresh.image) {
+            return { ...p, image: fresh.image, gallery: fresh.gallery || [fresh.image] };
+          }
+          return p;
+        });
+        localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(updated));
+      } else {
+        localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
+      }
+
+      localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
+      localStorage.setItem(CLOUDINARY_SYNC_KEY, "true");
+    } catch (e) {
+      console.warn("Erreur synchronisation Cloudinary:", e);
+    }
+  }
+
   // Auto-migration pour forcer les chemins relatifs (évite 404 sur sous-dossier GitHub Pages)
   const ASSETS_FIX_KEY = "mob_relative_assets_v2";
   if (!localStorage.getItem(ASSETS_FIX_KEY)) {
@@ -387,7 +466,7 @@ function initData() {
 
 // Helper pour normaliser tout chemin d'image en chemin relatif compatible avec GitHub Pages
 export function getAssetUrl(path) {
-  if (!path || typeof path !== "string") return "./imgs/stands_esthetique.jpg";
+  if (!path || typeof path !== "string") return "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg";
   if (/^(https?:|data:|blob:)/i.test(path)) return path;
   if (path.startsWith("./")) return path;
   if (path.startsWith("/")) return "." + path;
@@ -426,7 +505,7 @@ export function getProductById(id) {
     const full = getFullCatalog();
     const catItem = full.find(c => c.id === id || c.id === id.replace("mob-excel-", "mob-cat-000").replace(/mob-cat-000(\d{4})/, "mob-cat-$1"));
     if (catItem) {
-      const img = getAssetUrl(catItem.image || "./imgs/stands_esthetique.jpg");
+      const img = getAssetUrl(catItem.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg");
       return {
         id: catItem.id,
         name: `${catItem.brand} - ${catItem.name}`,
@@ -450,7 +529,7 @@ export function getProductById(id) {
 
 export function addProduct(productData) {
   const products = getProducts();
-  const defaultImg = getAssetUrl(productData.image || "./imgs/devanture_face.jpg");
+  const defaultImg = getAssetUrl(productData.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg");
   const newProduct = {
     id: "mob-" + Date.now().toString(36),
     createdAt: new Date().toISOString(),
@@ -463,6 +542,7 @@ export function addProduct(productData) {
   };
   products.unshift(newProduct);
   localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(products));
+  syncToDb('products', 'POST', newProduct);
   emitChange({ type: "PRODUCT_ADDED", product: newProduct });
   return newProduct;
 }
@@ -473,6 +553,7 @@ export function updateProduct(id, updatedFields) {
   if (index !== -1) {
     products[index] = { ...products[index], ...updatedFields, updatedAt: new Date().toISOString() };
     localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(products));
+    syncToDb('products', 'PUT', products[index]);
     emitChange({ type: "PRODUCT_UPDATED", product: products[index] });
     return products[index];
   }
@@ -483,6 +564,7 @@ export function deleteProduct(id) {
   const products = getProducts();
   const filtered = products.filter(p => p.id !== id);
   localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(filtered));
+  syncToDb('products', 'DELETE', null, id);
   emitChange({ type: "PRODUCT_DELETED", id });
   return true;
 }
@@ -493,6 +575,7 @@ export function toggleFeatured(id) {
   if (index !== -1) {
     products[index].isFeatured = !products[index].isFeatured;
     localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(products));
+    syncToDb('products', 'PUT', products[index]);
     emitChange({ type: "PRODUCT_UPDATED", product: products[index] });
     return products[index];
   }
@@ -519,6 +602,7 @@ export function addAppointment(appointmentData) {
   };
   list.unshift(newApt);
   localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(list));
+  syncToDb('appointments', 'POST', newApt);
   emitChange({ type: "APPOINTMENT_ADDED", appointment: newApt });
   return newApt;
 }
@@ -530,6 +614,7 @@ export function updateAppointmentStatus(id, newStatus) {
     list[index].status = newStatus;
     list[index].updatedAt = new Date().toISOString();
     localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(list));
+    syncToDb('appointments', 'PUT', list[index]);
     emitChange({ type: "APPOINTMENT_UPDATED", appointment: list[index] });
     return list[index];
   }
@@ -540,6 +625,7 @@ export function deleteAppointment(id) {
   const list = getAppointments();
   const filtered = list.filter(a => a.id !== id);
   localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(filtered));
+  syncToDb('appointments', 'DELETE', null, id);
   emitChange({ type: "APPOINTMENT_DELETED", id });
   return true;
 }
@@ -565,6 +651,7 @@ export function addPersonalShopperRequest(reqData) {
   };
   list.unshift(newReq);
   localStorage.setItem(STORAGE_KEYS.PERSONAL_SHOPPER, JSON.stringify(list));
+  syncToDb('personal_shopper', 'POST', newReq);
   emitChange({ type: "PERSONAL_SHOPPER_ADDED", request: newReq });
   return newReq;
 }
@@ -577,6 +664,7 @@ export function updatePersonalShopperStatus(id, status, depositStatus) {
     if (depositStatus) list[index].depositStatus = depositStatus;
     list[index].updatedAt = new Date().toISOString();
     localStorage.setItem(STORAGE_KEYS.PERSONAL_SHOPPER, JSON.stringify(list));
+    syncToDb('personal_shopper', 'PUT', list[index]);
     emitChange({ type: "PERSONAL_SHOPPER_UPDATED", request: list[index] });
     return list[index];
   }
@@ -591,6 +679,7 @@ export function deletePersonalShopperRequest(id) {
   const list = getPersonalShopperRequests();
   const filtered = list.filter(r => r.id !== id);
   localStorage.setItem(STORAGE_KEYS.PERSONAL_SHOPPER, JSON.stringify(filtered));
+  syncToDb('personal_shopper', 'DELETE', null, id);
   emitChange({ type: "PERSONAL_SHOPPER_DELETED", id });
   return true;
 }
@@ -662,8 +751,9 @@ export function getStoreSettings() {
 
 export function updateStoreSettings(newSettings) {
   const current = getStoreSettings();
-  const merged = { ...current, ...newSettings };
+  const merged = { ...current, ...newSettings, id: "settings" };
   localStorage.setItem(STORAGE_KEYS.STORE_SETTINGS, JSON.stringify(merged));
+  syncToDb('store_settings', 'PUT', merged);
   emitChange({ type: "SETTINGS_UPDATED", settings: merged });
   return merged;
 }
@@ -746,6 +836,7 @@ export function addLoyaltyMember(memberData) {
   };
   members.unshift(newMember);
   localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(members));
+  syncToDb('loyalty_members', 'POST', newMember);
   emitChange({ type: "LOYALTY_MEMBER_ADDED", member: newMember });
   trackClick("loyalty", `Adhésion: ${newMember.fullName} (${clientCode})`);
   return newMember;
@@ -755,6 +846,7 @@ export function deleteLoyaltyMember(id) {
   const members = getLoyaltyMembers();
   const filtered = members.filter(m => m.id !== id);
   localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(filtered));
+  syncToDb('loyalty_members', 'DELETE', null, id);
   emitChange({ type: "LOYALTY_MEMBER_DELETED", id });
   return true;
 }
@@ -783,7 +875,9 @@ export function trackClick(actionType, targetLabel = "") {
     }
     stats.lastEvent = targetLabel ? `${actionType.toUpperCase()}: ${targetLabel}` : actionType;
     stats.updatedAt = new Date().toISOString();
+    stats.id = "analytics";
     localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(stats));
+    syncToDb('analytics_clicks', 'PUT', stats);
     emitChange({ type: "ANALYTICS_UPDATED", stats });
     return stats;
   } catch (e) {
@@ -795,9 +889,11 @@ export function resetAnalyticsClicks() {
   const clean = {
     total: 0, phone_call: 0, whatsapp: 0, instagram: 0, tiktok: 0,
     booking: 0, shopper: 0, loyalty: 0, lastEvent: "Compteurs réinitialisés",
-    updatedAt: new Date().toISOString()
+    updatedAt: new Date().toISOString(),
+    id: "analytics"
   };
   localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(clean));
+  syncToDb('analytics_clicks', 'PUT', clean);
   emitChange({ type: "ANALYTICS_UPDATED", stats: clean });
   return clean;
 }
@@ -880,6 +976,7 @@ export function addContact(contactData) {
   };
   contacts.unshift(newContact);
   localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(contacts));
+  syncToDb('contacts', 'POST', newContact);
   emitChange({ type: "CONTACT_ADDED", contact: newContact });
   trackClick("contact_form", `Message: ${newContact.name}`);
   return newContact;
@@ -891,6 +988,7 @@ export function updateContactStatus(id, newStatus) {
   if (idx !== -1) {
     contacts[idx].status = newStatus;
     localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(contacts));
+    syncToDb('contacts', 'PUT', contacts[idx]);
     emitChange({ type: "CONTACT_UPDATED", contact: contacts[idx] });
     return contacts[idx];
   }
@@ -901,20 +999,21 @@ export function deleteContact(id) {
   const contacts = getContacts();
   const filtered = contacts.filter(c => c.id !== id);
   localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(filtered));
+  syncToDb('contacts', 'DELETE', null, id);
   emitChange({ type: "CONTACT_DELETED", id });
   return true;
 }
 
 // --- GESTION DE LA GALERIE BOUTIQUE (PHOTOS RÉELLES) ---
 export const DEFAULT_GALLERY_IMAGES = [
-  { id: "gal-1", src: "./imgs/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
-  { id: "gal-2", src: "./imgs/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
-  { id: "gal-3", src: "./imgs/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
-  { id: "gal-4", src: "./imgs/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
-  { id: "gal-5", src: "./imgs/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
-  { id: "gal-6", src: "./imgs/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
-  { id: "gal-7", src: "./imgs/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
-  { id: "gal-8", src: "./imgs/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" }
+  { id: "gal-1", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
+  { id: "gal-2", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669197/mallofbeauty_assets/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
+  { id: "gal-3", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669256/mallofbeauty_assets/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
+  { id: "gal-4", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669257/mallofbeauty_assets/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
+  { id: "gal-5", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669259/mallofbeauty_assets/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
+  { id: "gal-6", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669265/mallofbeauty_assets/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
+  { id: "gal-7", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
+  { id: "gal-8", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669193/mallofbeauty_assets/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" }
 ];
 
 export function getGalleryImages() {
@@ -932,12 +1031,13 @@ export function addGalleryImage(imageData) {
   const images = getGalleryImages();
   const newImage = {
     id: "gal-" + Date.now(),
-    src: (imageData.src || "./imgs/devanture_face.jpg").trim(),
+    src: (imageData.src || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg").trim(),
     caption: (imageData.caption || "Boutique Mall of Beauty").trim(),
     createdAt: new Date().toISOString()
   };
   images.push(newImage);
   localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(images));
+  syncToDb('gallery_images', 'POST', newImage);
   emitChange({ type: "GALLERY_UPDATED", images });
   return newImage;
 }
@@ -952,6 +1052,7 @@ export function updateGalleryImage(id, updatedData) {
       updatedAt: new Date().toISOString()
     };
     localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(images));
+    syncToDb('gallery_images', 'PUT', images[idx]);
     emitChange({ type: "GALLERY_UPDATED", images });
     return images[idx];
   }
@@ -962,6 +1063,7 @@ export function deleteGalleryImage(id) {
   const images = getGalleryImages();
   const filtered = images.filter(img => img.id !== id);
   localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(filtered));
+  syncToDb('gallery_images', 'DELETE', null, id);
   emitChange({ type: "GALLERY_UPDATED", images: filtered });
   return true;
 }

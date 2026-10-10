@@ -14,21 +14,19 @@ export function renderVipFloatingButtons() {
         class="vip-dock-btn" 
         id="vip-btn-conseils" 
         onclick="window.MoB.openVipService('conseils')" 
-        title="Prendre Rendez-vous : Conseil Sur-Mesure & Diagnostic Dermo-sûr"
         aria-label="Conseil Sur-Mesure et Diagnostic Beauté"
       >
-        <div class="vip-dock-icon-wrap">
+        <div class="vip-dock-circle-inner vip-dock-icon-wrap">
           <span class="vip-dock-icon">💆‍♀️</span>
-          <span class="vip-dock-pulse"></span>
         </div>
-        <div class="vip-dock-content">
-          <span class="vip-dock-label">Conseil Sur-Mesure</span>
-          <span class="vip-dock-sub">Diagnostic Dermo • Offert</span>
+        <span class="vip-dock-pulse" aria-hidden="true"></span>
+        <div class="dock-tooltip vip-dock-tooltip" role="tooltip">
+          <div class="dock-tooltip-row">
+            <span class="dock-tooltip-title">Conseil Sur-Mesure</span>
+            <span class="dock-tooltip-badge">Offert</span>
+          </div>
+          <span class="dock-tooltip-sub">Diagnostic Dermo • 30 min</span>
         </div>
-        <div class="vip-dock-arrow">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
-        </div>
-        <span class="vip-dock-glow"></span>
       </button>
 
       <!-- Bouton 2 : Conciergerie Privée / Personal Shopping -->
@@ -37,21 +35,19 @@ export function renderVipFloatingButtons() {
         class="vip-dock-btn" 
         id="vip-btn-conciergerie" 
         onclick="window.MoB.openVipService('conciergerie')" 
-        title="Conciergerie Privée & Personal Shopping (Acompte 60%)"
         aria-label="Conciergerie Privée et Personal Shopping"
       >
-        <div class="vip-dock-icon-wrap">
+        <div class="vip-dock-circle-inner vip-dock-icon-wrap">
           <span class="vip-dock-icon">💎</span>
-          <span class="vip-dock-pulse"></span>
         </div>
-        <div class="vip-dock-content">
-          <span class="vip-dock-label">Conciergerie Privée</span>
-          <span class="vip-dock-sub">Sourcing VIP • Acompte 60%</span>
+        <span class="vip-dock-pulse" aria-hidden="true"></span>
+        <div class="dock-tooltip vip-dock-tooltip" role="tooltip">
+          <div class="dock-tooltip-row">
+            <span class="dock-tooltip-title">Conciergerie Privée</span>
+            <span class="dock-tooltip-badge">Sourcing VIP</span>
+          </div>
+          <span class="dock-tooltip-sub">Personal Shopping • Acompte 60%</span>
         </div>
-        <div class="vip-dock-arrow">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-        </div>
-        <span class="vip-dock-glow"></span>
       </button>
 
       <!-- Bouton 3 : Carte Privilège VIP Mall of Beauty -->
@@ -60,21 +56,19 @@ export function renderVipFloatingButtons() {
         class="vip-dock-btn" 
         id="vip-btn-fidelite" 
         onclick="window.MoB.openVipService('fidelite')" 
-        title="Carte Privilège VIP : Code Client & Avantages Anniversaire"
         aria-label="Carte Privilège et Club VIP Mall of Beauty"
       >
-        <div class="vip-dock-icon-wrap">
+        <div class="vip-dock-circle-inner vip-dock-icon-wrap">
           <span class="vip-dock-icon">👑</span>
-          <span class="vip-dock-pulse"></span>
         </div>
-        <div class="vip-dock-content">
-          <span class="vip-dock-label">Carte Privilège</span>
-          <span class="vip-dock-sub">Code VIP • -10% Anniversaire</span>
+        <span class="vip-dock-pulse" aria-hidden="true"></span>
+        <div class="dock-tooltip vip-dock-tooltip" role="tooltip">
+          <div class="dock-tooltip-row">
+            <span class="dock-tooltip-title">Carte Privilège MoB</span>
+            <span class="dock-tooltip-badge">Club VIP</span>
+          </div>
+          <span class="dock-tooltip-sub">Code Réduction • -10% Anniversaire</span>
         </div>
-        <div class="vip-dock-arrow">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
-        </div>
-        <span class="vip-dock-glow"></span>
       </button>
     </aside>
   `;

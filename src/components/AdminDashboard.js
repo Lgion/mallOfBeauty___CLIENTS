@@ -16,6 +16,83 @@ let showAddProductForm = false;
 let editingGalleryId = null;
 let showAddGalleryForm = false;
 
+export const ADMIN_SVG_ICONS = {
+  products: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>`,
+  featured: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+  gallery: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>`,
+  appointments: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg>`,
+  personalShopper: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9l4-6z"/><path d="M11 3 8 9l4 12 4-12-3-6"/></svg>`,
+  loyalty: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="12 2 15 8 21 9 17 14 18 20 12 17 6 20 7 14 3 9 9 8 12 2"/><line x1="4" y1="22" x2="20" y2="22"/></svg>`,
+  contacts: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
+  analytics: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><line x1="2" y1="20" x2="22" y2="20"/></svg>`,
+  settings: `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`
+};
+
+export function getTabInfo(tab) {
+  switch (tab) {
+    case "products":
+      return {
+        title: "Catalogue Produits",
+        breadcrumb: "Catalogue & Vente / Produits",
+        desc: "Gestion complète du stock, des prix et des informations produits."
+      };
+    case "featured":
+      return {
+        title: "Vitrine Phares",
+        breadcrumb: "Catalogue & Vente / Vitrine",
+        desc: "Articles d'exception mis en avant sur la page d'accueil de Mall of Beauty."
+      };
+    case "gallery":
+      return {
+        title: "Galerie Photos Boutique",
+        breadcrumb: "Catalogue & Vente / Galerie",
+        desc: "Photos d'ambiance et stands officiels de la boutique des Vallons."
+      };
+    case "appointments":
+      return {
+        title: "Rendez-vous Diagnostic Beauté",
+        breadcrumb: "Services & Clients / Rendez-vous",
+        desc: "Consultations privées, diagnostics de peau et protocoles sur-mesure."
+      };
+    case "personal-shopper":
+      return {
+        title: "Conciergerie VIP & Personal Shopper",
+        breadcrumb: "Services & Clients / Personal Shopper",
+        desc: "Commandes sur-mesure de pagnes Vlisco rares et cosmétiques importés."
+      };
+    case "loyalty":
+      return {
+        title: "Carte Privilège & Membres VIP",
+        breadcrumb: "Services & Clients / Fidélité",
+        desc: "Adhérents privilégiés, réductions anniversaires et avantages exclusifs."
+      };
+    case "contacts":
+      return {
+        title: "Messages & Demandes Clients",
+        breadcrumb: "Services & Clients / Messages",
+        desc: "Demandes d'informations reçues depuis le formulaire de contact."
+      };
+    case "analytics":
+      return {
+        title: "Statistiques & Clics CTA",
+        breadcrumb: "Système & Pilotage / Statistiques",
+        desc: "Suivi des interactions directes : appels, WhatsApp, réservations et réseaux."
+      };
+    case "settings":
+      return {
+        title: "Paramètres Boutique & Données",
+        breadcrumb: "Système & Pilotage / Paramètres",
+        desc: "Coordonnées, horaires d'ouverture, paiement Wave et outils de maintenance."
+      };
+    default:
+      return {
+        title: "Administration",
+        breadcrumb: "Tableau de Bord",
+        desc: "Gestion globale de Mall of Beauty."
+      };
+  }
+}
+
 export function renderAdminDashboard(activeTab = "products") {
   currentTab = activeTab;
   const products = getProducts();
@@ -31,118 +108,125 @@ export function renderAdminDashboard(activeTab = "products") {
   const pendingAppointments = appointments.filter(a => a.status === "En attente").length;
   const pendingPS = psRequests.filter(r => r.status && r.status.includes("attente")).length;
   const unreadContacts = contacts.filter(c => c.status === "Non lu").length;
+  const tabInfo = getTabInfo(currentTab);
 
   return `
-    <div class="admin-modal-wrap active" id="admin-modal-wrap" onclick="if(event.target === this) window.MoB.closeAdminModal()">
-      <div class="admin-window">
-        <!-- Topbar -->
-        <div class="admin-topbar">
-          <div class="admin-topbar-title">
-            <span style="font-size: 1.3rem;">⚡</span>
-            <div>
-              <h3 style="font-size: 1.15rem; color: #FFF; margin: 0;">Back-Office de Gestion CRUD</h3>
-              <span style="font-size: 0.78rem; color: var(--gold-light);">Mall of Beauty • Administration Boutique Cocody</span>
-            </div>
-            <span class="admin-badge-role">Accès Gérante</span>
-          </div>
-
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.reloadAllDummyData()" title="Réinjecter les données factices réalistes d'Abidjan pour tous les formulaires">
-              🔄 Recharger Données Factices
-            </button>
-            <button class="btn btn-icon" onclick="window.MoB.closeAdminModal()" aria-label="Fermer l'administration">
-              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>
-            </button>
+    <div class="mob-admin-app">
+      <!-- SIDEBAR LATÉRALE DÉDIÉE -->
+      <aside class="mob-admin-sidebar">
+        <!-- Logo & Titre Boutique -->
+        <div class="mob-sidebar-brand">
+          <div class="mob-brand-icon">⚡</div>
+          <div class="mob-brand-info">
+            <div class="mob-brand-title">MALL OF BEAUTY</div>
+            <div class="mob-brand-subtitle">Administration • Les Vallons</div>
           </div>
         </div>
 
-        <!-- En-tête & Onglets de Navigation Principale -->
-        <div class="admin-nav-header">
-          <span>📋 Sélectionner la section ou le formulaire à administrer :</span>
+        <!-- Statut Système & Base de données -->
+        <div class="mob-sidebar-status">
+          <span class="mob-status-dot"></span>
+          <span>MongoDB Atlas Connecté</span>
         </div>
 
-        <!-- Zone de Contenu -->
-        <div class="admin-content-area">
-          <!-- Cartes Statistiques Cliquables (8 Couleurs Distinctes & Raccourcis Directs) -->
-          <!-- Cartes Statistiques Iconiques en Ligne Unique (avec infobulle au survol et bulle rouge chiffrée) -->
-          <div class="admin-stats-row">
-            <div class="admin-stat-card card-products ${currentTab === 'products' ? 'active-stat' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')" title="Catalogue complet des produits (${products.length})">
-              <span class="admin-stat-icon">📦</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${products.length}</span>
-              </span>
-              <div class="admin-stat-tooltip">Total Produits (${products.length})</div>
-            </div>
+        <!-- 9 Sections Réorganisées avec Icônes SVG et Badges Clairs -->
+        <nav class="mob-sidebar-nav">
+          <div class="mob-nav-group-title">Catalogue & Vente</div>
+          
+          <button class="mob-nav-item ${currentTab === 'products' ? 'active' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.products}</span>
+            <span class="mob-nav-label">Produits</span>
+            <span class="mob-nav-badge" data-tab-badge="products">${products.length}</span>
+          </button>
 
-            <div class="admin-stat-card card-featured ${currentTab === 'featured' ? 'active-stat' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')" title="Produits Phares en vitrine (${featuredCount})">
-              <span class="admin-stat-icon">⭐</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${featuredCount}</span>
-              </span>
-              <div class="admin-stat-tooltip">Produits Phares (${featuredCount})</div>
-            </div>
+          <button class="mob-nav-item ${currentTab === 'featured' ? 'active' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.featured}</span>
+            <span class="mob-nav-label">Vitrine Phares</span>
+            <span class="mob-nav-badge gold" data-tab-badge="featured">${featuredCount}</span>
+          </button>
 
-            <div class="admin-stat-card card-appointments ${currentTab === 'appointments' ? 'active-stat' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')" title="RDV Diagnostic Beauté (${appointments.length} dont ${pendingAppointments} en attente)">
-              <span class="admin-stat-icon">📅</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${appointments.length}</span>
-              </span>
-              <div class="admin-stat-tooltip">RDV Diagnostic (${appointments.length})</div>
-            </div>
+          <button class="mob-nav-item ${currentTab === 'gallery' ? 'active' : ''}" data-tab="gallery" onclick="window.MoB.switchAdminTab('gallery')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.gallery}</span>
+            <span class="mob-nav-label">Galerie Photos</span>
+            <span class="mob-nav-badge" data-tab-badge="gallery">${galleryImages.length}</span>
+          </button>
 
-            <div class="admin-stat-card card-personal-shopper ${currentTab === 'personal-shopper' ? 'active-stat' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')" title="Conciergerie VIP (${psRequests.length} dont ${pendingPS} en attente)">
-              <span class="admin-stat-icon">💎</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${psRequests.length}</span>
-              </span>
-              <div class="admin-stat-tooltip">Conciergerie VIP (${psRequests.length})</div>
-            </div>
+          <div class="mob-nav-group-title">Services & Clients</div>
 
-            <div class="admin-stat-card card-loyalty ${currentTab === 'loyalty' ? 'active-stat' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')" title="Membres Carte Privilège (${loyaltyMembers.length})">
-              <span class="admin-stat-icon">👑</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${loyaltyMembers.length}</span>
-              </span>
-              <div class="admin-stat-tooltip">Carte Privilège (${loyaltyMembers.length})</div>
-            </div>
+          <button class="mob-nav-item ${currentTab === 'appointments' ? 'active' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.appointments}</span>
+            <span class="mob-nav-label">Rendez-vous</span>
+            <span class="mob-nav-badge ${pendingAppointments > 0 ? 'warning' : ''}" data-tab-badge="appointments">
+              ${appointments.length}
+            </span>
+          </button>
 
-            <div class="admin-stat-card card-contacts ${currentTab === 'contacts' ? 'active-stat' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')" title="Messages Contact (${contacts.length} dont ${unreadContacts} non lus)">
-              <span class="admin-stat-icon">💬</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${contacts.length}</span>
-              </span>
-              <div class="admin-stat-tooltip">Messages Contact (${contacts.length})</div>
-            </div>
+          <button class="mob-nav-item ${currentTab === 'personal-shopper' ? 'active' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.personalShopper}</span>
+            <span class="mob-nav-label">Personal Shopper</span>
+            <span class="mob-nav-badge ${pendingPS > 0 ? 'warning' : ''}" data-tab-badge="personal-shopper">
+              ${psRequests.length}
+            </span>
+          </button>
 
-            <div class="admin-stat-card card-analytics ${currentTab === 'analytics' ? 'active-stat' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')" title="Clics CTA Totaux (${analytics.total || 0})">
-              <span class="admin-stat-icon">📊</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${analytics.total || 0}</span>
-              </span>
-              <div class="admin-stat-tooltip">Clics CTA (${analytics.total || 0})</div>
-            </div>
+          <button class="mob-nav-item ${currentTab === 'loyalty' ? 'active' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.loyalty}</span>
+            <span class="mob-nav-label">Carte Privilège</span>
+            <span class="mob-nav-badge" data-tab-badge="loyalty">${loyaltyMembers.length}</span>
+          </button>
 
-            <div class="admin-stat-card card-gallery ${currentTab === 'gallery' ? 'active-stat' : ''}" data-tab="gallery" onclick="window.MoB.switchAdminTab('gallery')" title="Galerie Photos Réelles (${galleryImages.length})">
-              <span class="admin-stat-icon">📸</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">${galleryImages.length}</span>
-              </span>
-              <div class="admin-stat-tooltip">Galerie Photos (${galleryImages.length})</div>
-            </div>
+          <button class="mob-nav-item ${currentTab === 'contacts' ? 'active' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.contacts}</span>
+            <span class="mob-nav-label">Messages</span>
+            <span class="mob-nav-badge ${unreadContacts > 0 ? 'danger' : ''}" data-tab-badge="contacts">
+              ${contacts.length}
+            </span>
+          </button>
 
-            <div class="admin-stat-card card-settings ${currentTab === 'settings' ? 'active-stat' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')" title="Horaires & Coordonnées Boutique (9h-19h)">
-              <span class="admin-stat-icon">⚙️</span>
-              <span class="admin-stat-badge">
-                <span class="admin-stat-num">9h</span>
-              </span>
-              <div class="admin-stat-tooltip">Horaires & Infos Boutique</div>
+          <div class="mob-nav-group-title">Système & Pilotage</div>
+
+          <button class="mob-nav-item ${currentTab === 'analytics' ? 'active' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.analytics}</span>
+            <span class="mob-nav-label">Statistiques Clics</span>
+            <span class="mob-nav-badge" data-tab-badge="analytics">${analytics.total || 0}</span>
+          </button>
+
+          <button class="mob-nav-item ${currentTab === 'settings' ? 'active' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.settings}</span>
+            <span class="mob-nav-label">Paramètres Boutique</span>
+          </button>
+        </nav>
+
+        <!-- Bas de Sidebar : Lien Direct vers le Site Public -->
+        <div class="mob-sidebar-footer">
+          <a href="/" class="mob-btn-return-site" title="Accéder à la boutique publique">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>Retour au site public</span>
+          </a>
+        </div>
+      </aside>
+
+      <!-- ZONE DE CONTENU PRINCIPALE (HEADER + CORPS DU DASHBOARD) -->
+      <div class="mob-admin-main">
+        <header class="mob-admin-topbar">
+          <div class="mob-topbar-left">
+            <div class="mob-topbar-breadcrumb">
+              <span>Mall of Beauty</span>
+              <span class="separator">/</span>
+              <span id="mob-admin-active-breadcrumb" class="active">${tabInfo.breadcrumb}</span>
             </div>
+            <h2 id="mob-admin-active-title" class="mob-topbar-title">${tabInfo.title}</h2>
+            <p id="mob-admin-active-desc" class="mob-topbar-desc">${tabInfo.desc}</p>
           </div>
 
-          <!-- Conteneur d'Onglet Actif avec la Même Couleur de Fond que la Carte Cliquée -->
-          <div class="admin-active-tab-box theme-${currentTab}" id="admin-tab-container">
-            ${renderAdminTabContent(currentTab)}
+          <div class="mob-topbar-right">
+            <span class="mob-role-pill">ACCÈS ADMINISTRATEUR</span>
           </div>
+        </header>
+
+        <!-- Conteneur d'Onglet Actif Spacieux & Scrollable -->
+        <div class="mob-admin-content theme-${currentTab}" id="admin-tab-container">
+          ${renderAdminTabContent(currentTab)}
         </div>
       </div>
     </div>
@@ -274,19 +358,19 @@ function renderFeaturedTab(products) {
 
 function renderProductsTab(products) {
   const availableImages = [
-    { label: "Stands Cosmétiques", src: "./imgs/stands_esthetique.jpg" },
-    { label: "Rayon K-Beauty 1", src: "./imgs/stand5.jpg" },
-    { label: "Rayon K-Beauty 2", src: "./imgs/stand4.jpg" },
-    { label: "Soins Bébés 1", src: "./imgs/stand2.jpg" },
-    { label: "Soins Bébés 2", src: "./imgs/stand0.jpg" },
-    { label: "Soins & Crèmes", src: "./imgs/stand1.jpg" },
-    { label: "Pagnes Vlisco 1", src: "./imgs/stand_pagnes.jpg" },
-    { label: "Pagnes Vlisco 2", src: "./imgs/stand_pagnes_.jpg" },
-    { label: "Voiles & Robes", src: "./imgs/vitrine_interieur_habits_hauts.jpg" },
-    { label: "Maroquinerie & Sacs", src: "./imgs/stand_maroquinerie.jpg" },
-    { label: "Perruques HD", src: "./imgs/stand_perruques.jpg" },
-    { label: "Bar Maquillage", src: "./imgs/stand_makeup.jpg" },
-    { label: "Façade Boutique", src: "./imgs/devanture_face.jpg" }
+    { label: "Stands Cosmétiques", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg" },
+    { label: "Rayon K-Beauty 1", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669251/mallofbeauty_assets/stand5.jpg" },
+    { label: "Rayon K-Beauty 2", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669249/mallofbeauty_assets/stand4.jpg" },
+    { label: "Soins Bébés 1", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669248/mallofbeauty_assets/stand2.jpg" },
+    { label: "Soins Bébés 2", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669245/mallofbeauty_assets/stand0.jpg" },
+    { label: "Soins & Crèmes", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669246/mallofbeauty_assets/stand1.jpg" },
+    { label: "Pagnes Vlisco 1", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669259/mallofbeauty_assets/stand_pagnes.jpg" },
+    { label: "Pagnes Vlisco 2", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669263/mallofbeauty_assets/stand_pagnes_.jpg" },
+    { label: "Voiles & Robes", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669272/mallofbeauty_assets/vitrine_interieur_habits_hauts.jpg" },
+    { label: "Maroquinerie & Sacs", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669257/mallofbeauty_assets/stand_maroquinerie.jpg" },
+    { label: "Perruques HD", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669265/mallofbeauty_assets/stand_perruques.jpg" },
+    { label: "Bar Maquillage", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669256/mallofbeauty_assets/stand_makeup.jpg" },
+    { label: "Façade Boutique", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg" }
   ];
 
   return `
@@ -370,7 +454,7 @@ function renderProductsTab(products) {
           <!-- Sélecteur d'image parmi les photos réelles -->
           <div class="form-group">
             <label class="form-label">Sélectionner une Photo de la Boutique :</label>
-            <input type="text" id="form-product-image" class="form-input" value="./imgs/stands_esthetique.jpg" required>
+            <input type="text" id="form-product-image" class="form-input" value="https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg" required>
             <div class="image-preview-picker">
               ${availableImages.map(img => `
                 <img src="${img.src}" alt="${img.label}" class="image-picker-option" title="${img.label}" onclick="document.getElementById('form-product-image').value = '${img.src}'; document.querySelectorAll('.image-picker-option').forEach(el=>el.classList.remove('selected')); this.classList.add('selected');">
@@ -1000,14 +1084,14 @@ function renderGalleryTab(galleryImages) {
   const isFormOpen = showAddGalleryForm || !!editingItem;
 
   const quickPresets = [
-    { label: "Façade Boutique", src: "./imgs/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
-    { label: "Salon VIP", src: "./imgs/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
-    { label: "Bar Maquillage", src: "./imgs/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
-    { label: "Maroquinerie", src: "./imgs/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
-    { label: "Pagnes Vlisco", src: "./imgs/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
-    { label: "Perruques HD", src: "./imgs/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
-    { label: "Soins Visage", src: "./imgs/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
-    { label: "Angle Rue Jardins", src: "./imgs/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" },
+    { label: "Façade Boutique", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg", caption: "Façade Mall of Beauty • Les Vallons" },
+    { label: "Salon VIP", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669197/mallofbeauty_assets/interieur.jpg", caption: "Salon d'Accueil VIP & Conseils" },
+    { label: "Bar Maquillage", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669256/mallofbeauty_assets/stand_makeup.jpg", caption: "Bar à Maquillage & Cosmétiques" },
+    { label: "Maroquinerie", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669257/mallofbeauty_assets/stand_maroquinerie.jpg", caption: "Maroquinerie & Sacs de Luxe" },
+    { label: "Pagnes Vlisco", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669259/mallofbeauty_assets/stand_pagnes.jpg", caption: "Espace Pagnes Vlisco Officiel" },
+    { label: "Perruques HD", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669265/mallofbeauty_assets/stand_perruques.jpg", caption: "Haute Coiffure & Perruques HD" },
+    { label: "Soins Visage", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg", caption: "Soins Visage & K-Beauty" },
+    { label: "Angle Rue Jardins", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669193/mallofbeauty_assets/devanture_cote.jpg", caption: "Vue d'angle Rue des Jardins" },
     { label: "Façade Nuit", src: "./imgs/devanture_face_nuit.jpeg", caption: "Boutique Illuminée de Nuit" },
     { label: "Angle Nuit", src: "./imgs/devanture_cote_nuit.jpeg", caption: "Vue d'angle de nuit" }
   ];
@@ -1050,7 +1134,7 @@ function renderGalleryTab(galleryImages) {
                 <label class="form-label" style="color: #78350F;">URL ou Chemin de l'Image *</label>
                 <input type="text" id="gal-input-src" class="form-input" 
                        value="${editingItem ? editingItem.src : ''}" 
-                       placeholder="./imgs/devanture_face.jpg ou https://..." 
+                       placeholder="https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg ou https://..." 
                        required 
                        oninput="const p = document.getElementById('gal-preview-img'); if(p) p.src = this.value">
               </div>
@@ -1089,10 +1173,10 @@ function renderGalleryTab(galleryImages) {
             <div style="text-align: center; background: #FFFFFF; border: 1.5px solid #FCD34D; border-radius: 12px; padding: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
               <span style="font-size: 0.72rem; color: #92400E; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 6px;">Aperçu Visuel</span>
               <img id="gal-preview-img" 
-                   src="${editingItem ? editingItem.src : './imgs/devanture_face.jpg'}" 
+                   src="${editingItem ? editingItem.src : 'https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg'}" 
                    alt="Aperçu" 
                    style="width: 100%; height: 140px; object-fit: cover; border-radius: 8px; border: 1px solid #E2E8F0; background: #000;"
-                   onerror="this.src='./imgs/logo.jpeg'">
+                   onerror="this.src='https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669201/mallofbeauty_assets/logo_.png'">
             </div>
           </div>
         </form>
@@ -1158,20 +1242,33 @@ export function toggleAddGalleryFormState() {
 export function switchAdminTabLive(tab) {
   currentTab = tab;
 
-  // 1. Mettre à jour l'état actif sur les 8 stat cards
-  const cards = document.querySelectorAll(".admin-stat-card");
-  cards.forEach(card => {
-    if (card.dataset.tab === tab) {
-      card.classList.add("active-stat");
+  // 1. Mettre à jour l'état actif sur les boutons de navigation sidebar et stats cards
+  const navItems = document.querySelectorAll(".mob-nav-item, .admin-stat-card");
+  navItems.forEach(item => {
+    if (item.dataset.tab === tab) {
+      item.classList.add("active");
+      item.classList.add("active-stat");
     } else {
-      card.classList.remove("active-stat");
+      item.classList.remove("active");
+      item.classList.remove("active-stat");
     }
   });
 
-  // 2. Mettre à jour UNIQUEMENT le conteneur en dessous de admin-stats-row
+  // 2. Mettre à jour les informations du topbar
+  const info = getTabInfo(tab);
+  const titleEl = document.getElementById("mob-admin-active-title");
+  if (titleEl) titleEl.textContent = info.title;
+
+  const breadcrumbEl = document.getElementById("mob-admin-active-breadcrumb");
+  if (breadcrumbEl) breadcrumbEl.textContent = info.breadcrumb;
+
+  const descEl = document.getElementById("mob-admin-active-desc");
+  if (descEl) descEl.textContent = info.desc;
+
+  // 3. Mettre à jour le conteneur actif
   const container = document.getElementById("admin-tab-container");
   if (container) {
-    container.className = `admin-active-tab-box theme-${tab}`;
+    container.className = `mob-admin-content theme-${tab}`;
     container.innerHTML = renderAdminTabContent(tab);
     container.scrollTop = 0;
   }
@@ -1184,40 +1281,34 @@ export function refreshAdminActiveTab() {
   const loyaltyMembers = getLoyaltyMembers();
   const contacts = getContacts();
   const analytics = getAnalyticsClicks();
+  const galleryImages = getGalleryImages();
 
   const featuredCount = products.filter(p => p.isFeatured).length;
   const pendingAppointments = appointments.filter(a => a.status === "En attente").length;
   const pendingPS = psRequests.filter(r => r.status && r.status.includes("attente")).length;
   const unreadContacts = contacts.filter(c => c.status === "Non lu").length;
 
-  const cardProducts = document.querySelector('.admin-stat-card[data-tab="products"] .admin-stat-num');
-  if (cardProducts) cardProducts.textContent = products.length;
+  const updateBadge = (tab, count, hasAlert = false) => {
+    const badges = document.querySelectorAll(`[data-tab-badge="${tab}"]`);
+    badges.forEach(b => {
+      b.textContent = count;
+      if (hasAlert) b.classList.add("warning");
+      else b.classList.remove("warning");
+    });
+  };
 
-  const cardFeatured = document.querySelector('.admin-stat-card[data-tab="featured"] .admin-stat-num');
-  if (cardFeatured) cardFeatured.textContent = featuredCount;
-
-  const cardAppointments = document.querySelector('.admin-stat-card[data-tab="appointments"] .admin-stat-num');
-  if (cardAppointments) cardAppointments.textContent = appointments.length;
-
-  const cardPS = document.querySelector('.admin-stat-card[data-tab="personal-shopper"] .admin-stat-num');
-  if (cardPS) cardPS.textContent = psRequests.length;
-
-  const cardLoyalty = document.querySelector('.admin-stat-card[data-tab="loyalty"] .admin-stat-num');
-  if (cardLoyalty) cardLoyalty.textContent = loyaltyMembers.length;
-
-  const cardContacts = document.querySelector('.admin-stat-card[data-tab="contacts"] .admin-stat-num');
-  if (cardContacts) cardContacts.textContent = contacts.length;
-
-  const cardAnalytics = document.querySelector('.admin-stat-card[data-tab="analytics"] .admin-stat-num');
-  if (cardAnalytics) cardAnalytics.textContent = analytics.total || 0;
-
-  const galleryImages = getGalleryImages();
-  const cardGallery = document.querySelector('.admin-stat-card[data-tab="gallery"] .admin-stat-num');
-  if (cardGallery) cardGallery.textContent = galleryImages.length;
+  updateBadge('products', products.length);
+  updateBadge('featured', featuredCount);
+  updateBadge('appointments', appointments.length, pendingAppointments > 0);
+  updateBadge('personal-shopper', psRequests.length, pendingPS > 0);
+  updateBadge('loyalty', loyaltyMembers.length);
+  updateBadge('contacts', contacts.length, unreadContacts > 0);
+  updateBadge('analytics', analytics.total || 0);
+  updateBadge('gallery', galleryImages.length);
 
   const container = document.getElementById("admin-tab-container");
   if (container) {
-    container.className = `admin-active-tab-box theme-${currentTab}`;
+    container.className = `mob-admin-content theme-${currentTab}`;
     container.innerHTML = renderAdminTabContent(currentTab);
   }
 }

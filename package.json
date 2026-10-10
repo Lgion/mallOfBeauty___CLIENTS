@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "astro dev --host",
+    "start": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +16,14 @@
     "vite": "^8.3.0"
   },
   "dependencies": {
+    "@astrojs/node": "^11.1.7",
+    "@clerk/astro": "^4.1.12",
+    "astro": "^7.3.8",
     "canvas-confetti": "^1.9.4",
-    "css": "^3.0.0"
+    "cloudinary": "^2.11.0",
+    "css": "^3.0.0",
+    "dotenv": "^18.0.7",
+    "mongodb": "^7.7.0"
   },
   "main": "stylelint.config.js",
   "description": ""

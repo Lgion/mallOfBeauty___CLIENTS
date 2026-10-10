@@ -1,0 +1,109 @@
+---
+import { UserButton } from "@clerk/astro/components";
+import { clerkClient } from "@clerk/astro/server";
+
+const { userId } = Astro.locals.auth();
+
+if (!userId) {
+  return Astro.redirect("/sign-in?redirect_url=/admin");
+}
+
+const user = await clerkClient(Astro).users.getUser(userId);
+const email = user.emailAddresses[0]?.emailAddress || "";
+
+const adminEmails = import.meta.env.ADMIN_EMAILS ? import.meta.env.ADMIN_EMAILS.split(" ") : [];
+const employeeEmails = import.meta.env.ADMIN_EMPLOYE ? import.meta.env.ADMIN_EMPLOYE.split(" ") : [];
+
+let role = "public";
+if (adminEmails.includes(email)) role = "admin";
+else if (employeeEmails.includes(email)) role = "employe";
+
+if (role !== "admin" && role !== "employe") {
+  return new Response(`Accès refusé. Vous n'avez pas les droits pour accéder à cette page d'administration. (Debug: email=${email}, adminEmails=${adminEmails.join(',')}, role=${role})`, { status: 403 });
+}
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administration | Mall of Beauty</title>
+  <link rel="stylesheet" href="/src/styles/variables.css">
+  <link rel="stylesheet" href="/src/styles/base.css">
+  <link rel="stylesheet" href="/src/styles/layout.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/src/styles/admin.css">
+  <style>
+    body {
+      background: #0B0F19;
+      color: #1E293B;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    }
+
+    #admin-root {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Profil Clerk élégant dans le coin supérieur droit du header */
+    .mob-clerk-top-pill {
+      position: fixed;
+      top: 14px;
+      right: 28px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #FFFFFF;
+      padding: 6px 14px 6px 16px;
+      border-radius: 9999px;
+      border: 1px solid #E2E8F0;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    }
+    .mob-clerk-user-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      line-height: 1.25;
+    }
+    .mob-clerk-email {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #0F172A;
+    }
+    .mob-clerk-badge {
+      font-size: 0.65rem;
+      font-weight: 800;
+      color: #B45309;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+  <!-- Conteneur Plein Écran de l'Application Back-Office -->
+  <div id="admin-root">
+    <!-- Le tableau de bord dédié avec Sidebar et Contenu est monté ici par admin.js -->
+  </div>
+
+  <!-- Profil Clerk Intégré -->
+  <div class="mob-clerk-top-pill">
+    <div class="mob-clerk-user-meta">
+      <span class="mob-clerk-email">{email}</span>
+      <span class="mob-clerk-badge">RÔLE {role.toUpperCase()}</span>
+    </div>
+    <UserButton />
+  </div>
+
+  <div id="toast-root"></div>
+
+  <!-- Script d'administration complet -->
+  <script src="../../admin.js"></script>
+</body>
+</html>

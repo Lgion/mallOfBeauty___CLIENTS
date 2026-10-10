@@ -95,11 +95,60 @@ function renderApp() {
   setupCatalogEvents();
   setupGlobalHeaderEvents();
   loadLiveGoogleReviews();
+  initVipTooltipsAnimation();
 
   // Initialise la carte Leaflet
   setTimeout(() => {
     initMapInstance();
   }, 100);
+}
+
+let vipTooltipInterval = null;
+let vipTooltipTimeout = null;
+
+function initVipTooltipsAnimation() {
+  const buttons = Array.from(document.querySelectorAll('.vip-fixed-dock .vip-dock-btn'));
+  if (buttons.length === 0) return;
+
+  // Stop function
+  const stopAnimation = () => {
+    clearInterval(vipTooltipInterval);
+    clearTimeout(vipTooltipTimeout);
+    buttons.forEach(b => b.classList.remove('force-tooltip'));
+  };
+
+  // Attach stop events
+  buttons.forEach(btn => {
+    btn.addEventListener('mouseenter', stopAnimation);
+    btn.addEventListener('click', stopAnimation);
+  });
+
+  // Start the random popping
+  let lastIndex = -1;
+  
+  const popRandomTooltip = () => {
+    // hide all first
+    buttons.forEach(b => b.classList.remove('force-tooltip'));
+
+    // choose random different index
+    let randomIndex;
+    do {
+      randomIndex = Math.floor(Math.random() * buttons.length);
+    } while (randomIndex === lastIndex && buttons.length > 1);
+    
+    lastIndex = randomIndex;
+    buttons[randomIndex].classList.add('force-tooltip');
+
+    // Hide it after a few seconds
+    vipTooltipTimeout = setTimeout(() => {
+      buttons[randomIndex].classList.remove('force-tooltip');
+    }, 2500);
+  };
+
+  // Initial delay then start loop
+  vipTooltipInterval = setInterval(popRandomTooltip, 4000);
+  // Start first one a bit earlier
+  setTimeout(popRandomTooltip, 1000);
 }
 
 function updateModals() {
@@ -411,8 +460,7 @@ function setupGlobalHeaderEvents() {
   const openAdminBtn = document.getElementById("open-admin-btn");
   if (openAdminBtn) {
     openAdminBtn.addEventListener("click", () => {
-      state.isAdminOpen = true;
-      updateModals();
+      window.location.href = "/admin";
     });
   }
 

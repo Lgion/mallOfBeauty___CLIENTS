@@ -7,9 +7,9 @@ export const INITIAL_PRODUCTS = [
     "price": 110000,
     "isFeatured": true,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -29,9 +29,9 @@ export const INITIAL_PRODUCTS = [
     "price": 72500,
     "isFeatured": true,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -51,9 +51,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -73,9 +73,9 @@ export const INITIAL_PRODUCTS = [
     "price": 72000,
     "isFeatured": true,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -95,9 +95,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -117,9 +117,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": true,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -139,9 +139,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAMIRA BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -161,9 +161,9 @@ export const INITIAL_PRODUCTS = [
     "price": 85500,
     "isFeatured": true,
     "stock": 6,
-    "image": "./strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.webp",
     "gallery": [
-      "./strives/images/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.webp"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -183,9 +183,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -205,9 +205,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -227,9 +227,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": true,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -249,9 +249,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -271,9 +271,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -293,9 +293,9 @@ export const INITIAL_PRODUCTS = [
     "price": 85500,
     "isFeatured": true,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -315,9 +315,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -337,9 +337,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": true,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -359,9 +359,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VIOLET GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -381,9 +381,9 @@ export const INITIAL_PRODUCTS = [
     "price": 72500,
     "isFeatured": true,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -403,9 +403,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -425,9 +425,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -447,9 +447,9 @@ export const INITIAL_PRODUCTS = [
     "price": 40500,
     "isFeatured": true,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -469,9 +469,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -491,9 +491,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -513,9 +513,9 @@ export const INITIAL_PRODUCTS = [
     "price": 63500,
     "isFeatured": true,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -535,9 +535,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -557,9 +557,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -579,9 +579,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": true,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -601,9 +601,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -623,9 +623,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -645,9 +645,9 @@ export const INITIAL_PRODUCTS = [
     "price": 43500,
     "isFeatured": true,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -667,9 +667,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -689,9 +689,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -711,9 +711,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": true,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -733,9 +733,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -755,9 +755,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -777,9 +777,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -799,9 +799,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -821,9 +821,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -843,9 +843,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": true,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -865,9 +865,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -887,9 +887,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -909,9 +909,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": true,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -931,9 +931,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -953,9 +953,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -975,9 +975,9 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": true,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -997,9 +997,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1019,9 +1019,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1041,9 +1041,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1063,9 +1063,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1085,9 +1085,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": true,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1107,9 +1107,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1129,9 +1129,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "XTREME BRITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1151,9 +1151,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "XTREME BRITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1173,9 +1173,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39900,
     "isFeatured": true,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1195,9 +1195,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1217,9 +1217,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1239,9 +1239,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1261,9 +1261,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1283,9 +1283,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1305,9 +1305,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1327,9 +1327,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1349,9 +1349,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": true,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP VIT D",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1371,9 +1371,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP VIT D",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1393,9 +1393,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1415,9 +1415,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": true,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1437,9 +1437,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1459,9 +1459,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1481,9 +1481,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP AA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1503,9 +1503,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": true,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1525,9 +1525,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1547,9 +1547,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1569,9 +1569,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1591,9 +1591,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1613,9 +1613,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1635,9 +1635,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1657,9 +1657,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1679,9 +1679,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1701,9 +1701,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1723,9 +1723,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1745,9 +1745,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": true,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1767,9 +1767,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1789,9 +1789,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1811,9 +1811,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1833,9 +1833,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24600,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1855,9 +1855,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHEN UP PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1877,9 +1877,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN HONEY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1899,9 +1899,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LIGHTEN HONEY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1921,9 +1921,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1943,9 +1943,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19800,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1965,9 +1965,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14600,
     "isFeatured": true,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1987,9 +1987,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25200,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2009,9 +2009,9 @@ export const INITIAL_PRODUCTS = [
     "price": 52650,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2031,9 +2031,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23450,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUMERIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2053,9 +2053,9 @@ export const INITIAL_PRODUCTS = [
     "price": 31590,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUMERIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2075,9 +2075,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2097,9 +2097,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2119,9 +2119,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2141,9 +2141,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2163,9 +2163,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2185,9 +2185,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2207,9 +2207,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2229,9 +2229,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2251,9 +2251,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2273,9 +2273,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": true,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2295,9 +2295,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20400,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CAROTEIN SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2317,9 +2317,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2339,9 +2339,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2361,9 +2361,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25900,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2383,9 +2383,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2405,9 +2405,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2427,9 +2427,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2449,9 +2449,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2471,9 +2471,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2493,9 +2493,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2515,9 +2515,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2537,9 +2537,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2559,9 +2559,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2581,9 +2581,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2603,9 +2603,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2625,9 +2625,9 @@ export const INITIAL_PRODUCTS = [
     "price": 52650,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2647,9 +2647,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23450,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2669,9 +2669,9 @@ export const INITIAL_PRODUCTS = [
     "price": 31590,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PAPAYA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2691,9 +2691,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TAMARIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2713,9 +2713,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TAMARIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2735,9 +2735,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TAMARIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2757,9 +2757,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2779,9 +2779,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2801,9 +2801,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22700,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2823,9 +2823,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2845,9 +2845,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2867,9 +2867,9 @@ export const INITIAL_PRODUCTS = [
     "price": 68500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI SANTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2889,9 +2889,9 @@ export const INITIAL_PRODUCTS = [
     "price": 58500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI VELOURS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2911,9 +2911,9 @@ export const INITIAL_PRODUCTS = [
     "price": 75500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2933,9 +2933,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2955,9 +2955,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2977,9 +2977,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2999,9 +2999,9 @@ export const INITIAL_PRODUCTS = [
     "price": 46500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3021,9 +3021,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16300,
     "isFeatured": true,
     "stock": 27,
-    "image": "./imgs/products/usa/dr_teals_coconut_oil_body_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669217/mallofbeauty_assets/products/usa/dr_teals_coconut_oil_body_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/dr_teals_coconut_oil_body_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669217/mallofbeauty_assets/products/usa/dr_teals_coconut_oil_body_lotion.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3043,9 +3043,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16300,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3065,9 +3065,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12900,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3087,9 +3087,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12900,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3109,9 +3109,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": true,
     "stock": 11,
-    "image": "./imgs/products/usa/dr_teals_coconut_oil_body_wash.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669218/mallofbeauty_assets/products/usa/dr_teals_coconut_oil_body_wash.jpg",
     "gallery": [
-      "./imgs/products/usa/dr_teals_coconut_oil_body_wash.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669218/mallofbeauty_assets/products/usa/dr_teals_coconut_oil_body_wash.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3131,9 +3131,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12900,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3153,9 +3153,9 @@ export const INITIAL_PRODUCTS = [
     "price": 86500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3175,9 +3175,9 @@ export const INITIAL_PRODUCTS = [
     "price": 61500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3197,9 +3197,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3219,9 +3219,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3241,9 +3241,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3263,9 +3263,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3285,9 +3285,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3307,9 +3307,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3329,9 +3329,9 @@ export const INITIAL_PRODUCTS = [
     "price": 33800,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3351,9 +3351,9 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3373,9 +3373,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI EXTREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3395,9 +3395,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3417,9 +3417,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3439,9 +3439,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3461,9 +3461,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3483,9 +3483,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3505,9 +3505,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3527,9 +3527,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3549,9 +3549,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3571,9 +3571,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3593,9 +3593,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3615,9 +3615,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3637,9 +3637,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3659,9 +3659,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3681,9 +3681,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CETAPHIL BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3703,9 +3703,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12400,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CETAPHIL BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3725,9 +3725,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23400,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HONEST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3747,9 +3747,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27000,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKARI VOILE DE CORPS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3769,10 +3769,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.webp",
     "gallery": [
-      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.jpg",
-      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_02.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.webp"
     ],
     "brand": "FB LUXURY AMANDE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3792,9 +3792,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.webp",
     "gallery": [
-      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_04.webp"
     ],
     "brand": "FB LUXURY AMANDE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3814,10 +3814,10 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.webp",
     "gallery": [
-      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.jpg",
-      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_01.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.webp"
     ],
     "brand": "FB LUXURY CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3837,9 +3837,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13800,
     "isFeatured": false,
     "stock": 7,
-    "image": "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.webp",
     "gallery": [
-      "./strives/images/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_06_Fair_White_Luxury_Carrot_Amande_-_Lait_03.webp"
     ],
     "brand": "FB LUXURY CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3859,11 +3859,11 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.avif",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.jpg",
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_02.avif",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.avif",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.avif"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3883,9 +3883,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.avif",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_06.avif"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3905,9 +3905,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3927,9 +3927,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.avif",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_04.avif"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3949,9 +3949,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.webp",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_08.webp"
     ],
     "brand": "FB SUPREME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3971,9 +3971,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3993,9 +3993,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4015,9 +4015,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4037,9 +4037,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4059,9 +4059,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4081,9 +4081,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12800,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4103,9 +4103,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4125,9 +4125,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4147,9 +4147,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB IMPERIAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4169,9 +4169,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4191,9 +4191,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4213,9 +4213,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4235,9 +4235,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB REPARATEUR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4257,11 +4257,11 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.webp",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.jpg",
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_01.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.avif",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.avif"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4281,9 +4281,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.avif",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_03.avif"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4303,9 +4303,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.avif",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_05.avif"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4325,9 +4325,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.webp",
     "gallery": [
-      "./strives/images/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_05_Fair_White_FB_Royal_FB_Supreme_-_Lait_Corps_07.webp"
     ],
     "brand": "FB ROYAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4347,9 +4347,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB CAROTTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4369,9 +4369,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "FB CAROTTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4391,9 +4391,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12800,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DRM 4",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4413,9 +4413,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "Z & C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4435,9 +4435,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "Z & C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4457,9 +4457,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "Z & C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4479,9 +4479,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4501,9 +4501,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4523,9 +4523,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4545,9 +4545,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ROSE WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4567,9 +4567,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4589,9 +4589,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4611,9 +4611,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4633,9 +4633,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SMOOTH WHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4655,9 +4655,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4677,9 +4677,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4699,9 +4699,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4721,9 +4721,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4743,9 +4743,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 REVOLUTION",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4765,9 +4765,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4787,9 +4787,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 CARROT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4809,9 +4809,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HP 25 VERT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4831,9 +4831,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OVERWHITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4853,9 +4853,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4875,9 +4875,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4897,9 +4897,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4919,9 +4919,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3800,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4941,9 +4941,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4963,9 +4963,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -4985,9 +4985,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SH 18",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5007,9 +5007,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5029,9 +5029,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5051,9 +5051,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5073,9 +5073,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5095,9 +5095,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5117,9 +5117,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CHÂTEAU ROUGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5139,9 +5139,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "EUCERIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5161,9 +5161,9 @@ export const INITIAL_PRODUCTS = [
     "price": 68500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5183,9 +5183,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5205,9 +5205,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5227,9 +5227,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5249,9 +5249,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5271,9 +5271,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5293,9 +5293,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5315,9 +5315,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5337,9 +5337,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HT 26",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5359,9 +5359,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DH7",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5381,9 +5381,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2800,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TROPICAL ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5403,9 +5403,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5425,9 +5425,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5447,9 +5447,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5469,9 +5469,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5491,9 +5491,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5513,9 +5513,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5535,9 +5535,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5557,9 +5557,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TROPICLEAR INTENSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5579,9 +5579,9 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TROPICLEAR INTENSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5601,9 +5601,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TROPICLEAR INTENSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5623,9 +5623,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5645,9 +5645,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5667,9 +5667,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5689,9 +5689,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5711,9 +5711,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5733,9 +5733,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMODBA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5755,9 +5755,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": true,
     "stock": 8,
-    "image": "./imgs/products/usa/vaseline_essential_healing_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669242/mallofbeauty_assets/products/usa/vaseline_essential_healing_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/vaseline_essential_healing_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669242/mallofbeauty_assets/products/usa/vaseline_essential_healing_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5777,9 +5777,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5799,9 +5799,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": true,
     "stock": 43,
-    "image": "./imgs/products/usa/vaseline_cocoa_radiant_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669242/mallofbeauty_assets/products/usa/vaseline_cocoa_radiant_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/vaseline_cocoa_radiant_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669242/mallofbeauty_assets/products/usa/vaseline_cocoa_radiant_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5821,9 +5821,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5843,9 +5843,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/products/usa/vaseline_aloe_soothe_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669240/mallofbeauty_assets/products/usa/vaseline_aloe_soothe_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/vaseline_aloe_soothe_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669240/mallofbeauty_assets/products/usa/vaseline_aloe_soothe_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5865,9 +5865,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": true,
     "stock": 12,
-    "image": "./imgs/products/usa/vaseline_advanced_repair_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669238/mallofbeauty_assets/products/usa/vaseline_advanced_repair_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/vaseline_advanced_repair_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669238/mallofbeauty_assets/products/usa/vaseline_advanced_repair_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5887,9 +5887,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5909,9 +5909,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": true,
     "stock": 9,
-    "image": "./imgs/products/usa/vaseline_almond_smooth_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669239/mallofbeauty_assets/products/usa/vaseline_almond_smooth_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/vaseline_almond_smooth_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669239/mallofbeauty_assets/products/usa/vaseline_almond_smooth_lotion.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5931,9 +5931,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5953,9 +5953,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5975,9 +5975,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5997,9 +5997,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6019,9 +6019,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": true,
     "stock": 21,
-    "image": "./imgs/products/usa/vaseline_cocoa_radiant_body_oil.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669241/mallofbeauty_assets/products/usa/vaseline_cocoa_radiant_body_oil.jpg",
     "gallery": [
-      "./imgs/products/usa/vaseline_cocoa_radiant_body_oil.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669241/mallofbeauty_assets/products/usa/vaseline_cocoa_radiant_body_oil.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6041,9 +6041,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6063,9 +6063,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6085,9 +6085,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6107,9 +6107,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6129,9 +6129,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VASELINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6151,9 +6151,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 27,
-    "image": "./imgs/products/usa/jergens_shea_butter_lotion.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669222/mallofbeauty_assets/products/usa/jergens_shea_butter_lotion.webp",
     "gallery": [
-      "./imgs/products/usa/jergens_shea_butter_lotion.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669222/mallofbeauty_assets/products/usa/jergens_shea_butter_lotion.webp"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6173,9 +6173,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./strives/images/cat_09_Jergens_Shea_Butter_02.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_09_Jergens_Shea_Butter_02.webp",
     "gallery": [
-      "./strives/images/cat_09_Jergens_Shea_Butter_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_09_Jergens_Shea_Butter_02.webp"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6195,9 +6195,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./strives/images/cat_09_Jergens_Shea_Butter_03.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_09_Jergens_Shea_Butter_03.webp",
     "gallery": [
-      "./strives/images/cat_09_Jergens_Shea_Butter_03.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669647/mallofbeauty_assets/strives/cat_09_Jergens_Shea_Butter_03.webp"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6217,9 +6217,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 34,
-    "image": "./imgs/products/usa/jergens_cherry_almond_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669221/mallofbeauty_assets/products/usa/jergens_cherry_almond_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/jergens_cherry_almond_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669221/mallofbeauty_assets/products/usa/jergens_cherry_almond_lotion.jpg"
     ],
     "brand": "JERGENS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6239,9 +6239,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OLAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6261,9 +6261,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "KERRI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6283,9 +6283,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6305,9 +6305,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6327,9 +6327,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6349,9 +6349,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6371,9 +6371,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": true,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6393,9 +6393,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6415,9 +6415,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6437,9 +6437,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6459,9 +6459,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGAN OIL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6481,9 +6481,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGAN OIL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6503,9 +6503,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6525,9 +6525,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6547,9 +6547,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6569,9 +6569,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6591,9 +6591,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6613,9 +6613,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6635,9 +6635,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": true,
     "stock": 50,
-    "image": "./imgs/products/usa/eos_vanilla_cashmere_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669220/mallofbeauty_assets/products/usa/eos_vanilla_cashmere_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/eos_vanilla_cashmere_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669220/mallofbeauty_assets/products/usa/eos_vanilla_cashmere_lotion.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6657,9 +6657,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": true,
     "stock": 17,
-    "image": "./imgs/products/usa/eos_coconut_waters_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_coconut_waters_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/eos_coconut_waters_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_coconut_waters_lotion.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6679,9 +6679,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/products/usa/eos_fresh_cozy_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_fresh_cozy_lotion.jpg",
     "gallery": [
-      "./imgs/products/usa/eos_fresh_cozy_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_fresh_cozy_lotion.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6701,9 +6701,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 18,
-    "image": "./imgs/products/usa/palmers_cocoa_butter_lotion.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669226/mallofbeauty_assets/products/usa/palmers_cocoa_butter_lotion.png",
     "gallery": [
-      "./imgs/products/usa/palmers_cocoa_butter_lotion.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669226/mallofbeauty_assets/products/usa/palmers_cocoa_butter_lotion.png"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6723,9 +6723,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6745,9 +6745,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6767,9 +6767,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": true,
     "stock": 39,
-    "image": "./imgs/products/usa/palmers_cocoa_butter_solid_jar.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669227/mallofbeauty_assets/products/usa/palmers_cocoa_butter_solid_jar.png",
     "gallery": [
-      "./imgs/products/usa/palmers_cocoa_butter_solid_jar.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669227/mallofbeauty_assets/products/usa/palmers_cocoa_butter_solid_jar.png"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6789,9 +6789,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5900,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6811,9 +6811,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6833,9 +6833,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6855,9 +6855,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6877,9 +6877,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6899,9 +6899,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6921,9 +6921,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6943,9 +6943,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": true,
     "stock": 46,
-    "image": "./imgs/products/usa/palmers_raw_shea_lotion.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669229/mallofbeauty_assets/products/usa/palmers_raw_shea_lotion.png",
     "gallery": [
-      "./imgs/products/usa/palmers_raw_shea_lotion.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669229/mallofbeauty_assets/products/usa/palmers_raw_shea_lotion.png"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6965,9 +6965,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/products/usa/palmers_raw_shea_lotion_pm.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669230/mallofbeauty_assets/products/usa/palmers_raw_shea_lotion_pm.png",
     "gallery": [
-      "./imgs/products/usa/palmers_raw_shea_lotion_pm.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669230/mallofbeauty_assets/products/usa/palmers_raw_shea_lotion_pm.png"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6987,9 +6987,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/products/usa/palmers_raw_shea_soap.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669232/mallofbeauty_assets/products/usa/palmers_raw_shea_soap.png",
     "gallery": [
-      "./imgs/products/usa/palmers_raw_shea_soap.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669232/mallofbeauty_assets/products/usa/palmers_raw_shea_soap.png"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7009,9 +7009,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7031,9 +7031,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7053,9 +7053,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7075,9 +7075,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7097,9 +7097,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": true,
     "stock": 5,
-    "image": "./imgs/products/usa/palmers_raw_shea_cream.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669228/mallofbeauty_assets/products/usa/palmers_raw_shea_cream.png",
     "gallery": [
-      "./imgs/products/usa/palmers_raw_shea_cream.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669228/mallofbeauty_assets/products/usa/palmers_raw_shea_cream.png"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7119,9 +7119,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7141,9 +7141,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3700,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7163,9 +7163,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10200,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7185,9 +7185,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8200,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7207,9 +7207,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7229,9 +7229,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7251,9 +7251,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7273,9 +7273,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7295,9 +7295,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7317,9 +7317,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7339,9 +7339,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7361,9 +7361,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6700,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7383,9 +7383,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7405,9 +7405,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7427,9 +7427,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7449,9 +7449,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7471,9 +7471,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": true,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7493,9 +7493,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7515,9 +7515,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7537,9 +7537,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7559,9 +7559,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7581,9 +7581,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "O'TENTIKA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7603,9 +7603,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HYPERCREAM",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7625,9 +7625,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HYPERCREAM",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7647,9 +7647,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HYPERCREAM",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7669,9 +7669,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BAUME COCONUT OIL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7691,9 +7691,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7713,9 +7713,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7735,9 +7735,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7757,9 +7757,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7779,9 +7779,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7801,9 +7801,9 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7823,9 +7823,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7845,9 +7845,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7867,9 +7867,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7889,9 +7889,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7911,9 +7911,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7933,9 +7933,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7955,9 +7955,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7977,9 +7977,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14700,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7999,9 +7999,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8021,9 +8021,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8043,9 +8043,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8065,9 +8065,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8087,9 +8087,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10300,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8109,9 +8109,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10300,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8131,9 +8131,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8153,9 +8153,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8175,9 +8175,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8197,9 +8197,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8219,9 +8219,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8241,9 +8241,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BEAUTY FUBLIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8263,9 +8263,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BEAUTY FUBLIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8285,9 +8285,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8307,9 +8307,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8329,9 +8329,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8351,9 +8351,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR PUISSANCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8373,9 +8373,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8395,9 +8395,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8417,9 +8417,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8439,9 +8439,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR MERVEILLE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8461,9 +8461,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR ARGAN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8483,9 +8483,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR ARGAN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8505,9 +8505,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PR ARGAN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8527,9 +8527,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8549,9 +8549,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14600,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8571,9 +8571,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8593,9 +8593,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8615,9 +8615,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ ORIENTALE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8637,9 +8637,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8659,9 +8659,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8681,9 +8681,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8703,9 +8703,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ PRIVILEGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8725,9 +8725,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8747,9 +8747,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8769,9 +8769,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8791,9 +8791,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8813,9 +8813,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ EFFICACITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8835,9 +8835,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8857,9 +8857,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8879,9 +8879,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8901,9 +8901,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ HARMONIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8923,9 +8923,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8945,9 +8945,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ OR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8967,9 +8967,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ CHOC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8989,9 +8989,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "QEI+ INDIA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9011,9 +9011,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MEKAKO",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9033,9 +9033,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "JARIBU",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9055,9 +9055,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NAIR",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9077,9 +9077,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "VEET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9099,9 +9099,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LAMISOL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9121,9 +9121,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "JOLLY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9143,9 +9143,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MARY KAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9165,9 +9165,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22800,
     "isFeatured": false,
     "stock": 50,
-    "image": "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/prod_23_Clinique_-_Moisture_Surge_100H.webp",
     "gallery": [
-      "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/prod_23_Clinique_-_Moisture_Surge_100H.webp"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9187,9 +9187,9 @@ export const INITIAL_PRODUCTS = [
     "price": 56500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9209,9 +9209,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9231,9 +9231,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9253,9 +9253,9 @@ export const INITIAL_PRODUCTS = [
     "price": 56500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9275,9 +9275,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9297,9 +9297,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9319,9 +9319,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9341,9 +9341,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9363,9 +9363,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/prod_23_Clinique_-_Moisture_Surge_100H.webp",
     "gallery": [
-      "./strives/images/prod_23_Clinique_-_Moisture_Surge_100H.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/prod_23_Clinique_-_Moisture_Surge_100H.webp"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9385,9 +9385,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9407,9 +9407,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9429,9 +9429,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLINIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9451,9 +9451,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9473,10 +9473,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 45,
-    "image": "./strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_49_OLLY_-_Women_s_Multi_01.jpg",
     "gallery": [
-      "./strives/images/cat_49_OLLY_-_Women_s_Multi_01.jpg",
-      "./strives/images/cat_49_OLLY_-_Women_s_Multi_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_49_OLLY_-_Women_s_Multi_01.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_49_OLLY_-_Women_s_Multi_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9496,10 +9496,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 34,
-    "image": "./strives/images/cat_50_OLLY_-_Libido_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_50_OLLY_-_Libido_01.jpg",
     "gallery": [
-      "./strives/images/cat_50_OLLY_-_Libido_01.jpg",
-      "./strives/images/cat_50_OLLY_-_Libido_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_50_OLLY_-_Libido_01.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_50_OLLY_-_Libido_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9519,10 +9519,10 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 6,
-    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
     "gallery": [
-      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
-      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669648/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_01.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9542,9 +9542,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 49,
-    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg",
     "gallery": [
-      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_02.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9564,9 +9564,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_03.webp",
     "gallery": [
-      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_03.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_03.webp"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9586,9 +9586,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 41,
-    "image": "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_04.webp",
     "gallery": [
-      "./strives/images/cat_51_OLLY_-_Collagen_Skin_Beauty_04.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_51_OLLY_-_Collagen_Skin_Beauty_04.webp"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9608,9 +9608,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 41,
-    "image": "./strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.webp",
     "gallery": [
-      "./strives/images/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/prod_54_Nature_Made_-_Beauty_Support_Value_Pack.webp"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9630,10 +9630,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 34,
-    "image": "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
     "gallery": [
-      "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
-      "./strives/images/cat_53_Nature_Made_-_Biotine_Collagen_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_53_Nature_Made_-_Biotine_Collagen_01.png",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669649/mallofbeauty_assets/strives/cat_53_Nature_Made_-_Biotine_Collagen_02.avif"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9653,9 +9653,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9675,9 +9675,9 @@ export const INITIAL_PRODUCTS = [
     "price": 42000,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9697,9 +9697,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9719,9 +9719,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9741,9 +9741,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9763,9 +9763,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9785,9 +9785,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9807,9 +9807,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48000,
     "isFeatured": false,
     "stock": 19,
-    "image": "./strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669650/mallofbeauty_assets/strives/prod_52_Goli_Nutrition_-_Superfruits_Gummies.webp",
     "gallery": [
-      "./strives/images/prod_52_Goli_Nutrition_-_Superfruits_Gummies.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669650/mallofbeauty_assets/strives/prod_52_Goli_Nutrition_-_Superfruits_Gummies.webp"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9829,9 +9829,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45000,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9851,9 +9851,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GUMMIES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9873,9 +9873,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9895,9 +9895,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9917,9 +9917,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9939,9 +9939,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9961,9 +9961,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9983,9 +9983,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10005,9 +10005,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10027,9 +10027,9 @@ export const INITIAL_PRODUCTS = [
     "price": 11500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10049,9 +10049,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10071,9 +10071,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10093,9 +10093,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10115,9 +10115,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10137,9 +10137,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10159,9 +10159,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10181,9 +10181,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TUBES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10203,9 +10203,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 33,
-    "image": "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669650/mallofbeauty_assets/strives/cat_35_Dark_and_Lovely_-_D_frisants_02.png",
     "gallery": [
-      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669650/mallofbeauty_assets/strives/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10225,9 +10225,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10247,9 +10247,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10269,9 +10269,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10291,9 +10291,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6900,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TEINTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10313,9 +10313,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10335,9 +10335,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": true,
     "stock": 45,
-    "image": "./imgs/products/usa/neutrogena_clear_soothe_curcuma.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669223/mallofbeauty_assets/products/usa/neutrogena_clear_soothe_curcuma.jpg",
     "gallery": [
-      "./imgs/products/usa/neutrogena_clear_soothe_curcuma.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669223/mallofbeauty_assets/products/usa/neutrogena_clear_soothe_curcuma.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10357,9 +10357,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": true,
     "stock": 26,
-    "image": "./imgs/products/usa/neutrogena_facial_cleansing_bar_original.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669224/mallofbeauty_assets/products/usa/neutrogena_facial_cleansing_bar_original.webp",
     "gallery": [
-      "./imgs/products/usa/neutrogena_facial_cleansing_bar_original.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669224/mallofbeauty_assets/products/usa/neutrogena_facial_cleansing_bar_original.webp"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10379,9 +10379,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10401,9 +10401,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10423,9 +10423,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": true,
     "stock": 6,
-    "image": "./imgs/products/usa/neutrogena_facial_bar_acne_prone.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669223/mallofbeauty_assets/products/usa/neutrogena_facial_bar_acne_prone.webp",
     "gallery": [
-      "./imgs/products/usa/neutrogena_facial_bar_acne_prone.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669223/mallofbeauty_assets/products/usa/neutrogena_facial_bar_acne_prone.webp"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10445,9 +10445,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10467,9 +10467,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10489,9 +10489,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10511,9 +10511,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10533,9 +10533,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10555,9 +10555,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10577,9 +10577,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10599,9 +10599,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10621,9 +10621,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10643,9 +10643,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16800,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NEUTROGENA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10665,9 +10665,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10687,9 +10687,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10709,9 +10709,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10731,9 +10731,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10753,9 +10753,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15200,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10775,9 +10775,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4200,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10797,9 +10797,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25700,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10819,9 +10819,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26900,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10841,9 +10841,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10863,9 +10863,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28300,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10885,9 +10885,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18700,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10907,9 +10907,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10929,9 +10929,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": true,
     "stock": 50,
-    "image": "./imgs/products/usa/shea_moisture_african_black_soap.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669236/mallofbeauty_assets/products/usa/shea_moisture_african_black_soap.jpg",
     "gallery": [
-      "./imgs/products/usa/shea_moisture_african_black_soap.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669236/mallofbeauty_assets/products/usa/shea_moisture_african_black_soap.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10951,9 +10951,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 20,
-    "image": "./imgs/products/usa/shea_moisture_african_black_soap_gm.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669237/mallofbeauty_assets/products/usa/shea_moisture_african_black_soap_gm.jpg",
     "gallery": [
-      "./imgs/products/usa/shea_moisture_african_black_soap_gm.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669237/mallofbeauty_assets/products/usa/shea_moisture_african_black_soap_gm.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10973,9 +10973,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 27,
-    "image": "./strives/images/shea_moisture_coconut_hibiscus_soap.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669650/mallofbeauty_assets/strives/shea_moisture_coconut_hibiscus_soap.jpg",
     "gallery": [
-      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_05.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10995,9 +10995,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": true,
     "stock": 13,
-    "image": "./imgs/products/usa/shea_moisture_coconut_hibiscus_soap.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669237/mallofbeauty_assets/products/usa/shea_moisture_coconut_hibiscus_soap.jpg",
     "gallery": [
-      "./imgs/products/usa/shea_moisture_coconut_hibiscus_soap.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669237/mallofbeauty_assets/products/usa/shea_moisture_coconut_hibiscus_soap.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11017,9 +11017,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11039,9 +11039,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11061,9 +11061,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11083,9 +11083,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11105,9 +11105,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11127,9 +11127,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11149,9 +11149,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13000,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11171,9 +11171,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11193,9 +11193,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11215,9 +11215,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SHEA MOISTURE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11237,9 +11237,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14800,
     "isFeatured": false,
     "stock": 5,
-    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "SHEA MOISTURE KIDS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11259,10 +11259,10 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_01.png",
-      "./strives/images/cat_25_SheaMoisture_-_Masques_capillaires_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "SHEA MOISTURE KIDS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11282,9 +11282,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11304,9 +11304,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11326,9 +11326,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11348,9 +11348,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11370,9 +11370,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7800,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11392,9 +11392,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11414,9 +11414,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11436,9 +11436,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MINE BOTANICALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11458,9 +11458,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MINE BOTANICALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11480,9 +11480,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MINE BOTANICALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11502,9 +11502,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11524,9 +11524,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11546,9 +11546,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8900,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11568,9 +11568,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24600,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DERMISA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11590,9 +11590,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11612,9 +11612,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11634,9 +11634,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11656,9 +11656,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11678,9 +11678,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11700,9 +11700,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11722,9 +11722,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11744,9 +11744,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11766,9 +11766,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11788,9 +11788,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11810,9 +11810,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11832,9 +11832,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LA ROSEE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11854,9 +11854,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15900,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LA ROSEE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11876,9 +11876,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 45,
-    "image": "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11898,10 +11898,10 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 42,
-    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_01.jpg",
     "gallery": [
-      "./strives/images/cat_34_Dark_and_Lovely_Kids_01.jpg",
-      "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_01.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11921,9 +11921,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 21,
-    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_02.jpg",
     "gallery": [
-      "./strives/images/cat_34_Dark_and_Lovely_Kids_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_02.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11943,9 +11943,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 18,
-    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_03.jpg",
     "gallery": [
-      "./strives/images/cat_34_Dark_and_Lovely_Kids_03.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_03.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11965,9 +11965,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 46,
-    "image": "./strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_04.jpg",
     "gallery": [
-      "./strives/images/cat_34_Dark_and_Lovely_Kids_04.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_34_Dark_and_Lovely_Kids_04.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11987,9 +11987,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12009,9 +12009,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12031,9 +12031,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12053,10 +12053,10 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
     "gallery": [
-      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
-      "./strives/images/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_35_Dark_and_Lovely_-_D_frisants_01.png",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669650/mallofbeauty_assets/strives/cat_35_Dark_and_Lovely_-_D_frisants_02.png"
     ],
     "brand": "DEFRISANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12076,10 +12076,10 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_01.webp",
     "gallery": [
-      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_01.jpg",
-      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_01.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_02.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12099,9 +12099,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_03.webp",
     "gallery": [
-      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_03.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_03.webp"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12121,9 +12121,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.avif",
     "gallery": [
-      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12143,9 +12143,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12165,9 +12165,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12187,9 +12187,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_04.avif",
     "gallery": [
-      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_04.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_04.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12209,9 +12209,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12231,10 +12231,10 @@ export const INITIAL_PRODUCTS = [
     "price": 13800,
     "isFeatured": false,
     "stock": 31,
-    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.avif",
     "gallery": [
-      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.png",
-      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_01.avif",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12254,9 +12254,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.avif",
     "gallery": [
-      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_02.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12276,9 +12276,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10800,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12298,9 +12298,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_02.avif",
     "gallery": [
-      "./strives/images/cat_26_Activilong_-_Shampooing_Karit_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_26_Activilong_-_Shampooing_Karit_02.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12320,9 +12320,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12342,9 +12342,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.avif",
     "gallery": [
-      "./strives/images/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_36_Acti_Kid_-_D_m_lant_et_Shampooing_03.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12364,10 +12364,10 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.webp",
     "gallery": [
-      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.jpg",
-      "./strives/images/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_01.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/cat_27_Activilong_-_Kit_de_Lissage_Prot_ine_02.avif"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12387,9 +12387,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12409,9 +12409,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12431,9 +12431,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACTIVILONG",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12453,9 +12453,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12475,9 +12475,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12497,9 +12497,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12519,9 +12519,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12541,9 +12541,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12563,9 +12563,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12585,9 +12585,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12607,9 +12607,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12629,9 +12629,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12651,9 +12651,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12673,9 +12673,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12695,9 +12695,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12717,9 +12717,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12739,9 +12739,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12761,9 +12761,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12783,9 +12783,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12805,9 +12805,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12827,9 +12827,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7200,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12849,9 +12849,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12871,9 +12871,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12893,9 +12893,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12915,9 +12915,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12937,9 +12937,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12959,9 +12959,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12981,9 +12981,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4800,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13003,9 +13003,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13025,9 +13025,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13047,9 +13047,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13069,9 +13069,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13091,9 +13091,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13113,9 +13113,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13135,9 +13135,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13157,9 +13157,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13179,9 +13179,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13201,9 +13201,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13223,9 +13223,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13245,9 +13245,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13267,9 +13267,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13289,9 +13289,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13311,9 +13311,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13333,9 +13333,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13355,9 +13355,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13377,9 +13377,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13399,9 +13399,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13421,9 +13421,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13443,9 +13443,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13465,9 +13465,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13487,9 +13487,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13509,9 +13509,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13531,9 +13531,9 @@ export const INITIAL_PRODUCTS = [
     "price": 17600,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13553,9 +13553,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13575,9 +13575,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15900,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13597,9 +13597,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13619,9 +13619,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13641,9 +13641,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13663,9 +13663,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13685,9 +13685,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13707,9 +13707,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13729,9 +13729,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13751,9 +13751,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13773,9 +13773,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13795,9 +13795,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13817,9 +13817,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13839,9 +13839,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13861,9 +13861,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13883,9 +13883,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13905,9 +13905,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13927,9 +13927,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13949,9 +13949,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13971,9 +13971,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13993,9 +13993,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14015,9 +14015,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14037,9 +14037,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14059,9 +14059,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14081,9 +14081,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14103,9 +14103,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14125,9 +14125,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14147,9 +14147,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13600,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14169,9 +14169,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14191,9 +14191,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14213,9 +14213,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14235,9 +14235,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14257,9 +14257,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14279,9 +14279,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14301,9 +14301,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14323,9 +14323,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14345,9 +14345,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14367,9 +14367,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14389,9 +14389,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15200,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14411,9 +14411,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14433,9 +14433,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14455,9 +14455,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14477,9 +14477,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14499,9 +14499,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14521,9 +14521,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14543,9 +14543,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14565,9 +14565,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14587,9 +14587,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14609,9 +14609,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14631,9 +14631,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14653,9 +14653,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14675,9 +14675,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14697,9 +14697,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14719,9 +14719,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14741,9 +14741,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14763,9 +14763,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": true,
     "stock": 46,
-    "image": "./imgs/products/kbeauty/innisfree_green_tea_cleanser.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669215/mallofbeauty_assets/products/kbeauty/innisfree_green_tea_cleanser.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/innisfree_green_tea_cleanser.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669215/mallofbeauty_assets/products/kbeauty/innisfree_green_tea_cleanser.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14785,9 +14785,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14807,9 +14807,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DEMAQUILLANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14829,9 +14829,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14851,9 +14851,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14873,9 +14873,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14895,9 +14895,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14917,9 +14917,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14939,9 +14939,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14961,9 +14961,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LINGETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14983,9 +14983,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15005,9 +15005,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 37,
-    "image": "./strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg",
     "gallery": [
-      "./strives/images/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/prod_16_Good_Molecules_-_Discoloration_Correcting_Serum_30.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15027,9 +15027,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30800,
     "isFeatured": true,
     "stock": 44,
-    "image": "./imgs/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669212/mallofbeauty_assets/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.webp",
     "gallery": [
-      "./imgs/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669212/mallofbeauty_assets/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15049,10 +15049,10 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 43,
-    "image": "./strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_12_Glow_Recipe_-_Guava_01.avif",
     "gallery": [
-      "./strives/images/cat_12_Glow_Recipe_-_Guava_01.png",
-      "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_12_Glow_Recipe_-_Guava_01.avif",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_12_Glow_Recipe_-_Guava_02.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15072,9 +15072,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15094,9 +15094,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 14,
-    "image": "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_12_Glow_Recipe_-_Guava_02.webp",
     "gallery": [
-      "./strives/images/cat_12_Glow_Recipe_-_Guava_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669653/mallofbeauty_assets/strives/cat_12_Glow_Recipe_-_Guava_02.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15116,9 +15116,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38600,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15138,9 +15138,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15160,9 +15160,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15182,9 +15182,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15204,9 +15204,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15226,9 +15226,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15248,9 +15248,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15270,9 +15270,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15292,9 +15292,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15314,9 +15314,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15336,9 +15336,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 19,
-    "image": "./imgs/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669208/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp",
     "gallery": [
-      "./imgs/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669208/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15358,9 +15358,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": true,
     "stock": 35,
-    "image": "./imgs/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669207/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669207/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15380,9 +15380,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15402,9 +15402,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15424,9 +15424,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15446,9 +15446,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 8,
-    "image": "./imgs/products/kbeauty/anua_niacinamide_10_txa_4.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669205/mallofbeauty_assets/products/kbeauty/anua_niacinamide_10_txa_4.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/anua_niacinamide_10_txa_4.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669205/mallofbeauty_assets/products/kbeauty/anua_niacinamide_10_txa_4.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15468,9 +15468,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 20,
-    "image": "./imgs/products/kbeauty/anua_peach_70_niacin_serum.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669206/mallofbeauty_assets/products/kbeauty/anua_peach_70_niacin_serum.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/anua_peach_70_niacin_serum.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669206/mallofbeauty_assets/products/kbeauty/anua_peach_70_niacin_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15490,9 +15490,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15512,9 +15512,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15534,9 +15534,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15556,9 +15556,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15578,9 +15578,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15600,9 +15600,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15622,9 +15622,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15644,9 +15644,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15666,9 +15666,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15688,9 +15688,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15710,9 +15710,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15732,9 +15732,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15754,9 +15754,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15776,9 +15776,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15798,9 +15798,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15820,9 +15820,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15842,9 +15842,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15864,9 +15864,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15886,9 +15886,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23200,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15908,9 +15908,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15930,9 +15930,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15952,9 +15952,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15974,9 +15974,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15996,9 +15996,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16018,9 +16018,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16040,9 +16040,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16062,9 +16062,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16084,9 +16084,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16106,9 +16106,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16128,9 +16128,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16150,9 +16150,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36600,
     "isFeatured": false,
     "stock": 19,
-    "image": "./strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.webp",
     "gallery": [
-      "./strives/images/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_11_Glow_Recipe_-_Watermelon_Niacinamide_Dew_Drops.webp"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16172,9 +16172,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16194,9 +16194,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16216,9 +16216,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16238,9 +16238,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16260,9 +16260,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16282,9 +16282,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16304,9 +16304,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16326,9 +16326,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16348,9 +16348,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16370,9 +16370,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16392,9 +16392,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16414,9 +16414,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16436,9 +16436,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16458,9 +16458,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16480,9 +16480,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16502,9 +16502,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16524,9 +16524,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16546,9 +16546,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16568,9 +16568,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16590,9 +16590,9 @@ export const INITIAL_PRODUCTS = [
     "price": 53500,
     "isFeatured": true,
     "stock": 22,
-    "image": "./imgs/products/usa/paulas_choice_niacinamide_20.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669235/mallofbeauty_assets/products/usa/paulas_choice_niacinamide_20.avif",
     "gallery": [
-      "./imgs/products/usa/paulas_choice_niacinamide_20.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669235/mallofbeauty_assets/products/usa/paulas_choice_niacinamide_20.avif"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16612,9 +16612,9 @@ export const INITIAL_PRODUCTS = [
     "price": 19700,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16634,9 +16634,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28200,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16656,9 +16656,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16678,9 +16678,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39200,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16700,9 +16700,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16722,9 +16722,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16744,9 +16744,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26600,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16766,9 +16766,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16788,9 +16788,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16810,9 +16810,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16832,9 +16832,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16854,9 +16854,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16876,9 +16876,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16898,9 +16898,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16920,9 +16920,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15200,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16942,9 +16942,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22400,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16964,9 +16964,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16986,9 +16986,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26700,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17008,9 +17008,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17030,9 +17030,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17052,9 +17052,9 @@ export const INITIAL_PRODUCTS = [
     "price": 36900,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17074,9 +17074,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17096,9 +17096,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17118,9 +17118,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17140,9 +17140,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17162,9 +17162,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17184,9 +17184,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25300,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17206,9 +17206,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17228,9 +17228,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17250,9 +17250,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": true,
     "stock": 15,
-    "image": "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_rice_spf50.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669210/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_relief_sun_rice_spf50.webp",
     "gallery": [
-      "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_rice_spf50.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669210/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_relief_sun_rice_spf50.webp"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17272,9 +17272,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": true,
     "stock": 38,
-    "image": "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_aqua_fresh_b5.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669209/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_relief_sun_aqua_fresh_b5.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/beauty_of_joseon_relief_sun_aqua_fresh_b5.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669209/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_relief_sun_aqua_fresh_b5.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17294,9 +17294,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg",
     "gallery": [
-      "./strives/images/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_20_Tocobo_-_Cotton_Soft_Sun_Stick_SPF50.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17316,9 +17316,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.webp",
     "gallery": [
-      "./strives/images/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_20_Round_Lab_-_Birch_Juice_Moisturizing_Sun_Cream_SPF.webp"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17338,9 +17338,9 @@ export const INITIAL_PRODUCTS = [
     "price": 34500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17360,9 +17360,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17382,9 +17382,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17404,9 +17404,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 23,
-    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.webp",
     "gallery": [
-      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_04.webp"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17426,9 +17426,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.avif",
     "gallery": [
-      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.avif"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17448,9 +17448,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17470,9 +17470,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16800,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17492,9 +17492,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17514,9 +17514,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17536,9 +17536,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17558,9 +17558,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17580,9 +17580,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17602,9 +17602,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17624,9 +17624,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17646,9 +17646,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24200,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17668,9 +17668,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17690,9 +17690,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17712,9 +17712,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.webp",
     "gallery": [
-      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_05.webp"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17734,9 +17734,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17756,9 +17756,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17778,9 +17778,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17800,9 +17800,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 35,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17822,9 +17822,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17844,9 +17844,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17866,9 +17866,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17888,9 +17888,9 @@ export const INITIAL_PRODUCTS = [
     "price": 24500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17910,9 +17910,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17932,9 +17932,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17954,9 +17954,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16400,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17976,9 +17976,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10900,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17998,10 +17998,10 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.avif",
     "gallery": [
-      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.png",
-      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_02.avif",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_03.avif"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18021,9 +18021,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18043,9 +18043,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18065,9 +18065,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18087,9 +18087,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35800,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18109,9 +18109,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16800,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18131,9 +18131,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18153,9 +18153,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 32,
-    "image": "./imgs/products/kbeauty/dr_jart_cicapair_tiger_grass_cream.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669214/mallofbeauty_assets/products/kbeauty/dr_jart_cicapair_tiger_grass_cream.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/dr_jart_cicapair_tiger_grass_cream.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669214/mallofbeauty_assets/products/kbeauty/dr_jart_cicapair_tiger_grass_cream.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18175,9 +18175,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20700,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18197,9 +18197,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18219,9 +18219,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26100,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18241,9 +18241,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18263,9 +18263,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18285,9 +18285,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18307,9 +18307,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18329,9 +18329,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 9,
-    "image": "./imgs/products/kbeauty/anua_heartleaf_77_soothing_toner.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669204/mallofbeauty_assets/products/kbeauty/anua_heartleaf_77_soothing_toner.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/anua_heartleaf_77_soothing_toner.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669204/mallofbeauty_assets/products/kbeauty/anua_heartleaf_77_soothing_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18351,9 +18351,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18373,9 +18373,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18395,9 +18395,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 5,
-    "image": "./imgs/products/kbeauty/beauty_of_joseon_rice_milk_toner.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669211/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_rice_milk_toner.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/beauty_of_joseon_rice_milk_toner.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669211/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_rice_milk_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18417,9 +18417,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": true,
     "stock": 12,
-    "image": "./imgs/products/kbeauty/beauty_of_joseon_essence_water.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669206/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_essence_water.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/beauty_of_joseon_essence_water.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669206/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_essence_water.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18439,9 +18439,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.webp",
     "gallery": [
-      "./strives/images/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/cat_22_Centella_-_Probio-Cica_Enrich_Cream_06.webp"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18461,9 +18461,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18483,9 +18483,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18505,9 +18505,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18527,9 +18527,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18549,9 +18549,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18571,9 +18571,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18593,9 +18593,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18615,9 +18615,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18637,9 +18637,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18659,9 +18659,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": true,
     "stock": 31,
-    "image": "./imgs/products/kbeauty/tirtir_milk_skin_toner.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669216/mallofbeauty_assets/products/kbeauty/tirtir_milk_skin_toner.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/tirtir_milk_skin_toner.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669216/mallofbeauty_assets/products/kbeauty/tirtir_milk_skin_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18681,9 +18681,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38900,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18703,9 +18703,9 @@ export const INITIAL_PRODUCTS = [
     "price": 26100,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18725,9 +18725,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18747,9 +18747,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 32,
-    "image": "./imgs/products/kbeauty/cosrx_advanced_snail_96_mucin_essence.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669211/mallofbeauty_assets/products/kbeauty/cosrx_advanced_snail_96_mucin_essence.jpg",
     "gallery": [
-      "./imgs/products/kbeauty/cosrx_advanced_snail_96_mucin_essence.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669211/mallofbeauty_assets/products/kbeauty/cosrx_advanced_snail_96_mucin_essence.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18769,9 +18769,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18791,9 +18791,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18813,9 +18813,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18835,9 +18835,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
     "gallery": [
-      "./strives/images/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18857,9 +18857,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18879,9 +18879,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": true,
     "stock": 5,
-    "image": "./imgs/products/kbeauty/cosrx_pure_fit_cica_toner.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669213/mallofbeauty_assets/products/kbeauty/cosrx_pure_fit_cica_toner.png",
     "gallery": [
-      "./imgs/products/kbeauty/cosrx_pure_fit_cica_toner.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669213/mallofbeauty_assets/products/kbeauty/cosrx_pure_fit_cica_toner.png"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18901,9 +18901,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 37,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18923,9 +18923,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18945,9 +18945,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18967,9 +18967,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18989,9 +18989,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19011,9 +19011,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19033,9 +19033,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19055,9 +19055,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19077,9 +19077,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19099,9 +19099,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19121,9 +19121,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19143,9 +19143,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19165,9 +19165,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19187,9 +19187,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19209,9 +19209,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23900,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19231,9 +19231,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14900,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19253,9 +19253,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23900,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19275,9 +19275,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19297,9 +19297,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19319,9 +19319,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19341,9 +19341,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30600,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19363,9 +19363,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39900,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19385,9 +19385,9 @@ export const INITIAL_PRODUCTS = [
     "price": 27100,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19407,9 +19407,9 @@ export const INITIAL_PRODUCTS = [
     "price": 48100,
     "isFeatured": true,
     "stock": 36,
-    "image": "./imgs/products/usa/paulas_choice_c5_super_boost.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669234/mallofbeauty_assets/products/usa/paulas_choice_c5_super_boost.png",
     "gallery": [
-      "./imgs/products/usa/paulas_choice_c5_super_boost.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669234/mallofbeauty_assets/products/usa/paulas_choice_c5_super_boost.png"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19429,9 +19429,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19451,9 +19451,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39100,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19473,9 +19473,9 @@ export const INITIAL_PRODUCTS = [
     "price": 29100,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19495,9 +19495,9 @@ export const INITIAL_PRODUCTS = [
     "price": 39300,
     "isFeatured": true,
     "stock": 14,
-    "image": "./imgs/products/usa/paulas_choice_azelaic_acid_booster.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669233/mallofbeauty_assets/products/usa/paulas_choice_azelaic_acid_booster.png",
     "gallery": [
-      "./imgs/products/usa/paulas_choice_azelaic_acid_booster.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669233/mallofbeauty_assets/products/usa/paulas_choice_azelaic_acid_booster.png"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19517,9 +19517,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19539,9 +19539,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19561,9 +19561,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19583,9 +19583,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19605,9 +19605,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19627,9 +19627,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19649,9 +19649,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19671,9 +19671,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19693,9 +19693,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19715,9 +19715,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19737,9 +19737,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19759,9 +19759,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19781,9 +19781,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19803,9 +19803,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19825,9 +19825,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19847,9 +19847,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19869,9 +19869,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19891,9 +19891,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19913,9 +19913,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19935,9 +19935,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19957,9 +19957,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19979,9 +19979,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20001,9 +20001,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20023,9 +20023,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20045,9 +20045,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20067,9 +20067,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20089,9 +20089,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25400,
     "isFeatured": false,
     "stock": 11,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20111,9 +20111,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20133,9 +20133,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16900,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20155,9 +20155,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MOUSSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20177,9 +20177,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20199,9 +20199,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20221,9 +20221,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20243,9 +20243,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16700,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20265,9 +20265,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "OTHINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20287,9 +20287,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "URBANSKIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20309,9 +20309,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "URBANSKIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20331,9 +20331,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "URBANSKIN",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20353,9 +20353,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20375,9 +20375,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20397,9 +20397,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20419,9 +20419,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20441,9 +20441,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20463,9 +20463,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20485,9 +20485,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20507,9 +20507,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20529,9 +20529,9 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20551,9 +20551,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20573,9 +20573,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20595,9 +20595,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ARGILES/MASQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20617,9 +20617,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20639,9 +20639,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20661,9 +20661,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20683,9 +20683,9 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20705,9 +20705,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POCHETTE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20727,9 +20727,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "3 BALLERINA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20749,9 +20749,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "YARI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20771,9 +20771,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "YARI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20793,9 +20793,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20815,9 +20815,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3500,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20837,9 +20837,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20859,9 +20859,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "POMMADE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20881,9 +20881,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 48,
-    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20903,9 +20903,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 15,
-    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20925,9 +20925,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 9,
-    "image": "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png",
     "gallery": [
-      "./strives/images/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669651/mallofbeauty_assets/strives/prod_31_Mega_Growth_-_Kit_D_frisant_Pro.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20947,9 +20947,9 @@ export const INITIAL_PRODUCTS = [
     "price": 11500,
     "isFeatured": false,
     "stock": 46,
-    "image": "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png",
     "gallery": [
-      "./strives/images/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_32_Mega_Growth_-_Kit_D_frisant_Sensible.png"
     ],
     "brand": "MEGA GROWTH",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20969,9 +20969,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20991,9 +20991,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21013,9 +21013,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg",
     "gallery": [
-      "./strives/images/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669652/mallofbeauty_assets/strives/prod_24_SheaMoisture_-_Jamaican_Black_Castor_Oil_Treatment.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21035,10 +21035,10 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 26,
-    "image": "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
     "gallery": [
-      "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
-      "./strives/images/cat_28_Aunt_Jackie_s_-_Curl_La_La_02.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/cat_28_Aunt_Jackie_s_-_Curl_La_La_01.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/cat_28_Aunt_Jackie_s_-_Curl_La_La_02.webp"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21058,9 +21058,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21080,9 +21080,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 36,
-    "image": "./strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_29_Aunt_Jackie_s_-_In_Control.webp",
     "gallery": [
-      "./strives/images/prod_29_Aunt_Jackie_s_-_In_Control.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669657/mallofbeauty_assets/strives/prod_29_Aunt_Jackie_s_-_In_Control.webp"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21102,9 +21102,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21124,9 +21124,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "LES SOINS DE CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21146,9 +21146,9 @@ export const INITIAL_PRODUCTS = [
     "price": 6500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MORFOSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21168,9 +21168,9 @@ export const INITIAL_PRODUCTS = [
     "price": 65500,
     "isFeatured": false,
     "stock": 24,
-    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21190,9 +21190,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21212,9 +21212,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg",
     "gallery": [
-      "./strives/images/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_46_Benefit_Cosmetics_-_The_POREfessional.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21234,9 +21234,9 @@ export const INITIAL_PRODUCTS = [
     "price": 45000,
     "isFeatured": false,
     "stock": 37,
-    "image": "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.webp",
     "gallery": [
-      "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.webp"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21256,9 +21256,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21278,9 +21278,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 44,
-    "image": "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.webp",
     "gallery": [
-      "./strives/images/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/prod_45_Milk_Makeup_-_Hydro_Grip_Primer.webp"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21300,10 +21300,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 38,
-    "image": "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/cat_43_Rare_Beauty_-_Fond_de_teint_01.webp",
     "gallery": [
-      "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_01.png",
-      "./strives/images/cat_43_Rare_Beauty_-_Fond_de_teint_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669655/mallofbeauty_assets/strives/cat_43_Rare_Beauty_-_Fond_de_teint_01.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/cat_43_Rare_Beauty_-_Fond_de_teint_02.webp"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21323,9 +21323,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 50,
-    "image": "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.avif",
     "gallery": [
-      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.avif"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21345,10 +21345,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.webp",
     "gallery": [
-      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.png",
-      "./strives/images/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_01.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/cat_44_Huda_Beauty_-_Fond_de_teint_teinte_455R_02.avif"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21368,9 +21368,9 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21390,9 +21390,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21412,9 +21412,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 20,
-    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669661/mallofbeauty_assets/strives/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669661/mallofbeauty_assets/strives/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21434,9 +21434,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 20,
-    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669661/mallofbeauty_assets/strives/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669661/mallofbeauty_assets/strives/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21456,9 +21456,9 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 9,
-    "image": "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669661/mallofbeauty_assets/strives/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png",
     "gallery": [
-      "./strives/images/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669661/mallofbeauty_assets/strives/prod_47_MAC_-_Studio_Fix_Powder_Plus_Foundation.png"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21478,9 +21478,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21500,9 +21500,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21522,9 +21522,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21544,9 +21544,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21566,9 +21566,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21588,9 +21588,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21610,9 +21610,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21632,9 +21632,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21654,9 +21654,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21676,9 +21676,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21698,9 +21698,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4500,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21720,9 +21720,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21742,9 +21742,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 23,
-    "image": "./strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/prod_48_L_A_Girl_-_HD_PRO_conceal.webp",
     "gallery": [
-      "./strives/images/prod_48_L_A_Girl_-_HD_PRO_conceal.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669656/mallofbeauty_assets/strives/prod_48_L_A_Girl_-_HD_PRO_conceal.webp"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21764,9 +21764,9 @@ export const INITIAL_PRODUCTS = [
     "price": 16000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21786,9 +21786,9 @@ export const INITIAL_PRODUCTS = [
     "price": 22000,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21808,9 +21808,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21830,9 +21830,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21852,9 +21852,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21874,9 +21874,9 @@ export const INITIAL_PRODUCTS = [
     "price": 14000,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21896,9 +21896,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21918,9 +21918,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21940,9 +21940,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21962,9 +21962,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -21984,9 +21984,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22006,9 +22006,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22028,9 +22028,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22050,9 +22050,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22072,9 +22072,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22094,9 +22094,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 39,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22116,9 +22116,9 @@ export const INITIAL_PRODUCTS = [
     "price": 1500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22138,9 +22138,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22160,9 +22160,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22182,9 +22182,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22204,9 +22204,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4000,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22226,9 +22226,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22248,9 +22248,9 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MAKE UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22270,9 +22270,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5200,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22292,9 +22292,9 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22314,9 +22314,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22336,9 +22336,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22358,9 +22358,9 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22380,9 +22380,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22402,9 +22402,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22424,9 +22424,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22446,9 +22446,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22468,9 +22468,9 @@ export const INITIAL_PRODUCTS = [
     "price": 4000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22490,9 +22490,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22512,9 +22512,9 @@ export const INITIAL_PRODUCTS = [
     "price": 35000,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22534,9 +22534,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22556,9 +22556,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22578,9 +22578,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22600,9 +22600,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22622,9 +22622,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22644,9 +22644,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22666,9 +22666,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22688,9 +22688,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22710,9 +22710,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PRODUITS CHEVEUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22732,9 +22732,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 30,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22754,9 +22754,9 @@ export const INITIAL_PRODUCTS = [
     "price": 10000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22776,9 +22776,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 41,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22798,9 +22798,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22820,9 +22820,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22842,9 +22842,9 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22864,9 +22864,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BONNET",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22886,9 +22886,9 @@ export const INITIAL_PRODUCTS = [
     "price": 150000,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22908,9 +22908,9 @@ export const INITIAL_PRODUCTS = [
     "price": 100000,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22930,9 +22930,9 @@ export const INITIAL_PRODUCTS = [
     "price": 55000,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22952,9 +22952,9 @@ export const INITIAL_PRODUCTS = [
     "price": 105000,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22974,9 +22974,9 @@ export const INITIAL_PRODUCTS = [
     "price": 110000,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -22996,9 +22996,9 @@ export const INITIAL_PRODUCTS = [
     "price": 110000,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23018,9 +23018,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23040,9 +23040,9 @@ export const INITIAL_PRODUCTS = [
     "price": 210000,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23062,9 +23062,9 @@ export const INITIAL_PRODUCTS = [
     "price": 105000,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23084,9 +23084,9 @@ export const INITIAL_PRODUCTS = [
     "price": 150000,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23106,9 +23106,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23128,9 +23128,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23150,9 +23150,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23172,9 +23172,9 @@ export const INITIAL_PRODUCTS = [
     "price": 160000,
     "isFeatured": false,
     "stock": 44,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23194,9 +23194,9 @@ export const INITIAL_PRODUCTS = [
     "price": 190000,
     "isFeatured": false,
     "stock": 34,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23216,9 +23216,9 @@ export const INITIAL_PRODUCTS = [
     "price": 160000,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23238,9 +23238,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 20,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23260,9 +23260,9 @@ export const INITIAL_PRODUCTS = [
     "price": 115000,
     "isFeatured": false,
     "stock": 26,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23282,9 +23282,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23304,9 +23304,9 @@ export const INITIAL_PRODUCTS = [
     "price": 150000,
     "isFeatured": false,
     "stock": 27,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23326,9 +23326,9 @@ export const INITIAL_PRODUCTS = [
     "price": 200000,
     "isFeatured": false,
     "stock": 40,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23348,9 +23348,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23370,9 +23370,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 50,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23392,9 +23392,9 @@ export const INITIAL_PRODUCTS = [
     "price": 95000,
     "isFeatured": false,
     "stock": 32,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23414,9 +23414,9 @@ export const INITIAL_PRODUCTS = [
     "price": 100000,
     "isFeatured": false,
     "stock": 12,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23436,9 +23436,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 17,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23458,9 +23458,9 @@ export const INITIAL_PRODUCTS = [
     "price": 140000,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23480,9 +23480,9 @@ export const INITIAL_PRODUCTS = [
     "price": 95000,
     "isFeatured": false,
     "stock": 46,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23502,9 +23502,9 @@ export const INITIAL_PRODUCTS = [
     "price": 115000,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23524,9 +23524,9 @@ export const INITIAL_PRODUCTS = [
     "price": 120000,
     "isFeatured": false,
     "stock": 47,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23546,9 +23546,9 @@ export const INITIAL_PRODUCTS = [
     "price": 130000,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23568,9 +23568,9 @@ export const INITIAL_PRODUCTS = [
     "price": 160000,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23590,9 +23590,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 22,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23612,9 +23612,9 @@ export const INITIAL_PRODUCTS = [
     "price": 190000,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23634,9 +23634,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23656,9 +23656,9 @@ export const INITIAL_PRODUCTS = [
     "price": 180000,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23678,9 +23678,9 @@ export const INITIAL_PRODUCTS = [
     "price": 155000,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23700,9 +23700,9 @@ export const INITIAL_PRODUCTS = [
     "price": 140000,
     "isFeatured": false,
     "stock": 28,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23722,9 +23722,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 5,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23744,9 +23744,9 @@ export const INITIAL_PRODUCTS = [
     "price": 70000,
     "isFeatured": false,
     "stock": 31,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23766,9 +23766,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 6,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23788,9 +23788,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 29,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23810,9 +23810,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23832,9 +23832,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 43,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23854,9 +23854,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23876,9 +23876,9 @@ export const INITIAL_PRODUCTS = [
     "price": 60000,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23898,9 +23898,9 @@ export const INITIAL_PRODUCTS = [
     "price": 50000,
     "isFeatured": false,
     "stock": 38,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23920,9 +23920,9 @@ export const INITIAL_PRODUCTS = [
     "price": 75000,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23942,9 +23942,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MECHES",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23964,9 +23964,9 @@ export const INITIAL_PRODUCTS = [
     "price": 23000,
     "isFeatured": false,
     "stock": 8,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -23986,9 +23986,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24008,9 +24008,9 @@ export const INITIAL_PRODUCTS = [
     "price": 500,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24030,9 +24030,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24052,9 +24052,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 48,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24074,9 +24074,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24096,9 +24096,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 15,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24118,9 +24118,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 10,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24140,9 +24140,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 23,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24162,9 +24162,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15500,
     "isFeatured": false,
     "stock": 19,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24184,9 +24184,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 13,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24206,9 +24206,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24228,9 +24228,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5000,
     "isFeatured": false,
     "stock": 7,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24250,9 +24250,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 33,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24272,9 +24272,9 @@ export const INITIAL_PRODUCTS = [
     "price": 2000,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "ACCESSOIRES & DIVERS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24294,9 +24294,9 @@ export const INITIAL_PRODUCTS = [
     "price": 30000,
     "isFeatured": false,
     "stock": 16,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "HOMME",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24316,9 +24316,9 @@ export const INITIAL_PRODUCTS = [
     "price": 20000,
     "isFeatured": false,
     "stock": 24,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "PARAPLUIE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24338,9 +24338,9 @@ export const INITIAL_PRODUCTS = [
     "price": 90000,
     "isFeatured": false,
     "stock": 14,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24360,9 +24360,9 @@ export const INITIAL_PRODUCTS = [
     "price": 5500,
     "isFeatured": false,
     "stock": 42,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24382,9 +24382,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8500,
     "isFeatured": false,
     "stock": 18,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24404,9 +24404,9 @@ export const INITIAL_PRODUCTS = [
     "price": 80000,
     "isFeatured": false,
     "stock": 25,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "MATERIELS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24426,9 +24426,9 @@ export const INITIAL_PRODUCTS = [
     "price": 18000,
     "isFeatured": false,
     "stock": 9,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24448,9 +24448,9 @@ export const INITIAL_PRODUCTS = [
     "price": 15000,
     "isFeatured": false,
     "stock": 49,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24470,9 +24470,9 @@ export const INITIAL_PRODUCTS = [
     "price": 12000,
     "isFeatured": false,
     "stock": 45,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -24492,9 +24492,9 @@ export const INITIAL_PRODUCTS = [
     "price": 8000,
     "isFeatured": false,
     "stock": 36,
-    "image": "./imgs/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
     "gallery": [
-      "./imgs/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
     ],
     "brand": "BIJOUX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
