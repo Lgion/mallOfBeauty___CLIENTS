@@ -17,7 +17,12 @@ export function renderVipFloatingButtons() {
         aria-label="Conseil Sur-Mesure et Diagnostic Beauté"
       >
         <div class="vip-dock-circle-inner vip-dock-icon-wrap">
-          <span class="vip-dock-icon">💆‍♀️</span>
+          <span class="vip-dock-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/>
+              <path d="M5 3v4M3 5h4M19 17v4M17 19h4"/>
+            </svg>
+          </span>
         </div>
         <span class="vip-dock-pulse" aria-hidden="true"></span>
         <div class="dock-tooltip vip-dock-tooltip" role="tooltip">
@@ -38,7 +43,14 @@ export function renderVipFloatingButtons() {
         aria-label="Conciergerie Privée et Personal Shopping"
       >
         <div class="vip-dock-circle-inner vip-dock-icon-wrap">
-          <span class="vip-dock-icon">💎</span>
+          <span class="vip-dock-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 3h12l4 6-10 12L2 9l4-6z"/>
+              <path d="M2 9h20"/>
+              <path d="m6 3 4 6-2 12"/>
+              <path d="m18 3-4 6 2 12"/>
+            </svg>
+          </span>
         </div>
         <span class="vip-dock-pulse" aria-hidden="true"></span>
         <div class="dock-tooltip vip-dock-tooltip" role="tooltip">
@@ -59,7 +71,17 @@ export function renderVipFloatingButtons() {
         aria-label="Carte Privilège et Club VIP Mall of Beauty"
       >
         <div class="vip-dock-circle-inner vip-dock-icon-wrap">
-          <span class="vip-dock-icon">👑</span>
+          <span class="vip-dock-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7z"/>
+              <circle cx="2" cy="4" r="1.2" fill="currentColor"/>
+              <circle cx="22" cy="4" r="1.2" fill="currentColor"/>
+              <circle cx="12" cy="4" r="1.2" fill="currentColor"/>
+              <circle cx="7" cy="11" r="0.9" fill="currentColor"/>
+              <circle cx="17" cy="11" r="0.9" fill="currentColor"/>
+              <path d="M4 19h16"/>
+            </svg>
+          </span>
         </div>
         <span class="vip-dock-pulse" aria-hidden="true"></span>
         <div class="dock-tooltip vip-dock-tooltip" role="tooltip">
@@ -79,9 +101,24 @@ export function renderVipFloatingButtons() {
  */
 export function renderVipDrawer(activeTab = "conseils", isClosing = false) {
   const tabs = [
-    { id: "conseils", label: "Conseil Sur-Mesure", icon: "💆‍♀️", tag: "Diagnostic Dermo" },
-    { id: "conciergerie", label: "Conciergerie Privée", icon: "💎", tag: "Personal Shopper" },
-    { id: "fidelite", label: "Carte Privilège", icon: "👑", tag: "Club VIP MoB" }
+    { 
+      id: "conseils", 
+      label: "Conseil Sur-Mesure", 
+      icon: `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/><path d="M5 3v4M3 5h4M19 17v4M17 19h4"/></svg>`, 
+      tag: "Diagnostic Dermo" 
+    },
+    { 
+      id: "conciergerie", 
+      label: "Conciergerie Privée", 
+      icon: `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9l4-6z"/><path d="M2 9h20"/><path d="m6 3 4 6-2 12"/><path d="m18 3-4 6 2 12"/></svg>`, 
+      tag: "Personal Shopper" 
+    },
+    { 
+      id: "fidelite", 
+      label: "Carte Privilège", 
+      icon: `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7z"/><circle cx="2" cy="4" r="1.2" fill="currentColor"/><circle cx="22" cy="4" r="1.2" fill="currentColor"/><circle cx="12" cy="4" r="1.2" fill="currentColor"/><path d="M4 19h16"/></svg>`, 
+      tag: "Club VIP MoB" 
+    }
   ];
 
   let bodyContent = "";

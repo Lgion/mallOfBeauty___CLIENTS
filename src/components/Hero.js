@@ -14,7 +14,7 @@ export function renderHero(isGalleryUnfolded = false) {
       <div class="container hero-content">
         <!-- Badge Distinction Épuré & Prestigieux -->
         <div class="hero-pill-badge">
-          <span style="color: var(--gold-primary);">👑</span>
+          <span style="color: var(--gold-primary); display: inline-flex; align-items: center;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7z"/><circle cx="2" cy="4" r="1.2" fill="currentColor"/><circle cx="22" cy="4" r="1.2" fill="currentColor"/><circle cx="12" cy="4" r="1.2" fill="currentColor"/><path d="M4 19h16"/></svg></span>
           <span>Mall of Beauty • L'Écrin d'Exception aux Vallons</span>
         </div>
 

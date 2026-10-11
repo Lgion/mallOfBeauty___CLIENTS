@@ -18,7 +18,9 @@ export function renderAdvisoryBooking() {
 
             <div class="advisory-feature-list">
               <div class="advisory-feature-item">
-                <div class="advisory-feature-icon">🤰</div>
+                <div class="advisory-feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </div>
                 <div>
                   <h4 style="font-size: 1rem; color: var(--gold-light); margin-bottom: 4px;">Femmes Enceintes & Allaitantes</h4>
                   <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Protocoles dermo-sûrs sans actifs contre-indiqués, ciblant le masque de grossesse et l'hydratation.</p>
@@ -26,7 +28,9 @@ export function renderAdvisoryBooking() {
               </div>
 
               <div class="advisory-feature-item">
-                <div class="advisory-feature-icon">🧔</div>
+                <div class="advisory-feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
                 <div>
                   <h4 style="font-size: 1rem; color: var(--gold-light); margin-bottom: 4px;">Pôle Hommes & Peaux Tropicales</h4>
                   <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Traitement de l'hyperpigmentation du front (soleil & pollution) et apaisement des boutons de rasage.</p>
@@ -34,7 +38,9 @@ export function renderAdvisoryBooking() {
               </div>
 
               <div class="advisory-feature-item">
-                <div class="advisory-feature-icon">👰</div>
+                <div class="advisory-feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/></svg>
+                </div>
                 <div>
                   <h4 style="font-size: 1rem; color: var(--gold-light); margin-bottom: 4px;">Futures Mariées & Cérémonies</h4>
                   <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Préparation du teint d'apparat, éclat haute définition et harmonisation avec votre pagne Vlisco.</p>
@@ -42,7 +48,9 @@ export function renderAdvisoryBooking() {
               </div>
 
               <div class="advisory-feature-item">
-                <div class="advisory-feature-icon">👶</div>
+                <div class="advisory-feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>
+                </div>
                 <div>
                   <h4 style="font-size: 1rem; color: var(--gold-light); margin-bottom: 4px;">Bébés & Tout-Petits</h4>
                   <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Sélection des huiles douces, laits protecteurs Cetaphil et Johnson's pour le confort du nourrisson.</p>

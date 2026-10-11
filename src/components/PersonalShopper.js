@@ -8,11 +8,11 @@ export function renderPersonalShopper() {
       <div class="section-bg-overlay bg-shopper-store"></div>
       <div class="container">
         <div class="ps-banner">
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; @media(max-width: 900px){grid-template-columns: 1fr;}">
+          <div style="display: grid; grid-template-columns: 1fr; gap: 40px; align-items: center; @media(max-width: 900px){grid-template-columns: 1fr;}">
             <!-- Présentation du Service Conciergerie -->
             <div>
               <div class="ps-deposit-badge">
-                <span>🛡️ Règle Officielle : Acompte de 60% Requis</span>
+                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Règle Officielle : Acompte de 60% Requis</span>
               </div>
               <h2 style="font-size: 2.4rem; line-height: 1.2; margin-bottom: 20px;">
                 Conciergerie Privée & <span class="text-gradient-gold">Personal Shopping</span>
