@@ -280,7 +280,7 @@ export const DEFAULT_CLICKS = {
 };
 
 // --- INITIAL SEEDING AUTOMATIQUE & AUTO-RÉPARATION ---
-async function initData() {
+export async function initData() {
   // Sync down from DB
   const collections = ['products', 'appointments', 'personal_shopper', 'loyalty_members', 'contacts', 'store_settings', 'analytics_clicks', 'gallery_images'];
   try {
@@ -289,10 +289,6 @@ async function initData() {
       if (res.ok) {
         const data = await res.json();
         if (data && (Array.isArray(data) ? data.length > 0 : Object.keys(data).length > 0)) {
-          // If it's an array, it's a list. If it's an object, it's settings/analytics.
-          localStorage.setItem(`mob_${coll}_v3`, JSON.stringify(data));
-          // Note: keys vary (v3, v6, v1) but for simplicity, we keep original keys.
-          // Let's dynamically map the internal collection names to localStorage keys.
           let key;
           switch (coll) {
             case 'products': key = STORAGE_KEYS.PRODUCTS; break;
@@ -308,68 +304,32 @@ async function initData() {
         }
       }
     }
-    emitChange({ type: "INIT_SYNC_COMPLETE" });
   } catch(e) {
     console.warn("DB Sync failed, falling back to local storage", e);
   }
 
+  // Initial seeding STRICTEMENT si la clé est absente (ne jamais écraser les données réelles de la BD)
   if (!localStorage.getItem(STORAGE_KEYS.PRODUCTS)) {
     localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
   }
   if (!localStorage.getItem(STORAGE_KEYS.STORE_SETTINGS)) {
     localStorage.setItem(STORAGE_KEYS.STORE_SETTINGS, JSON.stringify(STORE_INFO));
   }
-  
-  // Rendez-vous (auto-seed si vide ou moins de 3)
-  try {
-    const storedAppts = JSON.parse(localStorage.getItem(STORAGE_KEYS.APPOINTMENTS) || "[]");
-    if (!Array.isArray(storedAppts) || storedAppts.length < 3) {
-      localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(DEFAULT_APPOINTMENTS));
-    }
-  } catch (e) {
+  if (!localStorage.getItem(STORAGE_KEYS.APPOINTMENTS)) {
     localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(DEFAULT_APPOINTMENTS));
   }
-
-  // Personal Shopper (auto-seed si vide ou moins de 2)
-  try {
-    const storedPS = JSON.parse(localStorage.getItem(STORAGE_KEYS.PERSONAL_SHOPPER) || "[]");
-    if (!Array.isArray(storedPS) || storedPS.length < 2) {
-      localStorage.setItem(STORAGE_KEYS.PERSONAL_SHOPPER, JSON.stringify(DEFAULT_PERSONAL_SHOPPER));
-    }
-  } catch (e) {
+  if (!localStorage.getItem(STORAGE_KEYS.PERSONAL_SHOPPER)) {
     localStorage.setItem(STORAGE_KEYS.PERSONAL_SHOPPER, JSON.stringify(DEFAULT_PERSONAL_SHOPPER));
   }
-
-  // Carte Privilège (auto-seed si vide ou moins de 3)
-  try {
-    const storedLoyalty = JSON.parse(localStorage.getItem(STORAGE_KEYS.LOYALTY_MEMBERS) || "[]");
-    if (!Array.isArray(storedLoyalty) || storedLoyalty.length < 3) {
-      localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(DEFAULT_LOYALTY));
-    }
-  } catch (e) {
+  if (!localStorage.getItem(STORAGE_KEYS.LOYALTY_MEMBERS)) {
     localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(DEFAULT_LOYALTY));
   }
-
-  // Messages de Contact (auto-seed si vide ou moins de 2)
-  try {
-    const storedContacts = JSON.parse(localStorage.getItem(STORAGE_KEYS.CONTACTS) || "[]");
-    if (!Array.isArray(storedContacts) || storedContacts.length < 2) {
-      localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(DEFAULT_CONTACTS));
-    }
-  } catch (e) {
+  if (!localStorage.getItem(STORAGE_KEYS.CONTACTS)) {
     localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(DEFAULT_CONTACTS));
   }
-
-  // Analytics Clics (auto-seed si total inexistant ou 0)
-  try {
-    const storedClicks = JSON.parse(localStorage.getItem(STORAGE_KEYS.ANALYTICS_CLICKS) || "null");
-    if (!storedClicks || !storedClicks.total) {
-      localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(DEFAULT_CLICKS));
-    }
-  } catch (e) {
+  if (!localStorage.getItem(STORAGE_KEYS.ANALYTICS_CLICKS)) {
     localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(DEFAULT_CLICKS));
   }
-
   if (!localStorage.getItem(STORAGE_KEYS.FULL_CATALOG)) {
     localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
   }
@@ -462,6 +422,8 @@ async function initData() {
       console.warn("Erreur migration chemins relatifs:", e);
     }
   }
+
+  emitChange({ type: "INIT_SYNC_COMPLETE" });
 }
 
 // Helper pour normaliser tout chemin d'image en chemin relatif compatible avec GitHub Pages

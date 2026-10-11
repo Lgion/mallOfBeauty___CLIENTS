@@ -20,7 +20,7 @@ import {
   getAnalyticsClicks, trackClick, resetAnalyticsClicks,
   getStoreSettings, updateStoreSettings, resetToFactory, reloadAllDummyData,
   getGalleryImages, addGalleryImage, updateGalleryImage, deleteGalleryImage, resetGalleryImages,
-  subscribeToDataChanges
+  subscribeToDataChanges, initData
 } from "./data/storage.js";
 
 // --- TOAST NOTIFICATIONS ---
@@ -395,11 +395,14 @@ window.MoB.exportDatabase = () => {
   showToast("Sauvegarde exportée avec succès.", "success");
 };
 
-window.MoB.confirmResetFactory = () => {
-  if (confirm("⚠️ Attention : Restaurer les données initiales réinitialisera tous les produits et réglages. Continuer ?")) {
-    resetToFactory();
-    showToast("Données réinitialisées aux valeurs d'origine.", "gold");
-    initAdmin();
+window.MoB.syncFromDbNow = async () => {
+  showToast("Synchronisation MongoDB en cours...", "gold");
+  try {
+    await initData();
+    refreshAdminActiveTab();
+    showToast("Synchronisation MongoDB terminée avec succès !", "success");
+  } catch (err) {
+    showToast("Erreur lors de la synchronisation", "danger");
   }
 };
 

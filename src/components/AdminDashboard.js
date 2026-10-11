@@ -538,11 +538,16 @@ function renderAppointmentsTab(appointments) {
         <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">📅 Formulaire « Consultation & Diagnostic Beauté » (CRUD)</h4>
         <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Suivi des demandes soumises via la section de réservation de diagnostic personnalisé.</p>
       </div>
-      <span class="badge" style="background: #ECFDF5; color: #065F46; border: 1px solid #A7F3D0; font-weight: 700;">${appointments.length} Réservations</span>
+      <div style="display: flex; gap: 10px; align-items: center;">
+        <button type="button" class="btn-action-sm" onclick="window.MoB.syncFromDbNow()" style="background: #0284C7; color: #FFF; padding: 6px 12px; border-radius: 6px; font-weight: 600; display: flex; align-items: center; gap: 6px;" title="Rafraîchir depuis la base de données MongoDB">
+          🔄 Actualiser MongoDB
+        </button>
+        <span class="badge" style="background: #ECFDF5; color: #065F46; border: 1px solid #A7F3D0; font-weight: 700;">${appointments.length} Réservation${appointments.length > 1 ? 's' : ''}</span>
+      </div>
     </div>
 
     <div class="admin-callout-info">
-      💡 <strong>Données factices actives (Abidjan) :</strong> 5 réservations réalistes (Aïcha Traoré - Femme enceinte/taches, Koffi Jean-Luc - Soins barbe homme, Mariam Coulibaly - Future mariée, Sarah Bamba - Acné K-Beauty, Estelle N'Dri - Anti-âge). Vous pouvez modifier le statut en direct, contacter le client sur WhatsApp en 1 clic ou supprimer la réservation.
+      💡 <strong>Demandes de consultation en direct (MongoDB Atlas) :</strong> Toutes les prises de rendez-vous effectuées par vos clients sur la boutique sont enregistrées dans votre base de données MongoDB et s'affichent ici en direct. Vous pouvez contacter le client sur WhatsApp en 1 clic, modifier le statut du rendez-vous ou supprimer l'entrée.
     </div>
 
     <div class="admin-table-wrap">
