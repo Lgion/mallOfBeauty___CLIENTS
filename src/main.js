@@ -1369,16 +1369,22 @@ window.MoB = {
     }
   },
 
-  // Recharger Données Factices Complètes
-  reloadAllDummyData() {
-    reloadAllDummyData();
-    showToast("✨ Données factices réalistes rechargées avec succès !", "gold");
-    updateModals();
-    confetti({
-      particleCount: 80,
-      spread: 70,
-      colors: ['#D4AF37', '#F3E5AB', '#FFFFFF']
-    });
+  // Recharger Données Factices Complètes (MongoDB Atlas)
+  async reloadAllDummyData() {
+    showToast("Réinitialisation MongoDB en cours...", "gold");
+    try {
+      await reloadAllDummyData();
+      showToast("✨ Données factices MongoDB rechargées avec succès !", "gold");
+      updateModals();
+      renderApp();
+      confetti({
+        particleCount: 80,
+        spread: 70,
+        colors: ['#D4AF37', '#F3E5AB', '#FFFFFF']
+      });
+    } catch (e) {
+      showToast("Erreur lors de la réinitialisation de la base", "danger");
+    }
   },
 
   // Upload d'image pour le QR Code Wave
@@ -1478,12 +1484,17 @@ window.MoB = {
     URL.revokeObjectURL(url);
     showToast("Sauvegarde exportée avec succès.", "success");
   },
-  confirmResetFactory() {
-    if (confirm("⚠️ Attention : Restaurer les données initiales de l'interview réinitialisera tous les produits et réglages. Continuer ?")) {
-      resetToFactory();
-      showToast("Données réinitialisées aux valeurs d'origine.", "gold");
-      updateModals();
-      renderApp();
+  async confirmResetFactory() {
+    if (confirm("⚠️ Attention : Restaurer les données initiales réinitialisera toute la base MongoDB (1 113 produits & données démo). Continuer ?")) {
+      showToast("Réinitialisation de la base en cours...", "gold");
+      try {
+        await resetToFactory();
+        showToast("Données réinitialisées aux valeurs d'origine.", "gold");
+        updateModals();
+        renderApp();
+      } catch (e) {
+        showToast("Erreur lors de la réinitialisation", "danger");
+      }
     }
   }
 };

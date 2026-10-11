@@ -1058,27 +1058,61 @@ function renderBackupTab() {
     <div class="admin-tab-header">
       <div>
         <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">💾 Sauvegarde & Restauration des Données</h4>
-        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Exportez votre base de données ou réinitialisez les données factices d'origine.</p>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Synchronisation MongoDB Atlas, export de sauvegardes et restauration des données initiales.</p>
+      </div>
+      <div>
+        <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.syncFromDbNow()" style="display: inline-flex; align-items: center; gap: 8px;">
+          <i class="fa-solid fa-rotate"></i> Synchroniser avec MongoDB
+        </button>
       </div>
     </div>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-      <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
-        <h4 style="color: #0F172A; margin-bottom: 8px; font-weight: 700;">🔄 Recharger Données Factices</h4>
-        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Réinjecte instantanément toutes les réservations, demandes VIP, cartes privilège et messages clients d'Abidjan pour tester les formulaires.</p>
-        <button class="btn btn-gold btn-sm" onclick="window.MoB.reloadAllDummyData()">Recharger les Données Factices</button>
+      <!-- Carte Sauvegarde JSON -->
+      <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 12px;">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+          <i class="fa-solid fa-file-arrow-down" style="color: #D4AF37; font-size: 1.2rem;"></i>
+          <h4 style="color: #0F172A; margin: 0; font-weight: 700;">Exporter une Sauvegarde Complète</h4>
+        </div>
+        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Téléchargez une archive JSON intégrale contenant tous vos produits, rendez-vous, demandes et paramètres boutique.</p>
+        <button class="btn btn-gold btn-sm" onclick="window.MoB.exportDatabase()">Télécharger l'archive JSON</button>
       </div>
 
-      <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
-        <h4 style="color: #0F172A; margin-bottom: 8px; font-weight: 700;">Exporter les Données</h4>
-        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Téléchargez une sauvegarde JSON complète contenant vos produits, rendez-vous et réglages.</p>
-        <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.exportDatabase()">Télécharger le fichier JSON</button>
+      <!-- Carte État MongoDB -->
+      <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 12px;">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+          <i class="fa-solid fa-database" style="color: #10B981; font-size: 1.2rem;"></i>
+          <h4 style="color: #0F172A; margin: 0; font-weight: 700;">Statut Base de Données MongoDB</h4>
+        </div>
+        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Toutes les modifications en direct sont synchronisées avec le cluster distant MongoDB Atlas (base clients).</p>
+        <button class="btn btn-outline-dark btn-sm" onclick="window.MoB.syncFromDbNow()">Vérifier & Re-synchroniser</button>
       </div>
 
-      <div class="luxury-card" style="padding: 24px; background: #FFF1F2; border: 1.5px solid #FECDD3; grid-column: 1 / -1;">
-        <h4 style="color: #BE123C; margin-bottom: 8px; font-weight: 700;">Réinitialisation Totale d'Usine</h4>
-        <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Efface le stockage local et réinitialise l'application complète aux paramètres d'origine.</p>
-        <button class="btn btn-danger btn-sm" onclick="window.MoB.confirmResetFactory()">Restaurer les données initiales</button>
+      <!-- Zone Haute Sécurité : Réinitialisation MongoDB -->
+      <div class="luxury-card" style="padding: 28px; background: linear-gradient(135deg, #FFFDF8 0%, #FEF2F2 100%); border: 2px solid #FCA5A5; border-radius: 16px; grid-column: 1 / -1; box-shadow: 0 4px 20px rgba(220, 38, 38, 0.08);">
+        <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 12px;">
+          <div>
+            <div style="display: inline-flex; align-items: center; gap: 6px; background: #FEE2E2; color: #991B1B; padding: 4px 12px; border-radius: 999px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">
+              <i class="fa-solid fa-shield-halved"></i> Haute Sécurité • 3 Étapes de Confirmation Requises
+            </div>
+            <h4 style="font-size: 1.25rem; color: #991B1B; margin: 0; font-weight: 800;">⚡ Réinitialiser MongoDB avec les Données Factices</h4>
+            <p style="font-size: 0.88rem; color: #4B5563; margin: 6px 0 0 0; line-height: 1.5;">
+              Cette commande réinitialise <strong>directement la base de données MongoDB Atlas</strong> avec le catalogue d'origine (1 113 produits, rendez-vous démo, demandes VIP, membres privilège et galerie).
+            </p>
+          </div>
+        </div>
+
+        <div style="background: rgba(254, 242, 242, 0.8); border: 1px dashed #F87171; border-radius: 12px; padding: 12px 16px; margin-bottom: 18px;">
+          <p style="font-size: 0.82rem; color: #7F1D1D; margin: 0; display: flex; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-triangle-exclamation" style="font-size: 1rem; color: #DC2626;"></i>
+            <span><strong>Protection absolue :</strong> L'exécution nécessite une triple confirmation pour éviter toute réinitialisation accidentelle en production.</span>
+          </p>
+        </div>
+
+        <button class="btn btn-danger" onclick="window.MoB.openResetDatabaseModal()" style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; font-weight: 700; border-radius: 10px; background: #DC2626; border: none; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25); cursor: pointer;">
+          <i class="fa-solid fa-arrows-rotate"></i>
+          <span>Lancer la Réinitialisation Sécurisée de MongoDB...</span>
+        </button>
       </div>
     </div>
   `;

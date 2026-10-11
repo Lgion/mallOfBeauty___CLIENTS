@@ -279,62 +279,54 @@ export const DEFAULT_CLICKS = {
   updatedAt: new Date().toISOString()
 };
 
-// --- INITIAL SEEDING AUTOMATIQUE & AUTO-RÉPARATION ---
+// --- INITIAL SEEDING AUTOMATIQUE & SYNCHRONISATION MONGODB ---
 export async function initData() {
-  // Sync down from DB
+  if (typeof window === "undefined" || typeof localStorage === "undefined") {
+    return;
+  }
+
+  // Sync down directly from MongoDB Atlas via API
   const collections = ['products', 'appointments', 'personal_shopper', 'loyalty_members', 'contacts', 'store_settings', 'analytics_clicks', 'gallery_images'];
   try {
     for (const coll of collections) {
       const res = await fetch(`/api/${coll}`);
       if (res.ok) {
         const data = await res.json();
-        if (data && (Array.isArray(data) ? data.length > 0 : Object.keys(data).length > 0)) {
-          let key;
-          switch (coll) {
-            case 'products': key = STORAGE_KEYS.PRODUCTS; break;
-            case 'appointments': key = STORAGE_KEYS.APPOINTMENTS; break;
-            case 'personal_shopper': key = STORAGE_KEYS.PERSONAL_SHOPPER; break;
-            case 'loyalty_members': key = STORAGE_KEYS.LOYALTY_MEMBERS; break;
-            case 'contacts': key = STORAGE_KEYS.CONTACTS; break;
-            case 'store_settings': key = STORAGE_KEYS.STORE_SETTINGS; break;
-            case 'analytics_clicks': key = STORAGE_KEYS.ANALYTICS_CLICKS; break;
-            case 'gallery_images': key = STORAGE_KEYS.GALLERY_IMAGES; break;
+        let key;
+        switch (coll) {
+          case 'products': key = STORAGE_KEYS.PRODUCTS; break;
+          case 'appointments': key = STORAGE_KEYS.APPOINTMENTS; break;
+          case 'personal_shopper': key = STORAGE_KEYS.PERSONAL_SHOPPER; break;
+          case 'loyalty_members': key = STORAGE_KEYS.LOYALTY_MEMBERS; break;
+          case 'contacts': key = STORAGE_KEYS.CONTACTS; break;
+          case 'store_settings': key = STORAGE_KEYS.STORE_SETTINGS; break;
+          case 'analytics_clicks': key = STORAGE_KEYS.ANALYTICS_CLICKS; break;
+          case 'gallery_images': key = STORAGE_KEYS.GALLERY_IMAGES; break;
+        }
+
+        if (key && data !== undefined && data !== null) {
+          if (coll === 'store_settings' && Array.isArray(data)) {
+            if (data.length > 0) localStorage.setItem(key, JSON.stringify(data[0]));
+          } else if (coll === 'analytics_clicks' && Array.isArray(data)) {
+            if (data.length > 0) localStorage.setItem(key, JSON.stringify(data[0]));
+          } else {
+            // MongoDB Atlas is the single source of truth:
+            // even if empty [], store it directly so deletions are preserved!
+            localStorage.setItem(key, JSON.stringify(Array.isArray(data) ? data : []));
           }
-          if (key) localStorage.setItem(key, JSON.stringify(data));
         }
       }
     }
   } catch(e) {
-    console.warn("DB Sync failed, falling back to local storage", e);
+    console.warn("DB Sync failed, using local storage cache", e);
   }
 
-  // Initial seeding STRICTEMENT si la clé est absente (ne jamais écraser les données réelles de la BD)
-  if (!localStorage.getItem(STORAGE_KEYS.PRODUCTS)) {
-    localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.STORE_SETTINGS)) {
-    localStorage.setItem(STORAGE_KEYS.STORE_SETTINGS, JSON.stringify(STORE_INFO));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.APPOINTMENTS)) {
-    localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(DEFAULT_APPOINTMENTS));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.PERSONAL_SHOPPER)) {
-    localStorage.setItem(STORAGE_KEYS.PERSONAL_SHOPPER, JSON.stringify(DEFAULT_PERSONAL_SHOPPER));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.LOYALTY_MEMBERS)) {
-    localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(DEFAULT_LOYALTY));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.CONTACTS)) {
-    localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(DEFAULT_CONTACTS));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.ANALYTICS_CLICKS)) {
-    localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(DEFAULT_CLICKS));
+  // Initialisation structurelle minimale (uniquement pour paniers et catalogue statique hors BD)
+  if (!localStorage.getItem(STORAGE_KEYS.CART)) {
+    localStorage.setItem(STORAGE_KEYS.CART, JSON.stringify([]));
   }
   if (!localStorage.getItem(STORAGE_KEYS.FULL_CATALOG)) {
     localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.CART)) {
-    localStorage.setItem(STORAGE_KEYS.CART, JSON.stringify([]));
   }
 
   // Synchronisation des images réelles téléchargées
@@ -441,7 +433,7 @@ initData();
 export function getProducts() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.PRODUCTS);
-    const list = data ? JSON.parse(data) : INITIAL_PRODUCTS;
+    const list = data ? JSON.parse(data) : [];
     return list.map(p => ({
       ...p,
       image: getAssetUrl(p.image),
@@ -449,11 +441,7 @@ export function getProducts() {
     }));
   } catch (e) {
     console.error(e);
-    return INITIAL_PRODUCTS.map(p => ({
-      ...p,
-      image: getAssetUrl(p.image),
-      gallery: Array.isArray(p.gallery) && p.gallery.length > 0 ? p.gallery.map(getAssetUrl) : [getAssetUrl(p.image)]
-    }));
+    return [];
   }
 }
 
@@ -918,10 +906,10 @@ export function searchFullCatalog({ query = "", category = "all", brand = "all",
 export function getContacts() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.CONTACTS);
-    return data ? JSON.parse(data) : DEFAULT_CONTACTS;
+    return data ? JSON.parse(data) : [];
   } catch (e) {
     console.error("Error reading contacts", e);
-    return DEFAULT_CONTACTS;
+    return [];
   }
 }
 
@@ -981,11 +969,9 @@ export const DEFAULT_GALLERY_IMAGES = [
 export function getGalleryImages() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.GALLERY_IMAGES);
-    if (!data) return [...DEFAULT_GALLERY_IMAGES];
-    const parsed = JSON.parse(data);
-    return Array.isArray(parsed) && parsed.length > 0 ? parsed : [...DEFAULT_GALLERY_IMAGES];
+    return data ? JSON.parse(data) : [];
   } catch (e) {
-    return [...DEFAULT_GALLERY_IMAGES];
+    return [];
   }
 }
 
@@ -1030,37 +1016,33 @@ export function deleteGalleryImage(id) {
   return true;
 }
 
-export function resetGalleryImages() {
+export async function resetGalleryImages() {
   localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(DEFAULT_GALLERY_IMAGES));
+  for (const img of DEFAULT_GALLERY_IMAGES) {
+    await syncToDb('gallery_images', 'POST', img);
+  }
   emitChange({ type: "GALLERY_UPDATED", images: [...DEFAULT_GALLERY_IMAGES] });
   return [...DEFAULT_GALLERY_IMAGES];
 }
 
-// --- RECHARGER TOUTES LES DONNÉES FACTICES ---
-export function reloadAllDummyData() {
-  localStorage.setItem(STORAGE_KEYS.APPOINTMENTS, JSON.stringify(DEFAULT_APPOINTMENTS));
-  localStorage.setItem(STORAGE_KEYS.PERSONAL_SHOPPER, JSON.stringify(DEFAULT_PERSONAL_SHOPPER));
-  localStorage.setItem(STORAGE_KEYS.LOYALTY_MEMBERS, JSON.stringify(DEFAULT_LOYALTY));
-  localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(DEFAULT_CONTACTS));
-  localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(DEFAULT_CLICKS));
-  localStorage.setItem(STORAGE_KEYS.GALLERY_IMAGES, JSON.stringify(DEFAULT_GALLERY_IMAGES));
+// --- RECHARGER TOUTES LES DONNÉES FACTICES DEPUIS MONGODB ATLAS ---
+export async function reloadAllDummyData() {
+  const res = await fetch('/api/reset-database', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' }
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.error || "Erreur serveur lors de la réinitialisation de la base");
+  }
+  const result = await res.json();
+  await initData();
   emitChange({ type: "DUMMY_DATA_RELOADED" });
-  return true;
+  return result;
 }
 
 // --- FACTORY RESET HELPER ---
-export function resetToFactory() {
-  localStorage.removeItem(STORAGE_KEYS.PRODUCTS);
-  localStorage.removeItem(STORAGE_KEYS.FULL_CATALOG);
-  localStorage.removeItem(STORAGE_KEYS.APPOINTMENTS);
-  localStorage.removeItem(STORAGE_KEYS.PERSONAL_SHOPPER);
-  localStorage.removeItem(STORAGE_KEYS.LOYALTY_MEMBERS);
-  localStorage.removeItem(STORAGE_KEYS.CONTACTS);
-  localStorage.removeItem(STORAGE_KEYS.ANALYTICS_CLICKS);
-  localStorage.removeItem(STORAGE_KEYS.STORE_SETTINGS);
-  localStorage.removeItem(STORAGE_KEYS.CART);
-  localStorage.removeItem(STORAGE_KEYS.GALLERY_IMAGES);
-  initData();
-  emitChange({ type: "FACTORY_RESET" });
+export async function resetToFactory() {
+  return await reloadAllDummyData();
 }
 
