@@ -496,92 +496,227 @@
   outline: none;
 }
 
+/* --- ONGLETS DE CATÉGORIES (5 BOUTONS - STRICTEMENT SANS SCROLL HORIZONTAL) --- */
 .category-tabs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  overflow-x: auto;
-  padding: 16px 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  overflow-y: hidden;
+  padding: 14px 0;
   scrollbar-width: none;
   position: sticky;
   top: var(--header-height);
   z-index: 100;
   background: var(--bg-primary);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .category-tabs::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 
 .category-img-btn {
   position: relative;
-  min-width: 165px;
-  height: 68px;
+  min-width: 0 !important;
+  width: 100%;
+  height: 86px;
   border-radius: var(--radius-md);
   background-size: cover;
   background-position: center;
-  border: 2px solid rgba(255, 255, 255, 0.15);
+  background-repeat: no-repeat;
+  border: 2px solid rgba(255, 255, 255, 0.16);
   overflow: hidden;
   cursor: pointer;
-  transition: var(--transition-smooth);
-  flex-shrink: 0;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
 }
 
-.category-img-btn::before {
-  content: '';
+/* Superposition dégradée subtile pour admirer les drapeaux animés et les photos */
+.category-img-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  transition: var(--transition-smooth);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.08) 40%, rgba(6, 9, 18, 0.85) 100%);
   pointer-events: none;
+  transition: background 0.25s ease;
 }
 
 .category-img-btn:hover {
   transform: translateY(-2px);
   border-color: var(--gold-light);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.35);
 }
 
-.category-img-btn:hover::before {
-  background: rgba(0, 0, 0, 0.25);
+.category-img-btn:hover .category-img-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.03) 30%, rgba(5, 8, 16, 0.7) 100%);
 }
 
-.category-img-btn[data-category="usa"] .category-img-label,
-.category-img-btn[data-category="coree"] .category-img-label {
-  font-size: 1.25em;
-}
-
-
-.category-img-label {
+.category-img-badge {
   position: relative;
   z-index: 2;
-  color: #FFF;
-  font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.3px;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  width: 100%;
+  padding: 4px 5px;
+  border-radius: 6px;
+  background: rgba(8, 12, 22, 0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  pointer-events: none;
-  padding: 0 12px;
-  text-align: center;
+  box-sizing: border-box;
+  transition: all 0.25s ease;
 }
 
-.category-img-label.ok {
-  font-size: 3em;
+.category-img-label-main {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
+.category-img-label-sub {
+  color: var(--gold-light, #f1df99);
+  font-size: 0.65rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.label-mobile {
+  display: none;
+}
+
+.label-desktop {
+  display: inline;
+}
+
+/* État Actif */
 .category-img-btn.active {
-  border-color: var(--gold-primary);
-  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.5);
-  transform: scale(1.04);
+  border-color: var(--gold-primary) !important;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.6), 0 8px 24px rgba(212, 175, 55, 0.45) !important;
+  transform: scale(1.02);
 }
 
-.category-img-btn.active::before {
-  background: rgba(0, 0, 0, 0.15);
+.category-img-btn.active .category-img-badge {
+  background: rgba(22, 17, 8, 0.92);
+  border-color: var(--gold-primary);
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.category-img-btn.active .category-img-label-main {
+  color: var(--gold-light, #fff6d6);
+}
+
+/* --- VERSION TABLETTE (Strictement sans scroll horizontal, 100% largeur écran) --- */
+@media (max-width: 992px) {
+  .category-tabs {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    gap: 8px;
+    padding: 10px 0;
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
+
+  .category-img-btn {
+    min-width: 0 !important;
+    height: 74px;
+    padding: 3px;
+    border-radius: 8px;
+  }
+
+  .category-img-badge {
+    padding: 3px 3px;
+  }
+
+  .category-img-label-main {
+    font-size: 0.74rem;
+  }
+
+  .category-img-label-sub {
+    font-size: 0.58rem;
+  }
+}
+
+/* --- VERSION MOBILE (Strictement sans scroll horizontal, 100% largeur écran) --- */
+@media (max-width: 640px) {
+  .category-tabs {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    gap: 4px;
+    padding: 8px 0;
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
+
+  .category-img-btn {
+    min-width: 0 !important;
+    height: 64px;
+    padding: 2px;
+    border-radius: 6px;
+    border-width: 1.5px;
+  }
+
+  .category-img-badge {
+    padding: 2px 1px;
+    border-radius: 4px;
+    background: rgba(6, 10, 18, 0.78);
+  }
+
+  .label-desktop {
+    display: none;
+  }
+
+  .label-mobile {
+    display: inline;
+  }
+
+  .category-img-label-main {
+    font-size: 0.65rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .category-img-label-sub {
+    display: none; /* Masqué sur mobile pour éviter tout encombrement */
+  }
+}
+
+@media (max-width: 380px) {
+  .category-tabs {
+    gap: 3px;
+    padding: 6px 0;
+  }
+
+  .category-img-btn {
+    height: 56px;
+    padding: 2px;
+  }
+
+  .category-img-label-main {
+    font-size: 0.58rem;
+    letter-spacing: -0.2px;
+  }
 }
 
 .products-grid {

@@ -238,7 +238,9 @@ function updateCatalogLive() {
   const tabsContainer = document.getElementById("category-tabs-container");
   if (tabsContainer) {
     tabsContainer.querySelectorAll(".category-img-btn").forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.category === state.currentCategory);
+      const isActive = btn.dataset.category === state.currentCategory;
+      btn.classList.toggle("active", isActive);
+      btn.setAttribute("aria-selected", isActive ? "true" : "false");
     });
   }
 
@@ -273,7 +275,12 @@ function setupCatalogEvents() {
     tabsContainer.addEventListener("click", (e) => {
       const btn = e.target.closest(".category-img-btn");
       if (!btn) return;
-      state.currentCategory = btn.dataset.category;
+      // Basculer vers "all" si on reclique sur la catégorie déjà sélectionnée
+      if (state.currentCategory === btn.dataset.category) {
+        state.currentCategory = "all";
+      } else {
+        state.currentCategory = btn.dataset.category;
+      }
       state.catalogPage = 1;
       updateCatalogLive();
     });

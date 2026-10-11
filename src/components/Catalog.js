@@ -5,12 +5,41 @@ export function formatPriceFCFA(amount) {
 }
 
 export const CATALOG_CATEGORIES = [
-  { id: "all", label: "Toutes les Pépites", img: "./imgs/categories/CATALOGUE.jpeg" },
-  { id: "usa", label: "🇺🇸", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
-  { id: "coree", label: "🇰🇷", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
-  { id: "soins-visage", label: "Visage & Sérums", img: "./imgs/categories/SOINS_VISAGE_SÉRUMS_EXPERTISE.jpeg" },
-  { id: "soins-corps", label: "Soins Corps & Laits", img: "./imgs/categories/SOINS_CORPS_LAITS_LUXE.jpeg" },
-  { id: "soins-cheveux", label: "Capillaire & Défrisants", img: "./imgs/categories/SOINS_CAPILLAIRES_DÉFRISANTS.jpeg" }
+  {
+    id: "usa",
+    label: "USA",
+    shortLabel: "USA",
+    sublabel: "Produits Américains",
+    img: "./imgs/categories/flag_usa_animated.gif"
+  },
+  {
+    id: "coree",
+    label: "K-Beauty",
+    shortLabel: "K-Beauty",
+    sublabel: "Produits Coréens",
+    img: "./imgs/categories/flag_korea_animated.gif"
+  },
+  {
+    id: "soins-visage",
+    label: "Visage & Sérums",
+    shortLabel: "Visage",
+    sublabel: "Dermo & Éclat",
+    img: "./imgs/categories/soins_visage_serum.jpg"
+  },
+  {
+    id: "soins-corps",
+    label: "Corps & Laits",
+    shortLabel: "Corps",
+    sublabel: "Hydratation & Laits",
+    img: "./imgs/categories/soins_corps_jambe.jpg"
+  },
+  {
+    id: "soins-cheveux",
+    label: "Capillaire & Soins",
+    shortLabel: "Cheveux",
+    sublabel: "Défrisants & Masques",
+    img: "./imgs/categories/soins_cheveux_luxe.jpg"
+  }
 ];
 
 export function filterProducts(filteredCategory = "all", searchQuery = "") {
@@ -334,11 +363,24 @@ export function renderCatalog(filteredCategory = "all", searchQuery = "", curren
             </div>
           </div>
 
-          <!-- Onglets de Catégorie Sticky (Images) -->
-          <div class="category-tabs" id="category-tabs-container">
+          <!-- Onglets de Catégorie Sticky (5 Boutons sans scroll horizontal) -->
+          <div class="category-tabs" id="category-tabs-container" role="tablist" aria-label="Filtrer par catégorie">
             ${CATALOG_CATEGORIES.map(c => `
-              <button type="button" class="category-img-btn ${filteredCategory === c.id ? 'active' : ''}" data-category="${c.id}" style="background-image: url('${c.img}')">
-                <span class="category-img-label ${(c.label.indexOf("🇰🇷") !== -1 || c.label.indexOf("🇺🇸") !== -1) ? 'ok' : ""}">${c.label}</span>
+              <button type="button" 
+                      class="category-img-btn ${filteredCategory === c.id ? 'active' : ''}" 
+                      data-category="${c.id}" 
+                      style="background-image: url('${c.img}')"
+                      role="tab"
+                      aria-selected="${filteredCategory === c.id ? 'true' : 'false'}"
+                      title="${c.label} - ${c.sublabel}">
+                <div class="category-img-overlay"></div>
+                <div class="category-img-badge">
+                  <span class="category-img-label-main">
+                    <span class="label-desktop">${c.label}</span>
+                    <span class="label-mobile">${c.shortLabel || c.label}</span>
+                  </span>
+                  <span class="category-img-label-sub">${c.sublabel}</span>
+                </div>
               </button>
             `).join("")}
           </div>
