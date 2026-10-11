@@ -578,7 +578,7 @@
   width: 100%;
   padding: 4px 5px;
   border-radius: 6px;
-  background: rgba(8, 12, 22, 0.82);
+  background: rgba(8, 12, 22, 0.5);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -710,7 +710,8 @@
   }
 
   .category-img-label-sub {
-    display: none; /* Masqué sur mobile pour éviter tout encombrement */
+    display: none;
+    /* Masqué sur mobile pour éviter tout encombrement */
   }
 }
 
