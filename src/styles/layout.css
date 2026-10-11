@@ -550,6 +550,18 @@
   transition: background 0.25s ease;
 }
 
+.category-img-btn[data-category="soins-visage"] {
+  background-position: center 18%;
+}
+
+.category-img-btn[data-category="soins-corps"] {
+  background-position: center 45%;
+}
+
+.category-img-btn[data-category="soins-cheveux"] {
+  background-position: center 20%;
+}
+
 .category-img-btn:hover {
   transform: translateY(-2px);
   border-color: var(--gold-light);

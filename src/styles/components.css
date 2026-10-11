@@ -709,6 +709,7 @@
   border-radius: 50%;
   aspect-ratio: 1 / 1;
   background: linear-gradient(135deg, rgba(16, 26, 68, 0.98) 0%, rgba(8, 16, 46, 0.98) 55%, rgba(4, 8, 30, 0.99) 100%);
+  background: linear-gradient(135deg, #140000f5 0%, #0004c8fa 100%);
   -webkit-backdrop-filter: blur(14px) saturate(180%);
   border: 1.5px solid rgba(197, 160, 89, 0.55);
   box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(18, 48, 140, 0.45), 0 0 18px rgba(35, 75, 200, 0.25), inset 0 1px 1.5px rgba(255, 255, 255, 0.3);
