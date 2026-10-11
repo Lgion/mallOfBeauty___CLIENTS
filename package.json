@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@astrojs/node": "^11.1.7",
+    "@astrojs/vercel": "^11.0.13",
     "@clerk/astro": "^4.1.12",
     "astro": "^7.3.8",
     "canvas-confetti": "^1.9.4",

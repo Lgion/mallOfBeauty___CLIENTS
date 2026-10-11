@@ -1,1 +1,6 @@
+node_modules
 ignore
+.vercel
+dist
+.astro
+.env.local
