@@ -79,6 +79,23 @@ export function renderPersonalShopper() {
                   <textarea id="ps-item" class="form-textarea" placeholder="Nom du parfum, marque, coloris, référence ou laissez-nous carte blanche pour vous surprendre..." required></textarea>
                 </div>
 
+                <div class="form-group">
+                  <label class="form-label" for="ps-photo-file">Photo ou capture de l'article (optionnel)</label>
+                  <input type="file" id="ps-photo-file" accept="image/*" class="form-input" style="padding: 8px;" onchange="window.MoB.handlePersonalShopperPhoto(event)">
+                  <input type="hidden" id="ps-photo-url" value="">
+                  <div id="ps-upload-spinner" style="display: none; align-items: center; gap: 8px; margin-top: 8px; color: var(--gold-light); font-size: 0.8rem;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="spin-icon"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+                    <span>Téléversement de l'image vers Cloudinary...</span>
+                  </div>
+                  <div id="ps-photo-preview-wrap" style="display: none; margin-top: 10px; align-items: center; gap: 12px; background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(212,175,55,0.2);">
+                    <img id="ps-photo-preview" src="" alt="Aperçu" style="width: 48px; height: 48px; border-radius: 6px; object-fit: cover; border: 1px solid var(--gold-primary);">
+                    <div style="flex: 1;">
+                      <div style="font-size: 0.8rem; color: #10B981; font-weight: 700;">✓ Photo chargée sur Cloudinary</div>
+                      <button type="button" onclick="window.MoB.clearPersonalShopperPhoto()" style="background: none; border: none; color: #EF4444; font-size: 0.75rem; cursor: pointer; padding: 0; text-decoration: underline;">Supprimer cette photo</button>
+                    </div>
+                  </div>
+                </div>
+
                 <button type="submit" class="btn btn-gold btn-lg" style="width: 100%;">
                   <span>Transmettre ma Requête au Personal Shopper</span>
                   <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>

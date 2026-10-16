@@ -85,14 +85,217 @@ window.MoB.switchAdminTab = (tab) => {
   switchAdminTabLive(tab);
 };
 
+// --- CLOUDINARY UPLOAD & DESTROY HELPERS ---
+async function uploadToCloudinary(file, folder = "mallofbeauty_assets/products") {
+  const formData = new FormData();
+  formData.append("file", file);
+  formData.append("folder", folder);
+
+  const res = await fetch("/api/upload-image", {
+    method: "POST",
+    body: formData
+  });
+
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok || !data.success) {
+    throw new Error(data.error || `Erreur d'upload (${res.status})`);
+  }
+  return data;
+}
+
+async function deleteFromCloudinary(urlOrPublicId) {
+  if (!urlOrPublicId) return;
+  try {
+    const res = await fetch("/api/upload-image", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url: urlOrPublicId })
+    });
+    return await res.json();
+  } catch (err) {
+    console.warn("Échec de la suppression Cloudinary:", err);
+    return null;
+  }
+}
+
 window.MoB.toggleAddProductForm = () => {
   toggleAddProductFormState();
   refreshAdminActiveTab();
+  setTimeout(() => {
+    if (typeof window.MoB.renderProductGalleryThumbnails === "function") {
+      window.MoB.renderProductGalleryThumbnails();
+    }
+  }, 50);
 };
 
 window.MoB.cancelProductEdit = () => {
   setEditingProductId(null);
   refreshAdminActiveTab();
+};
+
+window.MoB.renderProductGalleryThumbnails = () => {
+  const container = document.getElementById("product-gallery-thumbnails-wrap");
+  if (!container) return;
+
+  const mainImgInput = document.getElementById("form-product-image");
+  const galleryInput = document.getElementById("form-product-gallery");
+  const mainImg = mainImgInput ? mainImgInput.value.trim() : "";
+
+  let gallery = [];
+  try {
+    gallery = JSON.parse(galleryInput?.value || "[]");
+  } catch (e) {
+    gallery = [];
+  }
+
+  if (mainImg && !gallery.includes(mainImg)) {
+    gallery.unshift(mainImg);
+    if (galleryInput) galleryInput.value = JSON.stringify(gallery);
+  }
+
+  if (!gallery || gallery.length === 0) {
+    container.innerHTML = `
+      <div style="color: #94A3B8; font-size: 0.82rem; font-style: italic; padding: 12px; width: 100%; text-align: center;">
+        Aucune photo dans la galerie. Utilisez le bouton « Choisir une photo depuis mon ordinateur » ci-dessus pour téléverser votre premier visuel sur Cloudinary.
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = gallery.map((imgUrl) => {
+    const isMain = imgUrl === mainImg;
+    const safeUrl = imgUrl.replace(/'/g, "\\'");
+    return `
+      <div class="product-gallery-thumb-card ${isMain ? 'active-main' : ''}" title="${isMain ? 'Photo Principale Active' : 'Cliquer pour définir comme principale'}">
+        <img src="${imgUrl}" alt="Visuel Produit" onerror="this.src='https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg'">
+        ${isMain ? `<span class="product-thumb-badge-main">★ Actif</span>` : ''}
+        <div class="product-thumb-actions-overlay">
+          ${!isMain ? `
+            <button type="button" class="btn-thumb-action" onclick="window.MoB.setAsMainProductImage('${safeUrl}')" title="Revenir sur cette ancienne photo et la définir comme principale">
+              ★ Activer
+            </button>
+          ` : `
+            <span style="color: #D4AF37; font-size: 0.65rem; font-weight: 800; text-align: center; text-transform: uppercase;">Actuelle</span>
+          `}
+          <button type="button" class="btn-thumb-action" style="color: #DC2626;" onclick="window.MoB.deleteProductGalleryImage('${safeUrl}')" title="Supprimer définitivement cette photo">
+            🗑️ Supprimer
+          </button>
+        </div>
+      </div>
+    `;
+  }).join("");
+};
+
+window.MoB.handleProductFileUpload = async (event) => {
+  const file = event.target.files && event.target.files[0];
+  if (!file) return;
+
+  const spinner = document.getElementById("product-upload-spinner");
+  if (spinner) spinner.style.display = "inline-flex";
+
+  try {
+    const result = await uploadToCloudinary(file, "mallofbeauty_assets/products");
+    if (result.success && result.url) {
+      const cdnUrl = result.url;
+      const imgInput = document.getElementById("form-product-image");
+      const previewImg = document.getElementById("form-product-main-preview");
+      const galInput = document.getElementById("form-product-gallery");
+
+      if (imgInput) imgInput.value = cdnUrl;
+      if (previewImg) previewImg.src = cdnUrl;
+
+      let gallery = [];
+      try {
+        gallery = JSON.parse(galInput?.value || "[]");
+      } catch (e) {
+        gallery = [];
+      }
+
+      // Conserver l'historique : ajouter la nouvelle photo en tête de liste et dédoublonner
+      gallery = [cdnUrl, ...gallery.filter(url => url !== cdnUrl)];
+      if (galInput) galInput.value = JSON.stringify(gallery);
+
+      window.MoB.renderProductGalleryThumbnails();
+      showToast("✨ Photo téléversée sur Cloudinary et définie comme principale !", "success");
+    } else {
+      throw new Error(result.error || "Échec du téléversement");
+    }
+  } catch (err) {
+    alert("Erreur lors de l'envoi de la photo vers Cloudinary : " + (err.message || err));
+  } finally {
+    if (spinner) spinner.style.display = "none";
+    event.target.value = "";
+  }
+};
+
+window.MoB.setAsMainProductImage = (imgUrl) => {
+  const imgInput = document.getElementById("form-product-image");
+  const previewImg = document.getElementById("form-product-main-preview");
+  if (imgInput) imgInput.value = imgUrl;
+  if (previewImg) previewImg.src = imgUrl;
+
+  window.MoB.renderProductGalleryThumbnails();
+  showToast("Photo principale mise à jour avec succès !", "info");
+};
+
+window.MoB.deleteProductGalleryImage = async (imgUrl) => {
+  if (!confirm("Voulez-vous supprimer définitivement cette photo ? Elle sera retirée de la galerie de ce produit et effacée du stockage cloud Cloudinary.")) {
+    return;
+  }
+
+  const galInput = document.getElementById("form-product-gallery");
+  const imgInput = document.getElementById("form-product-image");
+  const previewImg = document.getElementById("form-product-main-preview");
+
+  let gallery = [];
+  try {
+    gallery = JSON.parse(galInput?.value || "[]");
+  } catch (e) {
+    gallery = [];
+  }
+
+  gallery = gallery.filter(url => url !== imgUrl);
+  if (galInput) galInput.value = JSON.stringify(gallery);
+
+  const currentMain = imgInput?.value || "";
+  if (currentMain === imgUrl) {
+    const newMain = gallery[0] || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg";
+    if (imgInput) imgInput.value = newMain;
+    if (previewImg) previewImg.src = newMain;
+  }
+
+  window.MoB.renderProductGalleryThumbnails();
+
+  // Purge asynchrone sur Cloudinary
+  if (imgUrl.includes("cloudinary.com")) {
+    deleteFromCloudinary(imgUrl);
+  }
+
+  showToast("Photo supprimée avec succès.", "gold");
+};
+
+window.MoB.selectProductPresetImage = (imgUrl) => {
+  const imgInput = document.getElementById("form-product-image");
+  const previewImg = document.getElementById("form-product-main-preview");
+  const galInput = document.getElementById("form-product-gallery");
+
+  if (imgInput) imgInput.value = imgUrl;
+  if (previewImg) previewImg.src = imgUrl;
+
+  let gallery = [];
+  try {
+    gallery = JSON.parse(galInput?.value || "[]");
+  } catch (e) {
+    gallery = [];
+  }
+
+  if (!gallery.includes(imgUrl)) {
+    gallery.unshift(imgUrl);
+    if (galInput) galInput.value = JSON.stringify(gallery);
+  }
+
+  window.MoB.renderProductGalleryThumbnails();
+  showToast("Photo de la boutique sélectionnée !", "info");
 };
 
 window.MoB.startEditProduct = (id) => {
@@ -123,8 +326,16 @@ window.MoB.startEditProduct = (id) => {
     if (usageInput) usageInput.value = p.usage || "";
     const imgInput = document.getElementById("form-product-image");
     if (imgInput) imgInput.value = p.image || "";
+    const previewImg = document.getElementById("form-product-main-preview");
+    if (previewImg) previewImg.src = p.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg";
+    const galInput = document.getElementById("form-product-gallery");
+    const productGallery = Array.isArray(p.gallery) && p.gallery.length > 0 ? p.gallery : (p.image ? [p.image] : []);
+    if (galInput) galInput.value = JSON.stringify(productGallery);
     const featInput = document.getElementById("form-product-featured");
     if (featInput) featInput.checked = !!p.isFeatured;
+
+    window.MoB.renderProductGalleryThumbnails();
+    document.getElementById("product-form-box")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, 50);
 };
 
@@ -145,9 +356,22 @@ window.MoB.handleSaveProduct = (e) => {
   const image = document.getElementById("form-product-image")?.value.trim() || "";
   const isFeatured = document.getElementById("form-product-featured")?.checked || false;
 
+  let gallery = [];
+  try {
+    gallery = JSON.parse(document.getElementById("form-product-gallery")?.value || "[]");
+  } catch (err) {
+    gallery = [];
+  }
+  if (image && !gallery.includes(image)) {
+    gallery.unshift(image);
+  }
+  if (gallery.length === 0 && image) {
+    gallery = [image];
+  }
+
   const productPayload = {
     name, brand, category, price, oldPrice, stock,
-    shortDesc, description, usage, image, isFeatured
+    shortDesc, description, usage, image, gallery, isFeatured
   };
 
   if (id) {
@@ -250,6 +474,37 @@ window.MoB.startEditGalleryItem = (id) => {
   refreshAdminActiveTab();
 };
 
+window.MoB.handleGalleryFileUpload = async (event) => {
+  const file = event.target.files && event.target.files[0];
+  if (!file) return;
+
+  const spinner = document.getElementById("gal-upload-spinner");
+  const statusEl = document.getElementById("gal-upload-status");
+  const inputSrc = document.getElementById("gal-input-src");
+  const previewImg = document.getElementById("gal-preview-img");
+
+  if (spinner) spinner.style.display = "inline-flex";
+  if (statusEl) statusEl.textContent = "Téléversement vers Cloudinary en cours...";
+
+  try {
+    const res = await uploadToCloudinary(file, "mallofbeauty_assets/gallery");
+    if (res.success && res.url) {
+      if (inputSrc) inputSrc.value = res.url;
+      if (previewImg) previewImg.src = res.url;
+      if (statusEl) statusEl.innerHTML = "<span style='color: #10B981; font-weight: 700;'>✓ Photo téléversée sur Cloudinary</span>";
+      showToast("Photo boutique hébergée sur Cloudinary avec succès !", "success");
+    } else {
+      throw new Error(res.error || "Erreur lors du téléversement");
+    }
+  } catch (err) {
+    alert("Erreur lors de l'envoi de la photo : " + (err.message || err));
+    if (statusEl) statusEl.textContent = "Erreur de téléversement";
+  } finally {
+    if (spinner) spinner.style.display = "none";
+    event.target.value = "";
+  }
+};
+
 window.MoB.selectGalleryPreset = (src, caption) => {
   const inputSrc = document.getElementById("gal-input-src");
   const inputCap = document.getElementById("gal-input-caption");
@@ -265,7 +520,7 @@ window.MoB.handleSaveGalleryItem = (e) => {
   const src = document.getElementById("gal-input-src")?.value.trim();
   const caption = document.getElementById("gal-input-caption")?.value.trim();
   if (!src || !caption) {
-    showToast("Veuillez renseigner l'URL et la légende de la photo", "error");
+    showToast("Veuillez renseigner la photo et la légende", "error");
     return;
   }
   if (editId) {
@@ -279,8 +534,13 @@ window.MoB.handleSaveGalleryItem = (e) => {
   refreshAdminActiveTab();
 };
 
-window.MoB.handleDeleteGalleryItem = (id) => {
-  if (confirm("Voulez-vous vraiment supprimer cette photo de la galerie ?")) {
+window.MoB.handleDeleteGalleryItem = async (id) => {
+  if (confirm("Voulez-vous vraiment supprimer cette photo de la galerie ? Elle sera retirée de la boutique et effacée de Cloudinary.")) {
+    const allImages = getGalleryImages();
+    const item = allImages.find(img => img.id === id);
+    if (item && item.src && item.src.includes("cloudinary.com")) {
+      deleteFromCloudinary(item.src);
+    }
     deleteGalleryImage(id);
     showToast("Photo retirée de la galerie.", "gold");
     refreshAdminActiveTab();
@@ -522,19 +782,27 @@ window.MoB.confirmResetFactory = () => {
   window.MoB.openResetDatabaseModal();
 };
 
-window.MoB.handleWaveQrUpload = (e) => {
+window.MoB.handleWaveQrUpload = async (e) => {
   const file = e.target.files && e.target.files[0];
   if (!file) return;
-  const reader = new FileReader();
-  reader.onload = (event) => {
-    const dataUrl = event.target.result;
-    const urlInput = document.getElementById("set-wave-qrcode");
-    if (urlInput) urlInput.value = dataUrl;
-    const previewImg = document.getElementById("wave-qrcode-admin-preview");
-    if (previewImg) previewImg.src = dataUrl;
-    showToast("Nouveau QR Code Wave prêt ! Cliquez sur « Mettre à Jour » pour enregistrer.", "info");
-  };
-  reader.readAsDataURL(file);
+
+  showToast("Téléversement du QR Code Wave sur Cloudinary...", "info");
+  try {
+    const res = await uploadToCloudinary(file, "mallofbeauty_assets/store");
+    if (res.success && res.url) {
+      const urlInput = document.getElementById("set-wave-qrcode");
+      if (urlInput) urlInput.value = res.url;
+      const previewImg = document.getElementById("wave-qrcode-admin-preview");
+      if (previewImg) previewImg.src = res.url;
+      showToast("✓ QR Code Wave téléversé sur Cloudinary ! Cliquez sur « Mettre à Jour » pour sauvegarder.", "success");
+    } else {
+      throw new Error(res.error || "Erreur de téléversement");
+    }
+  } catch (err) {
+    alert("Erreur lors de l'envoi du QR Code Wave vers Cloudinary : " + (err.message || err));
+  } finally {
+    e.target.value = "";
+  }
 };
 
 window.MoB.handleSaveSettings = (e) => {

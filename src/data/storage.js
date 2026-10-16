@@ -134,7 +134,8 @@ export const DEFAULT_PERSONAL_SHOPPER = [
     targetBudget: "280 000 FCFA",
     notes: "Flacon rouge original introuvable sur Abidjan. Acompte de 60% versé via Wave.",
     status: "En recherche active",
-    depositStatus: "Acompte 60% Reçu (168 000 FCFA)"
+    depositStatus: "Acompte 60% Reçu (168 000 FCFA)",
+    photoUrl: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
   },
   {
     id: "ps-202",
@@ -146,7 +147,8 @@ export const DEFAULT_PERSONAL_SHOPPER = [
     targetBudget: "195 000 FCFA",
     notes: "Commandé spécialement pour un anniversaire de mariage. Pièce unique sourcée en Italie.",
     status: "Trouvé & En transit",
-    depositStatus: "Acompte 60% Reçu (117 000 FCFA)"
+    depositStatus: "Acompte 60% Reçu (117 000 FCFA)",
+    photoUrl: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669257/mallofbeauty_assets/stand_maroquinerie.jpg"
   },
   {
     id: "ps-203",
@@ -158,7 +160,8 @@ export const DEFAULT_PERSONAL_SHOPPER = [
     targetBudget: "220 000 FCFA",
     notes: "Motif rare vert émeraude et or. Acompte en cours de versement par virement.",
     status: "En attente d'acompte",
-    depositStatus: "En attente d'acompte (132 000 FCFA)"
+    depositStatus: "En attente d'acompte (132 000 FCFA)",
+    photoUrl: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669259/mallofbeauty_assets/stand_pagnes.jpg"
   },
   {
     id: "ps-204",
@@ -170,7 +173,8 @@ export const DEFAULT_PERSONAL_SHOPPER = [
     targetBudget: "240 000 FCFA",
     notes: "Appareil de beauté importé directement de Séoul. Prêt pour retrait aux Vallons.",
     status: "Arrivé en boutique",
-    depositStatus: "Acompte 60% Reçu (144 000 FCFA)"
+    depositStatus: "Acompte 60% Reçu (144 000 FCFA)",
+    photoUrl: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669251/mallofbeauty_assets/stand5.jpg"
   }
 ];
 
@@ -480,15 +484,18 @@ export function getProductById(id) {
 export function addProduct(productData) {
   const products = getProducts();
   const defaultImg = getAssetUrl(productData.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg");
+  const gallery = Array.isArray(productData.gallery) && productData.gallery.length > 0
+    ? productData.gallery.map(getAssetUrl)
+    : [defaultImg];
   const newProduct = {
     id: "mob-" + Date.now().toString(36),
     createdAt: new Date().toISOString(),
     rating: 5.0,
     reviewsCount: 1,
-    gallery: [defaultImg],
     tags: productData.tags || ["Nouveauté"],
     ...productData,
-    image: defaultImg
+    image: defaultImg,
+    gallery
   };
   products.unshift(newProduct);
   localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(products));

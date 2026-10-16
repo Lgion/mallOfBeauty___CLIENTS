@@ -930,6 +930,53 @@ window.MoB = {
     document.getElementById("advisory-booking-form").reset();
   },
 
+  // Téléversement photo Personal Shopper vers Cloudinary
+  async handlePersonalShopperPhoto(e) {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+
+    const spinner = document.getElementById("ps-upload-spinner");
+    const previewWrap = document.getElementById("ps-photo-preview-wrap");
+    const previewImg = document.getElementById("ps-photo-preview");
+    const hiddenUrl = document.getElementById("ps-photo-url");
+
+    if (spinner) spinner.style.display = "flex";
+
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("folder", "mallofbeauty_assets/personal_shopper");
+
+      const res = await fetch("/api/upload-image", {
+        method: "POST",
+        body: formData
+      });
+      const data = await res.json().catch(() => ({}));
+
+      if (res.ok && data.success && data.url) {
+        if (hiddenUrl) hiddenUrl.value = data.url;
+        if (previewImg) previewImg.src = data.url;
+        if (previewWrap) previewWrap.style.display = "flex";
+        showToast("Photo de l'article téléversée avec succès !", "gold");
+      } else {
+        throw new Error(data.error || "Erreur de téléversement");
+      }
+    } catch (err) {
+      alert("Erreur lors de l'envoi de la photo : " + (err.message || err));
+    } finally {
+      if (spinner) spinner.style.display = "none";
+    }
+  },
+
+  clearPersonalShopperPhoto() {
+    const fileInput = document.getElementById("ps-photo-file");
+    const hiddenUrl = document.getElementById("ps-photo-url");
+    const previewWrap = document.getElementById("ps-photo-preview-wrap");
+    if (fileInput) fileInput.value = "";
+    if (hiddenUrl) hiddenUrl.value = "";
+    if (previewWrap) previewWrap.style.display = "none";
+  },
+
   // Soumission Personal Shopper Conciergerie
   handlePersonalShopperSubmit(e) {
     e.preventDefault();
@@ -938,13 +985,15 @@ window.MoB = {
     const category = document.getElementById("ps-cat").value;
     const targetBudget = document.getElementById("ps-budget").value.trim();
     const itemRequested = document.getElementById("ps-item").value.trim();
+    const photoUrl = document.getElementById("ps-photo-url")?.value.trim() || "";
 
     addPersonalShopperRequest({
       clientName,
       clientPhone,
       category,
       targetBudget,
-      itemRequested
+      itemRequested,
+      photoUrl
     });
 
     trackClick("shopper", "Conciergerie: " + itemRequested);
@@ -959,6 +1008,7 @@ window.MoB = {
       `📞 *WhatsApp :* ${clientPhone}\n` +
       `🏷️ *Catégorie :* ${category}\n` +
       `💎 *Article recherché :* ${itemRequested}\n` +
+      (photoUrl ? `📸 *Photo Article (Cloudinary) :* ${photoUrl}\n` : '') +
       `💵 *Budget indicatif :* ${targetBudget || 'À définir'}\n` +
       `🛡️ *Acompte 60% :* Pris en compte et accepté\n` +
       `━━━━━━━━━━━━━━━━━━━━\n` +
@@ -968,6 +1018,10 @@ window.MoB = {
     window.open(whatsappUrl, "_blank");
 
     document.getElementById("personal-shopper-form").reset();
+    const previewWrap = document.getElementById("ps-photo-preview-wrap");
+    if (previewWrap) previewWrap.style.display = "none";
+    const hiddenUrl = document.getElementById("ps-photo-url");
+    if (hiddenUrl) hiddenUrl.value = "";
   },
 
   // Soumission Inscription Carte Privilège

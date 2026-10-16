@@ -357,6 +357,12 @@ function renderFeaturedTab(products) {
 }
 
 function renderProductsTab(products) {
+  const currentProd = editingProductId ? products.find(p => p.id === editingProductId) : null;
+  const currentMainImg = currentProd?.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg";
+  const currentGallery = Array.isArray(currentProd?.gallery) && currentProd.gallery.length > 0 
+    ? currentProd.gallery 
+    : (currentProd?.image ? [currentProd.image] : [currentMainImg]);
+
   const availableImages = [
     { label: "Stands Cosmétiques", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg" },
     { label: "Rayon K-Beauty 1", src: "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669251/mallofbeauty_assets/stand5.jpg" },
@@ -451,15 +457,84 @@ function renderProductsTab(products) {
             <textarea id="form-product-usage" class="form-textarea" placeholder="Matin et soir, étapes de la routine..."></textarea>
           </div>
 
-          <!-- Sélecteur d'image parmi les photos réelles -->
-          <div class="form-group">
-            <label class="form-label">Sélectionner une Photo de la Boutique :</label>
-            <input type="text" id="form-product-image" class="form-input" value="https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg" required>
-            <div class="image-preview-picker">
-              ${availableImages.map(img => `
-                <img src="${img.src}" alt="${img.label}" class="image-picker-option" title="${img.label}" onclick="document.getElementById('form-product-image').value = '${img.src}'; document.querySelectorAll('.image-picker-option').forEach(el=>el.classList.remove('selected')); this.classList.add('selected');">
-              `).join("")}
+          <!-- Visuel Principal & Galerie Produit avec Upload Cloudinary et Historique -->
+          <div class="form-group" style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 20px; margin-bottom: 20px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <div>
+                <label class="form-label" style="font-size: 0.95rem; font-weight: 700; color: #0F172A; margin: 0;">
+                  📸 Visuel Principal & Galerie du Produit
+                </label>
+                <p style="font-size: 0.8rem; color: #64748B; margin: 3px 0 0 0;">
+                  Téléversez des photos depuis votre ordinateur ou smartphone vers <strong>Cloudinary</strong>. L'historique conserve vos visuels pour y revenir ou les supprimer.
+                </p>
+              </div>
+              <span class="badge" style="background: #E0E7FF; color: #3730A3; border: 1px solid #C7D2FE; font-size: 0.75rem; font-weight: 700; padding: 4px 10px;">
+                <i class="fa-solid fa-cloud"></i> Cloudinary CDN
+              </span>
             </div>
+
+            <!-- Inputs cachés de sauvegarde -->
+            <input type="hidden" id="form-product-image" value="${currentMainImg}">
+            <input type="hidden" id="form-product-gallery" value='${JSON.stringify(currentGallery)}'>
+
+            <!-- Carte Visuel Principal Actuel + Bouton Téléversement Direct -->
+            <div style="display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+              <div style="position: relative; width: 140px; height: 140px; border-radius: 10px; overflow: hidden; border: 2px solid #D4AF37; box-shadow: 0 4px 12px rgba(0,0,0,0.08); background: #0F172A;">
+                <img id="form-product-main-preview" src="${currentMainImg}" alt="Aperçu Produit" style="width: 100%; height: 100%; object-fit: cover;">
+                <span style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(15, 23, 42, 0.88); color: #F8FAFC; font-size: 0.68rem; font-weight: 800; text-align: center; padding: 4px 0; text-transform: uppercase; letter-spacing: 0.5px;">
+                  ★ Photo Principale
+                </span>
+              </div>
+
+              <div>
+                <h5 style="margin: 0 0 6px 0; color: #0F172A; font-size: 0.95rem; font-weight: 700;">Changer la photo depuis vos fichiers :</h5>
+                <p style="font-size: 0.82rem; color: #64748B; margin: 0 0 12px 0; line-height: 1.4;">
+                  Sélectionnez un fichier JPG, PNG, WebP depuis votre ordinateur. La photo sera automatiquement hébergée sur Cloudinary et ajoutée à la galerie du produit.
+                </p>
+
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+                  <input type="file" id="form-product-file-input" accept="image/*" style="display: none;" onchange="window.MoB.handleProductFileUpload(event)">
+                  <button type="button" class="btn btn-gold btn-sm" onclick="document.getElementById('form-product-file-input').click()" style="display: inline-flex; align-items: center; gap: 8px;">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    <span>Choisir une photo depuis mon ordinateur</span>
+                  </button>
+                </div>
+
+                <!-- Indicateur de téléversement Cloudinary -->
+                <div id="product-upload-spinner" style="display: none; align-items: center; gap: 8px; margin-top: 10px; color: #D97706; font-size: 0.83rem; font-weight: 600;">
+                  <i class="fa-solid fa-spinner fa-spin"></i>
+                  <span>Téléversement vers Cloudinary en cours... Veuillez patienter.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Historique & Galerie des Visuels du Produit (Re-sélectionner ou Supprimer définitivement) -->
+            <div style="margin-top: 14px;">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                <span style="font-size: 0.82rem; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.5px;">
+                  📸 Galerie & Historique des Visuels de ce Produit :
+                </span>
+                <span style="font-size: 0.75rem; color: #64748B;">
+                  Survolez une photo pour la définir comme principale ou la supprimer
+                </span>
+              </div>
+
+              <div id="product-gallery-thumbnails-wrap" style="display: flex; gap: 12px; flex-wrap: wrap; min-height: 90px; align-items: center; background: #FFFFFF; border: 1px dashed #CBD5E1; border-radius: 10px; padding: 12px;">
+                <!-- Rendu dynamique via window.MoB.renderProductGalleryThumbnails() -->
+              </div>
+            </div>
+
+            <!-- Sélection alternative : Photos Boutique -->
+            <details style="margin-top: 14px; border-top: 1px dashed #CBD5E1; padding-top: 10px;">
+              <summary style="font-size: 0.8rem; color: #64748B; font-weight: 600; cursor: pointer;">
+                📷 Ou choisir parmi les photos de la boutique...
+              </summary>
+              <div class="image-preview-picker" style="margin-top: 10px;">
+                ${availableImages.map(img => `
+                  <img src="${img.src}" alt="${img.label}" class="image-picker-option" title="${img.label}" onclick="window.MoB.selectProductPresetImage('${img.src}')">
+                `).join("")}
+              </div>
+            </details>
           </div>
 
           <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
@@ -625,6 +700,7 @@ function renderPersonalShopperTab(psRequests) {
       <table class="admin-table">
         <thead>
           <tr>
+            <th>Visuel</th>
             <th>Client</th>
             <th>Article Recherché</th>
             <th>Budget Prévu</th>
@@ -635,9 +711,18 @@ function renderPersonalShopperTab(psRequests) {
         </thead>
         <tbody>
           ${psRequests.length === 0 ? `
-            <tr><td colspan="6" style="text-align: center; color: #64748B; padding: 30px;">Aucune demande de sourcing pour le moment. Cliquez sur « Recharger Données Factices » pour injecter des exemples.</td></tr>
+            <tr><td colspan="7" style="text-align: center; color: #64748B; padding: 30px;">Aucune demande de sourcing pour le moment. Cliquez sur « Recharger Données Factices » pour injecter des exemples.</td></tr>
           ` : psRequests.map(r => `
             <tr>
+              <td>
+                ${r.photoUrl ? `
+                  <a href="${r.photoUrl}" target="_blank" rel="noopener noreferrer" title="Cliquer pour voir la photo originale" style="display: inline-block;">
+                    <img src="${r.photoUrl}" alt="Photo Article" style="width: 44px; height: 44px; object-fit: cover; border-radius: 8px; border: 1.5px solid #CBD5E1; box-shadow: 0 2px 4px rgba(0,0,0,0.06); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                  </a>
+                ` : `
+                  <span style="font-size: 0.72rem; color: #94A3B8; font-style: italic;">Sans photo</span>
+                `}
+              </td>
               <td>
                 <strong style="color: #0F172A;">${r.clientName}</strong><br>
                 <a href="tel:${r.clientPhone}" style="font-size: 0.8rem; color: #7C3AED; font-weight: 700;">${r.clientPhone}</a>
@@ -1170,12 +1255,22 @@ function renderGalleryTab(galleryImages) {
           <div style="display: grid; grid-template-columns: 1fr 180px; gap: 20px; align-items: start;">
             <div>
               <div class="form-group" style="margin-bottom: 14px;">
-                <label class="form-label" style="color: #78350F;">URL ou Chemin de l'Image *</label>
-                <input type="text" id="gal-input-src" class="form-input" 
-                       value="${editingItem ? editingItem.src : ''}" 
-                       placeholder="https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg ou https://..." 
-                       required 
-                       oninput="const p = document.getElementById('gal-preview-img'); if(p) p.src = this.value">
+                <label class="form-label" style="color: #78350F; font-weight: 700;">Photo de la Boutique (Cloudinary) *</label>
+                <input type="hidden" id="gal-input-src" value="${editingItem ? editingItem.src : 'https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg'}" required>
+                
+                <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+                  <input type="file" id="gal-file-input" accept="image/*" style="display: none;" onchange="window.MoB.handleGalleryFileUpload(event)">
+                  <button type="button" class="btn btn-gold btn-sm" onclick="document.getElementById('gal-file-input').click()" style="display: inline-flex; align-items: center; gap: 8px;">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    <span>Choisir une photo depuis mon ordinateur</span>
+                  </button>
+                  <span id="gal-upload-status" style="font-size: 0.8rem; color: #64748B;">Formats JPG, PNG, WebP</span>
+                </div>
+
+                <div id="gal-upload-spinner" style="display: none; align-items: center; gap: 8px; margin-top: 8px; color: #D97706; font-size: 0.82rem; font-weight: 600;">
+                  <i class="fa-solid fa-spinner fa-spin"></i>
+                  <span>Téléversement vers Cloudinary en cours...</span>
+                </div>
               </div>
 
               <!-- Raccourcis Photos Prêtes de la Boutique -->
@@ -1349,6 +1444,9 @@ export function refreshAdminActiveTab() {
   if (container) {
     container.className = `mob-admin-content theme-${currentTab}`;
     container.innerHTML = renderAdminTabContent(currentTab);
+    if (window.MoB && typeof window.MoB.renderProductGalleryThumbnails === 'function') {
+      window.MoB.renderProductGalleryThumbnails();
+    }
   }
 }
 
