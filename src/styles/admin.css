@@ -2,6 +2,17 @@
    TABLEAU DE BORD D'ADMINISTRATION CRUD - STANDARD PROFESSIONNEL (MoB)
    Design épuré, couleurs 100% opaques (zéro effet néon), motifs géométriques
    ========================================================================== */
+#admin-product-form>div.form-group {
+  background: #F8FAFC;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#admin-product-form {
+  background: red;
+}
 
 .admin-modal-wrap {
   position: fixed;
@@ -43,7 +54,7 @@
 .admin-topbar {
   padding: 16px 24px;
   background-color: #0F172A;
-  background-image: 
+  background-image:
     repeating-linear-gradient(45deg, rgba(212, 175, 55, 0.08) 0px, rgba(212, 175, 55, 0.08) 1px, transparent 1px, transparent 14px),
     repeating-linear-gradient(-45deg, rgba(212, 175, 55, 0.08) 0px, rgba(212, 175, 55, 0.08) 1px, transparent 1px, transparent 14px);
   border-bottom: 2px solid #D4AF37;
@@ -247,9 +258,11 @@
   left: 0;
   transform: translateX(0) translateY(-4px);
 }
+
 .admin-stat-card:first-child .admin-stat-tooltip::before {
   left: 20px;
 }
+
 .admin-stat-card:first-child:hover .admin-stat-tooltip {
   transform: translateX(0) translateY(0);
 }
@@ -259,24 +272,52 @@
   right: 0;
   transform: translateX(0) translateY(-4px);
 }
+
 .admin-stat-card:last-child .admin-stat-tooltip::before {
   left: auto;
   right: 20px;
 }
+
 .admin-stat-card:last-child:hover .admin-stat-tooltip {
   transform: translateX(0) translateY(0);
 }
 
 /* Couleurs indicatrices de tête (Bandeaux supérieurs solides) */
-.admin-stat-card.card-products { border-top: 3.5px solid #2563EB; }
-.admin-stat-card.card-featured { border-top: 3.5px solid #D97706; }
-.admin-stat-card.card-appointments { border-top: 3.5px solid #059669; }
-.admin-stat-card.card-personal-shopper { border-top: 3.5px solid #7C3AED; }
-.admin-stat-card.card-loyalty { border-top: 3.5px solid #DB2777; }
-.admin-stat-card.card-contacts { border-top: 3.5px solid #EA580C; }
-.admin-stat-card.card-analytics { border-top: 3.5px solid #0891B2; }
-.admin-stat-card.card-gallery { border-top: 3.5px solid #F59E0B; }
-.admin-stat-card.card-settings { border-top: 3.5px solid #0D9488; }
+.admin-stat-card.card-products {
+  border-top: 3.5px solid #2563EB;
+}
+
+.admin-stat-card.card-featured {
+  border-top: 3.5px solid #D97706;
+}
+
+.admin-stat-card.card-appointments {
+  border-top: 3.5px solid #059669;
+}
+
+.admin-stat-card.card-personal-shopper {
+  border-top: 3.5px solid #7C3AED;
+}
+
+.admin-stat-card.card-loyalty {
+  border-top: 3.5px solid #DB2777;
+}
+
+.admin-stat-card.card-contacts {
+  border-top: 3.5px solid #EA580C;
+}
+
+.admin-stat-card.card-analytics {
+  border-top: 3.5px solid #0891B2;
+}
+
+.admin-stat-card.card-gallery {
+  border-top: 3.5px solid #F59E0B;
+}
+
+.admin-stat-card.card-settings {
+  border-top: 3.5px solid #0D9488;
+}
 
 /* Conteneur d'Onglet Actif (Blanc pur solide, bordure supérieure thématique) */
 .admin-active-tab-box {
@@ -290,16 +331,42 @@
   color: #334155;
 }
 
-.admin-active-tab-box.theme-products { border-top: 4px solid #2563EB; }
-.admin-active-tab-box.theme-featured { border-top: 4px solid #D97706; }
-.admin-active-tab-box.theme-appointments { border-top: 4px solid #059669; }
-.admin-active-tab-box.theme-personal-shopper { border-top: 4px solid #7C3AED; }
-.admin-active-tab-box.theme-loyalty { border-top: 4px solid #DB2777; }
-.admin-active-tab-box.theme-contacts { border-top: 4px solid #EA580C; }
-.admin-active-tab-box.theme-analytics { border-top: 4px solid #0891B2; }
-.admin-active-tab-box.theme-gallery { border-top: 4px solid #F59E0B; }
+.admin-active-tab-box.theme-products {
+  border-top: 4px solid #2563EB;
+}
+
+.admin-active-tab-box.theme-featured {
+  border-top: 4px solid #D97706;
+}
+
+.admin-active-tab-box.theme-appointments {
+  border-top: 4px solid #059669;
+}
+
+.admin-active-tab-box.theme-personal-shopper {
+  border-top: 4px solid #7C3AED;
+}
+
+.admin-active-tab-box.theme-loyalty {
+  border-top: 4px solid #DB2777;
+}
+
+.admin-active-tab-box.theme-contacts {
+  border-top: 4px solid #EA580C;
+}
+
+.admin-active-tab-box.theme-analytics {
+  border-top: 4px solid #0891B2;
+}
+
+.admin-active-tab-box.theme-gallery {
+  border-top: 4px solid #F59E0B;
+}
+
 .admin-active-tab-box.theme-settings,
-.admin-active-tab-box.theme-backup { border-top: 4px solid #0D9488; }
+.admin-active-tab-box.theme-backup {
+  border-top: 4px solid #0D9488;
+}
 
 .admin-tab-header {
   display: flex;
@@ -523,7 +590,7 @@
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   z-index: 2;
 }
 

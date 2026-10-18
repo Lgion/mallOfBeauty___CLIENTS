@@ -9,17 +9,36 @@ if (!userId) {
 }
 
 const user = await clerkClient(Astro).users.getUser(userId);
-const email = user.emailAddresses[0]?.emailAddress || "";
 
-const adminEmails = import.meta.env.ADMIN_EMAILS ? import.meta.env.ADMIN_EMAILS.split(" ") : [];
-const employeeEmails = import.meta.env.ADMIN_EMPLOYE ? import.meta.env.ADMIN_EMPLOYE.split(" ") : [];
+// Extraction robuste de toutes les adresses email associées au compte Clerk
+const userEmails: string[] = (user.emailAddresses || [])
+  .map(e => e.emailAddress?.trim().toLowerCase())
+  .filter(Boolean);
+
+const primaryEmail = (user.emailAddresses || []).find(e => e.id === user.primaryEmailAddressId)?.emailAddress || userEmails[0] || "";
+const email = primaryEmail;
+
+// Parser tolérant pour séparateurs (espaces, virgules, points-virgules) et insensible à la casse
+const parseEmails = (envVal: string | undefined): string[] => {
+  if (!envVal) return [];
+  return envVal
+    .split(/[\s,;]+/)
+    .map(e => e.trim().toLowerCase())
+    .filter(Boolean);
+};
+
+const rawAdminEmails = (process.env.ADMIN_EMAILS || import.meta.env.ADMIN_EMAILS || "");
+const rawEmployeeEmails = (process.env.ADMIN_EMPLOYE || import.meta.env.ADMIN_EMPLOYE || "");
+
+const adminEmails = parseEmails(rawAdminEmails);
+const employeeEmails = parseEmails(rawEmployeeEmails);
 
 let role = "public";
-if (adminEmails.includes(email)) role = "admin";
-else if (employeeEmails.includes(email)) role = "employe";
+if (userEmails.some(e => adminEmails.includes(e))) role = "admin";
+else if (userEmails.some(e => employeeEmails.includes(e))) role = "employe";
 
 if (role !== "admin" && role !== "employe") {
-  return new Response(`Accès refusé. Vous n'avez pas les droits pour accéder à cette page d'administration. (Debug: email=${email}, adminEmails=${adminEmails.join(',')}, role=${role})`, { status: 403 });
+  return new Response(`Accès refusé. Vous n'avez pas les droits pour accéder à cette page d'administration. (Debug: email=${email}, userEmails=${userEmails.join(',')}, adminEmails=${adminEmails.join(',')}, role=${role})`, { status: 403 });
 }
 ---
 
