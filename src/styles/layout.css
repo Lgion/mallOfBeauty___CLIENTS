@@ -1351,7 +1351,9 @@
 
 /* En-tête bleu nuit solide avec motif géométrique de luxe */
 .full-catalog-header {
-  padding: 18px 26px;
+  height: 56px;
+  min-height: 56px;
+  padding: 0 24px;
   background-color: #0F172A;
   background-image:
     repeating-linear-gradient(45deg, rgba(212, 175, 55, 0.08) 0px, rgba(212, 175, 55, 0.08) 1px, transparent 1px, transparent 14px),
@@ -1360,17 +1362,43 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 14px;
+  box-sizing: border-box;
+}
+
+.fc-header-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .full-catalog-title {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-family: var(--font-serif);
   color: #FFFFFF;
   margin: 0;
   font-weight: 700;
   letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.fc-header-count-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.76rem;
+  font-weight: 700;
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FDE68A;
+  white-space: nowrap;
+}
+
+.fc-header-desktop-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .fc-badge {
@@ -1414,6 +1442,7 @@
   justify-content: center;
   cursor: pointer;
   transition: all 0.2s;
+  flex-shrink: 0;
 }
 
 .full-catalog-close-btn:hover {
@@ -1423,41 +1452,48 @@
 
 /* Barre d'outils standard solide */
 .full-catalog-toolbar {
-  padding: 16px 26px;
-  background: #F8FAFC;
+  padding: 12px 22px;
+  background: #FFFFFF;
   border-bottom: 1px solid #E2E8F0;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 10px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.fc-toolbar-controls {
+.fc-search-row {
   display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
   align-items: center;
-  width: 100%;
-}
-
-.fc-search-wrap {
-  flex: 1 1 240px;
-  min-width: 0;
-  width: 100%;
-}
-
-.full-catalog-toolbar .search-input {
-  background: #FFFFFF;
-  border: 1.5px solid #CBD5E1;
-  color: #0F172A;
-  border-radius: 10px;
-  padding: 10px 14px 10px 42px;
+  gap: 10px;
   width: 100%;
   box-sizing: border-box;
 }
 
+.fc-search-wrap {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  width: 100%;
+}
+
+.full-catalog-toolbar .search-input {
+  background: #F8FAFC;
+  border: 1.5px solid #E2E8F0;
+  color: #0F172A;
+  border-radius: var(--radius-full);
+  padding: 9px 36px 9px 40px;
+  width: 100%;
+  height: 40px;
+  font-size: 0.88rem;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
 .full-catalog-toolbar .search-input:focus {
+  background: #FFFFFF;
   border-color: #0F172A;
-  box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.1);
+  box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.08);
 }
 
 .fc-clear-search-btn {
@@ -1485,53 +1521,28 @@
   color: #0F172A;
 }
 
-.fc-select-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex: 1 1 240px;
-  min-width: 0;
-  width: 100%;
-  max-height: 50px;
-  box-sizing: border-box;
-}
-
-.fc-category-select {
-  flex: 1;
-  min-width: 0;
-  height: 40px;
-  max-height: 44px;
-  padding: 8px 12px;
-  font-size: 0.86rem;
-  background: #FFFFFF;
-  border: 1.5px solid #CBD5E1;
-  color: #0F172A;
-  border-radius: 10px;
-  font-weight: 600;
-  box-sizing: border-box;
-}
-
 .fc-reset-btn {
   height: 40px;
-  max-height: 44px;
-  padding: 8px 14px;
-  background: #FFFFFF;
+  padding: 0 14px;
+  background: #F1F5F9;
   border: 1.5px solid #CBD5E1;
   color: #334155;
   font-weight: 700;
-  border-radius: 8px;
+  font-size: 0.82rem;
+  border-radius: var(--radius-full);
   white-space: nowrap;
   flex-shrink: 0;
   transition: all 0.2s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 5px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .fc-reset-btn:hover {
-  background: #F1F5F9;
+  background: #E2E8F0;
   border-color: #94A3B8;
   color: #0F172A;
 }
@@ -1542,7 +1553,7 @@
   gap: 8px;
   overflow-x: auto;
   overflow-y: hidden;
-  padding-bottom: 4px;
+  padding: 2px 2px 4px 2px;
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -2083,77 +2094,138 @@
     overflow-x: hidden !important;
   }
 
+  /* En-tête Mobile : Strictement <= 50px de haut (48px) */
   .full-catalog-header {
-    padding: 12px 14px !important;
+    height: 48px !important;
+    max-height: 50px !important;
+    min-height: 48px !important;
+    padding: 0 12px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    box-sizing: border-box !important;
     gap: 8px !important;
+  }
+
+  .fc-header-desktop-badges {
+    display: none !important;
+  }
+
+  .fc-header-main {
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
   }
 
   .full-catalog-title {
-    font-size: 1.15rem !important;
+    font-size: 1.05rem !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 !important;
+    line-height: 1 !important;
   }
 
+  .fc-header-count-pill {
+    font-size: 0.68rem !important;
+    padding: 2px 6px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .full-catalog-close-btn {
+    width: 30px !important;
+    height: 30px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Barre d'Outils Mobile : Fluide, Compacte et Ultra-Ergonomique */
   .full-catalog-toolbar {
-    padding: 10px 12px !important;
-    gap: 10px !important;
-    overflow-x: hidden !important;
+    padding: 8px 10px !important;
+    gap: 6px !important;
+    background: #FFFFFF !important;
+    border-bottom: 1px solid #E2E8F0 !important;
     width: 100% !important;
     box-sizing: border-box !important;
+    overflow-x: hidden !important;
   }
 
-  .fc-toolbar-controls {
-    flex-direction: column !important;
-    gap: 8px !important;
+  .fc-search-row {
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .fc-search-wrap {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
     width: 100% !important;
-    flex: 0 0 auto !important;
   }
 
   .fc-search-wrap .search-input {
-    height: 38px !important;
-    padding: 6px 12px 6px 36px !important;
-    font-size: 0.82rem !important;
-    border-radius: 8px !important;
-  }
-
-  .fc-select-row {
-    width: 100% !important;
-    flex: 0 0 auto !important;
-    max-height: 50px !important;
-    height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
-    overflow: hidden !important;
-  }
-
-  .fc-select-row .fc-category-select {
-    height: 38px !important;
-    max-height: 38px !important;
-    padding: 4px 10px !important;
+    height: 36px !important;
+    padding: 6px 30px 6px 36px !important;
     font-size: 0.80rem !important;
-    border-radius: 8px !important;
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-    box-sizing: border-box !important;
+    border-radius: var(--radius-full) !important;
+    background: #F8FAFC !important;
   }
 
-  .fc-select-row .fc-reset-btn {
-    height: 38px !important;
-    max-height: 38px !important;
-    padding: 4px 10px !important;
-    font-size: 0.74rem !important;
-    border-radius: 8px !important;
+  .fc-reset-btn {
+    height: 36px !important;
+    padding: 0 10px !important;
+    font-size: 0.72rem !important;
+    border-radius: var(--radius-full) !important;
     flex-shrink: 0 !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    box-sizing: border-box !important;
+  }
+
+  .fc-pills-scroll-track {
+    gap: 6px !important;
+    padding: 1px 0 3px 0 !important;
+    width: 100% !important;
+  }
+
+  .fc-category-pill {
+    padding: 5px 11px !important;
+    font-size: 0.76rem !important;
+    gap: 4px !important;
+  }
+
+  .fc-pill-count {
+    font-size: 0.68rem !important;
+    padding: 1px 5px !important;
+  }
+
+  .fc-subcategories-section {
+    padding: 5px 8px !important;
+    border-radius: 10px !important;
+    margin-top: 0 !important;
+  }
+
+  .fc-subpill {
+    padding: 4px 10px !important;
+    font-size: 0.72rem !important;
+    gap: 4px !important;
+  }
+
+  .fc-meta-info-bar {
+    font-size: 0.74rem !important;
+    padding-top: 4px !important;
+    gap: 4px !important;
+  }
+
+  .fc-meta-loc {
+    display: none !important;
+  }
+
+  .fc-meta-info-text {
     white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: 100% !important;
   }
 
   .full-catalog-body {

@@ -113,71 +113,65 @@ export function renderFullCatalogModal({
     <div class="modal-backdrop active full-catalog-backdrop" id="full-catalog-backdrop">
       <div class="modal-dialog full-catalog-dialog">
         
-        <!-- En-tête de Luxe Bleu Nuit avec Motif de Tissage Géométrique -->
+        <!-- En-tête de Luxe Bleu Nuit avec Motif Géométrique -->
         <div class="full-catalog-header">
-          <div>
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;">
-              <span class="fc-badge fc-badge-count">
-                ✨ ${allCatalog.length.toLocaleString("fr-FR")} Articles Disponibles
-              </span>
-              <span class="fc-badge fc-badge-auth">
-                🟢 100% Authentiques & Certifiés
-              </span>
-              <span class="fc-badge fc-badge-loc">
-                📍 Les Vallons (Rue des Jardins)
-              </span>
-            </div>
+          <div class="fc-header-main">
             <h2 class="full-catalog-title">
-              Grand Catalogue Mall of Beauty
+              Grand Catalogue
             </h2>
+            <span class="fc-header-count-pill">${allCatalog.length.toLocaleString("fr-FR")} articles</span>
           </div>
+
+          <div class="fc-header-desktop-badges">
+            <span class="fc-badge fc-badge-auth">
+              🟢 100% Authentiques & Certifiés
+            </span>
+            <span class="fc-badge fc-badge-loc">
+              📍 Les Vallons (Rue des Jardins)
+            </span>
+          </div>
+
           <button class="full-catalog-close-btn" id="close-full-catalog-btn" aria-label="Fermer le grand catalogue">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>
           </button>
         </div>
 
-        <!-- Barre d'outils: Recherche & Filtres -->
+        <!-- Barre d'outils: Recherche & Filtres Ultra-UX -->
         <div class="full-catalog-toolbar">
-          <!-- Barre de Recherche & Sélecteur -->
-          <div class="fc-toolbar-controls">
+          
+          <!-- Ligne 1: Recherche & Bouton Réinitialiser contextuel -->
+          <div class="fc-search-row">
             <div class="search-input-wrap fc-search-wrap">
-              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-              <input type="text" id="fc-search-input" class="search-input" placeholder="Rechercher un produit, une marque (ex: Makari, Super Wax, Medicube, Cetaphil...)" value="${query}">
+              <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              <input type="text" id="fc-search-input" class="search-input" placeholder="Rechercher marque, crème, sérum, perruque..." value="${query}">
               ${query ? `
                 <button type="button" id="fc-clear-search-btn" class="fc-clear-search-btn" title="Effacer la recherche">✕</button>
               ` : ''}
             </div>
 
-            <div class="fc-select-row">
-              <select id="fc-category-select" class="form-select fc-category-select">
-                ${categories.map(c => `
-                  <option value="${c.id}" ${category === c.id ? "selected" : ""}>
-                    ${c.icon} ${c.label} (${c.count.toLocaleString("fr-FR")})
-                  </option>
-                `).join("")}
-              </select>
-
-              <button class="btn btn-sm fc-reset-btn" id="fc-reset-filters-btn" title="Réinitialiser filtres">
-                🔄 Réinitialiser
+            ${(query || category !== "all" || subcategory !== "all") ? `
+              <button class="fc-reset-btn" id="fc-reset-filters-btn" title="Réinitialiser tous les filtres">
+                <span>🔄</span>
+                <span class="fc-reset-btn-text">Effacer</span>
               </button>
-            </div>
+            ` : ''}
           </div>
 
-          <!-- Pastilles de Catégories Principales (Défilement Tactile) -->
-          <div class="fc-pills-scroll-track">
+          <!-- Ligne 2: Pastilles de Catégories Principales (Défilement Tactile Fluide) -->
+          <div class="fc-pills-scroll-track" role="tablist" aria-label="Rayons du catalogue">
             ${categories.map(c => `
               <button class="fc-category-pill ${category === c.id ? 'active' : ''}" data-category="${c.id}" title="${c.label} (${c.count.toLocaleString("fr-FR")} articles)">
-                <span>${c.icon}</span>
-                <span>${c.label}</span>
+                <span class="fc-pill-icon">${c.icon}</span>
+                <span class="fc-pill-label">${c.label}</span>
                 <span class="fc-pill-count">(${c.count.toLocaleString("fr-FR")})</span>
               </button>
             `).join("")}
           </div>
 
-          <!-- Rangée de Sous-Catégories Spécialisées (uniquement si le rayon contient > 50 produits) -->
+          <!-- Ligne 3: Sous-Rayons Spécialisés (affiché si le rayon actif contient > 50 produits) -->
           ${subcategories.length > 0 ? `
             <div class="fc-subcategories-section">
-              <div class="fc-subpills-scroll-track">
+              <div class="fc-subpills-scroll-track" role="tablist" aria-label="Sous-rayons">
                 <button class="fc-subpill ${subcategory === 'all' ? 'active' : ''}" data-subcategory="all" title="Tous les articles de ${category}">
                   <span>🌟</span>
                   <span>Tout ${category.split('&')[0].trim()}</span>
@@ -194,16 +188,16 @@ export function renderFullCatalogModal({
             </div>
           ` : ''}
 
-          <!-- Total trouvé info -->
+          <!-- Ligne 4: Micro-barre d'information avec total et breadcrumb -->
           <div class="fc-meta-info-bar">
-            <div>
-              Catalogue : <strong style="color: #0F172A; font-size: 0.92rem;">${result.total.toLocaleString("fr-FR")}</strong> articles trouvés
-              ${query ? ` pour <span style="color: #0284C7; font-weight: 700;">« ${query} »</span>` : ''}
-              ${category !== "all" ? ` dans <span style="color: #065F46; font-weight: 700;">${category}</span>` : ''}
-              ${subcategory !== "all" ? ` &gt; <span style="color: #0284C7; font-weight: 700;">${subcategory}</span>` : ''}
+            <div class="fc-meta-info-text">
+              <span class="fc-meta-count"><strong>${result.total.toLocaleString("fr-FR")}</strong> article${result.total > 1 ? 's' : ''}</span>
+              ${query ? ` pour <span class="fc-meta-highlight">« ${query} »</span>` : ''}
+              ${category !== "all" ? ` dans <span class="fc-meta-cat">${category}</span>` : ''}
+              ${subcategory !== "all" ? ` &gt; <span class="fc-meta-subcat">${subcategory}</span>` : ''}
             </div>
-            <div style="font-size: 0.8rem; color: #64748B;">
-              ✨ Défilement continu • Tous les articles
+            <div class="fc-meta-loc">
+              ⚡ Boutique Les Vallons
             </div>
           </div>
         </div>
