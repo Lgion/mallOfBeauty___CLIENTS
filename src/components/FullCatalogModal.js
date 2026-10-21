@@ -71,7 +71,7 @@ export function renderFullCatalogModal({
           subCounts[item.subcategory] = (subCounts[item.subcategory] || 0) + 1;
         }
       });
-    
+
     subcategories = Object.entries(subCounts)
       .sort((a, b) => b[1] - a[1])
       .map(([subName, count]) => ({
@@ -177,10 +177,6 @@ export function renderFullCatalogModal({
           <!-- Rangée de Sous-Catégories Spécialisées (uniquement si le rayon contient > 50 produits) -->
           ${subcategories.length > 0 ? `
             <div class="fc-subcategories-section">
-              <div class="fc-subcat-header">
-                <span class="fc-subcat-title">Sous-rayons :</span>
-                <span class="fc-subcat-hint">Affinez votre sélection parmi les ${counts[category].toLocaleString("fr-FR")} soins</span>
-              </div>
               <div class="fc-subpills-scroll-track">
                 <button class="fc-subpill ${subcategory === 'all' ? 'active' : ''}" data-subcategory="all" title="Tous les articles de ${category}">
                   <span>🌟</span>

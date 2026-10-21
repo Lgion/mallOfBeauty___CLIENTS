@@ -1492,22 +1492,29 @@
   flex: 1 1 240px;
   min-width: 0;
   width: 100%;
+  max-height: 50px;
+  box-sizing: border-box;
 }
 
 .fc-category-select {
   flex: 1;
   min-width: 0;
-  padding: 10px 14px;
-  font-size: 0.88rem;
+  height: 40px;
+  max-height: 44px;
+  padding: 8px 12px;
+  font-size: 0.86rem;
   background: #FFFFFF;
   border: 1.5px solid #CBD5E1;
   color: #0F172A;
   border-radius: 10px;
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 .fc-reset-btn {
-  padding: 10px 14px;
+  height: 40px;
+  max-height: 44px;
+  padding: 8px 14px;
   background: #FFFFFF;
   border: 1.5px solid #CBD5E1;
   color: #334155;
@@ -1516,6 +1523,11 @@
   white-space: nowrap;
   flex-shrink: 0;
   transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  box-sizing: border-box;
 }
 
 .fc-reset-btn:hover {
@@ -2093,10 +2105,55 @@
     gap: 8px !important;
   }
 
-  .fc-search-wrap,
+  .fc-search-wrap {
+    width: 100% !important;
+    flex: 0 0 auto !important;
+  }
+
+  .fc-search-wrap .search-input {
+    height: 38px !important;
+    padding: 6px 12px 6px 36px !important;
+    font-size: 0.82rem !important;
+    border-radius: 8px !important;
+  }
+
   .fc-select-row {
     width: 100% !important;
-    flex: 1 1 100% !important;
+    flex: 0 0 auto !important;
+    max-height: 50px !important;
+    height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .fc-select-row .fc-category-select {
+    height: 38px !important;
+    max-height: 38px !important;
+    padding: 4px 10px !important;
+    font-size: 0.80rem !important;
+    border-radius: 8px !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .fc-select-row .fc-reset-btn {
+    height: 38px !important;
+    max-height: 38px !important;
+    padding: 4px 10px !important;
+    font-size: 0.74rem !important;
+    border-radius: 8px !important;
+    flex-shrink: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    white-space: nowrap !important;
   }
 
   .full-catalog-body {
