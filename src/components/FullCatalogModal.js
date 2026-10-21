@@ -140,7 +140,7 @@ export function renderFullCatalogModal({
         <div class="full-catalog-toolbar">
           
           <!-- Ligne 1: Recherche & Bouton Réinitialiser contextuel -->
-          <div class="fc-search-row">
+          <!--div class="fc-search-row">
             <div class="search-input-wrap fc-search-wrap">
               <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
               <input type="text" id="fc-search-input" class="search-input" placeholder="Rechercher marque, crème, sérum, perruque..." value="${query}">
@@ -155,7 +155,7 @@ export function renderFullCatalogModal({
                 <span class="fc-reset-btn-text">Effacer</span>
               </button>
             ` : ''}
-          </div>
+          </div-->
 
           <!-- Ligne 2: Pastilles de Catégories Principales (Défilement Tactile Fluide) -->
           <div class="fc-pills-scroll-track" role="tablist" aria-label="Rayons du catalogue">
@@ -188,17 +188,22 @@ export function renderFullCatalogModal({
             </div>
           ` : ''}
 
-          <!-- Ligne 4: Micro-barre d'information avec total et breadcrumb -->
-          <div class="fc-meta-info-bar">
-            <div class="fc-meta-info-text">
-              <span class="fc-meta-count"><strong>${result.total.toLocaleString("fr-FR")}</strong> article${result.total > 1 ? 's' : ''}</span>
-              ${query ? ` pour <span class="fc-meta-highlight">« ${query} »</span>` : ''}
-              ${category !== "all" ? ` dans <span class="fc-meta-cat">${category}</span>` : ''}
-              ${subcategory !== "all" ? ` &gt; <span class="fc-meta-subcat">${subcategory}</span>` : ''}
+          <!-- Total trouvé info -->
+          <!--div class="fc-meta-info-bar">
+            <div>
+              Catalogue : <strong style="color: #0F172A; font-size: 0.92rem;">${result.total}</strong> articles trouvés
             </div>
             <div class="fc-meta-loc">
               ⚡ Boutique Les Vallons
             </div>
+          </div-->
+          
+          <div class="search-input-wrap fc-search-wrap">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            <input type="text" id="fc-search-input" class="search-input" placeholder="Rechercher un produit, une marque (ex: Makari, Super Wax, Medicube, Cetaphil...)" value="${query}">
+            ${query ? `
+              <button type="button" id="fc-clear-search-btn" class="fc-clear-search-btn" title="Effacer la recherche">✕</button>
+            ` : ''}
           </div>
         </div>
 
