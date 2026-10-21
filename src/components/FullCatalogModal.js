@@ -1,4 +1,4 @@
-import { searchFullCatalog, getStoreSettings } from "../data/storage.js";
+import { getFullCatalog, searchFullCatalog, getStoreSettings } from "../data/storage.js";
 
 export function renderFullCatalogModal({
   query = "",
@@ -7,16 +7,27 @@ export function renderFullCatalogModal({
 } = {}) {
   const result = searchFullCatalog({ query, category, brand, perPage: 0 });
   const settings = getStoreSettings();
+  const allCatalog = getFullCatalog();
+
+  // Dynamic counts for all categories directly from the full catalog
+  const counts = { all: allCatalog.length };
+  allCatalog.forEach(item => {
+    const cat = (item.category || "").trim();
+    if (cat) {
+      counts[cat] = (counts[cat] || 0) + 1;
+    }
+  });
 
   const categories = [
-    { id: "all", label: "Tous les Rayons (1 136)", icon: "🌟" },
-    { id: "Dermocosmétique & Soins", label: "Dermocosmétique", icon: "🧴" },
-    { id: "Pagnes Vlisco & Textiles", label: "Pagnes Vlisco", icon: "👑" },
-    { id: "Maman & Bébé", label: "Maman & Bébé", icon: "👶" },
-    { id: "Soins Homme", label: "Soins Homme", icon: "👔" },
-    { id: "Capillaire & Perruques", label: "Capillaire & HD", icon: "✨" },
-    { id: "Maquillage & Teint", label: "Maquillage", icon: "💄" },
-    { id: "Accessoires & Maroquinerie", label: "Maroquinerie", icon: "👜" }
+    { id: "all", label: "Tous les Rayons", count: allCatalog.length, icon: "🌟" },
+    { id: "Dermocosmétique & Soins", label: "Dermocosmétique", count: counts["Dermocosmétique & Soins"] || 0, icon: "🧴" },
+    { id: "Capillaire & Perruques", label: "Capillaire & HD", count: counts["Capillaire & Perruques"] || 0, icon: "✨" },
+    { id: "Maquillage & Teint", label: "Maquillage", count: counts["Maquillage & Teint"] || 0, icon: "💄" },
+    { id: "Maman & Bébé", label: "Maman & Bébé", count: counts["Maman & Bébé"] || 0, icon: "👶" },
+    { id: "Accessoires & Maroquinerie", label: "Maroquinerie", count: counts["Accessoires & Maroquinerie"] || 0, icon: "👜" },
+    { id: "Pagnes Vlisco & Textiles", label: "Pagnes Vlisco", count: counts["Pagnes Vlisco & Textiles"] || 0, icon: "👑" },
+    { id: "Soins Homme", label: "Soins Homme", count: counts["Soins Homme"] || 0, icon: "👔" },
+    { id: "Parfumerie & Fragrances", label: "Parfumerie", count: counts["Parfumerie & Fragrances"] || 0, icon: "🌸" }
   ];
 
   // Helper icon for category
@@ -28,6 +39,7 @@ export function renderFullCatalogModal({
       case "Capillaire & Perruques": return "✨";
       case "Maquillage & Teint": return "💄";
       case "Accessoires & Maroquinerie": return "👜";
+      case "Parfumerie & Fragrances": return "🌸";
       default: return "🧴";
     }
   };
@@ -40,6 +52,7 @@ export function renderFullCatalogModal({
       case "Capillaire & Perruques": return "vis-capillaire";
       case "Maquillage & Teint": return "vis-makeup";
       case "Accessoires & Maroquinerie": return "vis-accessoires";
+      case "Parfumerie & Fragrances": return "vis-parfum";
       default: return "vis-dermo";
     }
   };
@@ -53,7 +66,7 @@ export function renderFullCatalogModal({
           <div>
             <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;">
               <span class="fc-badge fc-badge-count">
-                ✨ 1 136 Articles Disponibles
+                ✨ ${allCatalog.length.toLocaleString("fr-FR")} Articles Disponibles
               </span>
               <span class="fc-badge fc-badge-auth">
                 🟢 100% Authentiques & Certifiés
@@ -78,12 +91,17 @@ export function renderFullCatalogModal({
             <div class="search-input-wrap fc-search-wrap">
               <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
               <input type="text" id="fc-search-input" class="search-input" placeholder="Rechercher un produit, une marque (ex: Makari, Super Wax, Medicube, Cetaphil...)" value="${query}">
+              ${query ? `
+                <button type="button" id="fc-clear-search-btn" class="fc-clear-search-btn" title="Effacer la recherche">✕</button>
+              ` : ''}
             </div>
 
             <div class="fc-select-row">
               <select id="fc-category-select" class="form-select fc-category-select">
                 ${categories.map(c => `
-                  <option value="${c.id}" ${category === c.id ? "selected" : ""}>${c.icon} ${c.label}</option>
+                  <option value="${c.id}" ${category === c.id ? "selected" : ""}>
+                    ${c.icon} ${c.label} (${c.count.toLocaleString("fr-FR")})
+                  </option>
                 `).join("")}
               </select>
 
@@ -96,9 +114,10 @@ export function renderFullCatalogModal({
           <!-- Pastilles de Catégories Interactives Solides (Défilement Tactile) -->
           <div class="fc-pills-scroll-track">
             ${categories.map(c => `
-              <button class="fc-category-pill ${category === c.id ? 'active' : ''}" data-category="${c.id}">
+              <button class="fc-category-pill ${category === c.id ? 'active' : ''}" data-category="${c.id}" title="${c.label} (${c.count.toLocaleString("fr-FR")} articles)">
                 <span>${c.icon}</span>
                 <span>${c.label}</span>
+                <span class="fc-pill-count">(${c.count.toLocaleString("fr-FR")})</span>
               </button>
             `).join("")}
           </div>
@@ -106,7 +125,9 @@ export function renderFullCatalogModal({
           <!-- Total trouvé info -->
           <div class="fc-meta-info-bar">
             <div>
-              Catalogue : <strong style="color: #0F172A; font-size: 0.92rem;">${result.total}</strong> articles trouvés
+              Catalogue : <strong style="color: #0F172A; font-size: 0.92rem;">${result.total.toLocaleString("fr-FR")}</strong> articles trouvés
+              ${query ? ` pour <span style="color: #0284C7; font-weight: 700;">« ${query} »</span>` : ''}
+              ${category !== "all" ? ` dans <span style="color: #065F46; font-weight: 700;">${category}</span>` : ''}
             </div>
             <div style="font-size: 0.8rem; color: #64748B;">
               ✨ Défilement continu • Tous les articles
@@ -119,8 +140,8 @@ export function renderFullCatalogModal({
           ${result.items.length === 0 ? `
             <div style="text-align: center; padding: 60px 20px;">
               <div style="font-size: 3.5rem; margin-bottom: 14px;">🔍</div>
-              <h3 style="color: #0F172A; margin-bottom: 8px; font-size: 1.3rem; font-weight: 700;">Aucun article trouvé pour cette recherche</h3>
-              <p style="color: #64748B; font-size: 0.95rem;">Essayez un autre mot-clé ou cliquez sur « 🌟 Tous les Rayons » pour explorer le catalogue.</p>
+              <h3 style="color: #0F172A; margin-bottom: 8px; font-size: 1.3rem; font-weight: 700;">Aucun article trouvé pour cette sélection</h3>
+              <p style="color: #64748B; font-size: 0.95rem;">Essayez un autre mot-clé ou cliquez sur « 🌟 Tous les Rayons » pour afficher les ${allCatalog.length.toLocaleString("fr-FR")} articles.</p>
             </div>
           ` : `
             <div class="full-catalog-grid">
@@ -145,7 +166,10 @@ export function renderFullCatalogModal({
                   <!-- Infos & Actions -->
                   <div class="full-catalog-info">
                     <div>
-                      <div class="full-catalog-brand">${item.brand}</div>
+                      <div class="fc-card-top-row">
+                        <div class="full-catalog-brand">${item.brand}</div>
+                        <span class="fc-card-cat-badge">${item.category}</span>
+                      </div>
                       <h4 class="full-catalog-name">${item.name}</h4>
                       <p class="full-catalog-desc">${item.description}</p>
                     </div>

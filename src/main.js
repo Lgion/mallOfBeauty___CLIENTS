@@ -411,6 +411,16 @@ function setupFullCatalogEvents() {
     });
   }
 
+  // Bouton pour vider la recherche
+  const clearSearchBtn = document.getElementById("fc-clear-search-btn");
+  if (clearSearchBtn) {
+    clearSearchBtn.addEventListener("click", () => {
+      state.fcQuery = "";
+      state.fcPage = 1;
+      updateModals();
+    });
+  }
+
   // Filtre par catégorie (select & pills)
   const catSelect = document.getElementById("fc-category-select");
   if (catSelect) {

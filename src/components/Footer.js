@@ -43,7 +43,7 @@ export function renderFooter() {
               <li><a href="#catalogue" onclick="window.MoB.filterCategory('soins-visage')">Visage & K-Beauty</a></li>
               <li><a href="#catalogue" onclick="window.MoB.filterCategory('soins-corps')">Soins Corps & Laits</a></li>
               <li><a href="#catalogue" onclick="window.MoB.filterCategory('soins-cheveux')">Capillaire & Défrisants</a></li>
-              <li><a href="#catalogue" onclick="window.MoB.openFullCatalog()">Grand Catalogue (1 136)</a></li>
+              <li><a href="#catalogue" onclick="window.MoB.openFullCatalog()">Grand Catalogue (1 137)</a></li>
               <li><a href="javascript:void(0)" onclick="window.MoB.openVipService('fidelite')">Gamme Femme & Club VIP</a></li>
             </ul>
           </div>

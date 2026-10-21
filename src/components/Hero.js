@@ -32,7 +32,7 @@ export function renderHero(isGalleryUnfolded = false) {
         <!-- CTA Principaux Épurés (Style Haute Joaillerie / Beauté de Luxe) -->
         <div class="hero-cta-group">
           <!-- CTA 1 : Grand Catalogue -->
-          <button class="btn btn-gold btn-lg" id="hero-open-full-catalog-btn" title="Consulter le Grand Catalogue (1 136 articles certifiés)">
+          <button class="btn btn-gold btn-lg" id="hero-open-full-catalog-btn" title="Consulter le Grand Catalogue (1 137 articles certifiés)">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
               <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>

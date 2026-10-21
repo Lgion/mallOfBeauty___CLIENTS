@@ -56,7 +56,7 @@ export function renderNavbar() {
           </div>
 
           <!-- Bouton Catalogue (Icône Seule - Ouvre le Grand Catalogue) -->
-          <button type="button" class="btn-catalog-icon" id="header-catalog-btn" title="Grand Catalogue (1 136 Articles)" aria-label="Grand Catalogue">
+          <button type="button" class="btn-catalog-icon" id="header-catalog-btn" title="Grand Catalogue (1 137 Articles)" aria-label="Grand Catalogue">
             <svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
           </button>
 

@@ -350,9 +350,9 @@ export function renderCatalog(filteredCategory = "all", searchQuery = "", curren
 
             <!-- Boutons d'Action & Compteur Pill -->
             <div class="search-deck-actions">
-              <button class="btn-deck-grand-catalog" id="open-full-catalog-banner-btn" title="Ouvrir le Grand Catalogue complet de 1 136 articles">
+              <button class="btn-deck-grand-catalog" id="open-full-catalog-banner-btn" title="Ouvrir le Grand Catalogue complet de 1 137 articles">
                 <span class="btn-deck-sparkle">✨</span>
-                <span>Grand Catalogue <strong>(1 136)</strong></span>
+                <span>Grand Catalogue <strong>(1 137)</strong></span>
                 <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </button>
 

@@ -4,7 +4,7 @@ import fullCatalogData from "./fullCatalogData.json";
 
 const STORAGE_KEYS = {
   PRODUCTS: "mob_products_v7",
-  FULL_CATALOG: "mob_full_catalog_v2",
+  FULL_CATALOG: "mob_full_catalog_v3",
   APPOINTMENTS: "mob_appointments_v3",
   PERSONAL_SHOPPER: "mob_personal_shopper_v3",
   LOYALTY_MEMBERS: "mob_loyalty_members_v3",
@@ -855,11 +855,19 @@ export function resetAnalyticsClicks() {
   return clean;
 }
 
-// --- GRAND CATALOGUE EXCEL (1 136 ARTICLES) ---
+// --- GRAND CATALOGUE EXCEL (1 137 ARTICLES) ---
 export function getFullCatalog() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.FULL_CATALOG);
-    const list = data ? JSON.parse(data) : fullCatalogData;
+    if (!data) {
+      localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
+      return fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
+    }
+    const list = JSON.parse(data);
+    if (!Array.isArray(list) || list.length < fullCatalogData.length) {
+      localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
+      return fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
+    }
     return list.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
   } catch (e) {
     return fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
@@ -873,18 +881,25 @@ export function searchFullCatalog({ query = "", category = "all", brand = "all",
   let filtered = catalog;
 
   if (category && category !== "all") {
-    filtered = filtered.filter(item => item.category === category);
+    const targetCat = category.trim().toLowerCase();
+    filtered = filtered.filter(item => 
+      item.category && item.category.trim().toLowerCase() === targetCat
+    );
   }
 
   if (brand && brand !== "all") {
-    filtered = filtered.filter(item => item.brand.toLowerCase() === brand.toLowerCase());
+    const targetBrand = brand.trim().toLowerCase();
+    filtered = filtered.filter(item => 
+      item.brand && item.brand.trim().toLowerCase() === targetBrand
+    );
   }
 
   if (q) {
     filtered = filtered.filter(item => 
-      item.name.toLowerCase().includes(q) ||
-      item.brand.toLowerCase().includes(q) ||
-      item.description.toLowerCase().includes(q)
+      (item.name && item.name.toLowerCase().includes(q)) ||
+      (item.brand && item.brand.toLowerCase().includes(q)) ||
+      (item.description && item.description.toLowerCase().includes(q)) ||
+      (item.category && item.category.toLowerCase().includes(q))
     );
   }
 
