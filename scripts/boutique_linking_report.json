@@ -1,0 +1,1358 @@
+{
+  "totalPhotos": 242,
+  "uploadedPhotos": 242,
+  "matchedPhotosCount": 150,
+  "uniqueProductsCount": 105,
+  "matches": [
+    {
+      "catId": "mob-cat-0055",
+      "excelId": "mob-excel-55",
+      "catalogBrand": "ZEENAT",
+      "catalogName": "SERUM",
+      "photoFile": "zeenat_glow_booster_lightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_booster_lightening_serum.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0100",
+      "excelId": "mob-excel-100",
+      "catalogBrand": "TOMATINE",
+      "catalogName": "GEL DOUCHE",
+      "photoFile": "tomatine_skincare_shower_gel.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_shower_gel.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0098",
+      "excelId": "mob-excel-98",
+      "catalogBrand": "TOMATINE",
+      "catalogName": "SAVON (PM)",
+      "photoFile": "tomatine_skincare_savon_radiant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_savon_radiant.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0106",
+      "excelId": "mob-excel-106",
+      "catalogBrand": "NEW YORK VIT C",
+      "catalogName": "LAIT",
+      "photoFile": "new_york_fair_and_lovely_lightening_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_lightening_body_lotion.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0097",
+      "excelId": "mob-excel-97",
+      "catalogBrand": "TOMATINE",
+      "catalogName": "SERUM",
+      "photoFile": "tomatine_skincare_ultimate_lightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_ultimate_lightening_serum.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0776",
+      "excelId": "mob-excel-776",
+      "catalogBrand": "CREME TRAITEMENT",
+      "catalogName": "PURIFECT EYE CREAM COLLAGEN 93%",
+      "photoFile": "new_york_fair_and_lovely_active_lightening_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_active_lightening_cream.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0057",
+      "excelId": "mob-excel-57",
+      "catalogBrand": "ZEENAT",
+      "catalogName": "SAVON GLUTHATION",
+      "photoFile": "zeenat_glow_declat_savon_exfoliant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_declat_savon_exfoliant.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0045",
+      "excelId": "mob-excel-45",
+      "catalogBrand": "EXTREME GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "extreme_glow_strong_lightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_serum.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0042",
+      "excelId": "mob-excel-42",
+      "catalogBrand": "EXTREME GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "extreme_glow_strong_lightening_treatment_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_treatment_cream.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0104",
+      "excelId": "mob-excel-104",
+      "catalogBrand": "CAROTIS",
+      "catalogName": "GEL DOUCHE SHEA BUTTER",
+      "photoFile": "carotis_shea_butter_carrot_body_scrub.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carotis_shea_butter_carrot_body_scrub.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0078",
+      "excelId": "mob-excel-78",
+      "catalogBrand": "LIGHEN UP GIRL",
+      "catalogName": "SERUM",
+      "photoFile": "lightenup_girl_intense_perfection_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_girl_intense_perfection_serum.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0103",
+      "excelId": "mob-excel-103",
+      "catalogBrand": "CAROTIS",
+      "catalogName": "SERUM",
+      "photoFile": "carotis_lightening_serum_vitamin_a.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/carotis_lightening_serum_vitamin_a.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0042",
+      "excelId": "mob-excel-42",
+      "catalogBrand": "EXTREME GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "extreme_glow_strong_lightening_dark_spot_corrector.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_dark_spot_corrector.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0042",
+      "excelId": "mob-excel-42",
+      "catalogBrand": "EXTREME GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "extreme_glow_strong_lightening_body_wash.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_body_wash.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0046",
+      "excelId": "mob-excel-46",
+      "catalogBrand": "EXTREME GLOW",
+      "catalogName": "SAVON",
+      "photoFile": "extreme_glow_savon_exfoliant_purifiant_eclaircissant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_savon_exfoliant_purifiant_eclaircissant.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0104",
+      "excelId": "mob-excel-104",
+      "catalogBrand": "CAROTIS",
+      "catalogName": "GEL DOUCHE SHEA BUTTER",
+      "photoFile": "carotis_brightening_shea_butter_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/carotis_brightening_shea_butter_body_lotion.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0042",
+      "excelId": "mob-excel-42",
+      "catalogBrand": "EXTREME GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "extreme_glow_strong_brightening_beauty_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_brightening_beauty_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0030",
+      "excelId": "mob-excel-30",
+      "catalogBrand": "LEMON GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "lemon_glow_ultimate_brightening_beauty_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_brightening_beauty_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0034",
+      "excelId": "mob-excel-34",
+      "catalogBrand": "LEMON GLOW",
+      "catalogName": "SAVON",
+      "photoFile": "lemon_glow_ultime_savon_exfoliant_purifiant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultime_savon_exfoliant_purifiant.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0048",
+      "excelId": "mob-excel-48",
+      "catalogBrand": "COCOA GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "cocoa_glow_supreme_exfoliating_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_exfoliating_soap.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0048",
+      "excelId": "mob-excel-48",
+      "catalogBrand": "COCOA GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "cocoa_glow_supreme_brightening_beauty_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_brightening_beauty_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0033",
+      "excelId": "mob-excel-33",
+      "catalogBrand": "LEMON GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "lemon_glow_ultimate_lightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_lightening_serum.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0030",
+      "excelId": "mob-excel-30",
+      "catalogBrand": "LEMON GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "lemon_glow_ultimate_lightening_treatment_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_lightening_treatment_cream.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0049",
+      "excelId": "mob-excel-49",
+      "catalogBrand": "COCOA GLOW",
+      "catalogName": "CREME TUBE",
+      "photoFile": "cocoa_glow_supreme_lightening_treatment_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_lightening_treatment_cream.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0030",
+      "excelId": "mob-excel-30",
+      "catalogBrand": "LEMON GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "lemon_glow_ultimate_nourishing_body_wash.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_nourishing_body_wash.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0030",
+      "excelId": "mob-excel-30",
+      "catalogBrand": "LEMON GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "lemon_glow_ultime_lightening_dark_spot_corrector.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultime_lightening_dark_spot_corrector.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0050",
+      "excelId": "mob-excel-50",
+      "catalogBrand": "COCOA GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "cocoa_glow_supreme_brightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_brightening_serum.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0036",
+      "excelId": "mob-excel-36",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "carrot_glow_intense_toning_beauty_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_beauty_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0039",
+      "excelId": "mob-excel-39",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "carrot_glow_intense_toning_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_serum.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0025",
+      "excelId": "mob-excel-25",
+      "catalogBrand": "EXPRESS GLOW",
+      "catalogName": "CREME BAUME",
+      "photoFile": "express_glow_triple_rapid_creme.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_rapid_creme.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0029",
+      "excelId": "mob-excel-29",
+      "catalogBrand": "EXPRESS GLOW",
+      "catalogName": "SAVON",
+      "photoFile": "express_glow_savon_exfoliant_purifiant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_savon_exfoliant_purifiant.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0036",
+      "excelId": "mob-excel-36",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "carrot_glow_exfoliating_purifying_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_exfoliating_purifying_soap.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0036",
+      "excelId": "mob-excel-36",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "carrot_glow_intense_toning_treatment_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_treatment_cream.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0036",
+      "excelId": "mob-excel-36",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "carrot_glow_intense_toning_treatment_cream_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_treatment_cream_02.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0039",
+      "excelId": "mob-excel-39",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "carrot_glow_intense_toning_serum_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_serum_02.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0036",
+      "excelId": "mob-excel-36",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "carrot_glow_tonification_intense_correcteur.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_tonification_intense_correcteur.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0036",
+      "excelId": "mob-excel-36",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "carrot_glow_intense_toning_body_wash.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_body_wash.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0027",
+      "excelId": "mob-excel-27",
+      "catalogBrand": "EXPRESS GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "express_glow_triple_fast_lightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_lightening_serum.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0024",
+      "excelId": "mob-excel-24",
+      "catalogBrand": "EXPRESS GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "express_glow_triple_fast_lightening_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_lightening_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0024",
+      "excelId": "mob-excel-24",
+      "catalogBrand": "EXPRESS GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "express_glow_triple_fast_illuminating_body_wash.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_illuminating_body_wash.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0036",
+      "excelId": "mob-excel-36",
+      "catalogBrand": "CARROT GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "carrot_glow_exfoliating_purifying_soap_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_exfoliating_purifying_soap_02.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0018",
+      "excelId": "mob-excel-18",
+      "catalogBrand": "PURE GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "pure_glow_maximum_strenght_whitening_beauty_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strenght_whitening_beauty_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0121",
+      "excelId": "mob-excel-121",
+      "catalogBrand": "PAPAYA GLOW",
+      "catalogName": "SVON",
+      "photoFile": "papaya_glow_brightening_beauty_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/papaya_glow_brightening_beauty_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0023",
+      "excelId": "mob-excel-23",
+      "catalogBrand": "PURE GLOW",
+      "catalogName": "SAVON",
+      "photoFile": "pure_glow_savon_exfoliant_purifiant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_savon_exfoliant_purifiant.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0018",
+      "excelId": "mob-excel-18",
+      "catalogBrand": "PURE GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "pure_glow_intense_exfoliating_body_wash.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_intense_exfoliating_body_wash.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0021",
+      "excelId": "mob-excel-21",
+      "catalogBrand": "PURE GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "pure_glow_maximum_strength_whitening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strength_whitening_serum.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0018",
+      "excelId": "mob-excel-18",
+      "catalogBrand": "PURE GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "pure_glow_maximum_strength_whitening_treatment_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strength_whitening_treatment_cream.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0018",
+      "excelId": "mob-excel-18",
+      "catalogBrand": "PURE GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "pure_glow_blanchiment_correcteur.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_blanchiment_correcteur.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0119",
+      "excelId": "mob-excel-119",
+      "catalogBrand": "PAPAYA",
+      "catalogName": "SAVON",
+      "photoFile": "papaya_glow_savon_de_beaute_exfoliant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/papaya_glow_savon_de_beaute_exfoliant.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0008",
+      "excelId": "mob-excel-8",
+      "catalogBrand": "DIAMOND GLOW",
+      "catalogName": "LAIT",
+      "photoFile": "turmeric_glow_brightening_beauty_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/turmeric_glow_brightening_beauty_milk.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0012",
+      "excelId": "mob-excel-12",
+      "catalogBrand": "DIAMOND GLOW",
+      "catalogName": "SAVON",
+      "photoFile": "turmeric_glow_savon_de_beaute_exfoliant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/turmeric_glow_savon_de_beaute_exfoliant.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0052",
+      "excelId": "mob-excel-52",
+      "catalogBrand": "XTREME BRITE",
+      "catalogName": "LAIT MARRON",
+      "photoFile": "xtreme_brite_cocoa_butter_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/xtreme_brite_cocoa_butter_body_lotion.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0089",
+      "excelId": "mob-excel-89",
+      "catalogBrand": "AUTRE LIGHTEN UP",
+      "catalogName": "BODY OIL",
+      "photoFile": "topiclear_carrot_body_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_carrot_body_oil.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0246",
+      "excelId": "mob-excel-246",
+      "catalogBrand": "TOPICLEAR CLASSIC",
+      "catalogName": "LAIT COCOA BUTTER",
+      "photoFile": "topiclear_cocoa_butter_hand_and_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_cocoa_butter_hand_and_body_lotion.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0246",
+      "excelId": "mob-excel-246",
+      "catalogBrand": "TOPICLEAR CLASSIC",
+      "catalogName": "LAIT COCOA BUTTER",
+      "photoFile": "topiclear_cocoa_butter_hand_and_body_lotion_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_cocoa_butter_hand_and_body_lotion_02.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0004",
+      "excelId": "mob-excel-4",
+      "catalogBrand": "SAMIRA",
+      "catalogName": "SERUM",
+      "photoFile": "samira_toning_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_toning_serum.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0080",
+      "excelId": "mob-excel-80",
+      "catalogBrand": "LIGHTEN UP MILK",
+      "catalogName": "LAIT",
+      "photoFile": "topiclear_paris_complexion_beautifying_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_paris_complexion_beautifying_milk.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0248",
+      "excelId": "mob-excel-248",
+      "catalogBrand": "TOPICLEAR CLASSIC",
+      "catalogName": "LAIT PAPAYA COCONUT",
+      "photoFile": "topiclear_papaya_coconut_hand_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_papaya_coconut_hand_body_lotion.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0052",
+      "excelId": "mob-excel-52",
+      "catalogBrand": "XTREME BRITE",
+      "catalogName": "LAIT MARRON",
+      "photoFile": "xtreme_brite_exfoliating_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/xtreme_brite_exfoliating_soap.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0089",
+      "excelId": "mob-excel-89",
+      "catalogBrand": "AUTRE LIGHTEN UP",
+      "catalogName": "BODY OIL",
+      "photoFile": "topiclear_turmeric_body_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_turmeric_body_oil.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0248",
+      "excelId": "mob-excel-248",
+      "catalogBrand": "TOPICLEAR CLASSIC",
+      "catalogName": "LAIT PAPAYA COCONUT",
+      "photoFile": "topiclear_papaya_body_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_papaya_body_oil.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0089",
+      "excelId": "mob-excel-89",
+      "catalogBrand": "AUTRE LIGHTEN UP",
+      "catalogName": "BODY OIL",
+      "photoFile": "dr_teals_body_lotion_cannabis_sativa_hemp_seed_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_teals_body_lotion_cannabis_sativa_hemp_seed_oil.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0304",
+      "excelId": "mob-excel-304",
+      "catalogBrand": "EOS",
+      "catalogName": "FRESH COZY",
+      "photoFile": "eos_shea_better_24h_moisture_body_lotion_fresh_cozy.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/eos_shea_better_24h_moisture_body_lotion_fresh_cozy.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0303",
+      "excelId": "mob-excel-303",
+      "catalogBrand": "EOS",
+      "catalogName": "COCONUT WATER",
+      "photoFile": "eos_body_lotion_coconut_waters.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/eos_body_lotion_coconut_waters.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0300",
+      "excelId": "mob-excel-300",
+      "catalogBrand": "MEDIX",
+      "catalogName": "LAIT MEDIX 5.5 ARGAN OIL + SHEA BUTTER",
+      "photoFile": "medix_55_body_treatment_cream_argan_oil_vitamin_e.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medix_55_body_treatment_cream_argan_oil_vitamin_e.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0298",
+      "excelId": "mob-excel-298",
+      "catalogBrand": "MEDIX",
+      "catalogName": "LAIT TURMERIC VIT C JAUNE",
+      "photoFile": "medix_55_vitamin_c_turmeric_body_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medix_55_vitamin_c_turmeric_body_cream.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0138",
+      "excelId": "mob-excel-138",
+      "catalogBrand": "DR TEALS",
+      "catalogName": "LAIT DR TEALS COCONUT OIL",
+      "photoFile": "dr_teals_shea_sugar_scrub_coconut_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_shea_sugar_scrub_coconut_oil.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0138",
+      "excelId": "mob-excel-138",
+      "catalogBrand": "DR TEALS",
+      "catalogName": "LAIT DR TEALS COCONUT OIL",
+      "photoFile": "dr_teals_coconut_oil_essential_oils_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_coconut_oil_essential_oils_body_lotion.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0296",
+      "excelId": "mob-excel-296",
+      "catalogBrand": "MEDIX",
+      "catalogName": "LAIT MEDIX 5.5 COCONUT OIL+ MANUKA HONEY",
+      "photoFile": "medix_5_5_coconut_oil_manuka_honey_body_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/medix_5_5_coconut_oil_manuka_honey_body_cream.jpg",
+      "score": 105
+    },
+    {
+      "catId": "mob-cat-0580",
+      "excelId": "mob-excel-580",
+      "catalogBrand": "SAVON VRAC VISAGE",
+      "catalogName": "AXEPSIA OIL-FREE (JAUNE)",
+      "photoFile": "docteur_teint_lotion_anti_bouton_oil_free.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_lotion_anti_bouton_oil_free.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0254",
+      "excelId": "mob-excel-254",
+      "catalogBrand": "TROPICLEAR INTENSE",
+      "catalogName": "SERUM",
+      "photoFile": "docteur_teint_serum_intense_eclaircissant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_serum_intense_eclaircissant.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0324",
+      "excelId": "mob-excel-324",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "CREME COCOA BUTTER FORMULA° VIT E HEALS SOFTENS",
+      "photoFile": "palmers_cocoa_butter_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_soap.jpg",
+      "score": 70
+    },
+    {
+      "catId": "mob-cat-0324",
+      "excelId": "mob-excel-324",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "CREME COCOA BUTTER FORMULA° VIT E HEALS SOFTENS",
+      "photoFile": "palmers_cocoa_butter_formula_jar.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_formula_jar.jpg",
+      "score": 90
+    },
+    {
+      "catId": "mob-cat-0316",
+      "excelId": "mob-excel-316",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "LAIT RAW SHEA (gm)",
+      "photoFile": "palmers_raw_shea_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_raw_shea_body_lotion.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0319",
+      "excelId": "mob-excel-319",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "CREME COCONUT OIL",
+      "photoFile": "palmers_coconut_oil_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_coconut_oil_body_lotion.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0319",
+      "excelId": "mob-excel-319",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "CREME COCONUT OIL",
+      "photoFile": "palmers_coconut_oil_body_lotion_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_coconut_oil_body_lotion_02.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0309",
+      "excelId": "mob-excel-309",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "HAIR OIL COCOA BUTTER",
+      "photoFile": "palmers_cocoa_butter_body_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_body_oil.jpg",
+      "score": 95
+    },
+    {
+      "catId": "mob-cat-0316",
+      "excelId": "mob-excel-316",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "LAIT RAW SHEA (gm)",
+      "photoFile": "palmers_raw_shea_body_lotion_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_raw_shea_body_lotion_02.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0324",
+      "excelId": "mob-excel-324",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "CREME COCOA BUTTER FORMULA° VIT E HEALS SOFTENS",
+      "photoFile": "palmers_cocoa_butter_formula_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_formula_lotion.jpg",
+      "score": 90
+    },
+    {
+      "catId": "mob-cat-0319",
+      "excelId": "mob-excel-319",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "CREME COCONUT OIL",
+      "photoFile": "palmers_brazilian_coco_firming_body_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_brazilian_coco_firming_body_oil.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0327",
+      "excelId": "mob-excel-327",
+      "catalogBrand": "PALMER'S",
+      "catalogName": "MASSAGE LOTION",
+      "photoFile": "palmers_skin_success_fade_milk_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/palmers_skin_success_fade_milk_body_lotion.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0329",
+      "excelId": "mob-excel-329",
+      "catalogBrand": "SKIN SUCCESS",
+      "catalogName": "LAIT ANTI DARK SPOT (rose)",
+      "photoFile": "palmers_skin_success_complexion_bar.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_skin_success_complexion_bar.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0290",
+      "excelId": "mob-excel-290",
+      "catalogBrand": "ULTRA BRIGHT",
+      "catalogName": "LAIT SHEA BUTTER",
+      "photoFile": "ultra_bright_shea_butter_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/ultra_bright_shea_butter_body_lotion.jpg",
+      "score": 70
+    },
+    {
+      "catId": "mob-cat-0596",
+      "excelId": "mob-excel-596",
+      "catalogBrand": "GOMMAGE",
+      "catalogName": "TUBE NECTAR OF BEAUTY KARITE",
+      "photoFile": "nectar_of_beauty_repair_body_scrub.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/nectar_of_beauty_repair_body_scrub.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0293",
+      "excelId": "mob-excel-293",
+      "catalogBrand": "ULTRA BRIGHT",
+      "catalogName": "SAVON ALL SKIN TYPES PURIFIANT",
+      "photoFile": "ultra_bright_savon_purifiant.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/ultra_bright_savon_purifiant.jpg",
+      "score": 95
+    },
+    {
+      "catId": "mob-cat-0879",
+      "excelId": "mob-excel-879",
+      "catalogBrand": "DIVERS TRAITEMENT",
+      "catalogName": "HUXLEY INSTANT HYDRATION RADIANT GLOW",
+      "photoFile": "huxley_skin_glow_essence_vita_radiance.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/huxley_skin_glow_essence_vita_radiance.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0724",
+      "excelId": "mob-excel-724",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "SEPHORA CIBLAGE PORES",
+      "photoFile": "sephora_targeted_pores_serum_bha_pha.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/sephora_targeted_pores_serum_bha_pha.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0702",
+      "excelId": "mob-excel-702",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "ANUA NIACINAMIDE 10% TXA 4%",
+      "photoFile": "anua_niacinamide_10_txa_4_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/anua_niacinamide_10_txa_4_serum.jpg",
+      "score": 65
+    },
+    {
+      "catId": "mob-cat-0683",
+      "excelId": "mob-excel-683",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "COSRX BOOSTER AHA BHA Vit C",
+      "photoFile": "sephora_sal_clarifying_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/sephora_sal_clarifying_serum.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0836",
+      "excelId": "mob-excel-836",
+      "catalogBrand": "TONER",
+      "catalogName": "BEAUTY OF JOSEON GLOW REPLENISHING RICE MILK",
+      "photoFile": "tirtir_milk_skin_toner.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/tirtir_milk_skin_toner.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0698",
+      "excelId": "mob-excel-698",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "BEAUTY OF JOSEON RICE",
+      "photoFile": "im_from_rice_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/im_from_rice_serum.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0700",
+      "excelId": "mob-excel-700",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "SERUM MEDICUBE TXA NIACIMIDE 15% ROUGE",
+      "photoFile": "medicube_txa_niacinamide_15_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medicube_txa_niacinamide_15_serum.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0758",
+      "excelId": "mob-excel-758",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "GLAMFOX SERUM RICE NIACINAMIDE",
+      "photoFile": "glamfox_rice_niacinamide_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/glamfox_rice_niacinamide_serum.jpg",
+      "score": 65
+    },
+    {
+      "catId": "mob-cat-0702",
+      "excelId": "mob-excel-702",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "ANUA NIACINAMIDE 10% TXA 4%",
+      "photoFile": "anua_niacinamide_10_txa_4_serum_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/anua_niacinamide_10_txa_4_serum_02.jpg",
+      "score": 65
+    },
+    {
+      "catId": "mob-cat-0736",
+      "excelId": "mob-excel-736",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "PURIFECT VIT E & VIT C BRIGHTENING 90%",
+      "photoFile": "byoma_brightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/byoma_brightening_serum.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0011",
+      "excelId": "mob-excel-11",
+      "catalogBrand": "DIAMOND GLOW",
+      "catalogName": "SERUM",
+      "photoFile": "versed_weekend_glow_brightening_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/versed_weekend_glow_brightening_serum.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0830",
+      "excelId": "mob-excel-830",
+      "catalogBrand": "TONER",
+      "catalogName": "GOOD MOLECULS GLUCOLIC TONER",
+      "photoFile": "good_molecules_glycolic_exfoliating_toner.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/good_molecules_glycolic_exfoliating_toner.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0493",
+      "excelId": "mob-excel-493",
+      "catalogBrand": "BONNYHILL",
+      "catalogName": "TONER RICE NIACINAMIDE FACIAL MIST",
+      "photoFile": "im_from_rice_toner.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/im_from_rice_toner.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0836",
+      "excelId": "mob-excel-836",
+      "catalogBrand": "TONER",
+      "catalogName": "BEAUTY OF JOSEON GLOW REPLENISHING RICE MILK",
+      "photoFile": "sephora_super_glow_toner_ce.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/sephora_super_glow_toner_ce.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0702",
+      "excelId": "mob-excel-702",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "ANUA NIACINAMIDE 10% TXA 4%",
+      "photoFile": "anua_peach_70_niacin_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/anua_peach_70_niacin_serum.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0704",
+      "excelId": "mob-excel-704",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "SERUM TUBE AXIS-Y DARK SPOT CORRECTING",
+      "photoFile": "goodal_green_tangerine_vita_c_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/goodal_green_tangerine_vita_c_serum.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0372",
+      "excelId": "mob-excel-372",
+      "catalogBrand": "ORGANIC EXTRACT",
+      "catalogName": "SAVON TURMERIC BRIGHTENING",
+      "photoFile": "mitchell_organic_extract_of_papaya_savon.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mitchell_organic_extract_of_papaya_savon.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0697",
+      "excelId": "mob-excel-697",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "BEAUTY OF JOSEON GLOW SERUM PROPOLIS + NIACINAMIDE",
+      "photoFile": "beauty_of_joseon_glow_serum_propolis_niacinamide.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_glow_serum_propolis_niacinamide.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0697",
+      "excelId": "mob-excel-697",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "BEAUTY OF JOSEON GLOW SERUM PROPOLIS + NIACINAMIDE",
+      "photoFile": "beauty_of_joseon_glow_deep_serum_rice_alpha_arbutin.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_glow_deep_serum_rice_alpha_arbutin.jpg",
+      "score": 65
+    },
+    {
+      "catId": "mob-cat-0836",
+      "excelId": "mob-excel-836",
+      "catalogBrand": "TONER",
+      "catalogName": "BEAUTY OF JOSEON GLOW REPLENISHING RICE MILK",
+      "photoFile": "beauty_of_joseon_glow_replenishing_rice_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_glow_replenishing_rice_milk.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0656",
+      "excelId": "mob-excel-656",
+      "catalogBrand": "GOMMAGE",
+      "catalogName": "DUMIDANG RED BEAN HONEY GLASS SKIN BODY SCRUB",
+      "photoFile": "dumidang_red_bean_honey_glass_skin_body_scrub.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumidang_red_bean_honey_glass_skin_body_scrub.jpg",
+      "score": 80
+    },
+    {
+      "catId": "mob-cat-0837",
+      "excelId": "mob-excel-837",
+      "catalogBrand": "TONER",
+      "catalogName": "BEAUTY OF JOSEON ESSENCE RICE",
+      "photoFile": "beauty_of_joseon_red_bean_essence_toner.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_red_bean_essence_toner.jpg",
+      "score": 65
+    },
+    {
+      "catId": "mob-cat-0656",
+      "excelId": "mob-excel-656",
+      "catalogBrand": "GOMMAGE",
+      "catalogName": "DUMIDANG RED BEAN HONEY GLASS SKIN BODY SCRUB",
+      "photoFile": "dumidang_red_bean_honey_moisturizing_scrub_foam.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumidang_red_bean_honey_moisturizing_scrub_foam.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0772",
+      "excelId": "mob-excel-772",
+      "catalogBrand": "THE INKESTLIST",
+      "catalogName": "PHA TONER",
+      "photoFile": "the_ordinary_glycolic_acid_7_exfoliating_toner.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/the_ordinary_glycolic_acid_7_exfoliating_toner.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0493",
+      "excelId": "mob-excel-493",
+      "catalogBrand": "BONNYHILL",
+      "catalogName": "TONER RICE NIACINAMIDE FACIAL MIST",
+      "photoFile": "bonnyhill_rice_niacinamide_facial_mist.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/bonnyhill_rice_niacinamide_facial_mist.jpg",
+      "score": 80
+    },
+    {
+      "catId": "mob-cat-0847",
+      "excelId": "mob-excel-847",
+      "catalogBrand": "TONER",
+      "catalogName": "SNAIL COLLAGEN ESCARGOT",
+      "photoFile": "prettyskin_snail_collagen_toner.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/prettyskin_snail_collagen_toner.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0756",
+      "excelId": "mob-excel-756",
+      "catalogBrand": "SERUM TRAITANT",
+      "catalogName": "SERUM RED BEAN",
+      "photoFile": "dumibang_red_bean_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumibang_red_bean_serum.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0488",
+      "excelId": "mob-excel-488",
+      "catalogBrand": "AMBI",
+      "catalogName": "TONER",
+      "photoFile": "ambi_even_and_clear_pore_minimizing_toner.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/ambi_even_and_clear_pore_minimizing_toner.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0531",
+      "excelId": "mob-excel-531",
+      "catalogBrand": "CLEAR ESSENCE",
+      "catalogName": "SERUM CLEAR ESSENCE",
+      "photoFile": "clear_essence_brightening_wand_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_brightening_wand_serum.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0530",
+      "excelId": "mob-excel-530",
+      "catalogBrand": "CLEAR ESSENCE",
+      "catalogName": "NATURE LEMON VIT E VIT C",
+      "photoFile": "clear_essence_lemon_vitamin_c_skin_beautifying_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_lemon_vitamin_c_skin_beautifying_milk.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0340",
+      "excelId": "mob-excel-340",
+      "catalogBrand": "ESSENTIAL PALACE",
+      "catalogName": "BLACK SOAP SHEA BUTTER AND ALOE VERA",
+      "photoFile": "madina_african_black_soap_shea_butter_aloe_vera.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/madina_african_black_soap_shea_butter_aloe_vera.jpg",
+      "score": 70
+    },
+    {
+      "catId": "mob-cat-0490",
+      "excelId": "mob-excel-490",
+      "catalogBrand": "AMBI",
+      "catalogName": "SAVON AFRICAN BLACK SOAP (NEW) 150g",
+      "photoFile": "ambi_black_soap_cleansing_bar.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/ambi_black_soap_cleansing_bar.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0337",
+      "excelId": "mob-excel-337",
+      "catalogBrand": "ESSENTIAL PALACE",
+      "catalogName": "SAVON COCONUT PAPAYA",
+      "photoFile": "essential_palace_coconut_papaya_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/essential_palace_coconut_papaya_soap.jpg",
+      "score": 70
+    },
+    {
+      "catId": "mob-cat-0487",
+      "excelId": "mob-excel-487",
+      "catalogBrand": "AMBI",
+      "catalogName": "SAVON COCOA BUTTER (jaune)  99g",
+      "photoFile": "ambi_cocoa_butter_cleansing_bar.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/ambi_cocoa_butter_cleansing_bar.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0527",
+      "excelId": "mob-excel-527",
+      "catalogBrand": "CLEAR ESSENCE",
+      "catalogName": "SAVON MEDICATED",
+      "photoFile": "clear_essence_medicated_cleansing_bar.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_medicated_cleansing_bar.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0339",
+      "excelId": "mob-excel-339",
+      "catalogBrand": "ESSENTIAL PALACE",
+      "catalogName": "BLACK SEED & HONEY SOAP",
+      "photoFile": "essential_palace_black_seed_honey_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/essential_palace_black_seed_honey_soap.jpg",
+      "score": 90
+    },
+    {
+      "catId": "mob-cat-0338",
+      "excelId": "mob-excel-338",
+      "catalogBrand": "ESSENTIAL PALACE",
+      "catalogName": "AFRICAN BLACK SOAP ALMOND OIL",
+      "photoFile": "essential_palace_african_black_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/essential_palace_african_black_soap.jpg",
+      "score": 80
+    },
+    {
+      "catId": "mob-cat-0518",
+      "excelId": "mob-excel-518",
+      "catalogBrand": "AFRICAN FORMULA",
+      "catalogName": "SAVON SULFUR ACNE",
+      "photoFile": "african_formula_sulfur_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/african_formula_sulfur_soap.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0529",
+      "excelId": "mob-excel-529",
+      "catalogBrand": "CLEAR ESSENCE",
+      "catalogName": "SAVON CARROT OIL NATURAL",
+      "photoFile": "clear_essence_carrot_oil_bar_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_carrot_oil_bar_soap.jpg",
+      "score": 95
+    },
+    {
+      "catId": "mob-cat-0138",
+      "excelId": "mob-excel-138",
+      "catalogBrand": "DR TEALS",
+      "catalogName": "LAIT DR TEALS COCONUT OIL",
+      "photoFile": "advanced_clinicals_coconut_oil_moisturizing_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_coconut_oil_moisturizing_cream.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0919",
+      "excelId": "mob-excel-919",
+      "catalogBrand": "NADINOLA",
+      "catalogName": "CREME VISAGE SKIN TONE VIT E",
+      "photoFile": "nadinola_moisturizing_skin_tone_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/nadinola_moisturizing_skin_tone_cream.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0919",
+      "excelId": "mob-excel-919",
+      "catalogBrand": "NADINOLA",
+      "catalogName": "CREME VISAGE SKIN TONE VIT E",
+      "photoFile": "nadinola_moisturizing_skin_tone_cream_02.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/nadinola_moisturizing_skin_tone_cream_02.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0170",
+      "excelId": "mob-excel-170",
+      "catalogBrand": "HONEST",
+      "catalogName": "BODY WASH & SHOMPOO",
+      "photoFile": "honest_comfort_shampoo_body_wash_sweet_cream.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/honest_comfort_shampoo_body_wash_sweet_cream.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0170",
+      "excelId": "mob-excel-170",
+      "catalogBrand": "HONEST",
+      "catalogName": "BODY WASH & SHOMPOO",
+      "photoFile": "honest_comfort_shampoo_body_wash.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/honest_comfort_shampoo_body_wash.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0410",
+      "excelId": "mob-excel-410",
+      "catalogBrand": "MEKAKO",
+      "catalogName": "SAVON",
+      "photoFile": "mekako_savon_ultra_gluta_lcp_15_plus.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_savon_ultra_gluta_lcp_15_plus.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0073",
+      "excelId": "mob-excel-73",
+      "catalogBrand": "LIGHEN UP PLUS",
+      "catalogName": "GEL DOUCHE /PAPAYE",
+      "photoFile": "mekako_gel_douche_ad_hoc_15_plus.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_gel_douche_ad_hoc_15_plus.jpg",
+      "score": 55
+    },
+    {
+      "catId": "mob-cat-0069",
+      "excelId": "mob-excel-69",
+      "catalogBrand": "LIGHEN UP PLUS",
+      "catalogName": "LAIT",
+      "photoFile": "mekako_lait_eclaircissant_gluta_lcp.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_lait_eclaircissant_gluta_lcp.jpg",
+      "score": 45
+    },
+    {
+      "catId": "mob-cat-0919",
+      "excelId": "mob-excel-919",
+      "catalogBrand": "NADINOLA",
+      "catalogName": "CREME VISAGE SKIN TONE VIT E",
+      "photoFile": "nadinola_fade_cream_for_dry_skin.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/nadinola_fade_cream_for_dry_skin.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0170",
+      "excelId": "mob-excel-170",
+      "catalogBrand": "HONEST",
+      "catalogName": "BODY WASH & SHOMPOO",
+      "photoFile": "honest_refresh_shampoo_body_wash_citrus_vanilla.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/honest_refresh_shampoo_body_wash_citrus_vanilla.jpg",
+      "score": 60
+    },
+    {
+      "catId": "mob-cat-0163",
+      "excelId": "mob-excel-163",
+      "catalogBrand": "MAKARI BEBE",
+      "catalogName": "LAIT (gm)",
+      "photoFile": "makari_bebe_2_in_1_moisturizing_milk.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/makari_bebe_2_in_1_moisturizing_milk.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0533",
+      "excelId": "mob-excel-533",
+      "catalogBrand": "JOHNSON'S BABY",
+      "catalogName": "LAIT ROSE",
+      "photoFile": "johnsons_baby_lotion_aloe_vitamin_b5.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/johnsons_baby_lotion_aloe_vitamin_b5.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0368",
+      "excelId": "mob-excel-368",
+      "catalogBrand": "OKAY",
+      "catalogName": "OIL CONTROL ORANGE FACIAL SCRUB",
+      "photoFile": "okay_oil_control_facial_scrub_orange.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/okay_oil_control_facial_scrub_orange.jpg",
+      "score": 115
+    },
+    {
+      "catId": "mob-cat-0367",
+      "excelId": "mob-excel-367",
+      "catalogBrand": "OKAY",
+      "catalogName": "SAVON TURMERIC NATURAL DARK SPOT CORRECTOR",
+      "photoFile": "okay_skin_brightening_hand_body_lotion_turmeric.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/okay_skin_brightening_hand_body_lotion_turmeric.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0372",
+      "excelId": "mob-excel-372",
+      "catalogBrand": "ORGANIC EXTRACT",
+      "catalogName": "SAVON TURMERIC BRIGHTENING",
+      "photoFile": "organic_extract_turmeric_soap.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/organic_extract_turmeric_soap.jpg",
+      "score": 70
+    },
+    {
+      "catId": "mob-cat-0126",
+      "excelId": "mob-excel-126",
+      "catalogBrand": "OMIC",
+      "catalogName": "SAVON NOURRISSANT (Jaune)",
+      "photoFile": "omic_skincare_plus_savon.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/omic_skincare_plus_savon.jpg",
+      "score": 75
+    },
+    {
+      "catId": "mob-cat-0089",
+      "excelId": "mob-excel-89",
+      "catalogBrand": "AUTRE LIGHTEN UP",
+      "catalogName": "BODY OIL",
+      "photoFile": "lighten_up_honey_coco_honey_body_lotion.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lighten_up_honey_coco_honey_body_lotion.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0373",
+      "excelId": "mob-excel-373",
+      "catalogBrand": "ORGANIC EXTRACT",
+      "catalogName": "BLOOMING OIL TURMERIC",
+      "photoFile": "organic_extract_turmeric_blooming_oil.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/organic_extract_turmeric_blooming_oil.jpg",
+      "score": 105
+    },
+    {
+      "catId": "mob-cat-0132",
+      "excelId": "mob-excel-132",
+      "catalogBrand": "MAKARI VELOURS",
+      "catalogName": "LAIT",
+      "photoFile": "makari_rose_velours_lotion_corporelle.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_rose_velours_lotion_corporelle.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0131",
+      "excelId": "mob-excel-131",
+      "catalogBrand": "MAKARI SANTAL",
+      "catalogName": "LAIT",
+      "photoFile": "makari_beurre_de_santal_lotion_corporelle.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_beurre_de_santal_lotion_corporelle.jpg",
+      "score": 50
+    },
+    {
+      "catId": "mob-cat-0133",
+      "excelId": "mob-excel-133",
+      "catalogBrand": "MAKARI BLEU CRISTAL",
+      "catalogName": "LAIT",
+      "photoFile": "makari_cristal_bleu_lait_de_corps.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_lait_de_corps.jpg",
+      "score": 95
+    },
+    {
+      "catId": "mob-cat-0135",
+      "excelId": "mob-excel-135",
+      "catalogBrand": "MAKARI BLEU CRISTAL",
+      "catalogName": "SERUM",
+      "photoFile": "makari_cristal_bleu_ultime_intense_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_ultime_intense_serum.jpg",
+      "score": 95
+    },
+    {
+      "catId": "mob-cat-0134",
+      "excelId": "mob-excel-134",
+      "catalogBrand": "MAKARI BLEU CRISTAL",
+      "catalogName": "CREME VISAGE",
+      "photoFile": "makari_cristal_bleu_hydratant_visage.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_hydratant_visage.jpg",
+      "score": 70
+    },
+    {
+      "catId": "mob-cat-0149",
+      "excelId": "mob-excel-149",
+      "catalogBrand": "MAKARI EXCLUSIF",
+      "catalogName": "CREME",
+      "photoFile": "makari_exclusif_actif_intense_creme.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_exclusif_actif_intense_creme.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0156",
+      "excelId": "mob-excel-156",
+      "catalogBrand": "MAKARI CLASSIQUE",
+      "catalogName": "CREME VISAGE JOUR",
+      "photoFile": "makari_day_radiance_face_cream_spf_15.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_day_radiance_face_cream_spf_15.jpg",
+      "score": 85
+    },
+    {
+      "catId": "mob-cat-0135",
+      "excelId": "mob-excel-135",
+      "catalogBrand": "MAKARI BLEU CRISTAL",
+      "catalogName": "SERUM",
+      "photoFile": "makari_skin_repairing_and_clarifying_serum.jpg",
+      "url": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/makari_skin_repairing_and_clarifying_serum.jpg",
+      "score": 75
+    }
+  ]
+}

@@ -73,9 +73,10 @@ export const INITIAL_PRODUCTS = [
     "price": 72000,
     "isFeatured": true,
     "stock": 26,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_toning_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_toning_serum.jpg"
     ],
     "brand": "SAMIRA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -161,9 +162,10 @@ export const INITIAL_PRODUCTS = [
     "price": 85500,
     "isFeatured": true,
     "stock": 6,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/turmeric_glow_brightening_beauty_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669646/mallofbeauty_assets/strives/prod_00_Diamond_Glow_-_Lait_Traitant_Prestige.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/turmeric_glow_brightening_beauty_milk.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -227,9 +229,10 @@ export const INITIAL_PRODUCTS = [
     "price": 45500,
     "isFeatured": true,
     "stock": 19,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/versed_weekend_glow_brightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/versed_weekend_glow_brightening_serum.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -249,9 +252,10 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 13,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/turmeric_glow_savon_de_beaute_exfoliant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/turmeric_glow_savon_de_beaute_exfoliant.jpg"
     ],
     "brand": "DIAMOND GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -381,9 +385,13 @@ export const INITIAL_PRODUCTS = [
     "price": 72500,
     "isFeatured": true,
     "stock": 12,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strenght_whitening_beauty_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strenght_whitening_beauty_milk.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_intense_exfoliating_body_wash.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strength_whitening_treatment_cream.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_blanchiment_correcteur.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -447,9 +455,10 @@ export const INITIAL_PRODUCTS = [
     "price": 40500,
     "isFeatured": true,
     "stock": 33,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strength_whitening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_maximum_strength_whitening_serum.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -491,9 +500,10 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 5,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_savon_exfoliant_purifiant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_glow_savon_exfoliant_purifiant.jpg"
     ],
     "brand": "PURE GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -513,9 +523,11 @@ export const INITIAL_PRODUCTS = [
     "price": 63500,
     "isFeatured": true,
     "stock": 33,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_lightening_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_lightening_milk.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_illuminating_body_wash.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -535,9 +547,10 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 17,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_rapid_creme.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_rapid_creme.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -579,9 +592,10 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": true,
     "stock": 37,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_lightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_triple_fast_lightening_serum.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -623,9 +637,10 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 42,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_savon_exfoliant_purifiant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/express_glow_savon_exfoliant_purifiant.jpg"
     ],
     "brand": "EXPRESS GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -645,9 +660,13 @@ export const INITIAL_PRODUCTS = [
     "price": 43500,
     "isFeatured": true,
     "stock": 6,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_brightening_beauty_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_brightening_beauty_milk.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_lightening_treatment_cream.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_nourishing_body_wash.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultime_lightening_dark_spot_corrector.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -711,9 +730,10 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": true,
     "stock": 15,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_lightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultimate_lightening_serum.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -733,9 +753,10 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 34,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultime_savon_exfoliant_purifiant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/lemon_glow_ultime_savon_exfoliant_purifiant.jpg"
     ],
     "brand": "LEMON GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -777,9 +798,16 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 5,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_beauty_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_beauty_milk.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_exfoliating_purifying_soap.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_treatment_cream.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_treatment_cream_02.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_tonification_intense_correcteur.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_body_wash.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_exfoliating_purifying_soap_02.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -843,9 +871,11 @@ export const INITIAL_PRODUCTS = [
     "price": 23500,
     "isFeatured": true,
     "stock": 48,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_serum.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/carrot_glow_intense_toning_serum_02.jpg"
     ],
     "brand": "CARROT GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -909,9 +939,13 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": true,
     "stock": 29,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_treatment_cream.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_treatment_cream.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_dark_spot_corrector.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_body_wash.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_brightening_beauty_milk.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -931,9 +965,11 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": false,
     "stock": 33,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571466/mallofbeauty_assets/boutique/prod_extreme_glow_treatment_cream_86491a.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571466/mallofbeauty_assets/boutique/prod_extreme_glow_treatment_cream_86491a.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571469/mallofbeauty_assets/boutique/prod_extreme_glow_creme_baume_9fa722.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -975,9 +1011,11 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": true,
     "stock": 11,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571466/mallofbeauty_assets/boutique/prod_extreme_glow_serum_fce694.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_strong_lightening_serum.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -997,9 +1035,10 @@ export const INITIAL_PRODUCTS = [
     "price": 17500,
     "isFeatured": false,
     "stock": 41,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_savon_exfoliant_purifiant_eclaircissant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/extreme_glow_savon_exfoliant_purifiant_eclaircissant.jpg"
     ],
     "brand": "EXTREME GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1041,9 +1080,11 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 39,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_exfoliating_soap.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_exfoliating_soap.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_brightening_beauty_milk.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1063,9 +1104,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 35,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_lightening_treatment_cream.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_lightening_treatment_cream.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1085,9 +1127,10 @@ export const INITIAL_PRODUCTS = [
     "price": 22500,
     "isFeatured": true,
     "stock": 21,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_brightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cocoa_glow_supreme_brightening_serum.jpg"
     ],
     "brand": "COCOA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1129,9 +1172,11 @@ export const INITIAL_PRODUCTS = [
     "price": 42500,
     "isFeatured": true,
     "stock": 5,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/xtreme_brite_cocoa_butter_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/xtreme_brite_cocoa_butter_body_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/xtreme_brite_exfoliating_soap.jpg"
     ],
     "brand": "XTREME BRITE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1195,9 +1240,11 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": true,
     "stock": 26,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_booster_lightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570804/mallofbeauty_assets/boutique/prod_zeenat_glow_booster_lightening_serum_b72e22.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_booster_lightening_serum.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1217,9 +1264,10 @@ export const INITIAL_PRODUCTS = [
     "price": 29500,
     "isFeatured": false,
     "stock": 14,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570800/mallofbeauty_assets/boutique/prod_zeenat_glow_booster_lightening_cream_glutathion_bd0c8b.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570800/mallofbeauty_assets/boutique/prod_zeenat_glow_booster_lightening_cream_glutathion_bd0c8b.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1239,9 +1287,11 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 39,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_declat_savon_exfoliant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571463/mallofbeauty_assets/boutique/prod_zeenat_gluthation_soap_ed2b51.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_declat_savon_exfoliant.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1261,9 +1311,10 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 24,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570804/mallofbeauty_assets/boutique/prod_zeenat_glow_booster_lightening_body_wash_221e46.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570804/mallofbeauty_assets/boutique/prod_zeenat_glow_booster_lightening_body_wash_221e46.jpg"
     ],
     "brand": "ZEENAT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1503,9 +1554,10 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": true,
     "stock": 35,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_lait_eclaircissant_gluta_lcp.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_lait_eclaircissant_gluta_lcp.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1591,9 +1643,10 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": false,
     "stock": 17,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_gel_douche_ad_hoc_15_plus.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_gel_douche_ad_hoc_15_plus.jpg"
     ],
     "brand": "LIGHEN UP PLUS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1701,9 +1754,11 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 22,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_girl_intense_perfection_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571467/mallofbeauty_assets/boutique/prod_lightenup_girl_serum_248803.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_girl_intense_perfection_serum.jpg"
     ],
     "brand": "LIGHEN UP GIRL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1745,9 +1800,10 @@ export const INITIAL_PRODUCTS = [
     "price": 27500,
     "isFeatured": true,
     "stock": 12,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_paris_complexion_beautifying_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_paris_complexion_beautifying_milk.jpg"
     ],
     "brand": "LIGHTEN UP MILK",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -1943,9 +1999,13 @@ export const INITIAL_PRODUCTS = [
     "price": 19800,
     "isFeatured": false,
     "stock": 26,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_carrot_body_oil.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_carrot_body_oil.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_turmeric_body_oil.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_teals_body_lotion_cannabis_sativa_hemp_seed_oil.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lighten_up_honey_coco_honey_body_lotion.jpg"
     ],
     "brand": "AUTRE LIGHTEN UP",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2119,9 +2179,11 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 9,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_ultimate_lightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570806/mallofbeauty_assets/boutique/prod_tomatine_serum_6189f9.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_ultimate_lightening_serum.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2141,9 +2203,11 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 7,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_savon_radiant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570801/mallofbeauty_assets/boutique/prod_tomatine_savon_radiant_7ade4e.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_savon_radiant.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2185,9 +2249,11 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 16,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_shower_gel.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570802/mallofbeauty_assets/boutique/prod_tomatine_shower_gel_e80b42.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/tomatine_skincare_shower_gel.jpg"
     ],
     "brand": "TOMATINE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2207,9 +2273,10 @@ export const INITIAL_PRODUCTS = [
     "price": 28900,
     "isFeatured": false,
     "stock": 27,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571468/mallofbeauty_assets/boutique/prod_carotis_shea_butter_carrot_body_scrub_f2eaaf.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571468/mallofbeauty_assets/boutique/prod_carotis_shea_butter_carrot_body_scrub_f2eaaf.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2251,9 +2318,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 49,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/carotis_lightening_serum_vitamin_a.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/carotis_lightening_serum_vitamin_a.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2273,9 +2341,11 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": true,
     "stock": 31,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carotis_shea_butter_carrot_body_scrub.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575377/mallofbeauty_assets/boutique_renamed/carotis_shea_butter_carrot_body_scrub.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/carotis_brightening_shea_butter_body_lotion.jpg"
     ],
     "brand": "CAROTIS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2317,9 +2387,10 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 47,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_lightening_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_lightening_body_lotion.jpg"
     ],
     "brand": "NEW YORK VIT C",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2493,9 +2564,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570805/mallofbeauty_assets/boutique/prod_new_york_classic_beauty_soap_91170e.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792570805/mallofbeauty_assets/boutique/prod_new_york_classic_beauty_soap_91170e.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2537,9 +2609,10 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 22,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571464/mallofbeauty_assets/boutique/prod_new_york_classic_lightening_cream_6a4a96.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792571464/mallofbeauty_assets/boutique/prod_new_york_classic_lightening_cream_6a4a96.jpg"
     ],
     "brand": "NEW YORK CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2603,9 +2676,10 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 42,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/papaya_glow_savon_de_beaute_exfoliant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/papaya_glow_savon_de_beaute_exfoliant.jpg"
     ],
     "brand": "PAPAYA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2647,9 +2721,10 @@ export const INITIAL_PRODUCTS = [
     "price": 23450,
     "isFeatured": false,
     "stock": 45,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/papaya_glow_brightening_beauty_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/papaya_glow_brightening_beauty_milk.jpg"
     ],
     "brand": "PAPAYA GLOW",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2757,9 +2832,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 46,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/omic_skincare_plus_savon.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/omic_skincare_plus_savon.jpg"
     ],
     "brand": "OMIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2867,9 +2943,10 @@ export const INITIAL_PRODUCTS = [
     "price": 68500,
     "isFeatured": false,
     "stock": 15,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_beurre_de_santal_lotion_corporelle.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_beurre_de_santal_lotion_corporelle.jpg"
     ],
     "brand": "MAKARI SANTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2889,9 +2966,10 @@ export const INITIAL_PRODUCTS = [
     "price": 58500,
     "isFeatured": false,
     "stock": 49,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_rose_velours_lotion_corporelle.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_rose_velours_lotion_corporelle.jpg"
     ],
     "brand": "MAKARI VELOURS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2911,9 +2989,10 @@ export const INITIAL_PRODUCTS = [
     "price": 75500,
     "isFeatured": false,
     "stock": 50,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_lait_de_corps.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_lait_de_corps.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2933,9 +3012,10 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 29,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_hydratant_visage.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_hydratant_visage.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -2955,9 +3035,11 @@ export const INITIAL_PRODUCTS = [
     "price": 38500,
     "isFeatured": false,
     "stock": 29,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_ultime_intense_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_cristal_bleu_ultime_intense_serum.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/makari_skin_repairing_and_clarifying_serum.jpg"
     ],
     "brand": "MAKARI BLEU CRISTAL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3021,9 +3103,12 @@ export const INITIAL_PRODUCTS = [
     "price": 16300,
     "isFeatured": true,
     "stock": 27,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669217/mallofbeauty_assets/products/usa/dr_teals_coconut_oil_body_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_shea_sugar_scrub_coconut_oil.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669217/mallofbeauty_assets/products/usa/dr_teals_coconut_oil_body_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669217/mallofbeauty_assets/products/usa/dr_teals_coconut_oil_body_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_shea_sugar_scrub_coconut_oil.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_coconut_oil_essential_oils_body_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_coconut_oil_moisturizing_cream.jpg"
     ],
     "brand": "DR TEALS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3263,9 +3348,10 @@ export const INITIAL_PRODUCTS = [
     "price": 32500,
     "isFeatured": false,
     "stock": 14,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_exclusif_actif_intense_creme.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_exclusif_actif_intense_creme.jpg"
     ],
     "brand": "MAKARI EXCLUSIF",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3417,9 +3503,10 @@ export const INITIAL_PRODUCTS = [
     "price": 30500,
     "isFeatured": false,
     "stock": 23,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_day_radiance_face_cream_spf_15.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575390/mallofbeauty_assets/boutique_renamed/makari_day_radiance_face_cream_spf_15.jpg"
     ],
     "brand": "MAKARI CLASSIQUE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3571,9 +3658,10 @@ export const INITIAL_PRODUCTS = [
     "price": 19500,
     "isFeatured": false,
     "stock": 44,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/makari_bebe_2_in_1_moisturizing_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/makari_bebe_2_in_1_moisturizing_milk.jpg"
     ],
     "brand": "MAKARI BEBE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -3725,9 +3813,12 @@ export const INITIAL_PRODUCTS = [
     "price": 23400,
     "isFeatured": false,
     "stock": 22,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/honest_comfort_shampoo_body_wash_sweet_cream.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/honest_comfort_shampoo_body_wash_sweet_cream.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/honest_comfort_shampoo_body_wash.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/honest_refresh_shampoo_body_wash_citrus_vanilla.jpg"
     ],
     "brand": "HONEST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5403,9 +5494,11 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 16,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_cocoa_butter_hand_and_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_cocoa_butter_hand_and_body_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_cocoa_butter_hand_and_body_lotion_02.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5447,9 +5540,11 @@ export const INITIAL_PRODUCTS = [
     "price": 16200,
     "isFeatured": false,
     "stock": 37,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_papaya_coconut_hand_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_papaya_coconut_hand_body_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_papaya_body_oil.jpg"
     ],
     "brand": "TOPICLEAR CLASSIC",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -5579,9 +5674,10 @@ export const INITIAL_PRODUCTS = [
     "price": 21500,
     "isFeatured": false,
     "stock": 36,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_serum_intense_eclaircissant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_serum_intense_eclaircissant.jpg"
     ],
     "brand": "TROPICLEAR INTENSE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6371,9 +6467,10 @@ export const INITIAL_PRODUCTS = [
     "price": 26500,
     "isFeatured": true,
     "stock": 20,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/ultra_bright_shea_butter_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/ultra_bright_shea_butter_body_lotion.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6437,9 +6534,10 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 47,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/ultra_bright_savon_purifiant.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/ultra_bright_savon_purifiant.jpg"
     ],
     "brand": "ULTRA BRIGHT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6503,9 +6601,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 20,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/medix_5_5_coconut_oil_manuka_honey_body_cream.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/medix_5_5_coconut_oil_manuka_honey_body_cream.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6547,9 +6646,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 8,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medix_55_vitamin_c_turmeric_body_cream.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medix_55_vitamin_c_turmeric_body_cream.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6591,9 +6691,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": true,
     "stock": 37,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medix_55_body_treatment_cream_argan_oil_vitamin_e.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medix_55_body_treatment_cream_argan_oil_vitamin_e.jpg"
     ],
     "brand": "MEDIX",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6657,9 +6758,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": true,
     "stock": 17,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_coconut_waters_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/eos_body_lotion_coconut_waters.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_coconut_waters_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_coconut_waters_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/eos_body_lotion_coconut_waters.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6679,9 +6781,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18900,
     "isFeatured": true,
     "stock": 36,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_fresh_cozy_lotion.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/eos_shea_better_24h_moisture_body_lotion_fresh_cozy.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_fresh_cozy_lotion.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669219/mallofbeauty_assets/products/usa/eos_fresh_cozy_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/eos_shea_better_24h_moisture_body_lotion_fresh_cozy.jpg"
     ],
     "brand": "EOS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6789,9 +6892,10 @@ export const INITIAL_PRODUCTS = [
     "price": 5900,
     "isFeatured": false,
     "stock": 25,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_body_oil.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_body_oil.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -6943,9 +7047,11 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": true,
     "stock": 46,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669229/mallofbeauty_assets/products/usa/palmers_raw_shea_lotion.png",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_raw_shea_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669229/mallofbeauty_assets/products/usa/palmers_raw_shea_lotion.png"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669229/mallofbeauty_assets/products/usa/palmers_raw_shea_lotion.png",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_raw_shea_body_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_raw_shea_body_lotion_02.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7009,9 +7115,12 @@ export const INITIAL_PRODUCTS = [
     "price": 9000,
     "isFeatured": false,
     "stock": 39,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_coconut_oil_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_coconut_oil_body_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_coconut_oil_body_lotion_02.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_brazilian_coco_firming_body_oil.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7119,9 +7228,12 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 6,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_soap.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_soap.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_formula_jar.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/palmers_cocoa_butter_formula_lotion.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7185,9 +7297,10 @@ export const INITIAL_PRODUCTS = [
     "price": 8200,
     "isFeatured": false,
     "stock": 24,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/palmers_skin_success_fade_milk_body_lotion.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/palmers_skin_success_fade_milk_body_lotion.jpg"
     ],
     "brand": "PALMER'S",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7229,9 +7342,10 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 14,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_skin_success_complexion_bar.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_skin_success_complexion_bar.jpg"
     ],
     "brand": "SKIN SUCCESS",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7405,9 +7519,10 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 33,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/essential_palace_coconut_papaya_soap.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/essential_palace_coconut_papaya_soap.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7427,9 +7542,10 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 38,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/essential_palace_african_black_soap.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/essential_palace_african_black_soap.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7449,9 +7565,10 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": false,
     "stock": 43,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/essential_palace_black_seed_honey_soap.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575384/mallofbeauty_assets/boutique_renamed/essential_palace_black_seed_honey_soap.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -7471,9 +7588,10 @@ export const INITIAL_PRODUCTS = [
     "price": 7500,
     "isFeatured": true,
     "stock": 35,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/madina_african_black_soap_shea_butter_aloe_vera.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/madina_african_black_soap_shea_butter_aloe_vera.jpg"
     ],
     "brand": "ESSENTIAL PALACE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8065,9 +8183,10 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 5,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/okay_skin_brightening_hand_body_lotion_turmeric.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/okay_skin_brightening_hand_body_lotion_turmeric.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8087,9 +8206,10 @@ export const INITIAL_PRODUCTS = [
     "price": 10300,
     "isFeatured": false,
     "stock": 44,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/okay_oil_control_facial_scrub_orange.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/okay_oil_control_facial_scrub_orange.jpg"
     ],
     "brand": "OKAY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8175,9 +8295,11 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 25,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mitchell_organic_extract_of_papaya_savon.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mitchell_organic_extract_of_papaya_savon.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/organic_extract_turmeric_soap.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -8197,9 +8319,10 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 36,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/organic_extract_turmeric_blooming_oil.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575395/mallofbeauty_assets/boutique_renamed/organic_extract_turmeric_blooming_oil.jpg"
     ],
     "brand": "ORGANIC EXTRACT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -9011,9 +9134,10 @@ export const INITIAL_PRODUCTS = [
     "price": 3000,
     "isFeatured": false,
     "stock": 6,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_savon_ultra_gluta_lcp_15_plus.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mekako_savon_ultra_gluta_lcp_15_plus.jpg"
     ],
     "brand": "MEKAKO",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10709,9 +10833,10 @@ export const INITIAL_PRODUCTS = [
     "price": 6000,
     "isFeatured": false,
     "stock": 40,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/ambi_cocoa_butter_cleansing_bar.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/ambi_cocoa_butter_cleansing_bar.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10731,9 +10856,10 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 24,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/ambi_even_and_clear_pore_minimizing_toner.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/ambi_even_and_clear_pore_minimizing_toner.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10775,9 +10901,10 @@ export const INITIAL_PRODUCTS = [
     "price": 4200,
     "isFeatured": false,
     "stock": 23,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/ambi_black_soap_cleansing_bar.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/ambi_black_soap_cleansing_bar.jpg"
     ],
     "brand": "AMBI",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -10841,9 +10968,11 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 34,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/im_from_rice_toner.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/im_from_rice_toner.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/bonnyhill_rice_niacinamide_facial_mist.jpg"
     ],
     "brand": "BONNYHILL",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11392,9 +11521,10 @@ export const INITIAL_PRODUCTS = [
     "price": 9500,
     "isFeatured": false,
     "stock": 7,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/african_formula_sulfur_soap.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/african_formula_sulfur_soap.jpg"
     ],
     "brand": "AFRICAN FORMULA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11590,9 +11720,10 @@ export const INITIAL_PRODUCTS = [
     "price": 7000,
     "isFeatured": false,
     "stock": 11,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_medicated_cleansing_bar.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_medicated_cleansing_bar.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11634,9 +11765,10 @@ export const INITIAL_PRODUCTS = [
     "price": 17900,
     "isFeatured": false,
     "stock": 48,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_carrot_oil_bar_soap.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_carrot_oil_bar_soap.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11656,9 +11788,10 @@ export const INITIAL_PRODUCTS = [
     "price": 0,
     "isFeatured": false,
     "stock": 31,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_lemon_vitamin_c_skin_beautifying_milk.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_lemon_vitamin_c_skin_beautifying_milk.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11678,9 +11811,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 10,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_brightening_wand_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/clear_essence_brightening_wand_serum.jpg"
     ],
     "brand": "CLEAR ESSENCE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -11722,9 +11856,10 @@ export const INITIAL_PRODUCTS = [
     "price": 12500,
     "isFeatured": false,
     "stock": 21,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/johnsons_baby_lotion_aloe_vitamin_b5.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/johnsons_baby_lotion_aloe_vitamin_b5.jpg"
     ],
     "brand": "JOHNSON'S BABY",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -12761,9 +12896,10 @@ export const INITIAL_PRODUCTS = [
     "price": 13500,
     "isFeatured": false,
     "stock": 27,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_lotion_anti_bouton_oil_free.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_lotion_anti_bouton_oil_free.jpg"
     ],
     "brand": "SAVON VRAC VISAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -13113,9 +13249,10 @@ export const INITIAL_PRODUCTS = [
     "price": 10500,
     "isFeatured": false,
     "stock": 41,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/nectar_of_beauty_repair_body_scrub.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/nectar_of_beauty_repair_body_scrub.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -14433,9 +14570,11 @@ export const INITIAL_PRODUCTS = [
     "price": 25000,
     "isFeatured": false,
     "stock": 14,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumidang_red_bean_honey_glass_skin_body_scrub.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumidang_red_bean_honey_glass_skin_body_scrub.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumidang_red_bean_honey_moisturizing_scrub_foam.jpg"
     ],
     "brand": "GOMMAGE",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15027,9 +15166,10 @@ export const INITIAL_PRODUCTS = [
     "price": 30800,
     "isFeatured": true,
     "stock": 44,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669212/mallofbeauty_assets/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/sephora_sal_clarifying_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669212/mallofbeauty_assets/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669212/mallofbeauty_assets/products/kbeauty/cosrx_aha_bha_vitamin_c_booster.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/sephora_sal_clarifying_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15336,9 +15476,11 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 19,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669208/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_glow_serum_propolis_niacinamide.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669208/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669208/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_serum_propolis.webp",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_glow_serum_propolis_niacinamide.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_glow_deep_serum_rice_alpha_arbutin.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15358,9 +15500,10 @@ export const INITIAL_PRODUCTS = [
     "price": 25500,
     "isFeatured": true,
     "stock": 35,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669207/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/im_from_rice_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669207/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669207/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_glow_deep_rice_serum.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/im_from_rice_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15402,9 +15545,10 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 42,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medicube_txa_niacinamide_15_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medicube_txa_niacinamide_15_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15446,9 +15590,12 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 8,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669205/mallofbeauty_assets/products/kbeauty/anua_niacinamide_10_txa_4.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/anua_niacinamide_10_txa_4_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669205/mallofbeauty_assets/products/kbeauty/anua_niacinamide_10_txa_4.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669205/mallofbeauty_assets/products/kbeauty/anua_niacinamide_10_txa_4.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/anua_niacinamide_10_txa_4_serum.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/anua_niacinamide_10_txa_4_serum_02.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/anua_peach_70_niacin_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15490,9 +15637,10 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": false,
     "stock": 40,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/goodal_green_tangerine_vita_c_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/goodal_green_tangerine_vita_c_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -15930,9 +16078,10 @@ export const INITIAL_PRODUCTS = [
     "price": 20500,
     "isFeatured": false,
     "stock": 24,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/sephora_targeted_pores_serum_bha_pha.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/sephora_targeted_pores_serum_bha_pha.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16194,9 +16343,10 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 44,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/byoma_brightening_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/byoma_brightening_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16634,9 +16784,10 @@ export const INITIAL_PRODUCTS = [
     "price": 28200,
     "isFeatured": false,
     "stock": 29,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumibang_red_bean_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumibang_red_bean_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16678,9 +16829,10 @@ export const INITIAL_PRODUCTS = [
     "price": 39200,
     "isFeatured": false,
     "stock": 12,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/glamfox_rice_niacinamide_serum.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/glamfox_rice_niacinamide_serum.jpg"
     ],
     "brand": "SERUM TRAITANT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -16986,9 +17138,10 @@ export const INITIAL_PRODUCTS = [
     "price": 26700,
     "isFeatured": false,
     "stock": 6,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/the_ordinary_glycolic_acid_7_exfoliating_toner.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/the_ordinary_glycolic_acid_7_exfoliating_toner.jpg"
     ],
     "brand": "THE INKESTLIST",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -17074,9 +17227,10 @@ export const INITIAL_PRODUCTS = [
     "price": 16500,
     "isFeatured": false,
     "stock": 38,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_active_lightening_cream.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_active_lightening_cream.jpg"
     ],
     "brand": "CREME TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18263,9 +18417,10 @@ export const INITIAL_PRODUCTS = [
     "price": 18500,
     "isFeatured": false,
     "stock": 14,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/good_molecules_glycolic_exfoliating_toner.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669654/mallofbeauty_assets/strives/prod_17_Good_Molecules_-_Discoloration_Correcting_Serum_75.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/good_molecules_glycolic_exfoliating_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18395,9 +18550,12 @@ export const INITIAL_PRODUCTS = [
     "price": 28500,
     "isFeatured": true,
     "stock": 5,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669211/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_rice_milk_toner.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/tirtir_milk_skin_toner.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669211/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_rice_milk_toner.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669211/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_rice_milk_toner.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/tirtir_milk_skin_toner.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/sephora_super_glow_toner_ce.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_glow_replenishing_rice_milk.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18417,9 +18575,10 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": true,
     "stock": 12,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669206/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_essence_water.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_red_bean_essence_toner.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669206/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_essence_water.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669206/mallofbeauty_assets/products/kbeauty/beauty_of_joseon_essence_water.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_red_bean_essence_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -18637,9 +18796,10 @@ export const INITIAL_PRODUCTS = [
     "price": 35500,
     "isFeatured": false,
     "stock": 49,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/prettyskin_snail_collagen_toner.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/prettyskin_snail_collagen_toner.jpg"
     ],
     "brand": "TONER",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -19341,9 +19501,10 @@ export const INITIAL_PRODUCTS = [
     "price": 30600,
     "isFeatured": false,
     "stock": 44,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/huxley_skin_glow_essence_vita_radiance.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/huxley_skin_glow_essence_vita_radiance.jpg"
     ],
     "brand": "DIVERS TRAITEMENT",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
@@ -20221,9 +20382,12 @@ export const INITIAL_PRODUCTS = [
     "price": 14500,
     "isFeatured": false,
     "stock": 31,
-    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/nadinola_moisturizing_skin_tone_cream.jpg",
     "gallery": [
-      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/nadinola_moisturizing_skin_tone_cream.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/nadinola_moisturizing_skin_tone_cream_02.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/nadinola_fade_cream_for_dry_skin.jpg"
     ],
     "brand": "NADINOLA",
     "shortDesc": "Soin de beauté prestige pour votre routine quotidienne.",
