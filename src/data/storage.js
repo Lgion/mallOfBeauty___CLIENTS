@@ -4,7 +4,7 @@ import fullCatalogData from "./fullCatalogData.json";
 
 const STORAGE_KEYS = {
   PRODUCTS: "mob_products_v7",
-  FULL_CATALOG: "mob_full_catalog_v3",
+  FULL_CATALOG: "mob_full_catalog_v4",
   APPOINTMENTS: "mob_appointments_v3",
   PERSONAL_SHOPPER: "mob_personal_shopper_v3",
   LOYALTY_MEMBERS: "mob_loyalty_members_v3",
@@ -874,7 +874,7 @@ export function getFullCatalog() {
   }
 }
 
-export function searchFullCatalog({ query = "", category = "all", brand = "all", page = 1, perPage = 0 } = {}) {
+export function searchFullCatalog({ query = "", category = "all", subcategory = "all", brand = "all", page = 1, perPage = 0 } = {}) {
   const catalog = getFullCatalog();
   const q = query.trim().toLowerCase();
   
@@ -884,6 +884,13 @@ export function searchFullCatalog({ query = "", category = "all", brand = "all",
     const targetCat = category.trim().toLowerCase();
     filtered = filtered.filter(item => 
       item.category && item.category.trim().toLowerCase() === targetCat
+    );
+  }
+
+  if (subcategory && subcategory !== "all") {
+    const targetSub = subcategory.trim().toLowerCase();
+    filtered = filtered.filter(item => 
+      item.subcategory && item.subcategory.trim().toLowerCase() === targetSub
     );
   }
 
@@ -899,7 +906,8 @@ export function searchFullCatalog({ query = "", category = "all", brand = "all",
       (item.name && item.name.toLowerCase().includes(q)) ||
       (item.brand && item.brand.toLowerCase().includes(q)) ||
       (item.description && item.description.toLowerCase().includes(q)) ||
-      (item.category && item.category.toLowerCase().includes(q))
+      (item.category && item.category.toLowerCase().includes(q)) ||
+      (item.subcategory && item.subcategory.toLowerCase().includes(q))
     );
   }
 

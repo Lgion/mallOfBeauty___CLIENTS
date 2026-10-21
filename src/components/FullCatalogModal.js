@@ -1,11 +1,41 @@
 import { getFullCatalog, searchFullCatalog, getStoreSettings } from "../data/storage.js";
 
+const SUB_ICONS = {
+  // Dermocosmétique & Soins
+  "Crèmes & Soins Visage": "💆‍♀️",
+  "Savons & Pains Purifiants": "🧼",
+  "Traitements & Tubes Ciblés": "🎯",
+  "Sérums & Boosters": "✨",
+  "Laits & Soins Corps": "🧴",
+  "Gommages & Exfoliants": "🧽",
+  "Gels Douche & Nettoyants": "🚿",
+  "Huiles, Baumes & Corps": "🌿",
+  "Compléments & Gummies": "🍬",
+  "Lotions & Toniques": "💧",
+  // Capillaire & Perruques
+  "Perruques & Mèches": "👑",
+  "Pommades, Gels & Coiffants": "💇‍♀️",
+  "Défrisants & Lissage": "⚡",
+  "Appareils & Accessoires": "🔌",
+  "Shampoings & Masques": "🧴",
+  "Soins & Huiles Repousse": "🌱",
+  // Maquillage & Teint
+  "Teint, FDT & Poudres": "🎨",
+  "Démaquillants & Eaux Micellaires": "🧴",
+  "Yeux, Cils & Sourcils": "👁️",
+  "Bases & Fixateurs": "✨",
+  "Teintures & Colorations": "💈",
+  "Lèvres & Gloss": "💄",
+  "Accessoires Maquillage": "🖌️"
+};
+
 export function renderFullCatalogModal({
   query = "",
   category = "all",
+  subcategory = "all",
   brand = "all"
 } = {}) {
-  const result = searchFullCatalog({ query, category, brand, perPage: 0 });
+  const result = searchFullCatalog({ query, category, subcategory, brand, perPage: 0 });
   const settings = getStoreSettings();
   const allCatalog = getFullCatalog();
 
@@ -29,6 +59,28 @@ export function renderFullCatalogModal({
     { id: "Soins Homme", label: "Soins Homme", count: counts["Soins Homme"] || 0, icon: "👔" },
     { id: "Parfumerie & Fragrances", label: "Parfumerie", count: counts["Parfumerie & Fragrances"] || 0, icon: "🌸" }
   ];
+
+  // Dynamically compute subcategories for the active category if it has > 50 products
+  let subcategories = [];
+  if (category !== "all" && counts[category] > 50) {
+    const subCounts = {};
+    allCatalog
+      .filter(item => item.category === category)
+      .forEach(item => {
+        if (item.subcategory) {
+          subCounts[item.subcategory] = (subCounts[item.subcategory] || 0) + 1;
+        }
+      });
+    
+    subcategories = Object.entries(subCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([subName, count]) => ({
+        id: subName,
+        label: subName,
+        count,
+        icon: SUB_ICONS[subName] || "✨"
+      }));
+  }
 
   // Helper icon for category
   const getCategoryIcon = (cat) => {
@@ -111,7 +163,7 @@ export function renderFullCatalogModal({
             </div>
           </div>
 
-          <!-- Pastilles de Catégories Interactives Solides (Défilement Tactile) -->
+          <!-- Pastilles de Catégories Principales (Défilement Tactile) -->
           <div class="fc-pills-scroll-track">
             ${categories.map(c => `
               <button class="fc-category-pill ${category === c.id ? 'active' : ''}" data-category="${c.id}" title="${c.label} (${c.count.toLocaleString("fr-FR")} articles)">
@@ -122,12 +174,37 @@ export function renderFullCatalogModal({
             `).join("")}
           </div>
 
+          <!-- Rangée de Sous-Catégories Spécialisées (uniquement si le rayon contient > 50 produits) -->
+          ${subcategories.length > 0 ? `
+            <div class="fc-subcategories-section">
+              <div class="fc-subcat-header">
+                <span class="fc-subcat-title">Sous-rayons :</span>
+                <span class="fc-subcat-hint">Affinez votre sélection parmi les ${counts[category].toLocaleString("fr-FR")} soins</span>
+              </div>
+              <div class="fc-subpills-scroll-track">
+                <button class="fc-subpill ${subcategory === 'all' ? 'active' : ''}" data-subcategory="all" title="Tous les articles de ${category}">
+                  <span>🌟</span>
+                  <span>Tout ${category.split('&')[0].trim()}</span>
+                  <span class="fc-subpill-count">(${counts[category]})</span>
+                </button>
+                ${subcategories.map(s => `
+                  <button class="fc-subpill ${subcategory === s.id ? 'active' : ''}" data-subcategory="${s.id}" title="${s.label} (${s.count} articles)">
+                    <span>${s.icon}</span>
+                    <span>${s.label}</span>
+                    <span class="fc-subpill-count">(${s.count})</span>
+                  </button>
+                `).join("")}
+              </div>
+            </div>
+          ` : ''}
+
           <!-- Total trouvé info -->
           <div class="fc-meta-info-bar">
             <div>
               Catalogue : <strong style="color: #0F172A; font-size: 0.92rem;">${result.total.toLocaleString("fr-FR")}</strong> articles trouvés
               ${query ? ` pour <span style="color: #0284C7; font-weight: 700;">« ${query} »</span>` : ''}
               ${category !== "all" ? ` dans <span style="color: #065F46; font-weight: 700;">${category}</span>` : ''}
+              ${subcategory !== "all" ? ` &gt; <span style="color: #0284C7; font-weight: 700;">${subcategory}</span>` : ''}
             </div>
             <div style="font-size: 0.8rem; color: #64748B;">
               ✨ Défilement continu • Tous les articles
@@ -168,7 +245,7 @@ export function renderFullCatalogModal({
                     <div>
                       <div class="fc-card-top-row">
                         <div class="full-catalog-brand">${item.brand}</div>
-                        <span class="fc-card-cat-badge">${item.category}</span>
+                        <span class="fc-card-cat-badge">${item.subcategory || item.category}</span>
                       </div>
                       <h4 class="full-catalog-name">${item.name}</h4>
                       <p class="full-catalog-desc">${item.description}</p>

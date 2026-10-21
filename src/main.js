@@ -58,6 +58,7 @@ const state = {
   isFullCatalogOpen: false,
   fcQuery: "",
   fcCategory: "all",
+  fcSubcategory: "all",
   fcBrand: "all",
   fcPage: 1,
   fcPerPage: 20
@@ -158,13 +159,14 @@ function updateModals() {
     productModalRoot.innerHTML = state.activeProductId ? renderProductModal(state.activeProductId) : "";
   }
 
-  // Grand Catalogue (1 136 Articles) Modal
+  // Grand Catalogue (1 137 Articles) Modal
   const fullCatalogRoot = document.getElementById("full-catalog-modal-root");
   if (fullCatalogRoot) {
     if (state.isFullCatalogOpen) {
       fullCatalogRoot.innerHTML = renderFullCatalogModal({
         query: state.fcQuery,
         category: state.fcCategory,
+        subcategory: state.fcSubcategory,
         brand: state.fcBrand
       });
       setupFullCatalogEvents();
@@ -426,6 +428,7 @@ function setupFullCatalogEvents() {
   if (catSelect) {
     catSelect.addEventListener("change", (e) => {
       state.fcCategory = e.target.value;
+      state.fcSubcategory = "all";
       state.fcPage = 1;
       updateModals();
     });
@@ -435,6 +438,17 @@ function setupFullCatalogEvents() {
   catPills.forEach(pill => {
     pill.addEventListener("click", () => {
       state.fcCategory = pill.dataset.category;
+      state.fcSubcategory = "all";
+      state.fcPage = 1;
+      updateModals();
+    });
+  });
+
+  // Filtre par sous-catégorie (pastilles secondaires)
+  const subPills = document.querySelectorAll(".fc-subpill");
+  subPills.forEach(pill => {
+    pill.addEventListener("click", () => {
+      state.fcSubcategory = pill.dataset.subcategory;
       state.fcPage = 1;
       updateModals();
     });
@@ -446,6 +460,7 @@ function setupFullCatalogEvents() {
     resetBtn.addEventListener("click", () => {
       state.fcQuery = "";
       state.fcCategory = "all";
+      state.fcSubcategory = "all";
       state.fcBrand = "all";
       state.fcPage = 1;
       updateModals();
