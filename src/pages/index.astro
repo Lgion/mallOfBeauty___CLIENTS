@@ -1,9 +1,41 @@
+---
+let isAdmin = false;
+try {
+  const auth = Astro.locals.auth ? Astro.locals.auth() : null;
+  const userId = auth?.userId;
+  if (userId) {
+    const { clerkClient } = await import("@clerk/astro/server");
+    const user = await clerkClient(Astro).users.getUser(userId);
+    const userEmails: string[] = (user.emailAddresses || [])
+      .map(e => e.emailAddress?.trim().toLowerCase())
+      .filter(Boolean);
+    const rawAdminEmails = (process.env.ADMIN_EMAILS || import.meta.env.ADMIN_EMAILS || "");
+    const rawEmployeeEmails = (process.env.ADMIN_EMPLOYE || import.meta.env.ADMIN_EMPLOYE || "");
+    const parseEmails = (envVal: string | undefined): string[] => {
+      if (!envVal) return [];
+      return envVal.split(/[\s,;]+/).map(e => e.trim().toLowerCase()).filter(Boolean);
+    };
+    const adminEmails = parseEmails(rawAdminEmails);
+    const employeeEmails = parseEmails(rawEmployeeEmails);
+    if (userEmails.some(e => adminEmails.includes(e) || employeeEmails.includes(e))) {
+      isAdmin = true;
+    }
+  }
+} catch (e) {
+  isAdmin = false;
+}
+---
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mall of Beauty (MoB) | 70% Cosmétiques Américains, K-Beauty & Pagnes Vlisco | Abidjan Vallons</title>
+  
+  <script is:inline define:vars={{ isAdmin }}>
+    window.__MOB_IS_ADMIN__ = Boolean(isAdmin);
+  </script>
   
   <meta name="description" content="Mall of Beauty (MoB) aux Vallons, Cocody Abidjan (Rue des Jardins). Spécialiste N°1 en dermocosmétique d'origine Américaine (70% de sélections certifiées USA), K-Beauty authentique, pagnes Vlisco officiels, maroquinerie italienne et diagnostic personnalisé. Commandes : +225 07 77 02 72 35.">
   <meta name="keywords" content="Mall of Beauty, MoB, cosmétiques americains Abidjan, produits americains Abidjan, K-beauty Abidjan, Vlisco Cocody, soins visage Abidjan, pharmacie Saint-Gilles Vallons, dermocosmetique Abidjan, CeraVe Abidjan, The Ordinary Abidjan, Beauty of Joseon Abidjan, commande 0777027235">

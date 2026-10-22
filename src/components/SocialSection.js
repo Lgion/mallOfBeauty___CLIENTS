@@ -1,7 +1,8 @@
 import { getStoreSettings } from "../data/storage.js";
 
-export function renderSocialSection(activePlatformId = "instagram", isFeedExpanded = false) {
+export function renderSocialSection(activePlatformId = "instagram", isFeedExpanded = false, isAdmin = false) {
   const settings = getStoreSettings();
+  const isAdminUser = Boolean(isAdmin || (typeof window !== "undefined" && window.__MOB_IS_ADMIN__));
 
   const socialNetworks = [
     {
@@ -305,13 +306,13 @@ export function renderSocialSection(activePlatformId = "instagram", isFeedExpand
             </div>
           `}
 
-          <!-- Bannière d'invitation à configurer la clé API si absente -->
-          ${(!settings.contacts.googlePlacesApiKey && !settings.contacts.googleWidgetCode) ? `
+          <!-- Bannière d'invitation à configurer la clé API si absente (Réservée exclusivement aux Administrateurs) -->
+          ${(isAdminUser && !settings.contacts.googlePlacesApiKey && !settings.contacts.googleWidgetCode) ? `
             <div style="margin-top: 18px; padding: 12px 16px; background: rgba(212, 175, 55, 0.08); border: 1px dashed rgba(212, 175, 55, 0.35); border-radius: 8px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
               <div style="display: flex; align-items: center; gap: 10px;">
                 <span style="font-size: 1.2rem;">💡</span>
                 <span style="font-size: 0.82rem; color: var(--gold-light);">
-                  <strong>Mode Démonstration :</strong> Pour charger les avis en temps réel via l'API officielle Google Places ou un widget (Elfsight / EmbedSocial), renseignez votre clé dans l'administration.
+                  <strong>Mode Administration :</strong> Pour charger les avis en temps réel via l'API officielle Google Places ou un widget (Elfsight / EmbedSocial), renseignez votre clé dans l'administration.
                 </span>
               </div>
               <button type="button" class="btn btn-outline-gold btn-sm" style="padding: 4px 12px; font-size: 0.78rem;" onclick="window.MoB.openAdminModal('settings')">

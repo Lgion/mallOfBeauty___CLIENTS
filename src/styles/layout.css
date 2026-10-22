@@ -960,73 +960,408 @@
 }
 
 /* --- FOOTER DE PRESTIGE --- */
+/* --- FOOTER DE PRESTIGE HAUTE JOAILLERIE & COSMÉTIQUE --- */
 .site-footer {
   position: relative;
   overflow: hidden;
-  background: #070709;
-  border-top: 1px solid var(--border-subtle);
-  padding: 80px 0 32px 0;
-  margin-top: 80px;
+  background: radial-gradient(circle at 50% 0%, #111116 0%, #070709 75%);
+  border-top: 1.5px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 -20px 50px rgba(0, 0, 0, 0.7);
+  padding: 60px 0 36px 0;
+  margin-top: 70px;
 }
 
-.site-footer>.container {
+.site-footer > .container {
   position: relative;
   z-index: 2;
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1.5fr repeat(3, 1fr);
-  gap: 40px;
-  margin-bottom: 60px;
+/* En-tête Prestige */
+.footer-prestige-hero {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (max-width: 992px) {
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+.footer-logo-ring {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #B38F26 100%);
+  box-shadow: 0 0 24px rgba(212, 175, 55, 0.4);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (max-width: 580px) {
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
+.footer-logo-badge {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #000;
 }
 
-.footer-col h4 {
-  font-size: 1.15rem;
+.footer-hero-title {
+  font-family: var(--font-serif, "Cinzel", Georgia, serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #FFF;
+  margin: 0 0 4px 0;
+  background: linear-gradient(135deg, #FFFFFF 30%, #F3E5AB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-hero-slogan {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 1.05rem;
+  color: var(--gold-light, #F3E5AB);
+  margin: 0 0 8px 0;
+  opacity: 0.95;
+}
+
+.footer-hero-sub {
+  font-size: 0.8rem;
+  color: var(--text-dim, #94A3B8);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 20px;
-  color: var(--gold-light);
-  letter-spacing: 0.02em;
+}
+
+.footer-dot {
+  color: var(--gold-primary, #D4AF37);
+  opacity: 0.6;
+}
+
+/* Raccourcis Rapides en Mobile (Action Chips) */
+.footer-mobile-action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.footer-action-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.chip-wa {
+  background: rgba(37, 211, 102, 0.15);
+  border: 1px solid rgba(37, 211, 102, 0.4);
+  color: #34D399;
+}
+
+.chip-wa:hover {
+  background: #25D366;
+  color: #FFF;
+  transform: translateY(-2px);
+}
+
+.chip-phone {
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: var(--gold-light, #F3E5AB);
+}
+
+.chip-phone:hover {
+  background: var(--gold-primary, #D4AF37);
+  color: #070709;
+  transform: translateY(-2px);
+}
+
+.chip-maps {
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  color: #7DD3FC;
+}
+
+.chip-maps:hover {
+  background: #38BDF8;
+  color: #070709;
+  transform: translateY(-2px);
+}
+
+/* Badges de Réassurance Pill Row */
+.footer-badges-pill-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.footer-pill-badge {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-muted, #94A3B8);
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 9999px;
+  padding: 4px 12px;
+}
+
+/* Grille Footer */
+.footer-grid-modern {
+  display: grid;
+  grid-template-columns: 1.3fr repeat(3, 1fr);
+  gap: 36px;
+  margin-bottom: 48px;
+}
+
+.footer-col-title {
+  font-family: var(--font-serif, "Cinzel", Georgia, serif);
+  font-size: 1.15rem;
+  color: var(--gold-light, #F3E5AB);
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+}
+
+.footer-text-summary {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-muted, #94A3B8);
+  margin-bottom: 20px;
+}
+
+.footer-social-cluster {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-light, #F3E5AB);
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.footer-social-btn:hover {
+  background: var(--gold-primary, #D4AF37);
+  color: #070709;
+  transform: translateY(-2px);
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.5);
 }
 
 .footer-links {
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .footer-links a {
-  color: var(--text-muted);
-  font-size: 0.92rem;
+  color: var(--text-muted, #94A3B8);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-block;
 }
 
 .footer-links a:hover {
-  color: var(--gold-primary);
-  padding-left: 4px;
+  color: var(--gold-light, #F3E5AB);
+  transform: translateX(4px);
 }
 
-.footer-bottom {
-  padding-top: 32px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+.footer-contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 0.88rem;
+  color: var(--text-muted, #94A3B8);
+  line-height: 1.5;
+}
+
+.footer-contact-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-line-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.footer-gold-link {
+  color: var(--gold-light, #F3E5AB);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-gold-link:hover {
+  text-decoration: underline;
+}
+
+/* Accordéon Desktop vs Mobile */
+.footer-accordion > summary {
+  list-style: none;
+}
+
+.footer-accordion > summary::-webkit-details-marker {
+  display: none;
+}
+
+.footer-chevron {
+  display: none;
+}
+
+/* Bas de Page */
+.footer-bottom-modern {
+  padding-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
   font-size: 0.85rem;
-  color: var(--text-dim);
+  color: var(--text-dim, #64748B);
+}
+
+.footer-admin-link {
+  color: var(--gold-primary, #D4AF37);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.footer-admin-link:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/* Responsivité Mobile Sexy */
+@media (max-width: 992px) {
+  .footer-grid-modern {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-footer {
+    padding: 44px 0 125px 0 !important; /* Dégagement anti-overlap pour les docks flottants */
+  }
+
+  .footer-grid-modern {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+
+  .footer-col-identity {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    border-radius: 14px;
+    padding: 18px 16px;
+  }
+
+  .footer-col-identity .footer-social-cluster {
+    justify-content: center;
+  }
+
+  /* Rendu sous forme de cartes accordéons interactives en mobile */
+  .footer-accordion {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    border-radius: 14px;
+    padding: 14px 18px;
+    box-sizing: border-box;
+    transition: all 0.25s ease;
+  }
+
+  .footer-accordion[open] {
+    background: rgba(18, 18, 24, 0.6);
+    border-color: rgba(212, 175, 55, 0.35);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .footer-accordion-header {
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    user-select: none;
+  }
+
+  .footer-accordion-header h4 {
+    margin: 0 !important;
+    font-size: 1.05rem;
+  }
+
+  .footer-chevron {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--gold-light, #F3E5AB);
+    border-bottom: 2px solid var(--gold-light, #F3E5AB);
+    transform: rotate(45deg);
+    transition: transform 0.25s ease;
+    margin-left: 10px;
+  }
+
+  .footer-accordion[open] .footer-chevron {
+    transform: rotate(-135deg);
+  }
+
+  .footer-accordion .footer-links,
+  .footer-accordion .footer-contact-details {
+    padding-top: 14px;
+    border-top: 1px dashed rgba(212, 175, 55, 0.15);
+    margin-top: 12px;
+  }
+
+  .footer-bottom-modern {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .footer-bottom-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 }
 
 /* --- RÉSEAUX SOCIAUX & COMMUNAUTÉ --- */
@@ -2313,12 +2648,23 @@
 
   .product-modal-grid {
     grid-template-columns: 1fr !important;
-    gap: 18px !important;
-    padding: 20px 16px !important;
+    gap: 16px !important;
+    padding: 18px 14px !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
   }
 }
 
 @media (max-width: 640px) {
+  .modal-backdrop {
+    padding: 10px !important;
+  }
+  .modal-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
   .products-grid {
     grid-template-columns: 1fr !important;
     gap: 16px !important;

@@ -170,24 +170,24 @@ export function renderProductsGridContent(products, currentPage = 1, perPage = 9
     return `
                     <div class="product-card-compact" data-product-id="${p.id}">
                       <!-- Vignette Carrée ~100px sur 100px -->
-                      <div class="compact-thumb-wrap" onclick="window.MoB.openProductModal('${p.id}')" title="${p.name}">
+                      <a href="/produit/${p.id}" class="compact-thumb-wrap" onclick="event.preventDefault(); window.MoB.openProductModal('${p.id}')" title="${p.name}">
                         ${isUsa ? `<span class="compact-usa-pill">🇺🇸</span>` : ''}
                         <span class="compact-stock-indicator ${p.stock && p.stock > 0 ? 'in-stock' : 'available'}" title="${p.stock && p.stock > 0 ? 'En stock' : 'Disponible boutique'}"></span>
                         <img src="${p.image}" alt="${p.name}" class="compact-thumb-img" loading="lazy">
-                      </div>
+                      </a>
 
                       <!-- Corps Compact : Marque, Titre & Prix -->
                       <div class="compact-body">
                         <span class="compact-brand" title="${p.brand || 'MoB'}">${p.brand || 'MoB'}</span>
-                        <h3 class="compact-title" onclick="window.MoB.openProductModal('${p.id}')" title="${p.name}">${p.name}</h3>
+                        <a href="/produit/${p.id}" class="compact-title" onclick="event.preventDefault(); window.MoB.openProductModal('${p.id}')" title="${p.name}">${p.name}</a>
                         <div class="compact-price">${formatPriceFCFA(p.price)}</div>
 
                         <!-- Boutons d'Action : Voir & Panier -->
                         <div class="compact-actions">
-                          <button type="button" class="btn-compact-view" onclick="window.MoB.openProductModal('${p.id}')" title="Voir le produit">
+                          <a href="/produit/${p.id}" class="btn-compact-view" onclick="event.preventDefault(); window.MoB.openProductModal('${p.id}')" title="Voir le produit">
                             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                             <span>Voir</span>
-                          </button>
+                          </a>
                           <button type="button" class="btn-compact-cart" onclick="window.MoB.handleAddToCart('${p.id}')" title="Ajouter au Panier">
                             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
                             <span>Panier</span>
@@ -209,7 +209,7 @@ export function renderProductsGridContent(products, currentPage = 1, perPage = 9
     return `
                   <div class="product-card" data-product-id="${p.id}">
                     <!-- Image & Badges -->
-                    <div class="product-image-wrap" style="cursor: pointer;" onclick="window.MoB.openProductModal('${p.id}')">
+                    <a href="/produit/${p.id}" class="product-image-wrap" style="cursor: pointer; text-decoration: none;" onclick="event.preventDefault(); window.MoB.openProductModal('${p.id}')">
                       <span class="product-badge-brand">${p.brand}</span>
                       
                       <div class="product-card-top-badges">
@@ -220,11 +220,13 @@ export function renderProductsGridContent(products, currentPage = 1, perPage = 9
                       </div>
 
                       <img src="${p.image}" alt="${p.name}" class="product-img" loading="lazy">
-                    </div>
+                    </a>
 
                     <!-- Corps de la carte -->
                     <div class="product-body">
-                      <h3 class="product-title" style="cursor: pointer;" onclick="window.MoB.openProductModal('${p.id}')">${p.name}</h3>
+                      <h3 style="margin: 0;">
+                        <a href="/produit/${p.id}" class="product-title" style="cursor: pointer; text-decoration: none; display: block;" onclick="event.preventDefault(); window.MoB.openProductModal('${p.id}')">${p.name}</a>
+                      </h3>
                       <p class="product-desc">${p.shortDesc}</p>
 
                       <div class="product-footer">
@@ -234,9 +236,9 @@ export function renderProductsGridContent(products, currentPage = 1, perPage = 9
                         </div>
 
                         <div class="product-actions">
-                          <button class="btn btn-icon" title="Voir les détails" onclick="window.MoB.openProductModal('${p.id}')">
+                          <a href="/produit/${p.id}" class="btn btn-icon" title="Voir les détails" onclick="event.preventDefault(); window.MoB.openProductModal('${p.id}')">
                             <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-                          </button>
+                          </a>
                           <button class="btn btn-gold btn-sm" onclick="window.MoB.handleAddToCart('${p.id}')" title="Ajouter au Panier">
                             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
                             <span>Panier</span>

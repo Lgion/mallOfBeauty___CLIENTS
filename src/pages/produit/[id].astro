@@ -1,0 +1,643 @@
+---
+import { INITIAL_PRODUCTS } from "../../data/initialProducts.js";
+import fullCatalogRaw from "../../data/fullCatalogData.json";
+
+const { id } = Astro.params;
+
+// Recherche du produit dans le catalogue phare ou étendu
+let product: any = INITIAL_PRODUCTS.find((p: any) => p.id === id);
+
+if (!product && id) {
+  const fullList = Array.isArray(fullCatalogRaw) ? fullCatalogRaw : [];
+  const catItem: any = fullList.find((c: any) => 
+    c.id === id || 
+    c.id === id.replace("mob-excel-", "mob-cat-000").replace(/mob-cat-000(\d{4})/, "mob-cat-$1")
+  );
+  if (catItem) {
+    product = {
+      id: catItem.id,
+      name: `${catItem.brand} - ${catItem.name}`,
+      brand: catItem.brand,
+      price: catItem.price,
+      oldPrice: null,
+      stock: catItem.stock || 12,
+      category: catItem.category,
+      categoryLabel: catItem.category,
+      image: catItem.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg",
+      gallery: [catItem.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg"],
+      shortDesc: "Soin de beauté prestige d'origine certifiée.",
+      description: "Ce produit issu de la sélection officielle Mall of Beauty garantit une formulation d'exception pour sublimer votre peau.",
+      usage: "Appliquer délicatement matin et soir sur une peau nettoyée selon votre protocole beauté habituel."
+    };
+  }
+}
+
+if (!product) {
+  return Astro.redirect("/#catalogue");
+}
+
+const formatPrice = (amount: number) => {
+  return new Intl.NumberFormat("fr-FR").format(amount) + " FCFA";
+};
+
+const whatsappNumber = "2250777027235";
+const pageUrl = new URL(Astro.url.pathname, Astro.site || "https://mall-of-beauty-clients.vercel.app").toString();
+
+const whatsappMsg = encodeURIComponent(
+  `Bonjour Mall of Beauty, je souhaite commander le produit suivant repéré sur votre site :\n` +
+  `• Référence : ${product.name}\n` +
+  `• Prix : ${formatPrice(product.price)}\n` +
+  `• Lien : ${pageUrl}\n\n` +
+  `Pouvez-vous me confirmer sa disponibilité en boutique aux Vallons et les modalités de livraison ? Merci !`
+);
+
+// Produits similaires (même catégorie ou autres coups de cœur)
+const relatedProducts = INITIAL_PRODUCTS
+  .filter((p: any) => p.id !== product.id && (p.category === product.category || p.brand === product.brand))
+  .slice(0, 4);
+
+// Métadonnées SEO
+const pageTitle = `${product.name} | Mall of Beauty Abidjan Vallons`;
+const metaDescription = `${product.name} par ${product.brand}. Prix : ${formatPrice(product.price)}. Disponible chez Mall of Beauty aux Vallons Cocody, spécialiste N°1 dermo-cosmétique USA (70%) et K-Beauty à Abidjan. Commandes WhatsApp : +225 07 77 02 72 35.`;
+const ogImage = product.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669195/mallofbeauty_assets/devanture_face.jpg";
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={metaDescription}>
+  <link rel="canonical" href={pageUrl}>
+
+  <!-- Open Graph / Réseaux Sociaux & WhatsApp Rich Preview -->
+  <meta property="og:title" content={`${product.name} • ${formatPrice(product.price)} | Mall of Beauty`}>
+  <meta property="og:description" content={metaDescription}>
+  <meta property="og:image" content={ogImage}>
+  <meta property="og:url" content={pageUrl}>
+  <meta property="og:type" content="product">
+  <meta property="product:price:amount" content={String(product.price)}>
+  <meta property="product:price:currency" content="XOF">
+  <meta property="product:availability" content="in stock">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={pageTitle}>
+  <meta name="twitter:description" content={metaDescription}>
+  <meta name="twitter:image" content={ogImage}>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669198/mallofbeauty_assets/logo.jpg">
+
+  <!-- Styles CSS globaux de l'application -->
+  <link rel="stylesheet" href="/src/styles/variables.css">
+  <link rel="stylesheet" href="/src/styles/base.css">
+  <link rel="stylesheet" href="/src/styles/layout.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+
+  <!-- Schema.org JSON-LD Structured Data pour Google Rich Snippets (Product + Breadcrumbs) -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.name,
+    "image": [product.image, ...(product.gallery || [])],
+    "description": product.description || product.shortDesc,
+    "sku": product.id,
+    "brand": {
+      "@type": "Brand",
+      "name": product.brand || "Mall of Beauty"
+    },
+    "category": product.categoryLabel || product.category,
+    "offers": {
+      "@type": "Offer",
+      "url": pageUrl,
+      "priceCurrency": "XOF",
+      "price": product.price,
+      "priceValidUntil": "2027-12-31",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "BeautySalon",
+        "name": "Mall of Beauty (MoB)",
+        "telephone": "+2250777027235",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rue des Jardins, Numéro PADA 3077, Les Vallons",
+          "addressLocality": "Cocody, Abidjan",
+          "addressCountry": "CI"
+        }
+      }
+    }
+  })}></script>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://mall-of-beauty-clients.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Boutique & Soins",
+        "item": "https://mall-of-beauty-clients.vercel.app/#catalogue"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": product.name,
+        "item": pageUrl
+      }
+    ]
+  })}></script>
+
+  <style>
+    .product-page-wrapper {
+      min-height: 100vh;
+      background: var(--bg-main, #070709);
+      color: var(--text-main, #F8FAFC);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-header-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(7, 7, 9, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .product-header-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #FFF;
+    }
+
+    .product-header-brand img {
+      height: 40px;
+      border-radius: 6px;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+    }
+
+    .product-back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gold-light, #F3E5AB);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .product-back-link:hover {
+      color: #FFF;
+      transform: translateX(-3px);
+    }
+
+    .product-main-container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 36px 20px 80px;
+      width: 100%;
+      box-sizing: border-box;
+      flex: 1;
+    }
+
+    .product-breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--text-muted, #94A3B8);
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+    }
+
+    .product-breadcrumbs a {
+      color: var(--gold-light, #F3E5AB);
+      text-decoration: none;
+    }
+
+    .product-breadcrumbs span {
+      opacity: 0.5;
+    }
+
+    .product-hero-card {
+      background: linear-gradient(145deg, rgba(17, 17, 24, 0.95) 0%, rgba(12, 12, 17, 0.98) 100%);
+      border: 1.5px solid rgba(212, 175, 55, 0.35);
+      border-radius: 20px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(212, 175, 55, 0.1);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      gap: 40px;
+      padding: 40px;
+      box-sizing: border-box;
+      margin-bottom: 50px;
+    }
+
+    @media (max-width: 860px) {
+      .product-hero-card {
+        grid-template-columns: 1fr;
+        padding: 22px 18px;
+        gap: 24px;
+      }
+    }
+
+    .product-gallery-side {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .product-main-image-box {
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #0D0E12;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+    }
+
+    .product-main-image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .product-main-image-box:hover img {
+      transform: scale(1.03);
+    }
+
+    .product-thumb-strip {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    .product-thumb-item {
+      width: 68px;
+      height: 68px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      cursor: pointer;
+      flex-shrink: 0;
+      background: #000;
+      transition: all 0.2s ease;
+    }
+
+    .product-thumb-item.active, .product-thumb-item:hover {
+      border-color: var(--gold-primary, #D4AF37);
+      box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+    }
+
+    .product-thumb-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .product-info-side {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .product-title {
+      font-size: 2.2rem;
+      font-family: var(--font-serif, "Cinzel", Georgia, serif);
+      color: #FFF;
+      line-height: 1.25;
+      margin: 8px 0 6px;
+      word-break: break-word;
+    }
+
+    @media (max-width: 600px) {
+      .product-title {
+        font-size: 1.7rem;
+      }
+    }
+
+    .product-brand-tag {
+      font-size: 0.95rem;
+      color: var(--text-dim, #64748B);
+    }
+
+    .product-brand-tag strong {
+      color: var(--gold-light, #F3E5AB);
+      letter-spacing: 0.04em;
+    }
+
+    .product-price-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 16px 20px;
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      border-radius: 12px;
+    }
+
+    .product-price-val {
+      font-size: 2.2rem;
+      font-weight: 800;
+      font-family: var(--font-serif, "Cinzel", Georgia, serif);
+      color: var(--gold-light, #F3E5AB);
+      letter-spacing: 0.02em;
+    }
+
+    .product-reassurance-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 10px 0;
+    }
+
+    @media (max-width: 500px) {
+      .product-reassurance-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .product-reassurance-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      font-size: 0.82rem;
+      color: var(--text-main, #E2E8F0);
+    }
+
+    .product-cta-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .btn-lg-luxe {
+      padding: 16px 24px;
+      font-size: 1.05rem;
+      border-radius: 12px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .btn-gold-luxe {
+      background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #B38F26 100%);
+      color: #070709;
+      border: none;
+    }
+
+    .btn-gold-luxe:hover {
+      filter: brightness(1.1);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(212, 175, 55, 0.4);
+    }
+
+    .btn-wa-luxe {
+      background: #25D366;
+      color: #FFF;
+      border: none;
+    }
+
+    .btn-wa-luxe:hover {
+      background: #20BD5A;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(37, 211, 102, 0.35);
+    }
+
+    .related-section-title {
+      font-size: 1.5rem;
+      font-family: var(--font-serif, "Cinzel", Georgia, serif);
+      color: var(--gold-light, #F3E5AB);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+    }
+  </style>
+</head>
+<body class="product-page-wrapper">
+  <!-- Barre Supérieure de Navigation -->
+  <header class="product-header-nav">
+    <a href="/#catalogue" class="product-back-link">
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      <span>Retour à la Boutique</span>
+    </a>
+
+    <a href="/" class="product-header-brand">
+      <img src="https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669198/mallofbeauty_assets/logo.jpg" alt="Mall of Beauty">
+      <span style="font-family: var(--font-serif, serif); font-size: 1.1rem; font-weight: 700; color: #FFF; letter-spacing: 0.06em;">MALL OF BEAUTY</span>
+    </a>
+
+    <a href="/#catalogue" class="btn btn-outline-gold btn-sm" style="padding: 6px 14px; font-size: 0.82rem;">
+      Voir Tout le Catalogue
+    </a>
+  </header>
+
+  <!-- Contenu Principal -->
+  <main class="product-main-container">
+    <!-- Fil d'Ariane -->
+    <nav class="product-breadcrumbs" aria-label="Fil d'ariane">
+      <a href="/">Accueil</a>
+      <span>/</span>
+      <a href="/#catalogue">Catalogue</a>
+      <span>/</span>
+      <span style="color: var(--gold-primary);">{product.categoryLabel || product.category}</span>
+      <span>/</span>
+      <span style="color: #FFF; font-weight: 600;">{product.name}</span>
+    </nav>
+
+    <!-- Fiche Produit Haute Joaillerie & Cosmétique -->
+    <article class="product-hero-card">
+      <!-- Colonne Image & Galerie -->
+      <div class="product-gallery-side">
+        <div class="product-main-image-box">
+          <img src={product.image} alt={product.name} id="main-product-img">
+        </div>
+        {product.gallery && product.gallery.length > 1 && (
+          <div class="product-thumb-strip">
+            {product.gallery.map((img: string, idx: number) => (
+              <div 
+                class={`product-thumb-item ${idx === 0 ? 'active' : ''}`}
+                onclick={`document.getElementById('main-product-img').src = '${img}'; document.querySelectorAll('.product-thumb-item').forEach(el => el.classList.remove('active')); this.classList.add('active');`}
+              >
+                <img src={img} alt={`${product.name} aperçu ${idx + 1}`}>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <!-- Colonne Informations & Commandes -->
+      <div class="product-info-side">
+        <div>
+          <span class="badge badge-gold" style="margin-bottom: 10px; display: inline-block;">
+            {product.categoryLabel || product.category}
+          </span>
+          <h1 class="product-title">{product.name}</h1>
+          <div class="product-brand-tag">
+            Marque : <strong>{product.brand}</strong> • Référence : <span style="font-family: monospace; color: var(--gold-light);">{product.id}</span>
+          </div>
+        </div>
+
+        <!-- Prix et Disponibilité -->
+        <div class="product-price-bar">
+          <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;">
+            <span class="product-price-val">{formatPrice(product.price)}</span>
+            {product.oldPrice && (
+              <span style="font-size: 1.1rem; color: var(--text-dim); text-decoration: line-through;">
+                {formatPrice(product.oldPrice)}
+              </span>
+            )}
+          </div>
+          <span class="badge badge-emerald" style="font-size: 0.85rem; padding: 6px 14px;">
+            ✓ En Stock aux Vallons
+          </span>
+        </div>
+
+        <!-- Description -->
+        <div>
+          <h3 style="font-size: 1.05rem; color: var(--gold-light); margin-bottom: 8px;">Description & Vertus :</h3>
+          <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-muted); margin: 0;">
+            {product.description || product.shortDesc}
+          </p>
+        </div>
+
+        <!-- Conseils d'Utilisation -->
+        {product.usage && (
+          <div style="background: rgba(212, 175, 55, 0.08); border-left: 3px solid var(--gold-primary); padding: 14px 18px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+            <h4 style="font-size: 0.92rem; color: var(--gold-light); margin: 0 0 6px 0;">💡 Conseils d'utilisation & Suivi Personnalisé MoB :</h4>
+            <p style="font-size: 0.88rem; color: var(--text-main); margin: 0; line-height: 1.5;">{product.usage}</p>
+          </div>
+        )}
+
+        <!-- Grille de Réassurance -->
+        <div class="product-reassurance-grid">
+          <div class="product-reassurance-item">
+            <span>🇺🇸</span>
+            <span>70% Cosmétiques Origine USA Certifiée</span>
+          </div>
+          <div class="product-reassurance-item">
+            <span>⚡️</span>
+            <span>Livraison Express Yango (Abidjan)</span>
+          </div>
+          <div class="product-reassurance-item">
+            <span>✈️</span>
+            <span>Expéditions Internationales GP & DHL</span>
+          </div>
+          <div class="product-reassurance-item">
+            <span>👑</span>
+            <span>Partenaire Officiel Vlisco Grand Super</span>
+          </div>
+        </div>
+
+        <!-- Boutons d'Action Principaux -->
+        <div class="product-cta-group">
+          <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMsg}`} target="_blank" rel="noopener noreferrer" class="btn-lg-luxe btn-wa-luxe">
+            <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.879.814 2.796.814 3.183 0 5.769-2.587 5.77-5.766.001-3.183-2.585-5.8-5.77-5.8zm3.376 8.204c-.14.394-.807.754-1.127.799-.304.043-.701.077-2.022-.441-1.688-.662-2.775-2.39-2.86-2.502-.085-.113-.687-.912-.687-1.739 0-.827.433-1.233.587-1.402.155-.17.338-.212.451-.212.113 0 .226.002.324.007.103.005.241-.039.377.288.14.339.479 1.171.522 1.256.043.085.072.184.015.297-.057.113-.086.184-.17.283-.085.099-.178.22-.254.296-.085.085-.173.177-.075.346.099.169.439.724.943 1.173.649.579 1.197.758 1.366.843.169.085.282.127.324.198.043.071.043.41-.097.804z"/></svg>
+            <span>Commander directement via WhatsApp</span>
+          </a>
+
+          <button 
+            type="button" 
+            class="btn-lg-luxe btn-gold-luxe"
+            onclick={`
+              try {
+                const cart = JSON.parse(localStorage.getItem('mob_cart') || '[]');
+                const existing = cart.find(i => i.productId === '${product.id}');
+                if (existing) {
+                  existing.quantity += 1;
+                } else {
+                  cart.push({ productId: '${product.id}', quantity: 1, addedAt: new Date().toISOString() });
+                }
+                localStorage.setItem('mob_cart', JSON.stringify(cart));
+                alert('Produit ajouté à votre panier ! Redirection vers la boutique...');
+                window.location.href = '/#catalogue';
+              } catch(e) {
+                window.location.href = '/#catalogue';
+              }
+            `}
+          >
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            <span>Ajouter au Panier & Voir la Boutique</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Produits Similaires -->
+    {relatedProducts.length > 0 && (
+      <section style="margin-top: 60px;">
+        <h2 class="related-section-title">
+          <span>✦</span>
+          <span>Dans la même collection prestige</span>
+        </h2>
+        <div class="related-grid">
+          {relatedProducts.map((rel: any) => (
+            <a href={`/produit/${rel.id}`} class="luxury-card" style="padding: 16px; text-decoration: none; display: flex; flex-direction: column; gap: 12px; border-radius: 14px;">
+              <div style="width: 100%; aspect-ratio: 1; border-radius: 10px; overflow: hidden; background: #111;">
+                <img src={rel.image} alt={rel.name} style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div>
+                <span class="badge badge-gold" style="font-size: 0.7rem; margin-bottom: 4px;">{rel.brand}</span>
+                <h4 style="font-size: 0.98rem; color: #FFF; margin: 4px 0 6px; line-height: 1.3;">{rel.name}</h4>
+                <div style="font-size: 1.1rem; font-weight: 700; color: var(--gold-light); font-family: var(--font-serif);">{formatPrice(rel.price)}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </main>
+
+  <!-- Pied de Page Minimaliste Élégant -->
+  <footer style="background: #050507; border-top: 1px solid rgba(212, 175, 55, 0.2); padding: 32px 20px; text-align: center; font-size: 0.85rem; color: var(--text-dim);">
+    <div style="max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; align-items: center;">
+      <div style="color: var(--gold-light); font-weight: 600;">Mall of Beauty (MoB) • Les Vallons Cocody, Rue des Jardins, Abidjan</div>
+      <div>Spécialiste 70% Cosmétiques USA certifiés • K-Beauty Authentique • Partenaire Officiel Vlisco</div>
+      <div>Commandes & Conciergerie : <a href="tel:+2250777027235" style="color: #FFF; font-weight: 700;">+225 07 77 02 72 35</a></div>
+      <div style="margin-top: 8px; opacity: 0.6;">© {new Date().getFullYear()} Mall of Beauty. Tous droits réservés.</div>
+    </div>
+  </footer>
+</body>
+</html>

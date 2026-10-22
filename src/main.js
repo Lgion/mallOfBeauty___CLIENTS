@@ -61,7 +61,8 @@ const state = {
   fcSubcategory: "all",
   fcBrand: "all",
   fcPage: 1,
-  fcPerPage: 20
+  fcPerPage: 20,
+  isAdmin: typeof window !== "undefined" ? Boolean(window.__MOB_IS_ADMIN__) : false
 };
 
 // --- INITIALISATION & RENDU PRINCIPAL ---
@@ -74,7 +75,7 @@ function renderApp() {
     <main>
       ${renderHero(state.isGalleryUnfolded)}
       ${renderCatalog(state.currentCategory, state.searchQuery, state.catalogPage, state.catalogPerPage, state.catalogViewMode)}
-      ${renderSocialSection(state.activeSocialTab, state.isSocialFeedExpanded)}
+      ${renderSocialSection(state.activeSocialTab, state.isSocialFeedExpanded, state.isAdmin)}
       ${renderInteractiveMap()}
     </main>
     ${renderFooter()}
@@ -797,24 +798,30 @@ window.MoB = {
     trackClick(platformId, `Onglet Réseau ${platformId}`);
     const socialSection = document.getElementById("communaute");
     if (socialSection) {
-      socialSection.outerHTML = renderSocialSection(state.activeSocialTab, state.isSocialFeedExpanded);
+      socialSection.outerHTML = renderSocialSection(state.activeSocialTab, state.isSocialFeedExpanded, state.isAdmin);
     }
   },
   toggleSocialFeed() {
     state.isSocialFeedExpanded = !state.isSocialFeedExpanded;
     const socialSection = document.getElementById("communaute");
     if (socialSection) {
-      socialSection.outerHTML = renderSocialSection(state.activeSocialTab, state.isSocialFeedExpanded);
+      socialSection.outerHTML = renderSocialSection(state.activeSocialTab, state.isSocialFeedExpanded, state.isAdmin);
     }
   },
 
-  // Modal Produit
+  // Modal Produit avec Deep-Linking URL
   openProductModal(id) {
     state.activeProductId = id;
+    if (typeof window !== "undefined" && window.history && window.history.pushState) {
+      window.history.pushState({ productId: id }, "", `/?produit=${id}`);
+    }
     updateModals();
   },
   closeProductModal() {
     state.activeProductId = null;
+    if (typeof window !== "undefined" && window.history && window.history.pushState && window.location.search.includes("produit=")) {
+      window.history.pushState(null, "", window.location.pathname);
+    }
     updateModals();
   },
 
@@ -1609,14 +1616,36 @@ document.addEventListener("click", (e) => {
 });
 
 // Lancement au chargement du DOM
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", () => {
-    renderApp();
-    updateModals();
-  });
-} else {
+function startApp() {
+  if (typeof window !== "undefined") {
+    const params = new URLSearchParams(window.location.search);
+    const initialProduct = params.get("produit");
+    if (initialProduct) {
+      state.activeProductId = initialProduct;
+    }
+  }
   renderApp();
   updateModals();
+}
+
+if (typeof window !== "undefined") {
+  window.addEventListener("popstate", () => {
+    const params = new URLSearchParams(window.location.search);
+    const pId = params.get("produit");
+    if (pId && pId !== state.activeProductId) {
+      state.activeProductId = pId;
+      updateModals();
+    } else if (!pId && state.activeProductId) {
+      state.activeProductId = null;
+      updateModals();
+    }
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", startApp);
+} else {
+  startApp();
 }
 
 

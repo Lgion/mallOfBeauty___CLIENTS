@@ -112,69 +112,69 @@ export function renderLoyaltyCard() {
           </div>
 
           <!-- Les Piliers d'Avantages Privilège -->
-          <div style="display: flex; flex-direction: column; gap: 20px;">
-            <div class="luxury-card" style="padding: 24px;">
-              <div style="display: flex; align-items: flex-start; gap: 16px;">
-                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
+          <div style="display: flex; flex-direction: column; gap: 16px; width: 100%; box-sizing: border-box;">
+            <div class="luxury-card" style="padding: 20px; box-sizing: border-box; width: 100%;">
+              <div style="display: flex; align-items: flex-start; gap: 14px; width: 100%;">
+                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 42px; height: 42px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7z"/><circle cx="2" cy="4" r="1.2" fill="currentColor"/><circle cx="22" cy="4" r="1.2" fill="currentColor"/><circle cx="12" cy="4" r="1.2" fill="currentColor"/><path d="M4 19h16"/></svg>
                 </div>
-                <div>
-                  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
-                    <h3 style="font-size: 1.15rem; color: var(--gold-light);">Gamme Femme & Dermo-Excellence</h3>
-                    <span class="badge badge-gold">Prioritaire VIP</span>
+                <div style="flex: 1; min-width: 0;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 6px;">
+                    <h3 style="font-size: 1.08rem; color: var(--gold-light); margin: 0; word-break: break-word;">Gamme Femme & Dermo-Excellence</h3>
+                    <span class="badge badge-gold" style="flex-shrink: 0; font-size: 0.72rem; padding: 3px 8px;">Prioritaire VIP</span>
                   </div>
-                  <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
+                  <p style="font-size: 0.86rem; color: var(--text-muted); margin: 0; line-height: 1.5;">
                     Accès privilégié en avant-première aux nouveautés américaines certifiées (70% de la collection) et conseils dermo-experts personnalisés pour votre typologie de peau.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="luxury-card" style="padding: 24px;">
-              <div style="display: flex; align-items: flex-start; gap: 16px;">
-                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
+            <div class="luxury-card" style="padding: 20px; box-sizing: border-box; width: 100%;">
+              <div style="display: flex; align-items: flex-start; gap: 14px; width: 100%;">
+                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 42px; height: 42px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg>
                 </div>
-                <div>
-                  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
-                    <h3 style="font-size: 1.15rem; color: var(--gold-light);">Cadeau d'Anniversaire VIP</h3>
-                    <span class="badge badge-gold">-10% de réduction</span>
+                <div style="flex: 1; min-width: 0;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 6px;">
+                    <h3 style="font-size: 1.08rem; color: var(--gold-light); margin: 0; word-break: break-word;">Cadeau d'Anniversaire VIP</h3>
+                    <span class="badge badge-gold" style="flex-shrink: 0; font-size: 0.72rem; padding: 3px 8px;">-10% de réduction</span>
                   </div>
-                  <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
+                  <p style="font-size: 0.86rem; color: var(--text-muted); margin: 0; line-height: 1.5;">
                     Valable pendant <strong>10 jours consécutifs</strong> autour de votre date d'anniversaire sur l'ensemble des soins, parfums et cosmétiques de la boutique.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="luxury-card" style="padding: 24px;">
-              <div style="display: flex; align-items: flex-start; gap: 16px;">
-                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
+            <div class="luxury-card" style="padding: 20px; box-sizing: border-box; width: 100%;">
+              <div style="display: flex; align-items: flex-start; gap: 14px; width: 100%;">
+                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 42px; height: 42px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
                 </div>
-                <div>
-                  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
-                    <h3 style="font-size: 1.15rem; color: var(--gold-light);">Récompense Cycle de Carte</h3>
-                    <span class="badge badge-gold">-15% de remise</span>
+                <div style="flex: 1; min-width: 0;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 6px;">
+                    <h3 style="font-size: 1.08rem; color: var(--gold-light); margin: 0; word-break: break-word;">Récompense Cycle de Carte</h3>
+                    <span class="badge badge-gold" style="flex-shrink: 0; font-size: 0.72rem; padding: 3px 8px;">-15% de remise</span>
                   </div>
-                  <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
+                  <p style="font-size: 0.86rem; color: var(--text-muted); margin: 0; line-height: 1.5;">
                     À l'achèvement de votre carte de fidélité, profitez d'une remise exceptionnelle de <strong>15% sur tout votre panier</strong> d'achat.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="luxury-card" style="padding: 24px;">
-              <div style="display: flex; align-items: flex-start; gap: 16px;">
-                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
+            <div class="luxury-card" style="padding: 20px; box-sizing: border-box; width: 100%;">
+              <div style="display: flex; align-items: flex-start; gap: 14px; width: 100%;">
+                <div style="color: var(--gold-primary); display: flex; align-items: center; justify-content: center; width: 42px; height: 42px; background: rgba(197, 160, 89, 0.12); border-radius: 50%; border: 1px solid rgba(197, 160, 89, 0.3); flex-shrink: 0;">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/><path d="M5 3v4M3 5h4M19 17v4M17 19h4"/></svg>
                 </div>
-                <div>
-                  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
-                    <h3 style="font-size: 1.15rem; color: var(--gold-light);">Échantillons & Nouveautés USA</h3>
-                    <span class="badge badge-emerald">Gratuit & Prioritaire</span>
+                <div style="flex: 1; min-width: 0;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 6px;">
+                    <h3 style="font-size: 1.08rem; color: var(--gold-light); margin: 0; word-break: break-word;">Échantillons & Nouveautés USA</h3>
+                    <span class="badge badge-emerald" style="flex-shrink: 0; font-size: 0.72rem; padding: 3px 8px;">Gratuit & Prioritaire</span>
                   </div>
-                  <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
+                  <p style="font-size: 0.86rem; color: var(--text-muted); margin: 0; line-height: 1.5;">
                     Doses d'essai offertes à chaque achat et alertes réassorts privées sur les produits viraux américains et coréens.
                   </p>
                 </div>
