@@ -24769,5 +24769,1224 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "Nouveauté"
     ]
+  },
+  {
+    "id": "mob-excel-1114",
+    "name": "PR. FRANÇOISE BEDON - PR. FRANCOISE BEDON IMPERIALE SERUM ECLAIRCISSANT ANTI-AGE A LA TRUFFE NOIRE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_imperiale_serum_truffe_noire_boutique_251a17.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_imperiale_serum_truffe_noire_boutique_251a17.jpg"
+    ],
+    "brand": "PR. FRANÇOISE BEDON",
+    "shortDesc": "Pr. Françoise Bedon - Pr. Francoise Bedon Imperiale Serum Eclaircissant Anti-age A la Truffe Noire. Formule authentique d'excellence.",
+    "description": "Soin d'exception Pr. Françoise Bedon Pr. Francoise Bedon Imperiale Serum Eclaircissant Anti-age A la Truffe Noire pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1115",
+    "name": "PR. FRANÇOISE BEDON - SÉRUM ÉCLAIRCISSANT MULTIVITAMINÉ ROYAL LIGHTENING SERUM MULTIVITAMINS",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741199/mallofbeauty_assets/boutique_v2/prod_francoise_bedon_royal_lightening_serum_boutique_de6bc0.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741199/mallofbeauty_assets/boutique_v2/prod_francoise_bedon_royal_lightening_serum_boutique_de6bc0.jpg"
+    ],
+    "brand": "PR. FRANÇOISE BEDON",
+    "shortDesc": "Pr. Françoise Bedon - Sérum Éclaircissant Multivitaminé Royal Lightening Serum Multivitamins. Formule authentique d'excellence.",
+    "description": "Soin d'exception Pr. Françoise Bedon Sérum Éclaircissant Multivitaminé Royal Lightening Serum Multivitamins pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1116",
+    "name": "PR. FRANÇOISE BEDON - SÉRUM RÉPARATEUR LUXE THÉ ET VERVEINE ÉCLAIRCISSANT LIGHTENING",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741198/mallofbeauty_assets/boutique_v2/prod_francoise_bedon_reparateur_luxe_the_et_verveine_serum_boutique_2a367e.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741198/mallofbeauty_assets/boutique_v2/prod_francoise_bedon_reparateur_luxe_the_et_verveine_serum_boutique_2a367e.jpg"
+    ],
+    "brand": "PR. FRANÇOISE BEDON",
+    "shortDesc": "Pr. Françoise Bedon - Sérum Réparateur Luxe Thé et Verveine Éclaircissant Lightening. Formule authentique d'excellence.",
+    "description": "Soin d'exception Pr. Françoise Bedon Sérum Réparateur Luxe Thé et Verveine Éclaircissant Lightening pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1117",
+    "name": "HP25 - PARIS LAIT ECLAIRCISSANT REVOLUTION LIGHTENING TREATMENT WITH CONCENTRATED RETINYL PALMITATE FORMULA",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 32000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741201/mallofbeauty_assets/boutique_v2/prod_hp25_lait_eclaircissant_revolution_boutique_aa7ce6.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741201/mallofbeauty_assets/boutique_v2/prod_hp25_lait_eclaircissant_revolution_boutique_aa7ce6.jpg"
+    ],
+    "brand": "HP25",
+    "shortDesc": "HP25 - Paris Lait Eclaircissant Revolution Lightening Treatment with concentrated Retinyl Palmitate formula. Formule authentique d'excellence.",
+    "description": "Lait corporel haut de gamme HP25 pour hydrater, unifier le grain de peau et apporter un éclat radieux.",
+    "usage": "Appliquer généreusement sur l'ensemble du corps après la douche en mouvements circulaires.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1118",
+    "name": "HP25 - PARIS LAIT ECLAIRCISSANT EFFICACITÉ SÉCURITÉ RÉSULTAT ABSOLU FORMULE ACCÉLÉRÉE LIGHTENING TREATMENT WITH CONCENTRATED HP25 FORMULA",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 32000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741201/mallofbeauty_assets/boutique_v2/prod_hp25_lait_eclaircissant_formule_acceleree_boutique_168e96.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741201/mallofbeauty_assets/boutique_v2/prod_hp25_lait_eclaircissant_formule_acceleree_boutique_168e96.jpg"
+    ],
+    "brand": "HP25",
+    "shortDesc": "HP25 - Paris Lait Eclaircissant Efficacité Sécurité Résultat absolu Formule accélérée Lightening Treatment with concentrated HP25 formula. Formule authentique d'excellence.",
+    "description": "Lait corporel haut de gamme HP25 pour hydrater, unifier le grain de peau et apporter un éclat radieux.",
+    "usage": "Appliquer généreusement sur l'ensemble du corps après la douche en mouvements circulaires.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1119",
+    "name": "PR. FRANÇOISE BEDON - PARIS SÉRUM ÉCLAIRCISSANT EXTRAIT D'ARGAN SUPREME LUXE LIGHTENING SERUM ARGAN EXTRACT",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741209/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_supreme_luxe_serum_claircissant_arga_boutique_0fd08c.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741209/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_supreme_luxe_serum_claircissant_arga_boutique_0fd08c.jpg"
+    ],
+    "brand": "PR. FRANÇOISE BEDON",
+    "shortDesc": "Pr. Françoise Bedon - Paris Sérum Éclaircissant Extrait d'Argan Supreme Luxe Lightening Serum Argan Extract. Formule authentique d'excellence.",
+    "description": "Soin d'exception Pr. Françoise Bedon Pr. Françoise Bedon Paris Sérum Éclaircissant Extrait d'Argan Supreme Luxe Lightening Serum Argan Extract pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1120",
+    "name": "BENZAC - GEL 50 MG/ML BENZOYLPEROXIDE",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 13500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_benzac_gel_50_mg_ml_boutique_610cbd.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_benzac_gel_50_mg_ml_boutique_610cbd.jpg"
+    ],
+    "brand": "BENZAC",
+    "shortDesc": "Benzac - Gel 50 mg/ml Benzoylperoxide. Formule authentique d'excellence.",
+    "description": "Traitement dermatologique ciblé Benzac Benzac Gel 50 mg/ml Benzoylperoxide pour corriger les imperfections cutanées et apaiser l'épiderme.",
+    "usage": "Appliquer localement en fine couche sur la zone concernée selon avis spécialisé.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1121",
+    "name": "PR. FRANÇOISE BEDON - PARIS SÉRUM PUISSANCE ÉCLAIRCISSANT LIGHTENING",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_serum_puissance_eclaircissant_boutique_dcb08e.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_serum_puissance_eclaircissant_boutique_dcb08e.jpg"
+    ],
+    "brand": "PR. FRANÇOISE BEDON",
+    "shortDesc": "Pr. Françoise Bedon - Paris Sérum Puissance Éclaircissant Lightening. Formule authentique d'excellence.",
+    "description": "Soin d'exception Pr. Françoise Bedon Pr. Françoise Bedon Paris Sérum Puissance Éclaircissant Lightening pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1122",
+    "name": "FERRER - PEITEL 2,5 MG/G CREMA",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 13500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741198/mallofbeauty_assets/boutique_v2/prod_ferrer_peitel_2_5_mg_g_crema_boutique_3b5ecf.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741198/mallofbeauty_assets/boutique_v2/prod_ferrer_peitel_2_5_mg_g_crema_boutique_3b5ecf.jpg"
+    ],
+    "brand": "FERRER",
+    "shortDesc": "Ferrer - Peitel 2,5 mg/g Crema. Formule authentique d'excellence.",
+    "description": "Traitement dermatologique ciblé Ferrer Peitel 2,5 mg/g Crema pour corriger les imperfections cutanées et apaiser l'épiderme.",
+    "usage": "Appliquer localement en fine couche sur la zone concernée selon avis spécialisé.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1123",
+    "name": "CANTABRIA LABS - CLOVATE 0,5 MG/G CREMA",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 13500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_cantabria_labs_clovate_0_5_mg_g_crema_boutique_649bca.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_cantabria_labs_clovate_0_5_mg_g_crema_boutique_649bca.jpg"
+    ],
+    "brand": "CANTABRIA LABS",
+    "shortDesc": "Cantabria Labs - Clovate 0,5 mg/g Crema. Formule authentique d'excellence.",
+    "description": "Traitement dermatologique ciblé Cantabria Labs Clovate 0,5 mg/g Crema pour corriger les imperfections cutanées et apaiser l'épiderme.",
+    "usage": "Appliquer localement en fine couche sur la zone concernée selon avis spécialisé.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1124",
+    "name": "PADAGIS - MOMETASONE FUROATE CREAM USP 0.1%",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 13500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741207/mallofbeauty_assets/boutique_v2/prod_padagis_mometasone_furoate_cream_usp_0_1_boutique_63b7b0.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741207/mallofbeauty_assets/boutique_v2/prod_padagis_mometasone_furoate_cream_usp_0_1_boutique_63b7b0.jpg"
+    ],
+    "brand": "PADAGIS",
+    "shortDesc": "Padagis - Mometasone Furoate Cream USP 0.1%. Formule authentique d'excellence.",
+    "description": "Traitement dermatologique ciblé Padagis Mometasone Furoate Cream USP 0.1% pour corriger les imperfections cutanées et apaiser l'épiderme.",
+    "usage": "Appliquer localement en fine couche sur la zone concernée selon avis spécialisé.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1125",
+    "name": "SYNALAR - 0,25 MG/G CREMA FLUOCINOLONA ACETONIDO",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 13500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_synalar_crema_0_25_mg_g_boutique_b96eb4.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_synalar_crema_0_25_mg_g_boutique_b96eb4.jpg"
+    ],
+    "brand": "SYNALAR",
+    "shortDesc": "Synalar - 0,25 mg/g Crema Fluocinolona Acetonido. Formule authentique d'excellence.",
+    "description": "Traitement dermatologique ciblé Synalar Synalar 0,25 mg/g Crema Fluocinolona Acetonido pour corriger les imperfections cutanées et apaiser l'épiderme.",
+    "usage": "Appliquer localement en fine couche sur la zone concernée selon avis spécialisé.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1126",
+    "name": "PEITEL - 2,5 MG/G CREMA PREDNICARBATO",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 13500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_peitel_crema_2_5_mg_g_boutique_537044.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_peitel_crema_2_5_mg_g_boutique_537044.jpg"
+    ],
+    "brand": "PEITEL",
+    "shortDesc": "Peitel - 2,5 mg/g Crema Prednicarbato. Formule authentique d'excellence.",
+    "description": "Traitement dermatologique ciblé Peitel Peitel 2,5 mg/g Crema Prednicarbato pour corriger les imperfections cutanées et apaiser l'épiderme.",
+    "usage": "Appliquer localement en fine couche sur la zone concernée selon avis spécialisé.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1127",
+    "name": "ORGANON - DIPROGENTA 0,5 MG/G + 1 MG/G CREMA BETAMETASONA/GENTAMICINA",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 13500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_diprogenta_crema_boutique_a96da1.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_diprogenta_crema_boutique_a96da1.jpg"
+    ],
+    "brand": "ORGANON",
+    "shortDesc": "Organon - Diprogenta 0,5 mg/g + 1 mg/g crema Betametasona/Gentamicina. Formule authentique d'excellence.",
+    "description": "Traitement dermatologique ciblé Organon Diprogenta 0,5 mg/g + 1 mg/g crema Betametasona/Gentamicina pour corriger les imperfections cutanées et apaiser l'épiderme.",
+    "usage": "Appliquer localement en fine couche sur la zone concernée selon avis spécialisé.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1128",
+    "name": "DERMOEBA - PARIS SAVON EXFOLIANT",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 9500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_dermoeba_savon_exfoliant_boutique_79c8da.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_dermoeba_savon_exfoliant_boutique_79c8da.jpg"
+    ],
+    "brand": "DERMOEBA",
+    "shortDesc": "Dermoeba - Paris Savon Exfoliant. Formule authentique d'excellence.",
+    "description": "Pain dermatologique purifiant et exfoliant Dermoeba pour nettoyer en profondeur sans agresser.",
+    "usage": "Faire mousser sur peau humide, masser délicatement 1 à 2 minutes puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1129",
+    "name": "YEPODA - THE SPOT STOP AHA + PHA TEA TREE IMPURITY SOLUTION",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 19000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_yepoda_the_spot_stop_impurity_solution_boutique_4810df.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_yepoda_the_spot_stop_impurity_solution_boutique_4810df.jpg"
+    ],
+    "brand": "YEPODA",
+    "shortDesc": "Yepoda - The Spot Stop AHA + PHA Tea Tree Impurity Solution. Formule authentique d'excellence.",
+    "description": "Crème de soin nutritive Yepoda Yepoda The Spot Stop AHA + PHA Tea Tree Impurity Solution formulée pour protéger et restaurer le confort cutané.",
+    "usage": "Appliquer délicatement sur le visage et le cou après le sérum.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1130",
+    "name": "HP 25 PARIS - SÉRUM ÉCLAIRCISSANT REVOLUTION LIGHTENING SERUM ULTRA RAPIDE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741202/mallofbeauty_assets/boutique_v2/prod_hp_25_paris_serum_eclaircissant_revolution_ultra_rapide_boutique_f06122.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741202/mallofbeauty_assets/boutique_v2/prod_hp_25_paris_serum_eclaircissant_revolution_ultra_rapide_boutique_f06122.jpg"
+    ],
+    "brand": "HP 25 PARIS",
+    "shortDesc": "HP 25 Paris - Sérum Éclaircissant Revolution Lightening Serum Ultra Rapide. Formule authentique d'excellence.",
+    "description": "Soin d'exception HP 25 Paris Sérum Éclaircissant Revolution Lightening Serum Ultra Rapide pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1131",
+    "name": "PR. FRANÇOISE BEDON - PARIS LAIT ÉCLAIRCISSANT PUISSANCE LIGHTENING MILK",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 35000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_lait_eclaircissant_puissance_boutique_95e7ef.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741208/mallofbeauty_assets/boutique_v2/prod_pr_francoise_bedon_lait_eclaircissant_puissance_boutique_95e7ef.jpg"
+    ],
+    "brand": "PR. FRANÇOISE BEDON",
+    "shortDesc": "Pr. Françoise Bedon - Paris Lait Éclaircissant Puissance Lightening Milk. Formule authentique d'excellence.",
+    "description": "Lait corporel haut de gamme Pr. Françoise Bedon pour hydrater, unifier le grain de peau et apporter un éclat radieux.",
+    "usage": "Appliquer généreusement sur l'ensemble du corps après la douche en mouvements circulaires.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1132",
+    "name": "FRESH - FREESIA SOAP SAVON",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 9500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741199/mallofbeauty_assets/boutique_v2/prod_fresh_freesia_soap_boutique_30a9fd.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741199/mallofbeauty_assets/boutique_v2/prod_fresh_freesia_soap_boutique_30a9fd.jpg"
+    ],
+    "brand": "FRESH",
+    "shortDesc": "Fresh - Freesia Soap Savon. Formule authentique d'excellence.",
+    "description": "Pain dermatologique purifiant et exfoliant Fresh pour nettoyer en profondeur sans agresser.",
+    "usage": "Faire mousser sur peau humide, masser délicatement 1 à 2 minutes puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1133",
+    "name": "SHEAMOISTURE - AFRICAN BLACK SOAP CLARIFYING FACIAL WASH & SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 9500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741212/mallofbeauty_assets/boutique_v2/prod_sheamoisture_african_black_soap_clarifying_facial_wash__boutique_7c38fc.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741212/mallofbeauty_assets/boutique_v2/prod_sheamoisture_african_black_soap_clarifying_facial_wash__boutique_7c38fc.jpg"
+    ],
+    "brand": "SHEAMOISTURE",
+    "shortDesc": "SheaMoisture - African Black Soap Clarifying Facial Wash & Scrub. Formule authentique d'excellence.",
+    "description": "Pain dermatologique purifiant et exfoliant SheaMoisture pour nettoyer en profondeur sans agresser.",
+    "usage": "Faire mousser sur peau humide, masser délicatement 1 à 2 minutes puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1134",
+    "name": "PATRICIA REYNIER - PUISSANCE PLUS SÉRUM ECLAIRCISSANT AU BEURRE DE KARITÉ",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741207/mallofbeauty_assets/boutique_v2/prod_patricia_reynier_puissance_plus_serum_eclaircissant_au__boutique_551b25.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741207/mallofbeauty_assets/boutique_v2/prod_patricia_reynier_puissance_plus_serum_eclaircissant_au__boutique_551b25.jpg"
+    ],
+    "brand": "PATRICIA REYNIER",
+    "shortDesc": "Patricia Reynier - Puissance Plus Sérum Eclaircissant au Beurre de Karité. Formule authentique d'excellence.",
+    "description": "Soin d'exception Patricia Reynier Patricia Reynier Puissance Plus Sérum Eclaircissant au Beurre de Karité pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1135",
+    "name": "COSRX - ADVANCED SNAIL RADIANCE DUAL ESSENCE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_cosrx_advanced_snail_radiance_dual_essence_boutique_f9be55.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_cosrx_advanced_snail_radiance_dual_essence_boutique_f9be55.jpg"
+    ],
+    "brand": "COSRX",
+    "shortDesc": "COSRX - Advanced Snail Radiance Dual Essence. Formule authentique d'excellence.",
+    "description": "Actif cosmétique de pointe COSRX COSRX Advanced Snail Radiance Dual Essence pour cibler visiblement la texture et l'éclat de la peau.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage matin et/ou soir avant la crème hydratante.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1136",
+    "name": "REN CLEAN SKINCARE - READY STEADY GLOW DAILY AHA TONIC",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Lotions",
+    "price": 24000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741211/mallofbeauty_assets/boutique_v2/prod_ren_ready_steady_glow_daily_aha_tonic_boutique_7f6117.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741211/mallofbeauty_assets/boutique_v2/prod_ren_ready_steady_glow_daily_aha_tonic_boutique_7f6117.jpg"
+    ],
+    "brand": "REN CLEAN SKINCARE",
+    "shortDesc": "REN Clean Skincare - Ready Steady Glow Daily AHA Tonic. Formule authentique d'excellence.",
+    "description": "Lotion tonique équilibrante REN Clean Skincare Ready Steady Glow Daily AHA Tonic pour parfaire le nettoyage et révéler la clarté du teint.",
+    "usage": "Appliquer à l'aide d'un coton ou du bout des doigts sur le visage avant vos soins.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1137",
+    "name": "BEAUTY DEPT. - ROSE WATER FACIAL TONER",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Lotions",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_beauty_dept_rose_water_facial_toner_boutique_6f5d24.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_beauty_dept_rose_water_facial_toner_boutique_6f5d24.jpg"
+    ],
+    "brand": "BEAUTY DEPT.",
+    "shortDesc": "Beauty Dept. - Rose Water Facial Toner. Formule authentique d'excellence.",
+    "description": "Lotion tonique équilibrante Beauty Dept. Rose Water Facial Toner pour parfaire le nettoyage et révéler la clarté du teint.",
+    "usage": "Appliquer à l'aide d'un coton ou du bout des doigts sur le visage avant vos soins.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1138",
+    "name": "DERMOEBA PARIS - LAIT CORPOREL ÉCLAIRCISSANT GABA",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 26000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_dermoeba_paris_lait_corporel_eclaircissant_gaba_boutique_510760.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_dermoeba_paris_lait_corporel_eclaircissant_gaba_boutique_510760.jpg"
+    ],
+    "brand": "DERMOEBA PARIS",
+    "shortDesc": "Dermoeba Paris - Lait Corporel Éclaircissant GABA. Formule authentique d'excellence.",
+    "description": "Lait corporel haut de gamme Dermoeba Paris pour hydrater, unifier le grain de peau et apporter un éclat radieux.",
+    "usage": "Appliquer généreusement sur l'ensemble du corps après la douche en mouvements circulaires.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1139",
+    "name": "40 CARROTS - + PINEAPPLE + VITAMIN C SMOOTHING FACIAL SERUM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_40_carrots_pineapple_vitamin_c_smoothing_facial_serum_boutique_093aab.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_40_carrots_pineapple_vitamin_c_smoothing_facial_serum_boutique_093aab.jpg"
+    ],
+    "brand": "40 CARROTS",
+    "shortDesc": "40 Carrots - + Pineapple + Vitamin C Smoothing Facial Serum. Formule authentique d'excellence.",
+    "description": "Soin d'exception 40 Carrots 40 Carrots + Pineapple + Vitamin C Smoothing Facial Serum pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1140",
+    "name": "NATURIUM - VITAMIN C COMPLEX SERUM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741204/mallofbeauty_assets/boutique_v2/prod_naturium_vitamin_c_complex_serum_boutique_119c10.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741204/mallofbeauty_assets/boutique_v2/prod_naturium_vitamin_c_complex_serum_boutique_119c10.jpg"
+    ],
+    "brand": "NATURIUM",
+    "shortDesc": "Naturium - Vitamin C Complex Serum. Formule authentique d'excellence.",
+    "description": "Actif cosmétique de pointe Naturium Vitamin C Complex Serum pour cibler visiblement la texture et l'éclat de la peau.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage matin et/ou soir avant la crème hydratante.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1141",
+    "name": "NATURIUM - BHA LIQUID EXFOLIANT 2%",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741204/mallofbeauty_assets/boutique_v2/prod_naturium_bha_liquid_exfoliant_2_boutique_fb349d.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741204/mallofbeauty_assets/boutique_v2/prod_naturium_bha_liquid_exfoliant_2_boutique_fb349d.jpg"
+    ],
+    "brand": "NATURIUM",
+    "shortDesc": "Naturium - BHA Liquid Exfoliant 2%. Formule authentique d'excellence.",
+    "description": "Actif cosmétique de pointe Naturium BHA Liquid Exfoliant 2% pour cibler visiblement la texture et l'éclat de la peau.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage matin et/ou soir avant la crème hydratante.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1142",
+    "name": "APLB - GLUTATHIONE NIACINAMIDE FACIAL TONER",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Lotions",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_aplb_glutathione_niacinamide_facial_toner_boutique_c660a3.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_aplb_glutathione_niacinamide_facial_toner_boutique_c660a3.jpg"
+    ],
+    "brand": "APLB",
+    "shortDesc": "APLB - Glutathione Niacinamide Facial Toner. Formule authentique d'excellence.",
+    "description": "Lotion tonique équilibrante APLB Glutathione Niacinamide Facial Toner pour parfaire le nettoyage et révéler la clarté du teint.",
+    "usage": "Appliquer à l'aide d'un coton ou du bout des doigts sur le visage avant vos soins.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1143",
+    "name": "THE INKEY LIST - SUPERSOLUTIONS ACNE CLEARING MOISTURIZER",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_supersolutions_acne_clearing_moisturizer_boutique_ce0bf1.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_supersolutions_acne_clearing_moisturizer_boutique_ce0bf1.jpg"
+    ],
+    "brand": "THE INKEY LIST",
+    "shortDesc": "The Inkey List - Supersolutions Acne Clearing Moisturizer. Formule authentique d'excellence.",
+    "description": "Crème de soin nutritive The Inkey List The Inkey List Supersolutions Acne Clearing Moisturizer formulée pour protéger et restaurer le confort cutané.",
+    "usage": "Appliquer délicatement sur le visage et le cou après le sérum.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1144",
+    "name": "THE INKEY LIST - SALICYLIC ACID CLEANSER",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_salicylic_acid_cleanser_boutique_28f840.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_salicylic_acid_cleanser_boutique_28f840.jpg"
+    ],
+    "brand": "THE INKEY LIST",
+    "shortDesc": "The Inkey List - Salicylic Acid Cleanser. Formule authentique d'excellence.",
+    "description": "Actif cosmétique de pointe The Inkey List Salicylic Acid Cleanser pour cibler visiblement la texture et l'éclat de la peau.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage matin et/ou soir avant la crème hydratante.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1145",
+    "name": "THE INKEY LIST - C-50 BLEMISH NIGHT TREATMENT",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_c50_blemish_night_treatment_boutique_911848.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_c50_blemish_night_treatment_boutique_911848.jpg"
+    ],
+    "brand": "THE INKEY LIST",
+    "shortDesc": "The Inkey List - C-50 Blemish Night Treatment. Formule authentique d'excellence.",
+    "description": "Actif cosmétique de pointe The Inkey List The Inkey List C-50 Blemish Night Treatment pour cibler visiblement la texture et l'éclat de la peau.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage matin et/ou soir avant la crème hydratante.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1146",
+    "name": "THE INKEY LIST - APPLE CIDER VINEGAR ACID PEEL",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_apple_cider_vinegar_acid_peel_boutique_309d51.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_apple_cider_vinegar_acid_peel_boutique_309d51.jpg"
+    ],
+    "brand": "THE INKEY LIST",
+    "shortDesc": "The Inkey List - Apple Cider Vinegar Acid Peel. Formule authentique d'excellence.",
+    "description": "Actif cosmétique de pointe The Inkey List The Inkey List Apple Cider Vinegar Acid Peel pour cibler visiblement la texture et l'éclat de la peau.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage matin et/ou soir avant la crème hydratante.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1147",
+    "name": "ENVY - VITAMIN C & VITAMIN E GLOW-BOOSTING FACIAL SERUM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741198/mallofbeauty_assets/boutique_v2/prod_envy_vitamin_c_e_glow_boosting_facial_serum_boutique_6020b1.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741198/mallofbeauty_assets/boutique_v2/prod_envy_vitamin_c_e_glow_boosting_facial_serum_boutique_6020b1.jpg"
+    ],
+    "brand": "ENVY",
+    "shortDesc": "Envy - Vitamin C & Vitamin E Glow-Boosting Facial Serum. Formule authentique d'excellence.",
+    "description": "Soin d'exception Envy Envy Vitamin C & Vitamin E Glow-Boosting Facial Serum pour sublimer votre peau avec une efficacité prouvée.",
+    "usage": "Appliquer matin et soir sur une peau propre et sèche selon votre routine.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1148",
+    "name": "THE INKEY LIST - SUPERSOLUTIONS EXCESS OIL SOLUTION 20% NIACINAMIDE SERUM",
+    "category": "soins-corps",
+    "categoryLabel": "Huiles & Élixirs",
+    "price": 10500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_supersolutions_excess_oil_solution_20_ni_boutique_1c7787.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741214/mallofbeauty_assets/boutique_v2/prod_the_inkey_list_supersolutions_excess_oil_solution_20_ni_boutique_1c7787.jpg"
+    ],
+    "brand": "THE INKEY LIST",
+    "shortDesc": "The Inkey List - SuperSolutions Excess Oil Solution 20% Niacinamide Serum. Formule authentique d'excellence.",
+    "description": "Huile de soin pure et nourrissante The Inkey List pour revitaliser la peau et les pointes capillaires.",
+    "usage": "Quelques gouttes massées sur la peau ou les cheveux pour nourrir en profondeur.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1149",
+    "name": "MALL OF BEAUTY - UNKNOWN OIL",
+    "category": "soins-corps",
+    "categoryLabel": "Huiles & Élixirs",
+    "price": 10500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_oil_boutique_c3f80a.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_oil_boutique_c3f80a.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - unknown oil. Formule authentique d'excellence.",
+    "description": "Huile de soin pure et nourrissante Unknown pour revitaliser la peau et les pointes capillaires.",
+    "usage": "Quelques gouttes massées sur la peau ou les cheveux pour nourrir en profondeur.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1150",
+    "name": "COCOCARE - 100% VITAMIN E OIL 15ML",
+    "category": "soins-corps",
+    "categoryLabel": "Huiles & Élixirs",
+    "price": 10500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_cococare_100_vitamin_e_oil_boutique_8b89f7.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741196/mallofbeauty_assets/boutique_v2/prod_cococare_100_vitamin_e_oil_boutique_8b89f7.jpg"
+    ],
+    "brand": "COCOCARE",
+    "shortDesc": "Cococare - 100% Vitamin E Oil 15ml. Formule authentique d'excellence.",
+    "description": "Huile de soin pure et nourrissante Cococare pour revitaliser la peau et les pointes capillaires.",
+    "usage": "Quelques gouttes massées sur la peau ou les cheveux pour nourrir en profondeur.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1151",
+    "name": "BLUE - 100% VIRGIN REMY HAIR BRAZILIAN",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 55000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_blue_100_virgin_remy_hair_brazilian_boutique_ad0f97.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741194/mallofbeauty_assets/boutique_v2/prod_blue_100_virgin_remy_hair_brazilian_boutique_ad0f97.jpg"
+    ],
+    "brand": "BLUE",
+    "shortDesc": "Blue - 100% Virgin Remy Hair Brazilian. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Blue 100% Virgin Remy Hair Brazilian. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1152",
+    "name": "MALL OF BEAUTY - HAIR EXTENSION PACK",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_hair_extension_pack_boutique_46925f.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_hair_extension_pack_boutique_46925f.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Hair Extension Pack. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Extension Pack. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1153",
+    "name": "MALL OF BEAUTY - HAIR EXTENSION BUNDLE 22",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_hair_extension_bundle_22_boutique_eb61a4.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_hair_extension_bundle_22_boutique_eb61a4.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Hair Extension Bundle 22. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Extension Bundle 22. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1154",
+    "name": "MALL OF BEAUTY - HAIR CLOSURE 18",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 35000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741202/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_closure_18_boutique_59642b.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741202/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_closure_18_boutique_59642b.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Closure 18. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Closure 18. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1155",
+    "name": "MALL OF BEAUTY - HAIR CLOSURE 14",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 35000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_closure_14_boutique_b927a7.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_closure_14_boutique_b927a7.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Closure 14. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Closure 14. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1156",
+    "name": "MALL OF BEAUTY - HAIR BUNDLE 8T",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741202/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_bundle_8t_boutique_ace876.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741202/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_bundle_8t_boutique_ace876.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Bundle 8T. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Bundle 8T. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1157",
+    "name": "MALL OF BEAUTY - HAIR EXTENSION 20",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_extension_20_boutique_997576.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_extension_20_boutique_997576.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Extension 20. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Extension 20. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1158",
+    "name": "MALL OF BEAUTY - HUMAN HAIR WEAVE BUNDLE 8 INCH",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741200/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_8_inch_boutique_c8ff1e.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741200/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_8_inch_boutique_c8ff1e.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - human hair weave bundle 8 inch. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure human hair weave bundle 8 inch. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1159",
+    "name": "MALL OF BEAUTY - HUMAN HAIR WEAVE BUNDLE 14 INCH",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741200/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_14_inch_boutique_d9078a.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741200/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_14_inch_boutique_d9078a.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - human hair weave bundle 14 inch. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure human hair weave bundle 14 inch. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1160",
+    "name": "MALL OF BEAUTY - HUMAN HAIR WEAVE BUNDLE 10 INCH",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741199/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_10_inch_boutique_73f2d7.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741199/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_10_inch_boutique_73f2d7.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - human hair weave bundle 10 inch. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure human hair weave bundle 10 inch. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1161",
+    "name": "MALL OF BEAUTY - HUMAN HAIR WEAVE BUNDLE 18 INCH",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741200/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_18_inch_boutique_ed99e8.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741200/mallofbeauty_assets/boutique_v2/prod_generic_human_hair_weave_18_inch_boutique_ed99e8.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - human hair weave bundle 18 inch. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure human hair weave bundle 18 inch. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1162",
+    "name": "MALL OF BEAUTY - HAIR EXTENSION WEAVE 12 INCH",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_extension_weave_12_inch_boutique_0e4782.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_extension_weave_12_inch_boutique_0e4782.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Extension Weave 12 Inch. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Extension Weave 12 Inch. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1163",
+    "name": "MALL OF BEAUTY - HAIR LACE CLOSURE 16 INCH",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 35000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741204/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_lace_closure_16_inch_boutique_577265.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741204/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_lace_closure_16_inch_boutique_577265.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Lace Closure 16 Inch. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Lace Closure 16 Inch. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1164",
+    "name": "MALL OF BEAUTY - HAIR EXTENSION WEAVE",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_extension_weave_boutique_898dfc.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_extension_weave_boutique_898dfc.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Extension Weave. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Extension Weave. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1165",
+    "name": "MALL OF BEAUTY - HAIR LACE CLOSURE 10 INCH",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 35000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_lace_closure_10_inch_boutique_64474f.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741203/mallofbeauty_assets/boutique_v2/prod_mall_of_beauty_hair_lace_closure_10_inch_boutique_64474f.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "Mall of Beauty - Hair Lace Closure 10 Inch. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Lace Closure 10 Inch. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1166",
+    "name": "MALL OF BEAUTY - HAIR WEAVE EXTENSION",
+    "category": "capillaire",
+    "categoryLabel": "Mèches, Tissages & Perruques",
+    "price": 42000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_hair_weave_extension_boutique_f3a748.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792741215/mallofbeauty_assets/boutique_v2/prod_unknown_hair_weave_extension_boutique_f3a748.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Hair Weave Extension. Formule authentique d'excellence.",
+    "description": "Mèche / Tissage de qualité supérieure Hair Weave Extension. Cheveux 100% naturels pour un tombé fluide et une longue tenue.",
+    "usage": "À faire poser en salon ou selon votre technique de tissage préférée. Entretien doux sans sulfate.",
+    "rating": 4.8,
+    "reviewsCount": 15,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
   }
 ];
