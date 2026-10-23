@@ -25988,5 +25988,2077 @@ export const INITIAL_PRODUCTS = [
       "Nouveauté",
       "Boutique"
     ]
+  },
+  {
+    "id": "mob-excel-1167",
+    "name": "ZEENAT - GLOW BOOSTER LIGHTENING CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_booster_lightening_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_booster_lightening_cream.jpg"
+    ],
+    "brand": "ZEENAT",
+    "shortDesc": "Zeenat - Glow Booster Lightening Cream. Soin authentique garanti.",
+    "description": "Sérum concentré Zeenat Glow Booster Lightening Cream aux principes actifs ciblés pour corriger les irrégularités et illuminer le teint.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage et le cou avant votre soin hydratant.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1168",
+    "name": "NEW YORK FAIR & LOVELY - LIGHTENING POMEGRANATE SHEA BUTTER BODY WASH",
+    "category": "soins-corps",
+    "categoryLabel": "Gels Douche & Bains",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_lightening_pomegranate_body_wash.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_lightening_pomegranate_body_wash.jpg"
+    ],
+    "brand": "NEW YORK FAIR & LOVELY",
+    "shortDesc": "New York Fair & Lovely - Lightening Pomegranate Shea Butter Body Wash. Soin authentique garanti.",
+    "description": "Gel nettoyant soyeux New York Fair & Lovely Lightening Pomegranate Shea Butter Body Wash pour purifier le corps tout en maintenant l'hydratation naturelle.",
+    "usage": "Faire mousser sur l'ensemble du corps lors du bain ou de la douche, puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1169",
+    "name": "NEW YORK FAIR & LOVELY - BEAUTY SOAP",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_beauty_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_beauty_soap.jpg"
+    ],
+    "brand": "NEW YORK FAIR & LOVELY",
+    "shortDesc": "New York Fair & Lovely - Beauty Soap. Soin authentique garanti.",
+    "description": "Pain de toilette nettoyant et clarifiant New York Fair & Lovely Beauty Soap pour purifier et revitaliser la peau au quotidien.",
+    "usage": "Faire mousser sur peau humide, nettoyer délicatement puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1170",
+    "name": "ZEENAT - GLOW BOOSTER LIGHTENING BODY WASH NETTOYANT POUR LE CORPS ÉCLAIRCISSANT",
+    "category": "soins-corps",
+    "categoryLabel": "Gels Douche & Bains",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_booster_body_wash.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575404/mallofbeauty_assets/boutique_renamed/zeenat_glow_booster_body_wash.jpg"
+    ],
+    "brand": "ZEENAT",
+    "shortDesc": "Zeenat - Glow Booster Lightening Body Wash Nettoyant pour le Corps Éclaircissant. Soin authentique garanti.",
+    "description": "Gel nettoyant soyeux Zeenat Glow Booster Lightening Body Wash Nettoyant pour le Corps Éclaircissant pour purifier le corps tout en maintenant l'hydratation naturelle.",
+    "usage": "Faire mousser sur l'ensemble du corps lors du bain ou de la douche, puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1171",
+    "name": "NEW YORK FAIR & LOVELY - LIGHTENING CREAM WITH SMOOTHING VITAMIN A",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_lightening_cream_vitamin_a.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/new_york_fair_and_lovely_lightening_cream_vitamin_a.jpg"
+    ],
+    "brand": "NEW YORK FAIR & LOVELY",
+    "shortDesc": "New York Fair & Lovely - Lightening Cream with smoothing Vitamin A. Soin authentique garanti.",
+    "description": "Soin authentique New York Fair & Lovely Lightening Cream with smoothing Vitamin A pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1172",
+    "name": "TOMATINE SKINCARE - EXFOLIATING SOAP",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/tomatine_skincare_exfoliating_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/tomatine_skincare_exfoliating_soap.jpg"
+    ],
+    "brand": "TOMATINE SKINCARE",
+    "shortDesc": "Tomatine Skincare - Exfoliating Soap. Soin authentique garanti.",
+    "description": "Gommage exfoliant Tomatine Skincare Exfoliating Soap aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1173",
+    "name": "CAROTIS - LIGHTENING BODY LOTION WITH VITAMIN A",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 22000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/carotis_lightening_body_lotion_vitamin_a.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/carotis_lightening_body_lotion_vitamin_a.jpg"
+    ],
+    "brand": "CAROTIS",
+    "shortDesc": "Carotis - Lightening Body Lotion with Vitamin A. Soin authentique garanti.",
+    "description": "Lait hydratant corporel Carotis Lightening Body Lotion with Vitamin A pour unifier le teint et redonner souplesse et éclat à la peau.",
+    "usage": "Appliquer chaque jour sur le corps après la douche en légers massages.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1174",
+    "name": "LIGHTENUP GIRL! - EXFOLIATING SOAP WITH APRICOT SEEDS",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_girl_exfoliating_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_girl_exfoliating_soap.jpg"
+    ],
+    "brand": "LIGHTENUP GIRL!",
+    "shortDesc": "LightenUp Girl! - Exfoliating Soap with Apricot Seeds. Soin authentique garanti.",
+    "description": "Gommage exfoliant LightenUp Girl! Exfoliating Soap with Apricot Seeds aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1175",
+    "name": "LIGHTENUP GIRL! - INTENSE PERFECTION LIGHTENING LOTION",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_girl_intense_perfection_lightening_lotion.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_girl_intense_perfection_lightening_lotion.jpg"
+    ],
+    "brand": "LIGHTENUP GIRL!",
+    "shortDesc": "LightenUp Girl! - Intense Perfection Lightening Lotion. Soin authentique garanti.",
+    "description": "Soin authentique LightenUp Girl! Intense Perfection Lightening Lotion pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1176",
+    "name": "SAMIRA - FADE CREAM INTENSE WHITENING THERAPY",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_fade_cream_intense_whitening_therapy.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_fade_cream_intense_whitening_therapy.jpg"
+    ],
+    "brand": "SAMIRA",
+    "shortDesc": "Samira - Fade Cream Intense Whitening Therapy. Soin authentique garanti.",
+    "description": "Soin correcteur ciblé Samira Fade Cream Intense Whitening Therapy pour estomper les taches pigmentaires et unifier les zones sombres.",
+    "usage": "Appliquer localement sur les imperfections ou zones ciblées matin et soir.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1177",
+    "name": "SAMIRA - DARK SPOT CORRECTOR INTENSE WHITENING THERAPY",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_dark_spot_corrector_whitening_therapy.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_dark_spot_corrector_whitening_therapy.jpg"
+    ],
+    "brand": "SAMIRA",
+    "shortDesc": "Samira - Dark Spot Corrector Intense Whitening Therapy. Soin authentique garanti.",
+    "description": "Soin correcteur ciblé Samira Dark Spot Corrector Intense Whitening Therapy pour estomper les taches pigmentaires et unifier les zones sombres.",
+    "usage": "Appliquer localement sur les imperfections ou zones ciblées matin et soir.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1178",
+    "name": "TOPICLEAR - EXFOLIATING CARROT SOAP",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_exfoliating_carrot_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_exfoliating_carrot_soap.jpg"
+    ],
+    "brand": "TOPICLEAR",
+    "shortDesc": "Topiclear - Exfoliating Carrot Soap. Soin authentique garanti.",
+    "description": "Gommage exfoliant Topiclear Exfoliating Carrot Soap aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1179",
+    "name": "TOPICLEAR - 3 IN 1 HAND & BODY LOTION",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 22000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_3_in_1_hand_body_lotion.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575401/mallofbeauty_assets/boutique_renamed/topiclear_3_in_1_hand_body_lotion.jpg"
+    ],
+    "brand": "TOPICLEAR",
+    "shortDesc": "Topiclear - 3 in 1 Hand & Body Lotion. Soin authentique garanti.",
+    "description": "Lait hydratant corporel Topiclear 3 in 1 Hand & Body Lotion pour unifier le teint et redonner souplesse et éclat à la peau.",
+    "usage": "Appliquer chaque jour sur le corps après la douche en légers massages.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1180",
+    "name": "TOPICLEAR PARIS - COMPLEXION BEAUTIFYING SOAP WITH BURDOCK ROOT & COLLAGEN",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_paris_complexion_beautifying_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_paris_complexion_beautifying_soap.jpg"
+    ],
+    "brand": "TOPICLEAR PARIS",
+    "shortDesc": "Topiclear Paris - Complexion Beautifying Soap With Burdock Root & Collagen. Soin authentique garanti.",
+    "description": "Pain de toilette nettoyant et clarifiant Topiclear Paris Complexion Beautifying Soap With Burdock Root & Collagen pour purifier et revitaliser la peau au quotidien.",
+    "usage": "Faire mousser sur peau humide, nettoyer délicatement puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1181",
+    "name": "TOPICLEAR PARIS - COMPLEXION BEAUTIFYING SERUM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_paris_complexion_beautifying_serum.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/topiclear_paris_complexion_beautifying_serum.jpg"
+    ],
+    "brand": "TOPICLEAR PARIS",
+    "shortDesc": "Topiclear Paris - Complexion Beautifying Serum. Soin authentique garanti.",
+    "description": "Sérum concentré Topiclear Paris Complexion Beautifying Serum aux principes actifs ciblés pour corriger les irrégularités et illuminer le teint.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage et le cou avant votre soin hydratant.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1182",
+    "name": "SAMIRA - TONING MILK INTENSE WHITENING THERAPY",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 35000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_toning_milk_intense_whitening_therapy.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/samira_toning_milk_intense_whitening_therapy.jpg"
+    ],
+    "brand": "SAMIRA",
+    "shortDesc": "SAMIRA - Toning Milk Intense Whitening Therapy. Soin authentique garanti.",
+    "description": "Lait hydratant corporel SAMIRA Toning Milk Intense Whitening Therapy pour unifier le teint et redonner souplesse et éclat à la peau.",
+    "usage": "Appliquer chaque jour sur le corps après la douche en légers massages.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1183",
+    "name": "DR TEAL'S - SHEA SUGAR SCRUB PREBIOTIC LEMON BALM",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_shea_sugar_scrub_prebiotic_lemon_balm.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_shea_sugar_scrub_prebiotic_lemon_balm.jpg"
+    ],
+    "brand": "DR TEAL'S",
+    "shortDesc": "Dr Teal's - Shea Sugar Scrub Prebiotic Lemon Balm. Soin authentique garanti.",
+    "description": "Gommage exfoliant Dr Teal's Shea Sugar Scrub Prebiotic Lemon Balm aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1184",
+    "name": "DR TEAL'S - SHEA SUGAR SCRUB CITRUS",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_shea_sugar_scrub_citrus.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dr_teals_shea_sugar_scrub_citrus.jpg"
+    ],
+    "brand": "DR TEAL'S",
+    "shortDesc": "Dr Teal's - Shea Sugar Scrub Citrus. Soin authentique garanti.",
+    "description": "Gommage exfoliant Dr Teal's Shea Sugar Scrub Citrus aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1185",
+    "name": "DR TEAL'S - BODY WASH GLOW & RADIANCE VITAMIN C",
+    "category": "soins-corps",
+    "categoryLabel": "Gels Douche & Bains",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_teals_body_wash_vitamin_c.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_teals_body_wash_vitamin_c.jpg"
+    ],
+    "brand": "DR TEAL'S",
+    "shortDesc": "Dr Teal's - Body Wash Glow & Radiance Vitamin C. Soin authentique garanti.",
+    "description": "Gel nettoyant soyeux Dr Teal's Body Wash Glow & Radiance Vitamin C pour purifier le corps tout en maintenant l'hydratation naturelle.",
+    "usage": "Faire mousser sur l'ensemble du corps lors du bain ou de la douche, puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1186",
+    "name": "BODYPLUS CLINICALS - WATERMELON AND FRESH MINT BODY SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/bodyplus_clinicals_watermelon_fresh_mint_body_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/bodyplus_clinicals_watermelon_fresh_mint_body_scrub.jpg"
+    ],
+    "brand": "BODYPLUS CLINICALS",
+    "shortDesc": "Bodyplus Clinicals - Watermelon and Fresh Mint Body Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant Bodyplus Clinicals Watermelon and Fresh Mint Body Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1187",
+    "name": "DR TEAL'S - BODY LOTION PREBIOTIC LEMON BALM & ESSENTIAL OILS",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 22000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_teals_body_lotion_prebiotic_lemon_balm.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_teals_body_lotion_prebiotic_lemon_balm.jpg"
+    ],
+    "brand": "DR TEAL'S",
+    "shortDesc": "Dr Teal's - Body Lotion Prebiotic Lemon Balm & Essential Oils. Soin authentique garanti.",
+    "description": "Lait hydratant corporel Dr Teal's Body Lotion Prebiotic Lemon Balm & Essential Oils pour unifier le teint et redonner souplesse et éclat à la peau.",
+    "usage": "Appliquer chaque jour sur le corps après la douche en légers massages.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1188",
+    "name": "BODYPLUS CLINICALS - MANGO AND VITAMIN C BODY SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/bodyplus_clinical_mango_vitamin_c_body_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/bodyplus_clinical_mango_vitamin_c_body_scrub.jpg"
+    ],
+    "brand": "BODYPLUS CLINICALS",
+    "shortDesc": "Bodyplus Clinicals - Mango and Vitamin C Body Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant Bodyplus Clinicals Mango and Vitamin C Body Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1189",
+    "name": "DOCTEUR TEINT - LAIT VITALISANT WHITENING & REVITALIZING LOTION",
+    "category": "soins-corps",
+    "categoryLabel": "Soins Corps & Laits",
+    "price": 22000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_lait_vitalisant_whitening_lotion.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_lait_vitalisant_whitening_lotion.jpg"
+    ],
+    "brand": "DOCTEUR TEINT",
+    "shortDesc": "Docteur Teint - Lait Vitalisant Whitening & Revitalizing Lotion. Soin authentique garanti.",
+    "description": "Lait hydratant corporel Docteur Teint Lait Vitalisant Whitening & Revitalizing Lotion pour unifier le teint et redonner souplesse et éclat à la peau.",
+    "usage": "Appliquer chaque jour sur le corps après la douche en légers massages.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1190",
+    "name": "DOCTEUR TEINT - REPARATEUR CONCENTRE RAFFERMISSANT REPAIR ESSENCE SUR MESURE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_repair_essence.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_repair_essence.jpg"
+    ],
+    "brand": "DOCTEUR TEINT",
+    "shortDesc": "Docteur Teint - Reparateur Concentre Raffermissant Repair Essence Sur Mesure. Soin authentique garanti.",
+    "description": "Soin authentique Docteur Teint Reparateur Concentre Raffermissant Repair Essence Sur Mesure pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1191",
+    "name": "DOCTEUR TEINT - SUPER MAXI-TONE VITAMIN E",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_super_maxi_tone_vitamin_e.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/docteur_teint_super_maxi_tone_vitamin_e.jpg"
+    ],
+    "brand": "DOCTEUR TEINT",
+    "shortDesc": "Docteur Teint - Super Maxi-Tone Vitamin E. Soin authentique garanti.",
+    "description": "Soin authentique Docteur Teint Super Maxi-Tone Vitamin E pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1192",
+    "name": "DOCTEUR TEINT - GOLDEN SNAIL SOAP WHITENING LIGHTING SOAP EXFOLIANT",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/docteur_teint_golden_snail_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/docteur_teint_golden_snail_soap.jpg"
+    ],
+    "brand": "DOCTEUR TEINT",
+    "shortDesc": "Docteur Teint - Golden Snail Soap Whitening Lighting Soap Exfoliant. Soin authentique garanti.",
+    "description": "Pain de toilette nettoyant et clarifiant Docteur Teint Golden Snail Soap Whitening Lighting Soap Exfoliant pour purifier et revitaliser la peau au quotidien.",
+    "usage": "Faire mousser sur peau humide, nettoyer délicatement puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1193",
+    "name": "DOCTEUR TEINT - COLLAGENE RICH IN VITAMIN E",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/docteur_teint_collagene_vitamin_e.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/docteur_teint_collagene_vitamin_e.jpg"
+    ],
+    "brand": "DOCTEUR TEINT",
+    "shortDesc": "Docteur Teint - Collagene Rich in Vitamin E. Soin authentique garanti.",
+    "description": "Soin authentique Docteur Teint Collagene Rich in Vitamin E pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1194",
+    "name": "DOCTEUR TEINT - INTENSIVE PURIFYING LOTION",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/docteur_teint_intensive_purifying_lotion.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/docteur_teint_intensive_purifying_lotion.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/docteur_teint_intensive_purifying_lotion_02.jpg"
+    ],
+    "brand": "DOCTEUR TEINT",
+    "shortDesc": "Docteur Teint - Intensive Purifying Lotion. Soin authentique garanti.",
+    "description": "Soin authentique Docteur Teint Intensive Purifying Lotion pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1195",
+    "name": "PALMER'S - SKIN SUCCESS DEEP CLEANSING ASTRINGENT",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_skin_success_deep_cleansing_astringent.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575396/mallofbeauty_assets/boutique_renamed/palmers_skin_success_deep_cleansing_astringent.jpg"
+    ],
+    "brand": "PALMER'S",
+    "shortDesc": "Palmer's - Skin Success Deep Cleansing Astringent. Soin authentique garanti.",
+    "description": "Soin authentique Palmer's Skin Success Deep Cleansing Astringent pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1196",
+    "name": "PALMER'S - SKIN SUCCESS MEDICATED COMPLEXION BAR",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/palmers_skin_success_medicated_complexion_bar.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/palmers_skin_success_medicated_complexion_bar.jpg"
+    ],
+    "brand": "PALMER'S",
+    "shortDesc": "Palmer's - Skin Success Medicated Complexion Bar. Soin authentique garanti.",
+    "description": "Soin authentique Palmer's Skin Success Medicated Complexion Bar pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1197",
+    "name": "GOTTA LOVE NATURE - COCONUT BODY SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/gotta_love_nature_coconut_body_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/gotta_love_nature_coconut_body_scrub.jpg"
+    ],
+    "brand": "GOTTA LOVE NATURE",
+    "shortDesc": "Gotta Love Nature - Coconut Body Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant Gotta Love Nature Coconut Body Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1198",
+    "name": "TREE HUT - GREEN TEA SHEA SUGAR SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/tree_hut_green_tea_shea_sugar_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575402/mallofbeauty_assets/boutique_renamed/tree_hut_green_tea_shea_sugar_scrub.jpg"
+    ],
+    "brand": "TREE HUT",
+    "shortDesc": "Tree Hut - Green Tea Shea Sugar Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant Tree Hut Green Tea Shea Sugar Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1199",
+    "name": "GOTTA LOVE NATURE - GO COCONUT BODY SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/gotta_love_nature_go_coconut_body_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/gotta_love_nature_go_coconut_body_scrub.jpg"
+    ],
+    "brand": "GOTTA LOVE NATURE",
+    "shortDesc": "Gotta Love Nature - Go Coconut Body Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant Gotta Love Nature Go Coconut Body Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1200",
+    "name": "WOOLZIES - CINNAMON SUGAR BODY SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/woolzies_cinnamon_sugar_body_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575403/mallofbeauty_assets/boutique_renamed/woolzies_cinnamon_sugar_body_scrub.jpg"
+    ],
+    "brand": "WOOLZIES",
+    "shortDesc": "Woolzies - Cinnamon Sugar Body Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant Woolzies Cinnamon Sugar Body Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1201",
+    "name": "CICADIN - PH BLEMISH FOAMING CLEANSER",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Nettoyants",
+    "price": 15000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/cicadin_ph_blemish_foaming_cleanser.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575378/mallofbeauty_assets/boutique_renamed/cicadin_ph_blemish_foaming_cleanser.jpg"
+    ],
+    "brand": "CICADIN",
+    "shortDesc": "Cicadin - pH Blemish Foaming Cleanser. Soin authentique garanti.",
+    "description": "Soin équilibrant Cicadin pH Blemish Foaming Cleanser pour nettoyer les pores en profondeur et raviver la fraîcheur cutanée.",
+    "usage": "Appliquer sur un coton ou directement du bout des doigts sur une peau propre.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1202",
+    "name": "ST. IVES - RADIANT SKIN SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/st_ives_radiant_skin_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/st_ives_radiant_skin_scrub.jpg"
+    ],
+    "brand": "ST. IVES",
+    "shortDesc": "St. Ives - Radiant Skin Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant St. Ives Radiant Skin Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1203",
+    "name": "CRUSADER ULTRA - SKIN TONE SOAP",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/crusader_ultra_skin_tone_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/crusader_ultra_skin_tone_soap.jpg"
+    ],
+    "brand": "CRUSADER ULTRA",
+    "shortDesc": "Crusader Ultra - Skin Tone Soap. Soin authentique garanti.",
+    "description": "Pain de toilette nettoyant et clarifiant Crusader Ultra Skin Tone Soap pour purifier et revitaliser la peau au quotidien.",
+    "usage": "Faire mousser sur peau humide, nettoyer délicatement puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1204",
+    "name": "ST. IVES - GENTLE SMOOTHING SCRUB & MASK OATMEAL",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/st_ives_gentle_smoothing_scrub_mask_oatmeal.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/st_ives_gentle_smoothing_scrub_mask_oatmeal.jpg"
+    ],
+    "brand": "ST. IVES",
+    "shortDesc": "St. Ives - Gentle Smoothing Scrub & Mask Oatmeal. Soin authentique garanti.",
+    "description": "Gommage exfoliant St. Ives Gentle Smoothing Scrub & Mask Oatmeal aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1205",
+    "name": "CREIGHTONS - PINK GRAPEFRUIT DAILY FACE SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/creightons_pink_grapefruit_daily_face_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/creightons_pink_grapefruit_daily_face_scrub.jpg"
+    ],
+    "brand": "CREIGHTONS",
+    "shortDesc": "Creightons - Pink Grapefruit Daily Face Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant Creightons Pink Grapefruit Daily Face Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1206",
+    "name": "FREEMAN - REJUVENATING CLAY MASK CUCUMBER + PINK SALT",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/freeman_rejuvenating_clay_mask_cucumber_pink_salt.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575385/mallofbeauty_assets/boutique_renamed/freeman_rejuvenating_clay_mask_cucumber_pink_salt.jpg"
+    ],
+    "brand": "FREEMAN",
+    "shortDesc": "Freeman - Rejuvenating Clay Mask Cucumber + Pink Salt. Soin authentique garanti.",
+    "description": "Soin authentique Freeman Rejuvenating Clay Mask Cucumber + Pink Salt pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1207",
+    "name": "CRUSADER ULTRA - SKIN TONE CARROT SOAP",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/crusader_ultra_skin_tone_carrot_soap.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575380/mallofbeauty_assets/boutique_renamed/crusader_ultra_skin_tone_carrot_soap.jpg"
+    ],
+    "brand": "CRUSADER ULTRA",
+    "shortDesc": "Crusader Ultra - Skin Tone Carrot Soap. Soin authentique garanti.",
+    "description": "Pain de toilette nettoyant et clarifiant Crusader Ultra Skin Tone Carrot Soap pour purifier et revitaliser la peau au quotidien.",
+    "usage": "Faire mousser sur peau humide, nettoyer délicatement puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1208",
+    "name": "ST. IVES - GENTLE SMOOTHING SCRUB",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/st_ives_gentle_smoothing_scrub.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/st_ives_gentle_smoothing_scrub.jpg"
+    ],
+    "brand": "ST. IVES",
+    "shortDesc": "St. Ives - Gentle Smoothing Scrub. Soin authentique garanti.",
+    "description": "Gommage exfoliant St. Ives Gentle Smoothing Scrub aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1209",
+    "name": "TAMARIND - EXFOLIATING BODY SCRUB WITH SHEA BUTTER",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/tamarind_exfoliating_body_scrub_shea_butter.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/tamarind_exfoliating_body_scrub_shea_butter.jpg"
+    ],
+    "brand": "TAMARIND",
+    "shortDesc": "Tamarind - Exfoliating Body Scrub with Shea Butter. Soin authentique garanti.",
+    "description": "Gommage exfoliant Tamarind Exfoliating Body Scrub with Shea Butter aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1210",
+    "name": "MITCHELL BRANDS - TAMARIND SAVON AVEC DU NECTAR DE TAMARIND & ALOE VERA",
+    "category": "soins-corps",
+    "categoryLabel": "Savons & Nettoyants",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mitchell_brands_tamarind_savon_aloe_vera.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575392/mallofbeauty_assets/boutique_renamed/mitchell_brands_tamarind_savon_aloe_vera.jpg"
+    ],
+    "brand": "MITCHELL BRANDS",
+    "shortDesc": "Mitchell Brands - Tamarind Savon avec du Nectar de Tamarind & Aloe Vera. Soin authentique garanti.",
+    "description": "Pain de toilette nettoyant et clarifiant Mitchell Brands Tamarind Savon avec du Nectar de Tamarind & Aloe Vera pour purifier et revitaliser la peau au quotidien.",
+    "usage": "Faire mousser sur peau humide, nettoyer délicatement puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1211",
+    "name": "EMBRYOLISSE - SOIN LISSANT CONTOUR DES YEUX / SMOOTHING EYE CONTOUR CARE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/embryolisse_smoothing_eye_contour_care.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/embryolisse_smoothing_eye_contour_care.jpg"
+    ],
+    "brand": "EMBRYOLISSE",
+    "shortDesc": "Embryolisse - Soin Lissant Contour des Yeux / Smoothing Eye Contour Care. Soin authentique garanti.",
+    "description": "Soin authentique Embryolisse Soin Lissant Contour des Yeux / Smoothing Eye Contour Care pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1212",
+    "name": "GLAMFOX - GINSENG BLACK RICE LOW PH CLEANSER",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Nettoyants",
+    "price": 15000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/glamfox_ginseng_black_rice_low_ph_cleanser.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/glamfox_ginseng_black_rice_low_ph_cleanser.jpg"
+    ],
+    "brand": "GLAMFOX",
+    "shortDesc": "Glamfox - Ginseng Black Rice Low pH Cleanser. Soin authentique garanti.",
+    "description": "Soin équilibrant Glamfox Ginseng Black Rice Low pH Cleanser pour nettoyer les pores en profondeur et raviver la fraîcheur cutanée.",
+    "usage": "Appliquer sur un coton ou directement du bout des doigts sur une peau propre.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1213",
+    "name": "PRETTYSKIN - GINSENG RETINOL MULTI CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/prettyskin_ginseng_retinol_multi_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/prettyskin_ginseng_retinol_multi_cream.jpg"
+    ],
+    "brand": "PRETTYSKIN",
+    "shortDesc": "Prettyskin - Ginseng Retinol Multi Cream. Soin authentique garanti.",
+    "description": "Soin authentique Prettyskin Ginseng Retinol Multi Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1214",
+    "name": "GLAMFOX - RICE NIACINAMIDE CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/glamfox_rice_niacinamide_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/glamfox_rice_niacinamide_cream.jpg"
+    ],
+    "brand": "GLAMFOX",
+    "shortDesc": "Glamfox - Rice Niacinamide Cream. Soin authentique garanti.",
+    "description": "Soin authentique Glamfox Rice Niacinamide Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1215",
+    "name": "GOODAL - GREEN TANGERINE VITA-C DARK SPOT CARE CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/goodal_green_tangerine_vitac_dark_spot_care_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/goodal_green_tangerine_vitac_dark_spot_care_cream.jpg"
+    ],
+    "brand": "GOODAL",
+    "shortDesc": "Goodal - Green Tangerine Vita-C Dark Spot Care Cream. Soin authentique garanti.",
+    "description": "Soin authentique Goodal Green Tangerine Vita-C Dark Spot Care Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1216",
+    "name": "BOOST YOUR BARRIER - MOISTURIZING RICH CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/boost_your_barrier_moisturizing_rich_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/boost_your_barrier_moisturizing_rich_cream.jpg"
+    ],
+    "brand": "BOOST YOUR BARRIER",
+    "shortDesc": "Boost Your Barrier - Moisturizing Rich Cream. Soin authentique garanti.",
+    "description": "Soin authentique Boost Your Barrier Moisturizing Rich Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1217",
+    "name": "GOOD MOLECULES - PINEAPPLE EXFOLIATING POWDER",
+    "category": "soins-corps",
+    "categoryLabel": "Gommages & Exfoliants",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/good_molecules_pineapple_exfoliating_powder.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/good_molecules_pineapple_exfoliating_powder.jpg"
+    ],
+    "brand": "GOOD MOLECULES",
+    "shortDesc": "Good Molecules - Pineapple Exfoliating Powder. Soin authentique garanti.",
+    "description": "Gommage exfoliant Good Molecules Pineapple Exfoliating Powder aux micro-grains naturels pour éliminer les cellules mortes et lisser la peau.",
+    "usage": "Masser délicatement sur peau humide 1 à 2 fois par semaine puis rincer à l'eau tiède.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1218",
+    "name": "BYOMA - CLARIFYING SERUM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/byoma_clarifying_serum.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575376/mallofbeauty_assets/boutique_renamed/byoma_clarifying_serum.jpg"
+    ],
+    "brand": "BYOMA",
+    "shortDesc": "Byoma - Clarifying Serum. Soin authentique garanti.",
+    "description": "Sérum concentré Byoma Clarifying Serum aux principes actifs ciblés pour corriger les irrégularités et illuminer le teint.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage et le cou avant votre soin hydratant.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1219",
+    "name": "EMBRYOLISSE - SOIN REGARD LIFT-INTENSE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/embryolisse_soin_regard_lift_intense.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/embryolisse_soin_regard_lift_intense.jpg"
+    ],
+    "brand": "EMBRYOLISSE",
+    "shortDesc": "Embryolisse - Soin Regard Lift-Intense. Soin authentique garanti.",
+    "description": "Soin authentique Embryolisse Soin Regard Lift-Intense pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1220",
+    "name": "BEAUTY OF JOSEON - GINSENG PEPTIDE CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_ginseng_peptide_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_ginseng_peptide_cream.jpg"
+    ],
+    "brand": "BEAUTY OF JOSEON",
+    "shortDesc": "Beauty of Joseon - Ginseng Peptide Cream. Soin authentique garanti.",
+    "description": "Soin authentique Beauty of Joseon Ginseng Peptide Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1221",
+    "name": "MEDICUBE - TXA NIACINAMIDE CAPSULE CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medicube_txa_niacinamide_capsule_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medicube_txa_niacinamide_capsule_cream.jpg"
+    ],
+    "brand": "MEDICUBE",
+    "shortDesc": "medicube - TXA Niacinamide Capsule Cream. Soin authentique garanti.",
+    "description": "Soin authentique medicube TXA Niacinamide Capsule Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1222",
+    "name": "ROUND LAB - BIRCH JUICE MILD-UP UVLOCK SUNSCREEN",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/round_lab_birch_juice_mild_up_sunscreen.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/round_lab_birch_juice_mild_up_sunscreen.jpg"
+    ],
+    "brand": "ROUND LAB",
+    "shortDesc": "Round Lab - Birch Juice Mild-Up UVlock Sunscreen. Soin authentique garanti.",
+    "description": "Soin authentique Round Lab Birch Juice Mild-Up UVlock Sunscreen pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1223",
+    "name": "MALL OF BEAUTY - GLOWING & MOISTURIZING RICE NIACINAMIDE CLEANSING BALM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/generic_rice_niacinamide_cleansing_balm.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575386/mallofbeauty_assets/boutique_renamed/generic_rice_niacinamide_cleansing_balm.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Glowing & Moisturizing Rice Niacinamide Cleansing Balm. Soin authentique garanti.",
+    "description": "Soin authentique MALL OF BEAUTY Glowing & Moisturizing Rice Niacinamide Cleansing Balm pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1224",
+    "name": "MDP+ - MELANON X CREAM DARK SPOT & BLEMISH CARE SOLUTION",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/mdp_melanon_x_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/mdp_melanon_x_cream.jpg"
+    ],
+    "brand": "MDP+",
+    "shortDesc": "MDP+ - Melanon X Cream Dark Spot & Blemish Care Solution. Soin authentique garanti.",
+    "description": "Soin authentique MDP+ Melanon X Cream Dark Spot & Blemish Care Solution pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1225",
+    "name": "COSNORI - GINSENG PDRN REVITALIZING CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cosnori_ginseng_pdrn_revitalizing_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cosnori_ginseng_pdrn_revitalizing_cream.jpg"
+    ],
+    "brand": "COSNORI",
+    "shortDesc": "Cosnori - Ginseng PDRN Revitalizing Cream. Soin authentique garanti.",
+    "description": "Soin authentique Cosnori Ginseng PDRN Revitalizing Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1226",
+    "name": "BEAUTY OF JOSEON - GINSENG CLEANSING OIL",
+    "category": "soins-corps",
+    "categoryLabel": "Huiles & Élixirs",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_ginseng_cleansing_oil.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_ginseng_cleansing_oil.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beauty_of_joseon_ginseng_cleansing_oil_02.jpg"
+    ],
+    "brand": "BEAUTY OF JOSEON",
+    "shortDesc": "Beauty of Joseon - Ginseng Cleansing Oil. Soin authentique garanti.",
+    "description": "Huile précieuse Beauty of Joseon Ginseng Cleansing Oil pour nourrir intensément et restaurer le film hydrolipidique de la peau.",
+    "usage": "Appliquer quelques gouttes sur le corps ou le visage en massant jusqu'à absorption.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1227",
+    "name": "DUMIBANG - RED BEAN CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumibang_red_bean_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575382/mallofbeauty_assets/boutique_renamed/dumibang_red_bean_cream.jpg"
+    ],
+    "brand": "DUMIBANG",
+    "shortDesc": "DumiBang - Red Bean Cream. Soin authentique garanti.",
+    "description": "Soin authentique DumiBang Red Bean Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1228",
+    "name": "COSNORI - GINSENG PDRN REVITALIZING AMPOULE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Sérums",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cosnori_ginseng_pdrn_revitalizing_ampoule.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/cosnori_ginseng_pdrn_revitalizing_ampoule.jpg"
+    ],
+    "brand": "COSNORI",
+    "shortDesc": "Cosnori - Ginseng PDRN Revitalizing Ampoule. Soin authentique garanti.",
+    "description": "Sérum concentré Cosnori Ginseng PDRN Revitalizing Ampoule aux principes actifs ciblés pour corriger les irrégularités et illuminer le teint.",
+    "usage": "Déposer 3 à 4 gouttes sur le visage et le cou avant votre soin hydratant.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1229",
+    "name": "ADVANCED CLINICALS - VITAMIN C ADVANCED BRIGHTENING CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_vitamin_c_brightening_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_vitamin_c_brightening_cream.jpg"
+    ],
+    "brand": "ADVANCED CLINICALS",
+    "shortDesc": "Advanced Clinicals - Vitamin C Advanced Brightening Cream. Soin authentique garanti.",
+    "description": "Soin authentique Advanced Clinicals Vitamin C Advanced Brightening Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1230",
+    "name": "DR. JART+ - CICAPAIR TIGER GRASS COLOR CORRECTING TREATMENT",
+    "category": "soins-visage",
+    "categoryLabel": "Traitements Ciblés",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_jart_cicapair_tiger_grass_treatment.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575381/mallofbeauty_assets/boutique_renamed/dr_jart_cicapair_tiger_grass_treatment.jpg"
+    ],
+    "brand": "DR. JART+",
+    "shortDesc": "Dr. Jart+ - Cicapair Tiger Grass Color Correcting Treatment. Soin authentique garanti.",
+    "description": "Soin correcteur ciblé Dr. Jart+ Cicapair Tiger Grass Color Correcting Treatment pour estomper les taches pigmentaires et unifier les zones sombres.",
+    "usage": "Appliquer localement sur les imperfections ou zones ciblées matin et soir.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1231",
+    "name": "MASQUE ME UP - SNAIL FACE CREAM NOURISHING REJUVENATING",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/masque_me_up_snail_face_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/masque_me_up_snail_face_cream.jpg"
+    ],
+    "brand": "MASQUE ME UP",
+    "shortDesc": "Masque Me Up - Snail Face Cream Nourishing Rejuvenating. Soin authentique garanti.",
+    "description": "Soin authentique Masque Me Up Snail Face Cream Nourishing Rejuvenating pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1232",
+    "name": "NATUREWELL - CLINICAL VITAMIN C BRIGHTENING MOISTURE CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/naturewell_clinical_vitamin_c_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/naturewell_clinical_vitamin_c_cream.jpg"
+    ],
+    "brand": "NATUREWELL",
+    "shortDesc": "NatureWell - Clinical Vitamin C Brightening Moisture Cream. Soin authentique garanti.",
+    "description": "Soin authentique NatureWell Clinical Vitamin C Brightening Moisture Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1233",
+    "name": "ADVANCED CLINICALS - ALOE VERA SOOTHE + RECOVER CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_aloe_vera_soothe_recover_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_aloe_vera_soothe_recover_cream.jpg"
+    ],
+    "brand": "ADVANCED CLINICALS",
+    "shortDesc": "Advanced Clinicals - Aloe Vera Soothe + Recover Cream. Soin authentique garanti.",
+    "description": "Soin authentique Advanced Clinicals Aloe Vera Soothe + Recover Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1234",
+    "name": "BEPLAIN - CICATEROL CAPSULE BARRIER CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beplain_cicaterol_capsule_barrier_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beplain_cicaterol_capsule_barrier_cream.jpg"
+    ],
+    "brand": "BEPLAIN",
+    "shortDesc": "beplain - Cicaterol Capsule Barrier Cream. Soin authentique garanti.",
+    "description": "Soin authentique beplain Cicaterol Capsule Barrier Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1235",
+    "name": "NATUREWELL - SMOOTH & SOFTEN RED CURRANT MOISTURIZING CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/naturewell_smooth_soften_red_currant_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575394/mallofbeauty_assets/boutique_renamed/naturewell_smooth_soften_red_currant_cream.jpg"
+    ],
+    "brand": "NATUREWELL",
+    "shortDesc": "NatureWell - Smooth & Soften Red Currant Moisturizing Cream. Soin authentique garanti.",
+    "description": "Soin authentique NatureWell Smooth & Soften Red Currant Moisturizing Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1236",
+    "name": "PORCELANA - SKIN BRIGHTENING CREAM NIGHTTIME HYDRATION",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/porcelana_skin_brightening_cream_nighttime.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575397/mallofbeauty_assets/boutique_renamed/porcelana_skin_brightening_cream_nighttime.jpg"
+    ],
+    "brand": "PORCELANA",
+    "shortDesc": "Porcelana - Skin Brightening Cream Nighttime Hydration. Soin authentique garanti.",
+    "description": "Soin authentique Porcelana Skin Brightening Cream Nighttime Hydration pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1237",
+    "name": "ADVANCED CLINICALS - COLLAGEN SKIN RESCUE LOTION",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_collagen_skin_rescue_lotion.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575373/mallofbeauty_assets/boutique_renamed/advanced_clinicals_collagen_skin_rescue_lotion.jpg"
+    ],
+    "brand": "ADVANCED CLINICALS",
+    "shortDesc": "Advanced Clinicals - Collagen Skin Rescue Lotion. Soin authentique garanti.",
+    "description": "Soin authentique Advanced Clinicals Collagen Skin Rescue Lotion pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1238",
+    "name": "MIDHA - RICE 64% GLOWING & MOISTURIZING RICE CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/midha_rice_64_glowing_moisturizing_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/midha_rice_64_glowing_moisturizing_cream.jpg"
+    ],
+    "brand": "MIDHA",
+    "shortDesc": "Midha - Rice 64% Glowing & Moisturizing Rice Cream. Soin authentique garanti.",
+    "description": "Soin authentique Midha Rice 64% Glowing & Moisturizing Rice Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1239",
+    "name": "ESFOLIO - RED GINSENG CLEANSING FOAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/esfolio_red_ginseng_cleansing_foam.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/esfolio_red_ginseng_cleansing_foam.jpg"
+    ],
+    "brand": "ESFOLIO",
+    "shortDesc": "esfolio - Red Ginseng Cleansing Foam. Soin authentique garanti.",
+    "description": "Soin authentique esfolio Red Ginseng Cleansing Foam pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1240",
+    "name": "MEDIFORDEER - GLUTATHIONE BUBBLE FOAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medifordeer_glutathione_bubble_foam.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575391/mallofbeauty_assets/boutique_renamed/medifordeer_glutathione_bubble_foam.jpg"
+    ],
+    "brand": "MEDIFORDEER",
+    "shortDesc": "Medifordeer - Glutathione Bubble Foam. Soin authentique garanti.",
+    "description": "Soin authentique Medifordeer Glutathione Bubble Foam pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1241",
+    "name": "MUJI - LIGHT TONING WATER MOISTURE",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/muji_light_toning_water_moisture.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/muji_light_toning_water_moisture.jpg"
+    ],
+    "brand": "MUJI",
+    "shortDesc": "Muji - Light Toning Water Moisture. Soin authentique garanti.",
+    "description": "Soin authentique Muji Light Toning Water Moisture pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1242",
+    "name": "JOHNSON'S - HEAD-TO-TOE WASH & SHAMPOO",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/johnsons_head_to_toe_wash_shampoo.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/johnsons_head_to_toe_wash_shampoo.jpg"
+    ],
+    "brand": "JOHNSON'S",
+    "shortDesc": "Johnson's - Head-to-Toe Wash & Shampoo. Soin authentique garanti.",
+    "description": "Soin authentique Johnson's Head-to-Toe Wash & Shampoo pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1243",
+    "name": "MUJI - LIGHT TONING WATER",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/muji_light_toning_water.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575393/mallofbeauty_assets/boutique_renamed/muji_light_toning_water.jpg"
+    ],
+    "brand": "MUJI",
+    "shortDesc": "Muji - Light Toning Water. Soin authentique garanti.",
+    "description": "Soin authentique Muji Light Toning Water pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1244",
+    "name": "BEEKMAN 1802 - CLEANSE OIL ELIMINATING FOAMING GEL CLEANSER",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Nettoyants",
+    "price": 15000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beekman_1802_oil_eliminating_foaming_gel_cleanser.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575375/mallofbeauty_assets/boutique_renamed/beekman_1802_oil_eliminating_foaming_gel_cleanser.jpg"
+    ],
+    "brand": "BEEKMAN 1802",
+    "shortDesc": "Beekman 1802 - Cleanse oil eliminating foaming gel cleanser. Soin authentique garanti.",
+    "description": "Soin équilibrant Beekman 1802 Cleanse oil eliminating foaming gel cleanser pour nettoyer les pores en profondeur et raviver la fraîcheur cutanée.",
+    "usage": "Appliquer sur un coton ou directement du bout des doigts sur une peau propre.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1245",
+    "name": "SKINFOOD - WHITE PERFECT PORE EGG CLEANSING FOAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/skinfood_white_perfect_pore_egg_cleansing_foam.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575400/mallofbeauty_assets/boutique_renamed/skinfood_white_perfect_pore_egg_cleansing_foam.jpg"
+    ],
+    "brand": "SKINFOOD",
+    "shortDesc": "Skinfood - White Perfect Pore Egg Cleansing Foam. Soin authentique garanti.",
+    "description": "Soin authentique Skinfood White Perfect Pore Egg Cleansing Foam pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1246",
+    "name": "KWAILNARA - CLEANSING STORY GREEN TEA DEEP CLEANSING FOAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/kwailnara_cleansing_story_green_tea_deep_foam.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575388/mallofbeauty_assets/boutique_renamed/kwailnara_cleansing_story_green_tea_deep_foam.jpg"
+    ],
+    "brand": "KWAILNARA",
+    "shortDesc": "Kwailnara - Cleansing Story Green Tea Deep Cleansing Foam. Soin authentique garanti.",
+    "description": "Soin authentique Kwailnara Cleansing Story Green Tea Deep Cleansing Foam pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1247",
+    "name": "ROUND LAB - MUGWORT CALMING CLEANSER",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Nettoyants",
+    "price": 15000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/round_lab_mugwort_calming_cleanser.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/round_lab_mugwort_calming_cleanser.jpg"
+    ],
+    "brand": "ROUND LAB",
+    "shortDesc": "Round Lab - Mugwort Calming Cleanser. Soin authentique garanti.",
+    "description": "Soin équilibrant Round Lab Mugwort Calming Cleanser pour nettoyer les pores en profondeur et raviver la fraîcheur cutanée.",
+    "usage": "Appliquer sur un coton ou directement du bout des doigts sur une peau propre.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1248",
+    "name": "ESFOLIO - RICE CLEANSING FOAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/esfolio_rice_cleansing_foam.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/esfolio_rice_cleansing_foam.jpg"
+    ],
+    "brand": "ESFOLIO",
+    "shortDesc": "Esfolio - Rice Cleansing Foam. Soin authentique garanti.",
+    "description": "Soin authentique Esfolio Rice Cleansing Foam pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1249",
+    "name": "ESFOLIO - COLLAGEN CLEANSING FOAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/esfolio_collagen_cleansing_foam.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575383/mallofbeauty_assets/boutique_renamed/esfolio_collagen_cleansing_foam.jpg"
+    ],
+    "brand": "ESFOLIO",
+    "shortDesc": "Esfolio - Collagen Cleansing Foam. Soin authentique garanti.",
+    "description": "Soin authentique Esfolio Collagen Cleansing Foam pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1250",
+    "name": "LIGHTENUP - COCOA + SHEA WHIPPED BODY BUTTER",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_cocoa_shea_whipped_body_butter.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lightenup_cocoa_shea_whipped_body_butter.jpg"
+    ],
+    "brand": "LIGHTENUP",
+    "shortDesc": "LightenUp - Cocoa + Shea Whipped Body Butter. Soin authentique garanti.",
+    "description": "Soin authentique LightenUp Cocoa + Shea Whipped Body Butter pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1251",
+    "name": "INNISFREE - CHERRY BLOSSOM GLOW JAM CLEANSER",
+    "category": "soins-visage",
+    "categoryLabel": "Toniques & Nettoyants",
+    "price": 15000,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/innisfree_cherry_blossom_glow_jam_cleanser.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575387/mallofbeauty_assets/boutique_renamed/innisfree_cherry_blossom_glow_jam_cleanser.jpg"
+    ],
+    "brand": "INNISFREE",
+    "shortDesc": "innisfree - Cherry Blossom Glow Jam Cleanser. Soin authentique garanti.",
+    "description": "Soin équilibrant innisfree Cherry Blossom Glow Jam Cleanser pour nettoyer les pores en profondeur et raviver la fraîcheur cutanée.",
+    "usage": "Appliquer sur un coton ou directement du bout des doigts sur une peau propre.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1252",
+    "name": "PURE NATURALS - COLLAGEN FACE CREAM HYDRATING",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_naturals_collagen_face_cream_hydrating.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575398/mallofbeauty_assets/boutique_renamed/pure_naturals_collagen_face_cream_hydrating.jpg"
+    ],
+    "brand": "PURE NATURALS",
+    "shortDesc": "Pure Naturals - Collagen Face Cream Hydrating. Soin authentique garanti.",
+    "description": "Soin authentique Pure Naturals Collagen Face Cream Hydrating pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1253",
+    "name": "REVUELE - PURE SKIN ANTI-PIMPLE CLEANSING FOAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/revuele_pure_skin_anti_pimple_cleansing_foam.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575399/mallofbeauty_assets/boutique_renamed/revuele_pure_skin_anti_pimple_cleansing_foam.jpg"
+    ],
+    "brand": "REVUELE",
+    "shortDesc": "REVUELE - Pure Skin Anti-Pimple Cleansing Foam. Soin authentique garanti.",
+    "description": "Soin authentique REVUELE Pure Skin Anti-Pimple Cleansing Foam pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1254",
+    "name": "LIGHTEN UP - HONEY TURMERIC FACE CREAM",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lighten_up_honey_turmeric_face_cream.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575389/mallofbeauty_assets/boutique_renamed/lighten_up_honey_turmeric_face_cream.jpg"
+    ],
+    "brand": "LIGHTEN UP",
+    "shortDesc": "Lighten Up - Honey Turmeric Face Cream. Soin authentique garanti.",
+    "description": "Soin authentique Lighten Up Honey Turmeric Face Cream pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1255",
+    "name": "CREIGHTONS - PINK GRAPEFRUIT MICELLAR WATER",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/creightons_pink_grapefruit_micellar_water.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575379/mallofbeauty_assets/boutique_renamed/creightons_pink_grapefruit_micellar_water.jpg"
+    ],
+    "brand": "CREIGHTONS",
+    "shortDesc": "Creightons - Pink Grapefruit Micellar Water. Soin authentique garanti.",
+    "description": "Soin authentique Creightons Pink Grapefruit Micellar Water pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1256",
+    "name": "AQUAPHOR - ADVANCED THERAPY HEALING OINTMENT",
+    "category": "soins-visage",
+    "categoryLabel": "Soins Visage & Crèmes",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 10,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/aquaphor_advanced_therapy_healing_ointment.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792575374/mallofbeauty_assets/boutique_renamed/aquaphor_advanced_therapy_healing_ointment.jpg"
+    ],
+    "brand": "AQUAPHOR",
+    "shortDesc": "Aquaphor - Advanced Therapy Healing Ointment. Soin authentique garanti.",
+    "description": "Soin authentique Aquaphor Advanced Therapy Healing Ointment pour sublimer votre éclat et préserver la santé de votre peau.",
+    "usage": "Appliquer matin et soir sur une peau préalablement nettoyée et séchée.",
+    "rating": 4.8,
+    "reviewsCount": 14,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
   }
 ];
