@@ -28060,5 +28060,1116 @@ export const INITIAL_PRODUCTS = [
       "Nouveauté",
       "Boutique"
     ]
+  },
+  {
+    "id": "mob-excel-1257",
+    "name": "PALMER'S - HAIR SUCCESS GRO TREATMENT WITH VITAMIN E",
+    "category": "capillaire",
+    "categoryLabel": "Soins Capillaires & Accessoires",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_palmers_hair_success_gro_treatment_creme_mob-cat-0308_593ab2.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_palmers_hair_success_gro_treatment_creme_mob-cat-0308_593ab2.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_palmers_hair_success_gro_treatment_creme_mob-cat-0308_87b1d5.jpg"
+    ],
+    "brand": "PALMER'S",
+    "shortDesc": "Palmer's - Hair Success Gro Treatment with Vitamin E. Produit certifié authentique.",
+    "description": "Produit d'excellence Palmer's Hair Success Gro Treatment with Vitamin E pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1258",
+    "name": "CREME OF NATURE - PROFESSIONAL NEUTRALIZING & CONDITIONING SHAMPOO",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_creme_of_nature_professional_neutralizing_conditioning__boutique_4f2474.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_creme_of_nature_professional_neutralizing_conditioning__boutique_4f2474.jpg"
+    ],
+    "brand": "CREME OF NATURE",
+    "shortDesc": "Creme of Nature - Professional Neutralizing & Conditioning Shampoo. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Creme of Nature Professional Neutralizing & Conditioning Shampoo pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1259",
+    "name": "CLAIROL PROFESSIONAL - SHIMMER LIGHTS CONDITIONER BLONDE & SILVER",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_clairol_professional_shimmer_lights_conditioner_blonde__boutique_439410.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_clairol_professional_shimmer_lights_conditioner_blonde__boutique_439410.jpg"
+    ],
+    "brand": "CLAIROL PROFESSIONAL",
+    "shortDesc": "Clairol Professional - Shimmer Lights Conditioner Blonde & Silver. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Clairol Professional Shimmer Lights Conditioner Blonde & Silver pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1260",
+    "name": "DOCTEUR TEINT - LOTION TONIQUE CLARIFIANTE VISAGE À LA VITAMINE C ACTIVE ET AUX EXTRAITS BOTANIQUES",
+    "category": "capillaire",
+    "categoryLabel": "Soins Capillaires & Accessoires",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_docteur_teint_lotion_tonique_clarifiante_visage_toner_mob-cat-1218_8c089e.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_docteur_teint_lotion_tonique_clarifiante_visage_toner_mob-cat-1218_8c089e.jpg"
+    ],
+    "brand": "DOCTEUR TEINT",
+    "shortDesc": "Docteur Teint - Lotion Tonique Clarifiante Visage à la Vitamine C Active et aux Extraits Botaniques. Produit certifié authentique.",
+    "description": "Produit d'excellence Docteur Teint Lotion Tonique Clarifiante Visage à la Vitamine C Active et aux Extraits Botaniques pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1261",
+    "name": "PALMER'S - GRO TREATMENT WITH VITAMIN E",
+    "category": "capillaire",
+    "categoryLabel": "Soins Capillaires & Accessoires",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_palmers_gro_treatment_with_vitamin_e_creme_mob-cat-0308_8f2be8.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_palmers_gro_treatment_with_vitamin_e_creme_mob-cat-0308_8f2be8.jpg"
+    ],
+    "brand": "PALMER'S",
+    "shortDesc": "Palmer's - Gro Treatment with Vitamin E. Produit certifié authentique.",
+    "description": "Produit d'excellence Palmer's Gro Treatment with Vitamin E pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1262",
+    "name": "DAX - MARCEL CURLING WAX FOR CURLING & WAVING",
+    "category": "capillaire",
+    "categoryLabel": "Coiffage & Sérums Capillaires",
+    "price": 9500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_dax_marcel_curling_wax_cire_boutique_175fe3.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_dax_marcel_curling_wax_cire_boutique_175fe3.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_dax_marcel_curling_wax_cire_boutique_8412d5.jpg"
+    ],
+    "brand": "DAX",
+    "shortDesc": "DAX - Marcel Curling Wax for Curling & Waving. Produit certifié authentique.",
+    "description": "Soin coiffant et fortifiant DAX Marcel Curling Wax for Curling & Waving pour faire briller, stimuler la pousse et faciliter le coiffage.",
+    "usage": "Vaporiser ou masser sur la chevelure avant ou après le coiffage.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1263",
+    "name": "SOFTSHEEN CARSON - DARK AND LOVELY BEAUTIFUL BEGINNINGS NO-MISTAKE SMOOTH RELAXER WITH COCONUT OIL AND SHEA BUTTER",
+    "category": "capillaire",
+    "categoryLabel": "Kits de Défrisage & Lissage",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913114/mallofbeauty_assets/boutique_v3/prod_softsheen_carson_dark_and_lovely_beautiful_beginnings_r_boutique_99405c.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913114/mallofbeauty_assets/boutique_v3/prod_softsheen_carson_dark_and_lovely_beautiful_beginnings_r_boutique_99405c.jpg"
+    ],
+    "brand": "SOFTSHEEN CARSON",
+    "shortDesc": "SoftSheen Carson - Dark and Lovely Beautiful Beginnings No-Mistake Smooth Relaxer with Coconut Oil and Shea Butter. Produit certifié authentique.",
+    "description": "Kit complet de défrisage nutritif SoftSheen Carson sans soude enrichi en huiles bienfaisantes pour lisser en toute sécurité.",
+    "usage": "Suivre scrupuleusement la notice du kit et respecter le temps de pose selon la texture du cheveu.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1264",
+    "name": "AXE - PEACE BODYWASH LEMON ZEST AND MUSK SCENT",
+    "category": "soins-corps",
+    "categoryLabel": "Gels Douche Homme & Corps",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_axe_peace_bodywash_lemon_zest_and_musk_scent_gel_douche_mob-cat-0035_9524fc.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_axe_peace_bodywash_lemon_zest_and_musk_scent_gel_douche_mob-cat-0035_9524fc.jpg"
+    ],
+    "brand": "AXE",
+    "shortDesc": "Axe - Peace Bodywash Lemon Zest and Musk Scent. Produit certifié authentique.",
+    "description": "Gel douche vivifiant au parfum énergisant de zeste de citron et musc pour une sensation de fraîcheur intense.",
+    "usage": "Faire mousser sur peau mouillée sous la douche puis rincer abondamment.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1265",
+    "name": "OMIC LIGHTENUP - LIGHTENUP SKIN SUPPLEMENT ENVIRONMENTAL SHIELD DAY SERUM WITH VITAMIN D 30ML",
+    "category": "soins-visage",
+    "categoryLabel": "Sérums & Éclat",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_omic_lightenup_environmental_shield_day_serum_s_rum_mob-cat-0083_e94895.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_omic_lightenup_environmental_shield_day_serum_s_rum_mob-cat-0083_e94895.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_omic_lightenup_environmental_shield_day_serum_s_rum_mob-cat-0083_b12697.jpg"
+    ],
+    "brand": "OMIC LIGHTENUP",
+    "shortDesc": "Omic LightenUp - LightenUp Skin Supplement Environmental Shield Day Serum with Vitamin D 30ml. Produit certifié authentique.",
+    "description": "Sérum protecteur jour bouclier environnemental enrichi en vitamine D pour revitaliser et unifier le teint.",
+    "usage": "Appliquer chaque matin 3 à 4 gouttes sur le visage avant votre crème.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1266",
+    "name": "SOFTSHEEN-CARSON DARK AND LOVELY - DARK AND LOVELY BEAUTIFUL BEGINNINGS NO-MISTAKE SMOOTH RELAXER WITH COCONUT OIL AND SHEA BUTTER",
+    "category": "capillaire",
+    "categoryLabel": "Kits de Défrisage & Lissage",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913113/mallofbeauty_assets/boutique_v3/prod_softsheencarson_dark_and_lovely_beautiful_beginnings_re_boutique_ece44b.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913113/mallofbeauty_assets/boutique_v3/prod_softsheencarson_dark_and_lovely_beautiful_beginnings_re_boutique_ece44b.jpg"
+    ],
+    "brand": "SOFTSHEEN-CARSON DARK AND LOVELY",
+    "shortDesc": "SoftSheen-Carson Dark and Lovely - Dark and Lovely Beautiful Beginnings No-Mistake Smooth Relaxer with Coconut Oil and Shea Butter. Produit certifié authentique.",
+    "description": "Kit complet de défrisage nutritif SoftSheen-Carson Dark and Lovely sans soude enrichi en huiles bienfaisantes pour lisser en toute sécurité.",
+    "usage": "Suivre scrupuleusement la notice du kit et respecter le temps de pose selon la texture du cheveu.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1267",
+    "name": "ISOPLUS - OIL SHEEN HAIR SPRAY",
+    "category": "capillaire",
+    "categoryLabel": "Coiffage & Sérums Capillaires",
+    "price": 11500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_isoplus_oil_sheen_hair_spray_spray_boutique_d0fa11.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_isoplus_oil_sheen_hair_spray_spray_boutique_d0fa11.jpg"
+    ],
+    "brand": "ISOPLUS",
+    "shortDesc": "Isoplus - Oil Sheen Hair Spray. Produit certifié authentique.",
+    "description": "Soin coiffant et fortifiant Isoplus Oil Sheen Hair Spray pour faire briller, stimuler la pousse et faciliter le coiffage.",
+    "usage": "Vaporiser ou masser sur la chevelure avant ou après le coiffage.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1268",
+    "name": "CREME OF NATURE - PROFESSIONAL ULTRA MOISTURIZING SHAMPOO KIWI & CITRUS",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_creme_of_nature_professional_ultra_moisturizing_shampoo_mob-cat-0492_62d106.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_creme_of_nature_professional_ultra_moisturizing_shampoo_mob-cat-0492_62d106.jpg"
+    ],
+    "brand": "CREME OF NATURE",
+    "shortDesc": "Creme of Nature - Professional Ultra Moisturizing Shampoo Kiwi & Citrus. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Creme of Nature Professional Ultra Moisturizing Shampoo Kiwi & Citrus pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1269",
+    "name": "INFUSIUM 23 - PROFESSIONAL INFUSIUM 23 ORIGINAL FORMULA PRO-VITAMIN LEAVE-IN HAIR TREATMENT ENRICHED WITH PANTHENOL",
+    "category": "capillaire",
+    "categoryLabel": "Soins Capillaires & Accessoires",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_infusium_23_original_formula_leave_in_hair_treatment_so_boutique_18d753.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_infusium_23_original_formula_leave_in_hair_treatment_so_boutique_18d753.jpg"
+    ],
+    "brand": "INFUSIUM 23",
+    "shortDesc": "Infusium 23 - Professional Infusium 23 Original Formula Pro-Vitamin Leave-In Hair Treatment Enriched with Panthenol. Produit certifié authentique.",
+    "description": "Produit d'excellence Infusium 23 Professional Infusium 23 Original Formula Pro-Vitamin Leave-In Hair Treatment Enriched with Panthenol pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1270",
+    "name": "JUST FOR ME - CHILDREN'S SUPER FORTE NO-LYE CONDITIONING CRÈME RELAXER KIT WITH COCONUT MILK, SHEA BUTTER, VITAMIN E & SUNFLOWER OIL",
+    "category": "capillaire",
+    "categoryLabel": "Kits de Défrisage & Lissage",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_just_for_me_no_lye_conditioning_creme_relaxer_kit_mob-cat-1195_7473ec.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_just_for_me_no_lye_conditioning_creme_relaxer_kit_mob-cat-1195_7473ec.jpg"
+    ],
+    "brand": "JUST FOR ME",
+    "shortDesc": "Just For Me - Children's Super Forte No-Lye Conditioning Crème Relaxer Kit with Coconut Milk, Shea Butter, Vitamin E & Sunflower Oil. Produit certifié authentique.",
+    "description": "Kit complet de défrisage nutritif Just For Me sans soude enrichi en huiles bienfaisantes pour lisser en toute sécurité.",
+    "usage": "Suivre scrupuleusement la notice du kit et respecter le temps de pose selon la texture du cheveu.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1271",
+    "name": "RK BY KISS - NO MORE BLEMISH POWDER POUDRE",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 11500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_rk_by_kiss_no_more_blemish_powder_boutique_7e7b68.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_rk_by_kiss_no_more_blemish_powder_boutique_7e7b68.jpg"
+    ],
+    "brand": "RK BY KISS",
+    "shortDesc": "RK by Kiss - No More Blemish Powder Poudre. Produit certifié authentique.",
+    "description": "Poudre purifiante anti-imperfections pour matifier la peau et fixer le maquillage toute la journée.",
+    "usage": "Balayer sur la zone T à l'aide d'un pinceau poudre.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1272",
+    "name": "NARS - NATURAL RADIANT LONGWEAR FOUNDATION FOND DE TEINT ÉCLAT NATUREL LONGUE TENUE",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 38000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_nars_natural_radiant_longwear_foundation_boutique_8581ad.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_nars_natural_radiant_longwear_foundation_boutique_8581ad.jpg"
+    ],
+    "brand": "NARS",
+    "shortDesc": "NARS - Natural Radiant Longwear Foundation Fond de Teint Éclat Naturel Longue Tenue. Produit certifié authentique.",
+    "description": "Fond de teint haute couvrance fini naturel lumineux tenue 16 heures. Formule enrichie en extraits de fruits pour sublimer la peau sans effet matière.",
+    "usage": "Chauffer une noisette entre les doigts puis appliquer du centre du visage vers l'extérieur.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1273",
+    "name": "RUBY KISSES - 24HR MATTE LIQUID FOUNDATION BASE LIQUIDA MATE",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_ruby_kisses_24hr_matte_liquid_foundation_boutique_edc544.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_ruby_kisses_24hr_matte_liquid_foundation_boutique_edc544.jpg"
+    ],
+    "brand": "RUBY KISSES",
+    "shortDesc": "Ruby Kisses - 24HR Matte Liquid Foundation Base Liquida Mate. Produit certifié authentique.",
+    "description": "Produit d'excellence Ruby Kisses 24HR Matte Liquid Foundation Base Liquida Mate pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1274",
+    "name": "BLK/OPL - EVENTRUE FLAUSIBLE LIQUID FOUNDATION",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_blk_opl_eventrue_flawless_liquid_foundation_tube_boutique_114426.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_blk_opl_eventrue_flawless_liquid_foundation_tube_boutique_114426.jpg"
+    ],
+    "brand": "BLK/OPL",
+    "shortDesc": "BLK/OPL - Eventrue Flausible Liquid Foundation. Produit certifié authentique.",
+    "description": "Fond de teint liquide affineur de pores True Color haute performance spécialement conçu pour les carnations métisses et foncées.",
+    "usage": "Appliquer au pinceau ou à l'éponge pour moduler la couvrance selon vos envies.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1275",
+    "name": "MARY KAY - MEDIUM-COVERAGE FOUNDATION FOND DE TEINT COUVERTURE MOYENNE",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 17500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_mary_kay_medium_coverage_foundation_tube_mob-cat-0416_c81dd9.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_mary_kay_medium_coverage_foundation_tube_mob-cat-0416_c81dd9.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_mary_kay_medium_coverage_foundation_tube_mob-cat-0416_86fe13.jpg"
+    ],
+    "brand": "MARY KAY",
+    "shortDesc": "Mary Kay - Medium-Coverage Foundation Fond de Teint Couverture Moyenne. Produit certifié authentique.",
+    "description": "Fond de teint couvrance moyenne au fini mat naturel pour unifier et masquer les imperfections en douceur.",
+    "usage": "Appliquer uniformément sur l'ensemble du visage du bout des doigts ou avec une éponge blender.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1276",
+    "name": "BLK/OPL - EVENTRUE FLAWLESS LIQUID FOUNDATION 320 RICH CARAMEL",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_blk_opl_eventrue_flawless_liquid_foundation_320_rich_ca_boutique_b02080.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_blk_opl_eventrue_flawless_liquid_foundation_320_rich_ca_boutique_b02080.jpg"
+    ],
+    "brand": "BLK/OPL",
+    "shortDesc": "BLK/OPL - Eventrue Flawless Liquid Foundation 320 Rich Caramel. Produit certifié authentique.",
+    "description": "Fond de teint liquide affineur de pores True Color haute performance spécialement conçu pour les carnations métisses et foncées.",
+    "usage": "Appliquer au pinceau ou à l'éponge pour moduler la couvrance selon vos envies.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1277",
+    "name": "BLACK OPAL - BLK/OPL TRUE COLOR PORE PERFECTING LIQUID FOUNDATION 240 HEAVENLY HONEY",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 16500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_black_opal_true_color_pore_perfecting_liquid_foundation_boutique_7bac3a.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_black_opal_true_color_pore_perfecting_liquid_foundation_boutique_7bac3a.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_black_opal_true_color_pore_perfecting_liquid_foundation_boutique_5829d2.jpg"
+    ],
+    "brand": "BLACK OPAL",
+    "shortDesc": "Black Opal - BLK/OPL True Color Pore Perfecting Liquid Foundation 240 Heavenly Honey. Produit certifié authentique.",
+    "description": "Fond de teint liquide affineur de pores True Color haute performance spécialement conçu pour les carnations métisses et foncées.",
+    "usage": "Appliquer au pinceau ou à l'éponge pour moduler la couvrance selon vos envies.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1278",
+    "name": "BENEFIT - THE POREFESSIONAL PORE PRIMER SMOOTHING FACE PRIMER",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 24000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_benefit_the_porefessional_pore_primer_smoothing_face_pr_boutique_a5c595.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_benefit_the_porefessional_pore_primer_smoothing_face_pr_boutique_a5c595.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_benefit_the_porefessional_pore_primer_smoothing_face_pr_boutique_0619d1.jpg"
+    ],
+    "brand": "BENEFIT",
+    "shortDesc": "Benefit - The POREfessional Pore Primer Smoothing Face Primer. Produit certifié authentique.",
+    "description": "Base de teint lissante réduisant visiblement l'apparence des pores et des ridules pour un fini soyeux et mat longue durée.",
+    "usage": "Appliquer en fine couche sur la zone T ou l'ensemble du visage avant le fond de teint.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1279",
+    "name": "IMAN - SECOND TO NONE LUMINOUS FOUNDATION",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 18500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_iman_second_to_none_luminous_foundation_boutique_94444e.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_iman_second_to_none_luminous_foundation_boutique_94444e.jpg"
+    ],
+    "brand": "IMAN",
+    "shortDesc": "IMAN - Second To None Luminous Foundation. Produit certifié authentique.",
+    "description": "Fond de teint fluide lumineux Second To None enrichi en pigments diffuseurs de lumière pour un teint zéro défaut.",
+    "usage": "Appliquer par petites touches sur le front, le nez, les joues et le menton puis estomper.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1280",
+    "name": "I-ENVY - BOLD N' LONG MASCARA",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 8500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_i_envy_bold_n_long_mascara_boutique_4e2cf3.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_i_envy_bold_n_long_mascara_boutique_4e2cf3.jpg",
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_i_envy_bold_n_long_mascara_boutique_dcfa21.jpg"
+    ],
+    "brand": "I-ENVY",
+    "shortDesc": "I-ENVY - Bold N' Long Mascara. Produit certifié authentique.",
+    "description": "Mascara volumateur et allongeant intense pour un regard captivant sans paquets.",
+    "usage": "Appliquer de la racine des cils jusqu'aux pointes en effectuant un léger mouvement de zigzag.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1281",
+    "name": "MALL OF BEAUTY - NAIL BUFFER BLOCK",
+    "category": "capillaire",
+    "categoryLabel": "Accessoires Coiffure & Beauté",
+    "price": 4500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_generic_nail_buffer_block_boutique_fc8350.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_generic_nail_buffer_block_boutique_fc8350.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Nail Buffer Block. Produit certifié authentique.",
+    "description": "Accessoire de coiffure professionnel Nail Buffer Block pour démêler sans casser ou polir avec précision.",
+    "usage": "Utiliser au quotidien pour sublimer votre chevelure ou manucure.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1282",
+    "name": "AUNT JACKIE'S - IN CONTROL MOISTURIZING & SOFTENING CONDITIONER WITH SHEA BUTTER & OLIVE OIL",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_aunt_jackies_in_control_moisturizing_softening_conditio_mob-cat-0958_51a933.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_aunt_jackies_in_control_moisturizing_softening_conditio_mob-cat-0958_51a933.jpg"
+    ],
+    "brand": "AUNT JACKIE'S",
+    "shortDesc": "Aunt Jackie's - In Control Moisturizing & Softening Conditioner with Shea Butter & Olive Oil. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Aunt Jackie's In Control Moisturizing & Softening Conditioner with Shea Butter & Olive Oil pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1283",
+    "name": "PALMER'S - COCONUT OIL FORMULA REPAIRING CONDITIONER WITH VITAMIN E",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_palmers_coconut_oil_repairing_conditioner_tube_mob-cat-0312_76b0d1.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_palmers_coconut_oil_repairing_conditioner_tube_mob-cat-0312_76b0d1.jpg"
+    ],
+    "brand": "PALMER'S",
+    "shortDesc": "Palmer's - Coconut Oil Formula Repairing Conditioner with Vitamin E. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Palmer's Coconut Oil Formula Repairing Conditioner with Vitamin E pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1284",
+    "name": "SHEAMOISTURE - COCONUT & HIBISCUS KIDS 2-IN-1 CURL & SHINE SHAMPOO & CONDITIONER WITH SLIPPERY ELM & MARSHMALLOW EXTRACT",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913113/mallofbeauty_assets/boutique_v3/prod_sheamoisture_coconut_hibiscus_kids_2_in_1_shampoo_condi_boutique_f6c864.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913113/mallofbeauty_assets/boutique_v3/prod_sheamoisture_coconut_hibiscus_kids_2_in_1_shampoo_condi_boutique_f6c864.jpg"
+    ],
+    "brand": "SHEAMOISTURE",
+    "shortDesc": "SheaMoisture - Coconut & Hibiscus Kids 2-in-1 Curl & Shine Shampoo & Conditioner with Slippery Elm & Marshmallow Extract. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant SheaMoisture Coconut & Hibiscus Kids 2-in-1 Curl & Shine Shampoo & Conditioner with Slippery Elm & Marshmallow Extract pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1285",
+    "name": "CANTU - CARE FOR KIDS NOURISHING CONDITIONER WITH SHEA BUTTER, COCONUT OIL & HONEY",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 14500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_cantu_care_for_kids_nourishing_conditioner_cr_me_mob-cat-0090_51b111.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_cantu_care_for_kids_nourishing_conditioner_cr_me_mob-cat-0090_51b111.jpg"
+    ],
+    "brand": "CANTU",
+    "shortDesc": "Cantu - Care for Kids Nourishing Conditioner with Shea Butter, Coconut Oil & Honey. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Cantu Care for Kids Nourishing Conditioner with Shea Butter, Coconut Oil & Honey pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1286",
+    "name": "ACTIVILONG - ACTIFORCE FORTIFYING SHAMPOO SAPOTE BLACK CASTOR OIL CARAPATE / PALMA-CHRISTI",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_activlong_actiforce_fortifying_shampoo_shampoing_mob-cat-0552_456b38.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_activlong_actiforce_fortifying_shampoo_shampoing_mob-cat-0552_456b38.jpg"
+    ],
+    "brand": "ACTIVILONG",
+    "shortDesc": "Activilong - Actiforce Fortifying Shampoo Sapote Black Castor Oil Carapate / Palma-Christi. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Activilong Actiforce Fortifying Shampoo Sapote Black Castor Oil Carapate / Palma-Christi pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1287",
+    "name": "ACTIVILONG - ACTIFORCE LEAVE-IN SOIN SANS RINÇAGE SAPOTE BLACK CASTOR OIL CARAPATE / PALMA-CHRISTI",
+    "category": "capillaire",
+    "categoryLabel": "Soins Capillaires & Accessoires",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_activlong_actiforce_leave_in_soin_sans_rincage_mob-cat-0552_4d2803.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913106/mallofbeauty_assets/boutique_v3/prod_activlong_actiforce_leave_in_soin_sans_rincage_mob-cat-0552_4d2803.jpg"
+    ],
+    "brand": "ACTIVILONG",
+    "shortDesc": "Activilong - Actiforce Leave-In Soin Sans Rinçage Sapote Black Castor Oil Carapate / Palma-Christi. Produit certifié authentique.",
+    "description": "Produit d'excellence Activilong Actiforce Leave-In Soin Sans Rinçage Sapote Black Castor Oil Carapate / Palma-Christi pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1288",
+    "name": "ACTIVILONG - ACTI REPAIR VEGETAL HAIR GLOSS OLIVE & AVOCADO SHINY FINISHING TOUCH",
+    "category": "capillaire",
+    "categoryLabel": "Coiffage & Sérums Capillaires",
+    "price": 9500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913105/mallofbeauty_assets/boutique_v3/prod_activlong_actirepair_vegetal_hair_gloss_creme_mob-cat-0559_72173f.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913105/mallofbeauty_assets/boutique_v3/prod_activlong_actirepair_vegetal_hair_gloss_creme_mob-cat-0559_72173f.jpg"
+    ],
+    "brand": "ACTIVILONG",
+    "shortDesc": "Activilong - Acti Repair Vegetal Hair Gloss Olive & Avocado Shiny Finishing Touch. Produit certifié authentique.",
+    "description": "Soin coiffant et fortifiant Activilong Acti Repair Vegetal Hair Gloss Olive & Avocado Shiny Finishing Touch pour faire briller, stimuler la pousse et faciliter le coiffage.",
+    "usage": "Vaporiser ou masser sur la chevelure avant ou après le coiffage.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1289",
+    "name": "KIDS ORIGINALS - AFRICA'S BEST HAIR NUTRITION PROTEIN ENRICHED CONDITIONER EXTRA VIRGIN OLIVE OIL PLUS",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_kids_originals_hair_nutrition_protein_enriched_conditio_mob-cat-0959_a645e2.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_kids_originals_hair_nutrition_protein_enriched_conditio_mob-cat-0959_a645e2.jpg"
+    ],
+    "brand": "KIDS ORIGINALS",
+    "shortDesc": "Kids Originals - Africa's Best Hair Nutrition Protein Enriched Conditioner Extra Virgin Olive Oil Plus. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Kids Originals Africa's Best Hair Nutrition Protein Enriched Conditioner Extra Virgin Olive Oil Plus pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1290",
+    "name": "ISOPLUS - CAFFEINE STIMULATOR GROWTH OIL WITH CASTOR OIL, WHEAT GERM OIL, ALMOND OIL, BLACK CASTOR OIL & CAFFEINE",
+    "category": "capillaire",
+    "categoryLabel": "Coiffage & Sérums Capillaires",
+    "price": 11500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_isoplus_caffeine_stimulator_growth_oil_huile_boutique_af30c5.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_isoplus_caffeine_stimulator_growth_oil_huile_boutique_af30c5.jpg"
+    ],
+    "brand": "ISOPLUS",
+    "shortDesc": "Isoplus - Caffeine Stimulator Growth Oil with Castor Oil, Wheat Germ Oil, Almond Oil, Black Castor Oil & Caffeine. Produit certifié authentique.",
+    "description": "Soin coiffant et fortifiant Isoplus Caffeine Stimulator Growth Oil with Castor Oil, Wheat Germ Oil, Almond Oil, Black Castor Oil & Caffeine pour faire briller, stimuler la pousse et faciliter le coiffage.",
+    "usage": "Vaporiser ou masser sur la chevelure avant ou après le coiffage.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1291",
+    "name": "SALON PROFESSIONAL - SILVER CARE CONDITIONER WITH SILK EXTRACT FOR GREY OR BLONDE HAIR",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913113/mallofbeauty_assets/boutique_v3/prod_salon_professional_silver_care_conditioner_apres_shampo_boutique_572f81.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913113/mallofbeauty_assets/boutique_v3/prod_salon_professional_silver_care_conditioner_apres_shampo_boutique_572f81.jpg"
+    ],
+    "brand": "SALON PROFESSIONAL",
+    "shortDesc": "Salon Professional - Silver Care Conditioner with Silk Extract for Grey or Blonde Hair. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Salon Professional Silver Care Conditioner with Silk Extract for Grey or Blonde Hair pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1292",
+    "name": "KIDS ORIGINALS BY AFRICA'S BEST - ULTIMATE MOISTURE EXTRA VIRGIN OLIVE OIL PLUS SHEA BUTTER CONDITIONING SHAMPOO",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_kids_originals_ultimate_moisture_conditioning_shampoo_s_boutique_afe891.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_kids_originals_ultimate_moisture_conditioning_shampoo_s_boutique_afe891.jpg"
+    ],
+    "brand": "KIDS ORIGINALS BY AFRICA'S BEST",
+    "shortDesc": "Kids Originals by Africa's Best - Ultimate Moisture Extra Virgin Olive Oil Plus Shea Butter Conditioning Shampoo. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Kids Originals by Africa's Best Ultimate Moisture Extra Virgin Olive Oil Plus Shea Butter Conditioning Shampoo pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1293",
+    "name": "PARNEVU - SCALP THERAPY CONTROLS DANDRUFF STIMULATES ROOTS LEAVE IN CONDITIONER",
+    "category": "capillaire",
+    "categoryLabel": "Shampoings & Après-Shampoings",
+    "price": 12000,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_parnevu_scalp_therapy_leave_in_conditioner_serum_boutique_bfe2e8.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_parnevu_scalp_therapy_leave_in_conditioner_serum_boutique_bfe2e8.jpg"
+    ],
+    "brand": "PARNEVU",
+    "shortDesc": "Parnevu - Scalp Therapy Controls Dandruff Stimulates Roots Leave In Conditioner. Produit certifié authentique.",
+    "description": "Soin lavant et démêlant Parnevu Scalp Therapy Controls Dandruff Stimulates Roots Leave In Conditioner pour nourrir les boucles et revitaliser la fibre capillaire.",
+    "usage": "Masser sur cuir chevelu et longueurs humides, laisser agir 2-3 minutes puis rincer.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1294",
+    "name": "PALMER'S - COCOA BUTTER FORMULA WITH VITAMIN E COCOA BUTTER MOISTURIZING HAIR OIL",
+    "category": "capillaire",
+    "categoryLabel": "Soins Capillaires & Accessoires",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_palmers_cocoa_butter_moisturizing_hair_oil_huile_mob-cat-0309_89526f.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_palmers_cocoa_butter_moisturizing_hair_oil_huile_mob-cat-0309_89526f.jpg"
+    ],
+    "brand": "PALMER'S",
+    "shortDesc": "Palmer's - Cocoa Butter Formula with Vitamin E Cocoa Butter Moisturizing Hair Oil. Produit certifié authentique.",
+    "description": "Produit d'excellence Palmer's Cocoa Butter Formula with Vitamin E Cocoa Butter Moisturizing Hair Oil pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1295",
+    "name": "PALMER'S - COCONUT OIL FORMULA WITH VITAMIN E COCONUT OIL HAIR POLISHER SERUM",
+    "category": "capillaire",
+    "categoryLabel": "Coiffage & Sérums Capillaires",
+    "price": 9500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_palmers_coconut_oil_hair_polisher_serum_s_rum_mob-cat-0310_cbafa0.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913111/mallofbeauty_assets/boutique_v3/prod_palmers_coconut_oil_hair_polisher_serum_s_rum_mob-cat-0310_cbafa0.jpg"
+    ],
+    "brand": "PALMER'S",
+    "shortDesc": "Palmer's - Coconut Oil Formula with Vitamin E Coconut Oil Hair Polisher Serum. Produit certifié authentique.",
+    "description": "Soin coiffant et fortifiant Palmer's Coconut Oil Formula with Vitamin E Coconut Oil Hair Polisher Serum pour faire briller, stimuler la pousse et faciliter le coiffage.",
+    "usage": "Vaporiser ou masser sur la chevelure avant ou après le coiffage.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1296",
+    "name": "MALL OF BEAUTY - DETANGLING HAIR BRUSH",
+    "category": "capillaire",
+    "categoryLabel": "Accessoires Coiffure & Beauté",
+    "price": 7500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_generic_detangling_hair_brush_brosse_boutique_813516.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_generic_detangling_hair_brush_brosse_boutique_813516.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Detangling Hair Brush. Produit certifié authentique.",
+    "description": "Accessoire de coiffure professionnel Detangling Hair Brush pour démêler sans casser ou polir avec précision.",
+    "usage": "Utiliser au quotidien pour sublimer votre chevelure ou manucure.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1297",
+    "name": "KOST MAKE-UP ITALIA - LASTING COLOR LIPSTICK",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 12500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_kost_makeup_italia_lasting_color_lipstick_rouge_l_vres_mob-cat-1010_3a74ce.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913110/mallofbeauty_assets/boutique_v3/prod_kost_makeup_italia_lasting_color_lipstick_rouge_l_vres_mob-cat-1010_3a74ce.jpg"
+    ],
+    "brand": "KOST MAKE-UP ITALIA",
+    "shortDesc": "Kost Make-Up Italia - Lasting Color Lipstick. Produit certifié authentique.",
+    "description": "Produit d'excellence Kost Make-Up Italia Lasting Color Lipstick pour prendre soin de votre beauté avec des résultats visibles.",
+    "usage": "Appliquer selon votre routine beauté habituelle.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1298",
+    "name": "MALL OF BEAUTY - WOODEN ROUND HAIR BRUSH WITH BOAR BRISTLES",
+    "category": "capillaire",
+    "categoryLabel": "Accessoires Coiffure & Beauté",
+    "price": 7500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_generic_wooden_round_hair_brush_brosse_boutique_e5089f.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_generic_wooden_round_hair_brush_brosse_boutique_e5089f.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Wooden Round Hair Brush with Boar Bristles. Produit certifié authentique.",
+    "description": "Accessoire de coiffure professionnel Wooden Round Hair Brush with Boar Bristles pour démêler sans casser ou polir avec précision.",
+    "usage": "Utiliser au quotidien pour sublimer votre chevelure ou manucure.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1299",
+    "name": "PS... - EXAGGERATE LASHES 5PK",
+    "category": "maquillage",
+    "categoryLabel": "Maquillage & Teint",
+    "price": 6500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_ps_exaggerate_lashes_5pk_cils_boutique_60d997.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913112/mallofbeauty_assets/boutique_v3/prod_ps_exaggerate_lashes_5pk_cils_boutique_60d997.jpg"
+    ],
+    "brand": "PS...",
+    "shortDesc": "PS... - Exaggerate Lashes 5PK. Produit certifié authentique.",
+    "description": "Pack de faux-cils multi-usages au rendu intense et spectaculaire pour toutes les occasions.",
+    "usage": "Ajuster la longueur si besoin, appliquer une fine ligne de colle puis déposer le long de la ligne naturelle des cils.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1300",
+    "name": "COVER YOUR GRAY - COLOR COMB TEMPORARY HAIR COLOR BLACK/NOIR/NEGRO",
+    "category": "capillaire",
+    "categoryLabel": "Coiffage & Sérums Capillaires",
+    "price": 9500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_cover_your_gray_color_comb_temporary_hair_color_peigne_boutique_b2e9a3.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913107/mallofbeauty_assets/boutique_v3/prod_cover_your_gray_color_comb_temporary_hair_color_peigne_boutique_b2e9a3.jpg"
+    ],
+    "brand": "COVER YOUR GRAY",
+    "shortDesc": "Cover Your Gray - Color Comb Temporary Hair Color Black/Noir/Negro. Produit certifié authentique.",
+    "description": "Soin coiffant et fortifiant Cover Your Gray Color Comb Temporary Hair Color Black/Noir/Negro pour faire briller, stimuler la pousse et faciliter le coiffage.",
+    "usage": "Vaporiser ou masser sur la chevelure avant ou après le coiffage.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1301",
+    "name": "GONZANI - 244 PROFESSIONAL WOODEN ROUND HAIR BRUSH",
+    "category": "capillaire",
+    "categoryLabel": "Accessoires Coiffure & Beauté",
+    "price": 7500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_gonzani_244_professional_wooden_round_hair_brush_brosse_boutique_75d247.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_gonzani_244_professional_wooden_round_hair_brush_brosse_boutique_75d247.jpg"
+    ],
+    "brand": "GONZANI",
+    "shortDesc": "Gonzani - 244 Professional Wooden Round Hair Brush. Produit certifié authentique.",
+    "description": "Accessoire de coiffure professionnel 244 Professional Wooden Round Hair Brush pour démêler sans casser ou polir avec précision.",
+    "usage": "Utiliser au quotidien pour sublimer votre chevelure ou manucure.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1302",
+    "name": "MALL OF BEAUTY - BLUE CUSHION HAIR BRUSH",
+    "category": "capillaire",
+    "categoryLabel": "Accessoires Coiffure & Beauté",
+    "price": 7500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_generic_blue_cushion_hair_brush_brosse_boutique_ce07ed.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_generic_blue_cushion_hair_brush_brosse_boutique_ce07ed.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Blue Cushion Hair Brush. Produit certifié authentique.",
+    "description": "Accessoire de coiffure professionnel Blue Cushion Hair Brush pour démêler sans casser ou polir avec précision.",
+    "usage": "Utiliser au quotidien pour sublimer votre chevelure ou manucure.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1303",
+    "name": "MALL OF BEAUTY - BLACK DETANGLING HAIR BRUSH FOR CURLY HAIR",
+    "category": "capillaire",
+    "categoryLabel": "Accessoires Coiffure & Beauté",
+    "price": 7500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_generic_black_detangling_hair_brush_brosse_boutique_66811a.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913108/mallofbeauty_assets/boutique_v3/prod_generic_black_detangling_hair_brush_brosse_boutique_66811a.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Black Detangling Hair Brush for Curly Hair. Produit certifié authentique.",
+    "description": "Accessoire de coiffure professionnel Black Detangling Hair Brush for Curly Hair pour démêler sans casser ou polir avec précision.",
+    "usage": "Utiliser au quotidien pour sublimer votre chevelure ou manucure.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
+  },
+  {
+    "id": "mob-excel-1304",
+    "name": "MALL OF BEAUTY - WOODEN ROUND HAIR STYLING BRUSH",
+    "category": "capillaire",
+    "categoryLabel": "Accessoires Coiffure & Beauté",
+    "price": 7500,
+    "isFeatured": false,
+    "stock": 12,
+    "image": "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_generic_wooden_round_hair_styling_brush_brosse_boutique_9c5ee8.jpg",
+    "gallery": [
+      "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1792913109/mallofbeauty_assets/boutique_v3/prod_generic_wooden_round_hair_styling_brush_brosse_boutique_9c5ee8.jpg"
+    ],
+    "brand": "MALL OF BEAUTY",
+    "shortDesc": "MALL OF BEAUTY - Wooden Round Hair Styling Brush. Produit certifié authentique.",
+    "description": "Accessoire de coiffure professionnel Wooden Round Hair Styling Brush pour démêler sans casser ou polir avec précision.",
+    "usage": "Utiliser au quotidien pour sublimer votre chevelure ou manucure.",
+    "rating": 4.8,
+    "reviewsCount": 16,
+    "tags": [
+      "Nouveauté",
+      "Boutique"
+    ]
   }
 ];
