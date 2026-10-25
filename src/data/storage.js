@@ -283,11 +283,42 @@ export const DEFAULT_CLICKS = {
   updatedAt: new Date().toISOString()
 };
 
+function safeSetItem(key, value) {
+  try {
+    localStorage.setItem(key, typeof value === "string" ? value : JSON.stringify(value));
+  } catch (e) {
+    console.warn(`LocalStorage quota exceeded while saving ${key}`);
+  }
+}
+
+function cleanLegacyStorage() {
+  if (typeof window === "undefined" || typeof localStorage === "undefined") return;
+  try {
+    const toRemove = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && (
+        k.startsWith("mob_full_catalog_") ||
+        (k.startsWith("mob_products_v") && k !== STORAGE_KEYS.PRODUCTS) ||
+        k.startsWith("mob_strives_")
+      )) {
+        toRemove.push(k);
+      }
+    }
+    toRemove.forEach(k => {
+      try { localStorage.removeItem(k); } catch (e) {}
+    });
+  } catch (e) {}
+}
+
 // --- INITIAL SEEDING AUTOMATIQUE & SYNCHRONISATION MONGODB ---
 export async function initData() {
   if (typeof window === "undefined" || typeof localStorage === "undefined") {
     return;
   }
+
+  // Nettoyage immédiat des anciennes versions pour libérer le quota de stockage du navigateur
+  cleanLegacyStorage();
 
   // Sync down directly from MongoDB Atlas via API
   const collections = ['products', 'appointments', 'personal_shopper', 'loyalty_members', 'contacts', 'store_settings', 'analytics_clicks', 'gallery_images'];
@@ -310,13 +341,13 @@ export async function initData() {
 
         if (key && data !== undefined && data !== null) {
           if (coll === 'store_settings' && Array.isArray(data)) {
-            if (data.length > 0) localStorage.setItem(key, JSON.stringify(data[0]));
+            if (data.length > 0) safeSetItem(key, data[0]);
           } else if (coll === 'analytics_clicks' && Array.isArray(data)) {
-            if (data.length > 0) localStorage.setItem(key, JSON.stringify(data[0]));
+            if (data.length > 0) safeSetItem(key, data[0]);
           } else {
             // MongoDB Atlas is the single source of truth:
             // even if empty [], store it directly so deletions are preserved!
-            localStorage.setItem(key, JSON.stringify(Array.isArray(data) ? data : []));
+            safeSetItem(key, Array.isArray(data) ? data : []);
           }
         }
       }
@@ -325,12 +356,9 @@ export async function initData() {
     console.warn("DB Sync failed, using local storage cache", e);
   }
 
-  // Initialisation structurelle minimale (uniquement pour paniers et catalogue statique hors BD)
+  // Initialisation structurelle minimale (uniquement pour paniers)
   if (!localStorage.getItem(STORAGE_KEYS.CART)) {
-    localStorage.setItem(STORAGE_KEYS.CART, JSON.stringify([]));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.FULL_CATALOG)) {
-    localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
+    safeSetItem(STORAGE_KEYS.CART, []);
   }
 
   // Synchronisation des images réelles téléchargées
@@ -855,23 +883,15 @@ export function resetAnalyticsClicks() {
   return clean;
 }
 
-// --- GRAND CATALOGUE EXCEL (1 137 ARTICLES) ---
+// --- GRAND CATALOGUE (1 328 ARTICLES) ---
+let cachedProcessedCatalog = null;
+
 export function getFullCatalog() {
-  try {
-    const data = localStorage.getItem(STORAGE_KEYS.FULL_CATALOG);
-    if (!data) {
-      localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
-      return fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
-    }
-    const list = JSON.parse(data);
-    if (!Array.isArray(list) || list.length < fullCatalogData.length) {
-      localStorage.setItem(STORAGE_KEYS.FULL_CATALOG, JSON.stringify(fullCatalogData));
-      return fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
-    }
-    return list.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
-  } catch (e) {
-    return fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
+  if (cachedProcessedCatalog) {
+    return cachedProcessedCatalog;
   }
+  cachedProcessedCatalog = fullCatalogData.map(item => item.image ? { ...item, image: getAssetUrl(item.image) } : item);
+  return cachedProcessedCatalog;
 }
 
 export function searchFullCatalog({ query = "", category = "all", subcategory = "all", brand = "all", page = 1, perPage = 0 } = {}) {

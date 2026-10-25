@@ -8,6 +8,7 @@ const isVercel = process.env.VERCEL === '1' || !process.env.USE_NODE;
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://mall-of-beauty-clients.vercel.app',
   output: 'server',
   adapter: isVercel ? vercel() : node({ mode: 'standalone' }),
   integrations: [clerk()],

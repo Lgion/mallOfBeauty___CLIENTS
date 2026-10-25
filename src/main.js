@@ -9,7 +9,7 @@ import { renderNavbar } from "./components/Navbar.js";
 import { renderHero } from "./components/Hero.js";
 import { renderCatalog, formatPriceFCFA, filterProducts, renderProductsGridContent } from "./components/Catalog.js";
 import { renderProductModal } from "./components/ProductModal.js";
-import { renderFullCatalogModal } from "./components/FullCatalogModal.js";
+import { renderFullCatalogModal, renderFullCatalogBody, renderSubcategoriesRow } from "./components/FullCatalogModal.js";
 import { renderWaveModal } from "./components/WaveModal.js";
 import { renderVipFloatingButtons, renderVipDrawer } from "./components/VipServicesDrawer.js";
 import { renderContactFloatingDock } from "./components/ContactFloatingDock.js";
@@ -33,6 +33,7 @@ import {
   getStoreSettings, updateStoreSettings, resetToFactory, reloadAllDummyData,
   getGalleryImages, addGalleryImage, updateGalleryImage, deleteGalleryImage, resetGalleryImages,
   getCart, addToCart, updateCartQuantity, removeFromCart, clearCart,
+  searchFullCatalog, getFullCatalog,
   subscribeToDataChanges
 } from "./data/storage.js";
 
@@ -61,7 +62,8 @@ const state = {
   fcSubcategory: "all",
   fcBrand: "all",
   fcPage: 1,
-  fcPerPage: 20,
+  fcLimit: 48,
+  fcPerPage: 48,
   isAdmin: typeof window !== "undefined" ? Boolean(window.__MOB_IS_ADMIN__) : false
 };
 
@@ -160,17 +162,23 @@ function updateModals() {
     productModalRoot.innerHTML = state.activeProductId ? renderProductModal(state.activeProductId) : "";
   }
 
-  // Grand Catalogue (1 137 Articles) Modal
+  // Grand Catalogue (1 328 Articles) Modal
   const fullCatalogRoot = document.getElementById("full-catalog-modal-root");
   if (fullCatalogRoot) {
     if (state.isFullCatalogOpen) {
-      fullCatalogRoot.innerHTML = renderFullCatalogModal({
-        query: state.fcQuery,
-        category: state.fcCategory,
-        subcategory: state.fcSubcategory,
-        brand: state.fcBrand
-      });
-      setupFullCatalogEvents();
+      const existingBackdrop = document.getElementById("full-catalog-backdrop");
+      if (!existingBackdrop) {
+        fullCatalogRoot.innerHTML = renderFullCatalogModal({
+          query: state.fcQuery,
+          category: state.fcCategory,
+          subcategory: state.fcSubcategory,
+          brand: state.fcBrand,
+          limit: state.fcLimit || 48
+        });
+        setupFullCatalogEvents();
+      } else {
+        updateFullCatalogGridContent();
+      }
     } else {
       fullCatalogRoot.innerHTML = "";
     }
@@ -377,6 +385,8 @@ function refreshCatalogSection() {
   updateCatalogLive();
 }
 
+let fcSearchDebounceTimer = null;
+
 function setupFullCatalogEvents() {
   const closeBtn = document.getElementById("close-full-catalog-btn");
   if (closeBtn) {
@@ -396,88 +406,159 @@ function setupFullCatalogEvents() {
     });
   }
 
-  // Recherche dans le grand catalogue
+  // Fermeture via la touche Échap
+  const handleKeydown = (e) => {
+    if (e.key === "Escape" && state.isFullCatalogOpen) {
+      state.isFullCatalogOpen = false;
+      updateModals();
+      window.removeEventListener("keydown", handleKeydown);
+    }
+  };
+  window.addEventListener("keydown", handleKeydown);
+
+  // Recherche ultra-réactive : 0 lag, saisie native sans destruction du DOM
   const searchInput = document.getElementById("fc-search-input");
+  const clearBtn = document.getElementById("fc-clear-search-btn");
+
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
-      state.fcQuery = e.target.value;
-      state.fcPage = 1;
-      updateModals();
-      // Keep focus on input after re-render
-      setTimeout(() => {
-        const input = document.getElementById("fc-search-input");
-        if (input) {
-          input.focus();
-          input.setSelectionRange(input.value.length, input.value.length);
-        }
-      }, 10);
+      const val = e.target.value;
+      state.fcQuery = val;
+      state.fcLimit = 48; // réinitialise le nombre visible à chaque nouvelle recherche
+
+      if (clearBtn) {
+        clearBtn.style.display = val ? "flex" : "none";
+      }
+
+      // Debounce court (80ms) pour garantir 60fps sans recalcul superflu
+      clearTimeout(fcSearchDebounceTimer);
+      fcSearchDebounceTimer = setTimeout(() => {
+        updateFullCatalogGridContent();
+      }, 80);
     });
   }
 
-  // Bouton pour vider la recherche
-  const clearSearchBtn = document.getElementById("fc-clear-search-btn");
-  if (clearSearchBtn) {
-    clearSearchBtn.addEventListener("click", () => {
+  if (clearBtn) {
+    clearBtn.addEventListener("click", () => {
       state.fcQuery = "";
-      state.fcPage = 1;
-      updateModals();
+      state.fcLimit = 48;
+      if (searchInput) {
+        searchInput.value = "";
+        searchInput.focus();
+      }
+      clearBtn.style.display = "none";
+      updateFullCatalogGridContent();
     });
   }
 
-  // Filtre par catégorie (select & pills)
-  const catSelect = document.getElementById("fc-category-select");
-  if (catSelect) {
-    catSelect.addEventListener("change", (e) => {
-      state.fcCategory = e.target.value;
-      state.fcSubcategory = "all";
-      state.fcPage = 1;
-      updateModals();
-    });
-  }
-
+  // Filtre par catégorie principale
   const catPills = document.querySelectorAll(".fc-category-pill");
   catPills.forEach(pill => {
     pill.addEventListener("click", () => {
-      state.fcCategory = pill.dataset.category;
+      const cat = pill.dataset.category;
+      state.fcCategory = cat;
       state.fcSubcategory = "all";
-      state.fcPage = 1;
-      updateModals();
+      state.fcLimit = 48;
+
+      catPills.forEach(p => p.classList.toggle("active", p === pill));
+
+      // Mise à jour fluide de la rangée de sous-catégories
+      const subContainer = document.getElementById("fc-subcategories-container");
+      if (subContainer) {
+        subContainer.innerHTML = renderSubcategoriesRow(cat, "all");
+        bindSubcategoryPillEvents();
+      }
+
+      updateFullCatalogGridContent();
     });
   });
 
-  // Filtre par sous-catégorie (pastilles secondaires)
+  // Liaison initiale des sous-catégories
+  bindSubcategoryPillEvents();
+
+  // Délégation d'événements unique sur le conteneur du corps du grand catalogue
+  const bodyEl = document.getElementById("full-catalog-body");
+  if (bodyEl) {
+    bodyEl.addEventListener("click", (e) => {
+      // Ajout au panier
+      const addCartBtn = e.target.closest(".fc-add-cart-btn");
+      if (addCartBtn) {
+        const id = addCartBtn.dataset.productId;
+        const name = decodeURIComponent(addCartBtn.dataset.productName);
+        addToCart(id, 1);
+        showToast(`« ${name} » ajouté au panier !`, "gold");
+        // Mettre à jour le compteur du panier sans toucher au catalogue
+        const cart = getCart();
+        const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+        const headerCount = document.getElementById("header-cart-count");
+        if (headerCount) headerCount.textContent = totalItems;
+        return;
+      }
+
+      // Charger plus d'articles (+48)
+      const loadMoreBtn = e.target.closest("#fc-load-more-btn");
+      if (loadMoreBtn) {
+        state.fcLimit = parseInt(loadMoreBtn.dataset.nextLimit, 10) || (state.fcLimit + 48);
+        updateFullCatalogGridContent();
+        return;
+      }
+
+      // Réinitialiser les filtres (empty state)
+      const resetBtn = e.target.closest("#fc-reset-filters-btn");
+      if (resetBtn) {
+        state.fcQuery = "";
+        state.fcCategory = "all";
+        state.fcSubcategory = "all";
+        state.fcBrand = "all";
+        state.fcLimit = 48;
+        if (searchInput) searchInput.value = "";
+        if (clearBtn) clearBtn.style.display = "none";
+        catPills.forEach(p => p.classList.toggle("active", p.dataset.category === "all"));
+        const subContainer = document.getElementById("fc-subcategories-container");
+        if (subContainer) subContainer.innerHTML = "";
+        updateFullCatalogGridContent();
+        return;
+      }
+    });
+  }
+}
+
+function bindSubcategoryPillEvents() {
   const subPills = document.querySelectorAll(".fc-subpill");
   subPills.forEach(pill => {
     pill.addEventListener("click", () => {
-      state.fcSubcategory = pill.dataset.subcategory;
-      state.fcPage = 1;
-      updateModals();
+      const sub = pill.dataset.subcategory;
+      state.fcSubcategory = sub;
+      state.fcLimit = 48;
+      subPills.forEach(p => p.classList.toggle("active", p === pill));
+      updateFullCatalogGridContent();
     });
   });
+}
 
-  // Réinitialiser les filtres
-  const resetBtn = document.getElementById("fc-reset-filters-btn");
-  if (resetBtn) {
-    resetBtn.addEventListener("click", () => {
-      state.fcQuery = "";
-      state.fcCategory = "all";
-      state.fcSubcategory = "all";
-      state.fcBrand = "all";
-      state.fcPage = 1;
-      updateModals();
-    });
+function updateFullCatalogGridContent() {
+  const bodyEl = document.getElementById("full-catalog-body");
+  const countEl = document.getElementById("fc-results-count");
+  if (!bodyEl) return;
+
+  const result = searchFullCatalog({
+    query: state.fcQuery,
+    category: state.fcCategory,
+    subcategory: state.fcSubcategory,
+    brand: state.fcBrand,
+    perPage: 0
+  });
+
+  if (countEl) {
+    countEl.textContent = `${result.total.toLocaleString("fr-FR")} articles`;
   }
 
-  // Ajout au panier depuis le grand catalogue
-  const addCartBtns = document.querySelectorAll(".fc-add-cart-btn");
-  addCartBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const id = btn.dataset.productId;
-      const name = decodeURIComponent(btn.dataset.productName);
-      addToCart(id, 1);
-      showToast(`« ${name} » ajouté au panier !`, "gold");
-      updateModals();
-    });
+  bodyEl.innerHTML = renderFullCatalogBody({
+    query: state.fcQuery,
+    category: state.fcCategory,
+    subcategory: state.fcSubcategory,
+    brand: state.fcBrand,
+    limit: state.fcLimit || 48
   });
 }
 
@@ -822,6 +903,16 @@ window.MoB = {
     if (typeof window !== "undefined" && window.history && window.history.pushState && window.location.search.includes("produit=")) {
       window.history.pushState(null, "", window.location.pathname);
     }
+    updateModals();
+  },
+
+  // Grand Catalogue (1 328 Articles)
+  openFullCatalog() {
+    state.isFullCatalogOpen = true;
+    updateModals();
+  },
+  closeFullCatalog() {
+    state.isFullCatalogOpen = false;
     updateModals();
   },
 
