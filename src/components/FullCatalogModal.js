@@ -110,25 +110,24 @@ export function renderSubcategoriesRow(category = "all", activeSubcategory = "al
 export function renderFullCatalogCard(item, settings) {
   const visualClass = getCategoryClass(item.category);
   const icon = getCategoryIcon(item.category);
-  const detailUrl = `/produit/${encodeURIComponent(item.id)}`;
   const whatsappNum = (settings.contacts?.whatsapp || '2250777027235').replace(/[^0-9]/g, '');
 
   return `
-    <div class="full-catalog-card" data-card-id="${item.id}">
-      <!-- Bloc Visuel Pastel Solide par Rayon ou Photo Réelle (Lien vers la fiche dédiée SEO) -->
+    <div class="full-catalog-card" data-card-id="${item.id}" onclick="window.MoB.openProductModal('${item.id}')" title="Cliquer pour afficher les détails de ${item.name}">
+      <!-- Bloc Visuel Pastel Solide par Rayon ou Photo Réelle -->
       ${item.image ? `
-        <a href="${detailUrl}" target="_blank" class="full-catalog-visual has-image full-catalog-visual-link" title="Consulter la fiche détaillée : ${item.name}">
+        <div class="full-catalog-visual has-image" title="Aperçu : ${item.name}">
           <img src="${item.image}" alt="${item.name}" class="full-catalog-thumb-img" loading="lazy">
           <span class="full-catalog-img-badge">${item.brand}</span>
-        </a>
+        </div>
       ` : `
-        <a href="${detailUrl}" target="_blank" class="full-catalog-visual ${visualClass} full-catalog-visual-link" title="Consulter la fiche détaillée : ${item.name}">
+        <div class="full-catalog-visual ${visualClass}" title="Aperçu : ${item.name}">
           <div class="full-catalog-visual-icon">
             <span style="font-size: 1.5rem;">${icon}</span>
           </div>
           <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.04em;">${item.category}</span>
           <span style="font-size: 0.65rem; color: #64748B; margin-top: 3px; font-weight: 600;">Original Certifié</span>
-        </a>
+        </div>
       `}
 
       <!-- Infos & Actions -->
@@ -138,9 +137,7 @@ export function renderFullCatalogCard(item, settings) {
             <div class="full-catalog-brand">${item.brand}</div>
             <span class="fc-card-cat-badge">${item.subcategory || item.category}</span>
           </div>
-          <a href="${detailUrl}" target="_blank" class="fc-name-link" title="Consulter la fiche détaillée : ${item.name}">
-            <h4 class="full-catalog-name">${item.name}</h4>
-          </a>
+          <h4 class="full-catalog-name">${item.name}</h4>
           <p class="full-catalog-desc">${item.description || "Article certifié authentique disponible en boutique Mall of Beauty aux Vallons Cocody."}</p>
         </div>
 
@@ -150,14 +147,11 @@ export function renderFullCatalogCard(item, settings) {
             <div class="full-catalog-price">${item.priceFormatted}</div>
           </div>
 
-          <div class="fc-actions-wrap">
-            <a href="${detailUrl}" target="_blank" class="fc-detail-btn" title="Consulter la fiche dédiée SEO">
-              <span>Fiche ↗</span>
-            </a>
+          <div class="fc-actions-wrap" onclick="event.stopPropagation()">
             <button type="button" class="btn btn-sm fc-add-cart-btn" data-product-id="${item.id}" data-product-name="${encodeURIComponent(item.name + ' - ' + item.brand)}" data-product-price="${item.price}" title="Ajouter au panier">
               <span>+ Panier</span>
             </button>
-            <a href="https://wa.me/${whatsappNum}?text=${encodeURIComponent(`Bonjour Mall of Beauty, je souhaite commander l'article : ${item.name} (${item.brand}) au prix de ${item.priceFormatted}. Lien : https://mall-of-beauty-clients.vercel.app/produit/${item.id}`)}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm fc-whatsapp-order-btn" data-track="whatsapp" title="Commander directement sur WhatsApp">
+            <a href="https://wa.me/${whatsappNum}?text=${encodeURIComponent(`Bonjour Mall of Beauty, je souhaite commander l'article : ${item.name} (${item.brand}) au prix de ${item.priceFormatted}.`)}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm fc-whatsapp-order-btn" data-track="whatsapp" title="Commander directement sur WhatsApp">
               <span>Commander</span>
             </a>
           </div>

@@ -478,33 +478,54 @@ export function getProducts() {
 }
 
 export function getProductById(id) {
+  if (!id) return null;
   const products = getProducts();
   const found = products.find(p => p.id === id);
   if (found) return found;
 
-  // Si c'est un article du Grand Catalogue (mob-cat-XXXX ou mob-excel-N)
-  if (id && (id.startsWith("mob-cat-") || id.startsWith("mob-excel-"))) {
-    const full = getFullCatalog();
-    const catItem = full.find(c => c.id === id || c.id === id.replace("mob-excel-", "mob-cat-000").replace(/mob-cat-000(\d{4})/, "mob-cat-$1"));
-    if (catItem) {
-      const img = getAssetUrl(catItem.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg");
-      return {
-        id: catItem.id,
-        name: `${catItem.brand} - ${catItem.name}`,
-        brand: catItem.brand,
-        price: catItem.price,
-        category: catItem.category,
-        categoryLabel: catItem.category,
-        image: img,
-        gallery: catItem.gallery && catItem.gallery.length > 0 ? catItem.gallery.map(getAssetUrl) : [img],
-        shortDesc: catItem.description,
-        description: catItem.description,
-        usage: "Appliquer selon votre routine beauté habituelle.",
-        stock: 25,
-        rating: 4.8,
-        reviewsCount: 12
-      };
-    }
+  // Recherche dans le Grand Catalogue (1 328 articles)
+  const full = getFullCatalog();
+  const normalizedId = String(id).trim();
+
+  const catItem = full.find(c => {
+    if (!c || !c.id) return false;
+    if (c.id === normalizedId) return true;
+    const cleanC = c.id.replace(/^mob-cat-0+/, "mob-cat-");
+    const cleanParam = normalizedId.replace(/^mob-cat-0+/, "mob-cat-").replace(/^mob-excel-0*/, "mob-cat-");
+    return cleanC === cleanParam;
+  });
+
+  if (catItem) {
+    const brand = (catItem.brand || "Mall of Beauty").trim();
+    const rawName = (catItem.name || "").trim();
+    const displayName = rawName.toLowerCase().startsWith(brand.toLowerCase())
+      ? rawName
+      : `${brand} - ${rawName}`;
+
+    const defaultImg = "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg";
+    const img = getAssetUrl(catItem.image || defaultImg);
+    const gallery = Array.isArray(catItem.gallery) && catItem.gallery.length > 0
+      ? catItem.gallery.map(getAssetUrl)
+      : [img];
+
+    return {
+      id: catItem.id,
+      name: displayName,
+      brand: brand,
+      price: catItem.price,
+      oldPrice: null,
+      category: catItem.category,
+      categoryLabel: catItem.category,
+      subcategory: catItem.subcategory || "",
+      image: img,
+      gallery: gallery,
+      shortDesc: catItem.subcategory ? `${catItem.category} • ${catItem.subcategory}` : (catItem.description || "Article prestige certifié"),
+      description: catItem.description || `Retrouvez ${displayName} dans notre sélection Mall of Beauty aux Vallons Cocody. Formulation d'exception et authenticité 100% garantie.`,
+      usage: catItem.usage || "Appliquer selon votre protocole beauté quotidien ou demander conseil à nos esthéticiennes qualifiées en boutique aux Vallons.",
+      stock: catItem.stock || 25,
+      rating: 4.9,
+      reviewsCount: 18
+    };
   }
   return null;
 }

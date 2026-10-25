@@ -2108,12 +2108,17 @@
   position: relative;
   content-visibility: auto;
   contain-intrinsic-size: 0 170px;
+  cursor: pointer;
 }
 
 .full-catalog-card:hover {
   border-color: #CBD5E1;
   transform: translateY(-2px);
   box-shadow: 0 10px 18px -4px rgba(0, 0, 0, 0.08);
+}
+
+.full-catalog-card .fc-actions-wrap {
+  cursor: default;
 }
 
 /* Bloc Visuel par Catégorie (Tons pastels solides) */

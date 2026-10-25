@@ -599,6 +599,52 @@
   transform: scale(1);
 }
 
+#product-modal-backdrop {
+  z-index: 1200;
+}
+
+.modal-fiche-top-btn {
+  position: absolute;
+  top: 16px;
+  right: 58px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold-light);
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 2;
+}
+
+.modal-fiche-top-btn:hover {
+  background: var(--gold-primary);
+  color: #000000;
+  border-color: var(--gold-primary);
+  transform: translateY(-1px);
+}
+
+.modal-fiche-main-btn {
+  background: rgba(212, 175, 55, 0.08);
+  border: 1.5px solid rgba(212, 175, 55, 0.5) !important;
+  color: var(--gold-light) !important;
+  font-weight: 700;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-fiche-main-btn:hover {
+  background: rgba(212, 175, 55, 0.2) !important;
+  border-color: var(--gold-light) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.25);
+}
+
 .modal-close {
   position: absolute;
   top: 18px;
