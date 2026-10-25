@@ -290,10 +290,10 @@ export function renderFullCatalogModal({
               <button type="button" id="fc-clear-search-btn" class="fc-clear-search-btn" title="Effacer la recherche" style="${query ? 'display:flex;' : 'display:none;'}">✕</button>
             </div>
             
-            <div class="fc-live-count-badge" style="display: flex; align-items: center; gap: 8px; font-size: 0.88rem; color: #475569; background: #F8FAFC; border: 1.5px solid #E2E8F0; padding: 8px 14px; border-radius: 9999px;">
+            <!--div class="fc-live-count-badge" style="display: flex; align-items: center; gap: 8px; font-size: 0.88rem; color: #475569; background: #F8FAFC; border: 1.5px solid #E2E8F0; padding: 8px 14px; border-radius: 9999px;">
               <span>⚡</span>
               <strong id="fc-results-count" style="color: #0F172A;">${result.total.toLocaleString("fr-FR")} articles</strong>
-            </div>
+            </div-->
           </div>
         </div>
 
