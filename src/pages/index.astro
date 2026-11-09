@@ -1,4 +1,6 @@
 ---
+import Analytics from '@vercel/analytics/astro';
+
 let isAdmin = false;
 try {
   const auth = Astro.locals.auth ? Astro.locals.auth() : null;
@@ -32,6 +34,8 @@ try {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mall of Beauty (MoB) | 70% Cosmétiques Américains, K-Beauty & Pagnes Vlisco | Abidjan Vallons</title>
+  
+  <Analytics />
   
   <script is:inline define:vars={{ isAdmin }}>
     window.__MOB_IS_ADMIN__ = Boolean(isAdmin);
