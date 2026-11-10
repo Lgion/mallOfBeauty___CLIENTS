@@ -928,7 +928,7 @@ export function getEventBadge(type) {
 }
 
 export function renderAnalyticsEventsTableMarkup(state) {
-  const { items = [], total = 0, page = 1, limit = 20, totalPages = 1, selectedType = 'all' } = state;
+  const { items = [], total = 0, page = 1, limit = 20, totalPages = 1, selectedType = 'all', openSessionIds = new Set() } = state;
   const startIdx = total === 0 ? 0 : (page - 1) * limit + 1;
   const endIdx = Math.min(page * limit, total);
 
@@ -1048,8 +1048,10 @@ export function renderAnalyticsEventsTableMarkup(state) {
             const endTime = group.events[0]?.timeFormatted || "";
             const timeLabel = startTime === endTime ? startTime : `${startTime} → ${endTime}`;
 
+            const isSessionOpen = Boolean(openSessionIds && typeof openSessionIds.has === "function" && openSessionIds.has(group.sessionId));
+
             return `
-              <details class="session-foldable-group" style="border: 1.5px solid #E2E8F0; border-radius: 12px; background: #FFFFFF; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.02); transition: border-color 0.2s ease;">
+              <details class="session-foldable-group" data-session-id="${group.sessionId}" ${isSessionOpen ? 'open' : ''} style="border: 1.5px solid #E2E8F0; border-radius: 12px; background: #FFFFFF; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.02); transition: border-color 0.2s ease;">
                 <!-- En-tête de Session Visiteur (Cliquable pour déplier/replier) -->
                 <summary style="background: #F8FAFC; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; cursor: pointer; user-select: none; list-style: none;">
                   <div style="display: flex; align-items: center; gap: 10px;">
@@ -1191,7 +1193,7 @@ function renderAnalyticsTab(analytics) {
         <h5 style="margin: 0; font-size: 1rem; color: #0F172A; font-weight: 800;">⚡ Conversions & Actions Directes (CTA)</h5>
         <p style="margin: 2px 0 0 0; font-size: 0.8rem; color: #64748B;">Clics immédiats sur WhatsApp, appels téléphoniques et redirections réseaux.</p>
       </div>
-      <span class="badge" style="background: #F8FAFC; border: 1px solid #CBD5E1; color: #334155; font-weight: 700;">${analytics.total || 0} clics au total</span>
+      <span id="analytics-total-clicks-badge" class="badge" style="background: #F8FAFC; border: 1px solid #CBD5E1; color: #334155; font-weight: 700;">${(typeof window !== "undefined" && window.MoB && typeof window.MoB.getCachedAnalyticsTotal === "function" && window.MoB.getCachedAnalyticsTotal()) ?? (analytics.total || 0)} clics au total</span>
     </div>
 
     <!-- Grille des Métriques CTA -->
@@ -1259,14 +1261,15 @@ function renderAnalyticsTab(analytics) {
 
     <!-- JOURNAL DÉTAILLÉ AVEC PAGINATION & ARCHIVE MONGODB -->
     <div id="admin-analytics-events-container">
-      ${renderAnalyticsEventsTableMarkup({
-    items: events.slice(0, 20),
-    total: events.length,
-    page: 1,
-    limit: 20,
-    totalPages: Math.ceil(events.length / 20) || 1,
-    selectedType: 'all'
-  })}
+      ${(typeof window !== "undefined" && window.MoB && typeof window.MoB.getCachedAnalyticsEventsHtml === "function" && window.MoB.getCachedAnalyticsEventsHtml())
+        || renderAnalyticsEventsTableMarkup({
+          items: events.slice(0, 20),
+          total: events.length,
+          page: 1,
+          limit: 20,
+          totalPages: Math.ceil(events.length / 20) || 1,
+          selectedType: 'all'
+        })}
     </div>
   `;
 }
@@ -1731,7 +1734,13 @@ export function refreshAdminActiveTab() {
   updateBadge('personal-shopper', psRequests.length, pendingPS > 0);
   updateBadge('loyalty', loyaltyMembers.length);
   updateBadge('contacts', contacts.length, unreadContacts > 0);
-  updateBadge('analytics', analytics.total || 0);
+  
+  let analyticsTotal = analytics.total || 0;
+  if (typeof window !== "undefined" && window.MoB && typeof window.MoB.getCachedAnalyticsTotal === "function") {
+    const cachedTotal = window.MoB.getCachedAnalyticsTotal();
+    if (typeof cachedTotal === "number") analyticsTotal = cachedTotal;
+  }
+  updateBadge('analytics', analyticsTotal);
   updateBadge('gallery', galleryImages.length);
 
   const container = document.getElementById("admin-tab-container");
@@ -1740,6 +1749,15 @@ export function refreshAdminActiveTab() {
     container.innerHTML = renderAdminTabContent(currentTab);
     if (window.MoB && typeof window.MoB.renderProductGalleryThumbnails === 'function') {
       window.MoB.renderProductGalleryThumbnails();
+    }
+    if (currentTab === "analytics" && typeof window !== "undefined" && window.MoB) {
+      if (typeof window.MoB.loadVercelAnalytics === "function") {
+        setTimeout(() => window.MoB.loadVercelAnalytics(), 40);
+      }
+      if (typeof window.MoB.loadAnalyticsEventsPage === "function") {
+        const page = (typeof window.MoB.getCurrentEventsPage === "function") ? window.MoB.getCurrentEventsPage() : 1;
+        setTimeout(() => window.MoB.loadAnalyticsEventsPage(page), 60);
+      }
     }
   }
 }

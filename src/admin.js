@@ -470,6 +470,7 @@ window.MoB.handleResetAnalytics = async () => {
     showToast("Archivage et réinitialisation en cours...", "gold");
     await resetAnalyticsClicks();
     showToast("Trafic archivé dans MongoDB et compteurs remis à zéro !", "success");
+    cachedAnalyticsEventsData = null;
     refreshAdminActiveTab();
     if (typeof window.MoB.loadAnalyticsEventsPage === "function") {
       window.MoB.loadAnalyticsEventsPage(1);
@@ -839,6 +840,34 @@ let currentEventsPageState = {
   type: 'all'
 };
 let isFetchingEventsPage = false;
+let cachedAnalyticsEventsData = null;
+
+window.MoB.getCurrentEventsPage = () => currentEventsPageState.page;
+
+window.MoB.getCachedAnalyticsTotal = () => {
+  if (cachedAnalyticsEventsData && typeof cachedAnalyticsEventsData.total === "number") {
+    return cachedAnalyticsEventsData.total;
+  }
+  return null;
+};
+
+window.MoB.getCachedAnalyticsEventsHtml = () => {
+  if (cachedAnalyticsEventsData && Array.isArray(cachedAnalyticsEventsData.items)) {
+    const openSessionIds = new Set();
+    const container = document.getElementById("admin-analytics-events-container");
+    if (container) {
+      container.querySelectorAll("details[open][data-session-id]").forEach(d => {
+        const sid = d.getAttribute("data-session-id");
+        if (sid) openSessionIds.add(sid);
+      });
+    }
+    return renderAnalyticsEventsTableMarkup({
+      ...cachedAnalyticsEventsData,
+      openSessionIds
+    });
+  }
+  return null;
+};
 
 window.MoB.loadAnalyticsEventsPage = async (page = 1, limit = currentEventsPageState.limit, type = currentEventsPageState.type) => {
   currentEventsPageState.page = page;
@@ -848,18 +877,37 @@ window.MoB.loadAnalyticsEventsPage = async (page = 1, limit = currentEventsPageS
   const container = document.getElementById("admin-analytics-events-container");
   if (!container) return;
 
+  const openSessionIds = new Set();
+  container.querySelectorAll("details[open][data-session-id]").forEach(d => {
+    const sid = d.getAttribute("data-session-id");
+    if (sid) openSessionIds.add(sid);
+  });
+
   if (isFetchingEventsPage) return;
   isFetchingEventsPage = true;
 
   try {
     const data = await getPaginatedAnalyticsEvents(page, limit, type);
-    container.innerHTML = renderAnalyticsEventsTableMarkup({
+    cachedAnalyticsEventsData = {
       items: data.items || [],
       total: data.total || 0,
       page: data.page || page,
       limit: data.limit || limit,
       totalPages: data.totalPages || 1,
       selectedType: type
+    };
+
+    // Mettre à jour les badges si type === 'all'
+    if (type === 'all' && typeof data.total === 'number') {
+      const badges = document.querySelectorAll('[data-tab-badge="analytics"]');
+      badges.forEach(b => { b.textContent = data.total; });
+      const totalHeaderBadge = document.querySelector("#analytics-total-clicks-badge");
+      if (totalHeaderBadge) totalHeaderBadge.textContent = `${data.total} clics au total`;
+    }
+
+    container.innerHTML = renderAnalyticsEventsTableMarkup({
+      ...cachedAnalyticsEventsData,
+      openSessionIds
     });
   } catch (err) {
     console.error("Erreur lors du chargement des événements paginés", err);
@@ -1343,7 +1391,10 @@ window.MoB.syncFromDbNow = async () => {
 };
 
 // Écoute des mises à jour asynchrones (ex: synchronisation MongoDB)
-subscribeToDataChanges(() => {
+subscribeToDataChanges((event) => {
+  if (event && event.type === "ANALYTICS_UPDATED" && event.stats && event.stats.total === 0) {
+    cachedAnalyticsEventsData = null;
+  }
   refreshAdminActiveTab();
 });
 

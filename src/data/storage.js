@@ -1019,6 +1019,9 @@ export async function archiveAndResetAnalyticsClicks() {
     booking: 0,
     shopper: 0,
     loyalty: 0,
+    vip_service: 0,
+    catalog: 0,
+    wave: 0,
     events: [],
     lastEvent: `Archivé le ${now.toLocaleDateString("fr-FR")} à ${now.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`,
     updatedAt: now.toISOString()
