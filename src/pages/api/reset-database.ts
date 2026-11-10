@@ -56,6 +56,13 @@ export const POST: APIRoute = async ({ request }) => {
     await clicksColl.deleteMany({});
     await clicksColl.insertOne(DEFAULT_CLICKS);
 
+    // 7.b Analytics Events (Historique paginé illimité)
+    const eventsColl = db.collection('analytics_events');
+    await eventsColl.deleteMany({});
+    if (Array.isArray(DEFAULT_CLICKS.events) && DEFAULT_CLICKS.events.length > 0) {
+      await eventsColl.insertMany(DEFAULT_CLICKS.events);
+    }
+
     // 8. Gallery Images
     const galleryColl = db.collection('gallery_images');
     await galleryColl.deleteMany({});

@@ -343,7 +343,8 @@ export async function initData() {
           if (coll === 'store_settings' && Array.isArray(data)) {
             if (data.length > 0) safeSetItem(key, data[0]);
           } else if (coll === 'analytics_clicks' && Array.isArray(data)) {
-            if (data.length > 0) safeSetItem(key, data[0]);
+            const activeDoc = data.find(d => d.id === "analytics") || data[0];
+            if (activeDoc) safeSetItem(key, activeDoc);
           } else {
             // MongoDB Atlas is the single source of truth:
             // even if empty [], store it directly so deletions are preserved!
@@ -858,15 +859,36 @@ export function deleteLoyaltyMember(id) {
 }
 
 // --- ANALYTICS CLICKS TRACKING ---
+export function getOrCreateAnalyticsSession() {
+  if (typeof window === "undefined") {
+    return { id: "sess_srv", number: 1 };
+  }
+  try {
+    let sessId = sessionStorage.getItem("mob_analytics_session_id");
+    if (!sessId) {
+      // Générer un identifiant court et lisible : ex: sess_179424_84a2
+      sessId = "sess_" + Date.now().toString(36).slice(-4) + "_" + Math.random().toString(36).slice(2, 6);
+      sessionStorage.setItem("mob_analytics_session_id", sessId);
+    }
+    return { id: sessId };
+  } catch (e) {
+    return { id: "sess_default" };
+  }
+}
+
 export function getAnalyticsClicks() {
   try {
     const data = localStorage.getItem(STORAGE_KEYS.ANALYTICS_CLICKS);
-    return data ? JSON.parse(data) : {
+    const parsed = data ? JSON.parse(data) : {
       total: 0, phone_call: 0, whatsapp: 0, instagram: 0, tiktok: 0,
-      booking: 0, shopper: 0, loyalty: 0, lastEvent: "", updatedAt: new Date().toISOString()
+      booking: 0, shopper: 0, loyalty: 0, events: [], lastEvent: "", updatedAt: new Date().toISOString()
     };
+    if (!Array.isArray(parsed.events)) {
+      parsed.events = [];
+    }
+    return parsed;
   } catch (e) {
-    return { total: 0, phone_call: 0, whatsapp: 0, instagram: 0, tiktok: 0 };
+    return { total: 0, phone_call: 0, whatsapp: 0, instagram: 0, tiktok: 0, events: [] };
   }
 }
 
@@ -879,29 +901,175 @@ export function trackClick(actionType, targetLabel = "") {
     } else {
       stats[actionType] = 1;
     }
+
+    const now = new Date();
+    const session = getOrCreateAnalyticsSession();
+    const eventEntry = {
+      id: "evt_" + Date.now() + "_" + Math.floor(Math.random() * 1000),
+      sessionId: session.id,
+      type: actionType,
+      label: targetLabel || actionType,
+      timestamp: now.toISOString(),
+      timeFormatted: now.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" }),
+      dateFormatted: now.toLocaleDateString("fr-FR", { day: "2-digit", month: "short" }),
+      path: typeof window !== "undefined" ? (window.location.pathname + window.location.search) : "/"
+    };
+
+    if (!Array.isArray(stats.events)) {
+      stats.events = [];
+    }
+    stats.events.unshift(eventEntry);
+    if (stats.events.length > 80) {
+      stats.events = stats.events.slice(0, 80);
+    }
+
     stats.lastEvent = targetLabel ? `${actionType.toUpperCase()}: ${targetLabel}` : actionType;
-    stats.updatedAt = new Date().toISOString();
+    stats.updatedAt = now.toISOString();
     stats.id = "analytics";
     localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(stats));
     syncToDb('analytics_clicks', 'PUT', stats);
+    
+    // Archivage individuel permanent et illimité dans la collection MongoDB analytics_events
+    syncToDb('analytics_events', 'POST', eventEntry);
+    
     emitChange({ type: "ANALYTICS_UPDATED", stats });
+
+    // Synchronisation avec les Événements Personnalisés Vercel Analytics
+    try {
+      if (typeof window !== "undefined") {
+        import("@vercel/analytics").then(({ track }) => {
+          track(actionType, targetLabel ? { label: String(targetLabel).slice(0, 255) } : undefined);
+        }).catch(() => {});
+      }
+    } catch (_) {}
+
     return stats;
   } catch (e) {
     console.error("Error tracking click", e);
   }
 }
 
-export function resetAnalyticsClicks() {
-  const clean = {
-    total: 0, phone_call: 0, whatsapp: 0, instagram: 0, tiktok: 0,
-    booking: 0, shopper: 0, loyalty: 0, lastEvent: "Compteurs réinitialisés",
-    updatedAt: new Date().toISOString(),
-    id: "analytics"
+export async function archiveAndResetAnalyticsClicks() {
+  const currentStats = getAnalyticsClicks();
+  const now = new Date();
+  
+  // 1. Récupérer l'intégralité des événements de l'archive active pour les condenser
+  let allEvents = [];
+  try {
+    const res = await fetch('/api/analytics_events?export=true');
+    if (res.ok) {
+      const data = await res.json();
+      allEvents = Array.isArray(data.items) ? data.items : [];
+    }
+  } catch (err) {
+    allEvents = Array.isArray(currentStats.events) ? currentStats.events : [];
+  }
+
+  // 2. Création d'un document condensé ultra-léger (summary + liste condensée)
+  // Format condensé : [timeFormatted, type, label, path, sessionId] pour économiser un maximum d'espace
+  const compactEvents = allEvents.map(e => [
+    e.dateFormatted || e.timestamp?.slice(0, 10) || "",
+    e.timeFormatted || "",
+    e.type || "",
+    e.label || "",
+    e.path || "/",
+    e.sessionId || ""
+  ]);
+
+  const archiveRecord = {
+    id: `archive_${now.toISOString().slice(0, 10)}_${Date.now()}`,
+    archivedAt: now.toISOString(),
+    period: {
+      from: allEvents[allEvents.length - 1]?.timestamp || currentStats.updatedAt || now.toISOString(),
+      to: now.toISOString()
+    },
+    totalClicks: currentStats.total || 0,
+    metrics: {
+      phone_call: currentStats.phone_call || 0,
+      whatsapp: currentStats.whatsapp || 0,
+      instagram: currentStats.instagram || 0,
+      tiktok: currentStats.tiktok || 0,
+      booking: currentStats.booking || 0,
+      shopper: currentStats.shopper || 0,
+      loyalty: currentStats.loyalty || 0
+    },
+    eventsCount: compactEvents.length,
+    eventsCompact: compactEvents
   };
+
+  // 3. Sauvegarde dans la collection dédiée d'archives condensées
+  try {
+    await fetch('/api/analytics_archives', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(archiveRecord)
+    });
+  } catch (e) {
+    console.error("Échec de la sauvegarde de l'archive dans MongoDB", e);
+  }
+
+  // 4. Réinitialisation propre du document principal dans MongoDB (id: "analytics")
+  const clean = {
+    id: "analytics",
+    total: 0,
+    phone_call: 0,
+    whatsapp: 0,
+    instagram: 0,
+    tiktok: 0,
+    booking: 0,
+    shopper: 0,
+    loyalty: 0,
+    events: [],
+    lastEvent: `Archivé le ${now.toLocaleDateString("fr-FR")} à ${now.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`,
+    updatedAt: now.toISOString()
+  };
+
   localStorage.setItem(STORAGE_KEYS.ANALYTICS_CLICKS, JSON.stringify(clean));
-  syncToDb('analytics_clicks', 'PUT', clean);
+
+  // PUT vers l'API MongoDB
+  try {
+    await fetch('/api/analytics_clicks', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(clean)
+    });
+  } catch (e) {
+    console.error("Échec de la mise à jour de analytics_clicks dans MongoDB", e);
+  }
+
+  // 5. Nettoyage de la collection active d'événements
+  try {
+    await fetch('/api/analytics_events?clearAll=true', { method: 'DELETE' });
+  } catch (e) {}
+
   emitChange({ type: "ANALYTICS_UPDATED", stats: clean });
   return clean;
+}
+
+export function resetAnalyticsClicks() {
+  return archiveAndResetAnalyticsClicks();
+}
+
+// Récupération paginée de l'historique complet d'interactions depuis MongoDB
+export async function getPaginatedAnalyticsEvents(page = 1, limit = 20, type = 'all') {
+  try {
+    const url = `/api/analytics_events?page=${page}&limit=${limit}${type && type !== 'all' ? `&type=${encodeURIComponent(type)}` : ''}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    console.warn("Could not fetch paginated analytics events from DB, falling back to local storage", err);
+    const local = getAnalyticsClicks().events || [];
+    const filtered = (type && type !== 'all') ? local.filter(e => e.type === type) : local;
+    const skip = (page - 1) * limit;
+    return {
+      items: filtered.slice(skip, skip + limit),
+      total: filtered.length,
+      page,
+      limit,
+      totalPages: Math.ceil(filtered.length / limit) || 1
+    };
+  }
 }
 
 // --- GRAND CATALOGUE (1 328 ARTICLES) ---

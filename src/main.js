@@ -1230,10 +1230,15 @@ window.MoB = {
   },
 
   handleResetAnalytics() {
-    if (confirm("Réinitialiser tous les compteurs de clics à zéro ?")) {
+    const confirmation = prompt(
+      "⚠️ ATTENTION : Vous êtes sur le point de réinitialiser tous les compteurs de clics et de vider l'historique.\n\nPour confirmer cette action, veuillez taper « mob » ci-dessous :"
+    );
+    if (confirmation !== null && confirmation.trim().toLowerCase() === "mob") {
       resetAnalyticsClicks();
       showToast("Compteurs analytiques réinitialisés.", "gold");
       updateModals();
+    } else if (confirmation !== null) {
+      showToast("Action annulée : mot de confirmation incorrect.", "danger");
     }
   },
 
@@ -1535,7 +1540,10 @@ window.MoB = {
 
   // Analytics Clics Admin
   handleResetAnalytics() {
-    if (confirm("Réinitialiser tous les compteurs de clics ?")) {
+    const confirmation = prompt(
+      "⚠️ ATTENTION : Vous êtes sur le point de réinitialiser tous les compteurs de clics et de vider l'historique.\n\nPour confirmer cette action, veuillez taper « mob » ci-dessous :"
+    );
+    if (confirmation !== null && confirmation.trim().toLowerCase() === "mob") {
       resetAnalyticsClicks();
       showToast("Compteurs analytiques réinitialisés.", "gold");
       if (document.getElementById("admin-tab-container")) {
@@ -1543,6 +1551,8 @@ window.MoB = {
       } else {
         updateModals();
       }
+    } else if (confirmation !== null) {
+      showToast("Action annulée : mot de confirmation incorrect.", "danger");
     }
   },
 

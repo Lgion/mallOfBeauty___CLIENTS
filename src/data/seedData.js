@@ -212,7 +212,7 @@ export const DEFAULT_CONTACTS = [
 ];
 
 export const DEFAULT_CLICKS = {
-  id: "main-analytics",
+  id: "analytics",
   total: 58,
   phone_call: 12,
   whatsapp: 22,
@@ -221,7 +221,15 @@ export const DEFAULT_CLICKS = {
   booking: 5,
   shopper: 4,
   loyalty: 5,
-  lastEvent: "Initialisation du suivi analytique MoB",
+  events: [
+    { id: "evt-01", type: "whatsapp", label: "Commande directe : Lait Diamond Glow Prestige", timeFormatted: "10:14", dateFormatted: "Aujourd'hui", path: "/#catalogue" },
+    { id: "evt-02", type: "phone_call", label: "Appel GSM (+225 07 77 02 72 35)", timeFormatted: "09:48", dateFormatted: "Aujourd'hui", path: "/" },
+    { id: "evt-03", type: "booking", label: "RDV Consultation : Aïcha Coulibaly", timeFormatted: "09:12", dateFormatted: "Aujourd'hui", path: "/#salon-prive" },
+    { id: "evt-04", type: "catalog", label: "Grand Catalogue (1 328 articles consultés)", timeFormatted: "08:35", dateFormatted: "Aujourd'hui", path: "/#catalogue" },
+    { id: "evt-05", type: "instagram", label: "Redirection vers @mallofbeauty_mofb", timeFormatted: "Hier à 19:20", dateFormatted: "Hier", path: "/#communaute" },
+    { id: "evt-06", type: "shopper", label: "Conciergerie : Pagne Vlisco Édition Or", timeFormatted: "Hier à 16:05", dateFormatted: "Hier", path: "/#salon-prive" }
+  ],
+  lastEvent: "Commande directe : Lait Diamond Glow Prestige",
   updatedAt: new Date().toISOString()
 };
 

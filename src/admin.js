@@ -8,7 +8,8 @@ import confetti from "canvas-confetti";
 import { 
   renderAdminDashboard, setEditingProductId, toggleAddProductFormState,
   setEditingGalleryId, toggleAddGalleryFormState,
-  switchAdminTabLive, refreshAdminActiveTab
+  switchAdminTabLive, refreshAdminActiveTab,
+  renderAnalyticsEventsTableMarkup, getEventBadge
 } from "./components/AdminDashboard.js";
 
 import { 
@@ -17,7 +18,7 @@ import {
   getPersonalShopperRequests, addPersonalShopperRequest, updatePersonalShopperStatus, updatePersonalShopperDeposit, deletePersonalShopperRequest,
   getLoyaltyMembers, addLoyaltyMember, deleteLoyaltyMember,
   getContacts, addContact, updateContactStatus, deleteContact,
-  getAnalyticsClicks, trackClick, resetAnalyticsClicks,
+  getAnalyticsClicks, trackClick, resetAnalyticsClicks, getPaginatedAnalyticsEvents,
   getStoreSettings, updateStoreSettings, resetToFactory, reloadAllDummyData,
   getGalleryImages, addGalleryImage, updateGalleryImage, deleteGalleryImage, resetGalleryImages,
   subscribeToDataChanges, initData
@@ -456,11 +457,464 @@ window.MoB.handleDeleteContact = (id) => {
   }
 };
 
-window.MoB.handleResetAnalytics = () => {
-  if (confirm("Réinitialiser tous les compteurs de clics et conversions à zéro ?")) {
-    resetAnalyticsClicks();
-    showToast("Statistiques réinitialisées.", "info");
+window.MoB.handleResetAnalytics = async () => {
+  const confirmation = prompt(
+    "📦 ARCHIVAGE DU TRAFIC & RÉINITIALISATION :\n\nCette action va condenser et archiver tout l'historique actuel dans MongoDB, puis remettre les compteurs à zéro.\n\nPour confirmer, tapez « mob » :"
+  );
+
+  if (confirmation === null) {
+    return; // Annulé par l'utilisateur
+  }
+
+  if (confirmation.trim().toLowerCase() === "mob") {
+    showToast("Archivage et réinitialisation en cours...", "gold");
+    await resetAnalyticsClicks();
+    showToast("Trafic archivé dans MongoDB et compteurs remis à zéro !", "success");
     refreshAdminActiveTab();
+    if (typeof window.MoB.loadAnalyticsEventsPage === "function") {
+      window.MoB.loadAnalyticsEventsPage(1);
+    }
+  } else {
+    showToast("Action annulée : mot de confirmation incorrect.", "danger");
+  }
+};
+
+// --- VERCEL WEB ANALYTICS INTÉGRATION API ---
+let cachedVercelData = null;
+let isFetchingVercel = false;
+
+window.MoB.loadVercelAnalytics = async (force = false) => {
+  const container = document.getElementById("vercel-analytics-section");
+  if (!container) return;
+
+  if (cachedVercelData && !force) {
+    renderVercelAnalyticsUI(cachedVercelData, container);
+    return;
+  }
+
+  if (isFetchingVercel) return;
+  isFetchingVercel = true;
+
+  container.innerHTML = `
+    <div style="background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 28px; text-align: center; color: #64748B;">
+      <div style="font-size: 1.8rem; margin-bottom: 8px;">🌐</div>
+      <div style="font-weight: 700; color: #0F172A; font-size: 1rem;">Connexion à Vercel Web Analytics en direct...</div>
+      <div style="font-size: 0.82rem; margin-top: 4px;">Récupération des visiteurs, pages vues, canaux d'acquisition et géolocalisation.</div>
+    </div>
+  `;
+
+  try {
+    const res = await fetch("/api/vercel-analytics");
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}`);
+    }
+    const data = await res.json();
+    cachedVercelData = data;
+    renderVercelAnalyticsUI(data, container);
+  } catch (err) {
+    container.innerHTML = `
+      <div style="background: #FFFBEB; border: 1.5px solid #FDE68A; border-radius: 14px; padding: 20px; color: #92400E;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+          <div>
+            <strong style="color: #78350F; font-size: 0.95rem;">⚠️ Connexion Vercel en attente</strong>
+            <div style="font-size: 0.82rem; margin-top: 4px;">Le serveur n'a pas pu contacter l'API Vercel (${err.message || 'Erreur réseau'}).</div>
+          </div>
+          <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.loadVercelAnalytics(true)">Réessayer</button>
+        </div>
+      </div>
+    `;
+  } finally {
+    isFetchingVercel = false;
+  }
+};
+
+function renderVercelAnalyticsUI(data, container) {
+  if (!container) return;
+
+  if (!data || data.configured === false) {
+    container.innerHTML = `
+      <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border: 1.5px solid rgba(212, 175, 55, 0.4); border-radius: 14px; padding: 24px; color: #F8FAFC;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+          <div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span style="font-size: 1.3rem;">🌐</span>
+              <strong style="color: #F8FAFC; font-size: 1.05rem;">Vercel Web Analytics — Liaison API</strong>
+              <span class="badge" style="background: #334155; color: #94A3B8; border: 1px solid #475569; font-size: 0.72rem;">En attente de déploiement</span>
+            </div>
+            <p style="margin: 8px 0 0 0; font-size: 0.84rem; color: #CBD5E1; line-height: 1.5; max-width: 650px;">
+              Les variables <code>VERCEL_TOKEN</code> et <code>VERCEL_PROJECT_ID</code> sont renseignées sur votre dashboard Vercel. Dès le redéploiement effectif sur Vercel, les statistiques détaillées (visiteurs uniques, pages vues, canaux d'acquisition, pays) s'afficheront automatiquement ici.
+            </p>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <button class="btn btn-gold btn-sm" onclick="window.MoB.loadVercelAnalytics(true)">
+              🔄 Tester la Connexion
+            </button>
+            <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm" style="text-decoration: none;">
+              Console Vercel ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  // Configuration valide reçue
+  const overview = data.overview || {};
+  const totalVisitors = overview.total ?? overview.visitors ?? 0;
+  const totalPageViews = overview.pageViews ?? overview.views ?? 0;
+
+  const extractRows = (obj) => {
+    if (!obj) return [];
+    if (Array.isArray(obj)) return obj;
+    if (Array.isArray(obj.data)) return obj.data;
+    if (Array.isArray(obj.rows)) return obj.rows;
+    return [];
+  };
+
+  const paths = extractRows(data.byPath);
+  const referrers = extractRows(data.byReferrer);
+  const countries = extractRows(data.byCountry);
+  const devices = extractRows(data.byDevice);
+
+  const getRowVal = (r) => Number(r.pageViews || r.visitors || r.total || r.count || r.value || 0);
+  const getRowKey = (r, defaultKey) => String(r[defaultKey] ?? r.key ?? r.name ?? "");
+
+  const formatPathLabel = (p) => {
+    if (!p || p === "/" || p === "") return "🏠 Page d'Accueil & Vitrine";
+    if (p === "/admin" || p.startsWith("/admin")) return "⚙️ Administration";
+    if (p.startsWith("/produit/")) {
+      const id = p.replace("/produit/", "");
+      return `🛍️ Fiche Produit (${id})`;
+    }
+    return p;
+  };
+
+  const formatReferrerLabel = (ref) => {
+    if (!ref || ref === "" || ref === "direct" || ref === "(direct)") return "🔗 Accès Direct / Liens Partagés";
+    const r = ref.toLowerCase();
+    if (r.includes("instagram")) return "📷 Instagram (@mallofbeauty_mofb)";
+    if (r.includes("tiktok")) return "🎵 TikTok (@mallofbeauty1)";
+    if (r.includes("whatsapp") || r.includes("wa.me")) return "💬 WhatsApp Direct";
+    if (r.includes("google")) return "🔍 Recherche Google";
+    if (r.includes("facebook")) return "📘 Facebook";
+    return `🌐 ${ref}`;
+  };
+
+  const countryMap = {
+    CI: { name: "Côte d'Ivoire (Abidjan)", flag: "🇨🇮" },
+    FR: { name: "France", flag: "🇫🇷" },
+    US: { name: "États-Unis", flag: "🇺🇸" },
+    SN: { name: "Sénégal", flag: "🇸🇳" },
+    ML: { name: "Mali", flag: "🇲🇱" },
+    BF: { name: "Burkina Faso", flag: "🇧🇫" },
+    GH: { name: "Ghana", flag: "🇬🇭" },
+    TG: { name: "Togo", flag: "🇹🇬" },
+    BJ: { name: "Bénin", flag: "🇧🇯" },
+    CM: { name: "Cameroun", flag: "🇨🇲" },
+    CA: { name: "Canada", flag: "🇨🇦" },
+    GB: { name: "Royaume-Uni", flag: "🇬🇧" },
+    BE: { name: "Belgique", flag: "🇧🇪" },
+    CH: { name: "Suisse", flag: "🇨🇭" }
+  };
+
+  const formatCountryLabel = (c) => {
+    if (!c) return "🌍 Inconnu";
+    const code = c.toUpperCase();
+    if (countryMap[code]) return `${countryMap[code].flag} ${countryMap[code].name}`;
+    return `🌍 ${code}`;
+  };
+
+  const formatDeviceLabel = (d) => {
+    const l = (d || "").toLowerCase();
+    if (l === "mobile") return "📱 Smartphone / Mobile";
+    if (l === "desktop") return "💻 Ordinateur / PC";
+    if (l === "tablet") return "📟 Tablette";
+    return `📱 ${d || 'Autre'}`;
+  };
+
+  const topCountry = countries.length > 0 ? formatCountryLabel(getRowKey(countries[0], "country")) : "Côte d'Ivoire 🇨🇮";
+  const mobileDevice = devices.find(d => getRowKey(d, "deviceType").toLowerCase() === "mobile");
+  const mobilePct = totalVisitors > 0 && mobileDevice ? Math.round((getRowVal(mobileDevice) / totalVisitors) * 100) : 85;
+
+  container.innerHTML = `
+    <!-- Bandeau Statut Vercel -->
+    <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 22px; color: #FFFFFF; margin-bottom: 20px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #10B981; box-shadow: 0 0 10px #10B981;"></span>
+          <strong style="font-size: 1.05rem; letter-spacing: -0.2px;">Vercel Web Analytics en Direct</strong>
+          <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #34D399; border: 1px solid rgba(16, 185, 129, 0.3); font-size: 0.72rem; font-weight: 700;">
+            Connecté & Synchronisé
+          </span>
+        </div>
+        <div style="font-size: 0.8rem; color: #94A3B8;">
+          Période : 30 derniers jours (${data.period?.since || ''} → ${data.period?.until || ''})
+        </div>
+      </div>
+
+      <!-- 4 Compteurs Clés Vercel -->
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 18px;">
+        <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 14px;">
+          <div style="font-size: 0.72rem; text-transform: uppercase; color: #94A3B8; font-weight: 700;">👥 Visiteurs Uniques</div>
+          <div style="font-size: 1.8rem; font-weight: 800; color: #FFFFFF; margin-top: 4px; font-family: var(--font-serif);">${totalVisitors}</div>
+          <div style="font-size: 0.72rem; color: #34D399; margin-top: 2px;">Audience nette 30j</div>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 14px;">
+          <div style="font-size: 0.72rem; text-transform: uppercase; color: #94A3B8; font-weight: 700;">👁️ Pages Vues Totales</div>
+          <div style="font-size: 1.8rem; font-weight: 800; color: #F59E0B; margin-top: 4px; font-family: var(--font-serif);">${totalPageViews}</div>
+          <div style="font-size: 0.72rem; color: #94A3B8; margin-top: 2px;">Volume de navigation</div>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 14px;">
+          <div style="font-size: 0.72rem; text-transform: uppercase; color: #94A3B8; font-weight: 700;">📱 Trafic Mobile</div>
+          <div style="font-size: 1.8rem; font-weight: 800; color: #38BDF8; margin-top: 4px; font-family: var(--font-serif);">${mobilePct}%</div>
+          <div style="font-size: 0.72rem; color: #94A3B8; margin-top: 2px;">Smartphones & tablettes</div>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 14px;">
+          <div style="font-size: 0.72rem; text-transform: uppercase; color: #94A3B8; font-weight: 700;">🌍 Pays Principal</div>
+          <div style="font-size: 1.15rem; font-weight: 800; color: #FFFFFF; margin-top: 8px; line-height: 1.3;">${topCountry}</div>
+          <div style="font-size: 0.72rem; color: #94A3B8; margin-top: 4px;">Zone géographique N°1</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grille Détaillée Multi-Angles : OÙ, COMMENT, QUAND -->
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-bottom: 24px;">
+      
+      <!-- 1. OÙ : Pages & Produits les plus vus -->
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+          <h5 style="margin: 0; font-size: 0.95rem; color: #0F172A; font-weight: 800; display: flex; align-items: center; gap: 8px;">
+            <span>🗺️</span> <span>OÙ : Pages & Produits les plus visités</span>
+          </h5>
+          <span style="font-size: 0.75rem; color: #64748B;">Top Pages</span>
+        </div>
+
+        ${paths.length === 0 ? `
+          <div style="padding: 20px; text-align: center; color: #64748B; font-size: 0.82rem; background: #F8FAFC; border-radius: 8px;">
+            En attente des premières consultations de pages enregistrées par Vercel.
+          </div>
+        ` : `
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            ${paths.slice(0, 7).map(row => {
+              const count = getRowVal(row);
+              const path = getRowKey(row, "requestPath");
+              const label = formatPathLabel(path);
+              const pct = totalPageViews > 0 ? Math.round((count / totalPageViews) * 100) : 100;
+              return `
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 4px;">
+                    <span style="color: #0F172A; font-weight: 600;">${label}</span>
+                    <strong style="color: #2563EB;">${count} vue${count > 1 ? 's' : ''} (${pct}%)</strong>
+                  </div>
+                  <div style="width: 100%; height: 6px; background: #F1F5F9; border-radius: 3px; overflow: hidden;">
+                    <div style="width: ${pct}%; height: 100%; background: #2563EB; border-radius: 3px;"></div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `}
+      </div>
+
+      <!-- 2. COMMENT : Canaux & Sources Référentes -->
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+          <h5 style="margin: 0; font-size: 0.95rem; color: #0F172A; font-weight: 800; display: flex; align-items: center; gap: 8px;">
+            <span>🚀</span> <span>COMMENT : Canaux & Provenance</span>
+          </h5>
+          <span style="font-size: 0.75rem; color: #64748B;">Referrers</span>
+        </div>
+
+        ${referrers.length === 0 ? `
+          <div style="padding: 20px; text-align: center; color: #64748B; font-size: 0.82rem; background: #F8FAFC; border-radius: 8px;">
+            En attente des premiers référents (Instagram, TikTok, WhatsApp, Direct).
+          </div>
+        ` : `
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            ${referrers.slice(0, 7).map(row => {
+              const count = getRowVal(row);
+              const ref = getRowKey(row, "referrerHostname");
+              const label = formatReferrerLabel(ref);
+              const pct = totalVisitors > 0 ? Math.round((count / totalVisitors) * 100) : 100;
+              return `
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 4px;">
+                    <span style="color: #0F172A; font-weight: 600;">${label}</span>
+                    <strong style="color: #059669;">${count} visiteur${count > 1 ? 's' : ''}</strong>
+                  </div>
+                  <div style="width: 100%; height: 6px; background: #F1F5F9; border-radius: 3px; overflow: hidden;">
+                    <div style="width: ${pct}%; height: 100%; background: #059669; border-radius: 3px;"></div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `}
+      </div>
+
+      <!-- 3. OÙ : Répartition Géographique (Pays) -->
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+          <h5 style="margin: 0; font-size: 0.95rem; color: #0F172A; font-weight: 800; display: flex; align-items: center; gap: 8px;">
+            <span>🌍</span> <span>OÙ : Répartition Géographique</span>
+          </h5>
+          <span style="font-size: 0.75rem; color: #64748B;">Pays</span>
+        </div>
+
+        ${countries.length === 0 ? `
+          <div style="padding: 20px; text-align: center; color: #64748B; font-size: 0.82rem; background: #F8FAFC; border-radius: 8px;">
+            Données de géolocalisation en cours d'enregistrement.
+          </div>
+        ` : `
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            ${countries.slice(0, 6).map(row => {
+              const count = getRowVal(row);
+              const c = getRowKey(row, "country");
+              const label = formatCountryLabel(c);
+              const pct = totalVisitors > 0 ? Math.round((count / totalVisitors) * 100) : 100;
+              return `
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 4px;">
+                    <span style="color: #0F172A; font-weight: 600;">${label}</span>
+                    <strong style="color: #D97706;">${count} (${pct}%)</strong>
+                  </div>
+                  <div style="width: 100%; height: 6px; background: #F1F5F9; border-radius: 3px; overflow: hidden;">
+                    <div style="width: ${pct}%; height: 100%; background: #D97706; border-radius: 3px;"></div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `}
+      </div>
+
+      <!-- 4. COMMENT : Appareils & Systèmes -->
+      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+          <h5 style="margin: 0; font-size: 0.95rem; color: #0F172A; font-weight: 800; display: flex; align-items: center; gap: 8px;">
+            <span>📱</span> <span>COMMENT : Appareils & Systèmes</span>
+          </h5>
+          <span style="font-size: 0.75rem; color: #64748B;">Équipements</span>
+        </div>
+
+        ${devices.length === 0 ? `
+          <div style="padding: 20px; text-align: center; color: #64748B; font-size: 0.82rem; background: #F8FAFC; border-radius: 8px;">
+            Données d'appareils en cours d'enregistrement.
+          </div>
+        ` : `
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            ${devices.map(row => {
+              const count = getRowVal(row);
+              const d = getRowKey(row, "deviceType");
+              const label = formatDeviceLabel(d);
+              const pct = totalVisitors > 0 ? Math.round((count / totalVisitors) * 100) : 100;
+              return `
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 4px;">
+                    <span style="color: #0F172A; font-weight: 600;">${label}</span>
+                    <strong style="color: #7C3AED;">${count} (${pct}%)</strong>
+                  </div>
+                  <div style="width: 100%; height: 6px; background: #F1F5F9; border-radius: 3px; overflow: hidden;">
+                    <div style="width: ${pct}%; height: 100%; background: #7C3AED; border-radius: 3px;"></div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `}
+      </div>
+
+    </div>
+  `;
+}
+
+// --- HISTORIQUE D'INTERACTIONS PAGINÉ MONGODB (ARCHIVE ILLIMITÉE) ---
+let currentEventsPageState = {
+  page: 1,
+  limit: 20,
+  type: 'all'
+};
+let isFetchingEventsPage = false;
+
+window.MoB.loadAnalyticsEventsPage = async (page = 1, limit = currentEventsPageState.limit, type = currentEventsPageState.type) => {
+  currentEventsPageState.page = page;
+  currentEventsPageState.limit = limit;
+  currentEventsPageState.type = type;
+
+  const container = document.getElementById("admin-analytics-events-container");
+  if (!container) return;
+
+  if (isFetchingEventsPage) return;
+  isFetchingEventsPage = true;
+
+  try {
+    const data = await getPaginatedAnalyticsEvents(page, limit, type);
+    container.innerHTML = renderAnalyticsEventsTableMarkup({
+      items: data.items || [],
+      total: data.total || 0,
+      page: data.page || page,
+      limit: data.limit || limit,
+      totalPages: data.totalPages || 1,
+      selectedType: type
+    });
+  } catch (err) {
+    console.error("Erreur lors du chargement des événements paginés", err);
+    showToast("Erreur lors de la pagination des événements", "danger");
+  } finally {
+    isFetchingEventsPage = false;
+  }
+};
+
+window.MoB.filterAnalyticsEvents = (type) => {
+  window.MoB.loadAnalyticsEventsPage(1, currentEventsPageState.limit, type);
+};
+
+window.MoB.exportAnalyticsEventsCSV = async () => {
+  showToast("Préparation de l'export CSV complet...", "gold");
+  try {
+    const res = await fetch("/api/analytics_events?export=true");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const items = data.items || [];
+
+    if (items.length === 0) {
+      showToast("Aucune interaction à exporter.", "info");
+      return;
+    }
+
+    const headers = ["ID", "Date", "Heure", "Type d'action", "Détail de l'action", "Page / URL", "Horodatage ISO"];
+    const escapeCsv = (val) => {
+      const s = String(val ?? "").replace(/"/g, '""');
+      return `"${s}"`;
+    };
+
+    const rows = items.map(item => [
+      escapeCsv(item.id || ""),
+      escapeCsv(item.dateFormatted || ""),
+      escapeCsv(item.timeFormatted || ""),
+      escapeCsv(item.type || ""),
+      escapeCsv(item.label || ""),
+      escapeCsv(item.path || "/"),
+      escapeCsv(item.timestamp || "")
+    ].join(","));
+
+    const csvContent = "\uFEFF" + [headers.join(","), ...rows].join("\r\n");
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `mall_of_beauty_interactions_${new Date().toISOString().slice(0, 10)}.csv`;
+    link.click();
+    URL.revokeObjectURL(url);
+
+    showToast(`Export de ${items.length} interaction${items.length > 1 ? 's' : ''} réussi !`, "success");
+  } catch (err) {
+    console.error("Erreur export CSV:", err);
+    showToast("Impossible d'exporter le fichier CSV", "danger");
   }
 };
 

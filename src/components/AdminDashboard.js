@@ -359,8 +359,8 @@ function renderFeaturedTab(products) {
 function renderProductsTab(products) {
   const currentProd = editingProductId ? products.find(p => p.id === editingProductId) : null;
   const currentMainImg = currentProd?.image || "https://res.cloudinary.com/dfpxi9ywm/image/upload/v1791669268/mallofbeauty_assets/stands_esthetique.jpg";
-  const currentGallery = Array.isArray(currentProd?.gallery) && currentProd.gallery.length > 0 
-    ? currentProd.gallery 
+  const currentGallery = Array.isArray(currentProd?.gallery) && currentProd.gallery.length > 0
+    ? currentProd.gallery
     : (currentProd?.image ? [currentProd.image] : [currentMainImg]);
 
   const availableImages = [
@@ -902,6 +902,251 @@ function renderContactsTab(contacts) {
   `;
 }
 
+export function getEventBadge(type) {
+  switch (type) {
+    case "whatsapp":
+      return `<span class="badge" style="background: #ECFDF5; color: #047857; border: 1.5px solid #A7F3D0; font-weight: 700; padding: 4px 8px;">💬 WhatsApp</span>`;
+    case "phone_call":
+      return `<span class="badge" style="background: #EFF6FF; color: #1D4ED8; border: 1.5px solid #BFDBFE; font-weight: 700; padding: 4px 8px;">📞 Appel GSM</span>`;
+    case "booking":
+      return `<span class="badge" style="background: #FFFBEB; color: #B45309; border: 1.5px solid #FDE68A; font-weight: 700; padding: 4px 8px;">📅 RDV Salon</span>`;
+    case "shopper":
+      return `<span class="badge" style="background: #F5F3FF; color: #6D28D9; border: 1.5px solid #DDD6FE; font-weight: 700; padding: 4px 8px;">🛍️ Conciergerie</span>`;
+    case "loyalty":
+      return `<span class="badge" style="background: #FDF2F8; color: #BE185D; border: 1.5px solid #FBCFE8; font-weight: 700; padding: 4px 8px;">💳 Carte Privilège</span>`;
+    case "catalog":
+      return `<span class="badge" style="background: #FFF7ED; color: #C2410C; border: 1.5px solid #FFEDD5; font-weight: 700; padding: 4px 8px;">📖 Grand Catalogue</span>`;
+    case "instagram":
+      return `<span class="badge" style="background: #FDF2F8; color: #9D174D; border: 1.5px solid #FCE7F3; font-weight: 700; padding: 4px 8px;">📷 Instagram</span>`;
+    case "tiktok":
+      return `<span class="badge" style="background: #ECFEFF; color: #0E7490; border: 1.5px solid #CFFAFE; font-weight: 700; padding: 4px 8px;">🎵 TikTok</span>`;
+    case "wave":
+      return `<span class="badge" style="background: #E0F2FE; color: #0369A1; border: 1.5px solid #BAE6FD; font-weight: 700; padding: 4px 8px;">🌊 Paiement Wave</span>`;
+    default:
+      return `<span class="badge" style="background: #F8FAFC; color: #334155; border: 1.5px solid #CBD5E1; font-weight: 700; padding: 4px 8px;">⚡ ${type || 'Action'}</span>`;
+  }
+}
+
+export function renderAnalyticsEventsTableMarkup(state) {
+  const { items = [], total = 0, page = 1, limit = 20, totalPages = 1, selectedType = 'all' } = state;
+  const startIdx = total === 0 ? 0 : (page - 1) * limit + 1;
+  const endIdx = Math.min(page * limit, total);
+
+  // Regroupement intelligent par session d'utilisateur
+  // Si plusieurs clics appartiennent à la même session (sessionId identique ou succession immédiate), ils sont groupés
+  const sessionGroups = [];
+  let currentGroup = null;
+
+  items.forEach(evt => {
+    const sId = evt.sessionId || "sess_legacy_" + (evt.dateFormatted || "") + "_" + (evt.timeFormatted?.slice(0, 3) || "");
+    if (!currentGroup || currentGroup.sessionId !== sId) {
+      currentGroup = {
+        sessionId: sId,
+        dateFormatted: evt.dateFormatted || "",
+        lastTime: evt.timeFormatted || "",
+        events: [evt]
+      };
+      sessionGroups.push(currentGroup);
+    } else {
+      currentGroup.events.push(evt);
+    }
+  });
+
+  let pageButtons = [];
+  const maxButtons = 5;
+  let startPage = Math.max(1, page - Math.floor(maxButtons / 2));
+  let endPage = Math.min(totalPages, startPage + maxButtons - 1);
+  if (endPage - startPage + 1 < maxButtons) {
+    startPage = Math.max(1, endPage - maxButtons + 1);
+  }
+
+  for (let p = startPage; p <= endPage; p++) {
+    pageButtons.push(`
+      <button 
+        type="button" 
+        class="btn-action-sm ${p === page ? 'btn-gold' : 'btn-dark'}" 
+        style="min-width: 34px; height: 34px; padding: 0 8px; font-weight: 700; border-radius: 6px; cursor: pointer;"
+        onclick="window.MoB.loadAnalyticsEventsPage(${p})"
+      >
+        ${p}
+      </button>
+    `);
+  }
+
+  return `
+    <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0; margin-bottom: 24px;">
+      <!-- Entête & Filtres -->
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; flex-wrap: wrap; gap: 14px;">
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <h5 style="color: #0F172A; font-size: 1.05rem; margin: 0; font-weight: 800;">🕒 Journal d'Interactions & Conversions en Direct</h5>
+            <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1px solid #FCD34D; font-weight: 700;">
+              ${total} interaction${total > 1 ? 's' : ''} • Groupées par Session
+            </span>
+          </div>
+          <p style="margin: 4px 0 0 0; font-size: 0.82rem; color: #64748B;">
+            Parcours complet par visiteur : chaque session regroupe la suite chronologique d'actions effectuées par une même personne.
+          </p>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <!-- Filtre Type d'action -->
+          <select 
+            id="analytics-events-filter-select"
+            class="form-select" 
+            style="font-size: 0.82rem; padding: 6px 12px; border-radius: 8px; border: 1.5px solid #CBD5E1; color: #0F172A; font-weight: 600;"
+            onchange="window.MoB.filterAnalyticsEvents(this.value)"
+          >
+            <option value="all" ${selectedType === 'all' ? 'selected' : ''}>🎯 Tous les types d'actions</option>
+            <option value="whatsapp" ${selectedType === 'whatsapp' ? 'selected' : ''}>💬 Commandes WhatsApp</option>
+            <option value="phone_call" ${selectedType === 'phone_call' ? 'selected' : ''}>📞 Appels Directs GSM</option>
+            <option value="booking" ${selectedType === 'booking' ? 'selected' : ''}>📅 Rendez-vous Salon VIP</option>
+            <option value="shopper" ${selectedType === 'shopper' ? 'selected' : ''}>🛍️ Demandes Personal Shopper</option>
+            <option value="loyalty" ${selectedType === 'loyalty' ? 'selected' : ''}>💳 Cartes Privilège</option>
+            <option value="catalog" ${selectedType === 'catalog' ? 'selected' : ''}>📖 Grand Catalogue</option>
+            <option value="wave" ${selectedType === 'wave' ? 'selected' : ''}>🌊 Bouton Wave</option>
+            <option value="instagram" ${selectedType === 'instagram' ? 'selected' : ''}>📷 Visites Instagram</option>
+            <option value="tiktok" ${selectedType === 'tiktok' ? 'selected' : ''}>🎵 Visites TikTok</option>
+          </select>
+
+          <!-- Bouton Export CSV -->
+          <button 
+            type="button" 
+            class="btn btn-outline-gold btn-sm" 
+            onclick="window.MoB.exportAnalyticsEventsCSV()"
+            style="display: inline-flex; align-items: center; gap: 6px;"
+            title="Télécharger l'intégralité de l'historique au format tableur CSV"
+          >
+            <span>📥 Exporter CSV</span>
+          </button>
+
+          <!-- Bouton Rafraîchir -->
+          <button 
+            type="button" 
+            class="btn btn-dark btn-sm" 
+            onclick="window.MoB.loadAnalyticsEventsPage(${page})"
+            title="Rafraîchir depuis la base MongoDB"
+          >
+            🔄
+          </button>
+        </div>
+      </div>
+
+      <!-- Liste Regroupée par Session Visiteur -->
+      ${items.length === 0 ? `
+        <div style="padding: 36px 20px; text-align: center; color: #64748B; background: #F8FAFC; border-radius: 10px; border: 1.5px dashed #CBD5E1;">
+          <div style="font-size: 1.8rem; margin-bottom: 6px;">✨</div>
+          <div style="font-weight: 700; color: #0F172A; font-size: 0.95rem;">Aucune interaction trouvée pour ce filtre.</div>
+          <div style="font-size: 0.82rem; margin-top: 4px;">Les clics clients sur WhatsApp, appels GSM et formulaires s'enregistreront automatiquement.</div>
+        </div>
+      ` : `
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          ${sessionGroups.map((group, gIdx) => {
+            const shortSess = group.sessionId.replace(/^sess_/, "");
+            const sessCount = group.events.length;
+            const startTime = group.events[group.events.length - 1]?.timeFormatted || "";
+            const endTime = group.events[0]?.timeFormatted || "";
+            const timeLabel = startTime === endTime ? startTime : `${startTime} → ${endTime}`;
+
+            return `
+              <details class="session-foldable-group" style="border: 1.5px solid #E2E8F0; border-radius: 12px; background: #FFFFFF; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.02); transition: border-color 0.2s ease;">
+                <!-- En-tête de Session Visiteur (Cliquable pour déplier/replier) -->
+                <summary style="background: #F8FAFC; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; cursor: pointer; user-select: none; list-style: none;">
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; background: #0F172A; color: #D4AF37; font-size: 0.75rem; font-weight: 800;">
+                      👤
+                    </span>
+                    <strong style="color: #0F172A; font-size: 0.88rem;">
+                      Session Visiteur <span style="font-family: monospace; color: #2563EB;">#${shortSess}</span>
+                    </strong>
+                    <span class="badge" style="background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; font-size: 0.72rem; font-weight: 700;">
+                      ${sessCount} action${sessCount > 1 ? 's' : ''}
+                    </span>
+                  </div>
+
+                  <div style="display: flex; align-items: center; gap: 14px;">
+                    <div style="font-size: 0.78rem; color: #64748B; font-weight: 600;">
+                      📅 ${group.dateFormatted} à <span style="color: #0F172A;">${timeLabel}</span>
+                    </div>
+                    <span class="session-chevron" style="display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: #E2E8F0; color: #334155; font-size: 0.75rem; transition: transform 0.2s ease;">
+                      ▼
+                    </span>
+                  </div>
+                </summary>
+
+                <!-- Parcours chronologique des actions de cette session (visible au dépliage) -->
+                <div class="admin-table-wrap" style="margin: 0; border: none; border-top: 1.5px solid #E2E8F0; border-radius: 0;">
+                  <table class="admin-table" style="margin: 0;">
+                    <thead>
+                      <tr style="background: #FFFFFF;">
+                        <th style="width: 100px; padding: 8px 16px; font-size: 0.75rem;">Heure</th>
+                        <th style="width: 160px; padding: 8px 16px; font-size: 0.75rem;">Action / Canal</th>
+                        <th style="padding: 8px 16px; font-size: 0.75rem;">Détails & Produit ciblé</th>
+                        <th style="width: 180px; padding: 8px 16px; font-size: 0.75rem;">Page / Emplacement</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${group.events.map((evt, idx) => `
+                        <tr style="${idx % 2 === 0 ? 'background: #FFFFFF;' : 'background: #FAFAFA;'}">
+                          <td style="padding: 10px 16px;">
+                            <strong style="color: #0F172A; font-size: 0.82rem;">${evt.timeFormatted || ''}</strong>
+                          </td>
+                          <td style="padding: 10px 16px;">
+                            ${getEventBadge(evt.type)}
+                          </td>
+                          <td style="padding: 10px 16px;">
+                            <strong style="color: #0F172A; font-size: 0.86rem;">${evt.label || evt.type}</strong>
+                          </td>
+                          <td style="padding: 10px 16px;">
+                            <code style="background: #F1F5F9; color: #475569; padding: 2px 7px; border-radius: 5px; font-size: 0.74rem; font-weight: 600;">${evt.path || '/'}</code>
+                          </td>
+                        </tr>
+                      `).join('')}
+                    </tbody>
+                  </table>
+                </div>
+              </details>
+            `;
+          }).join('')}
+        </div>
+
+        <!-- Barre de Contrôle Pagination -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 18px; padding-top: 14px; border-top: 1px solid #E2E8F0; flex-wrap: wrap; gap: 12px;">
+          <div style="font-size: 0.82rem; color: #64748B;">
+            Affichage de <strong style="color: #0F172A;">${startIdx}</strong> à <strong style="color: #0F172A;">${endIdx}</strong> sur <strong style="color: #0F172A;">${total}</strong> interaction${total > 1 ? 's' : ''} (${sessionGroups.length} sessions sur cette page)
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <button 
+              type="button" 
+              class="btn-action-sm btn-dark" 
+              style="padding: 0 10px; height: 34px; font-size: 0.78rem; cursor: pointer;"
+              ${page <= 1 ? 'disabled style="opacity: 0.4; cursor: not-allowed; padding: 0 10px; height: 34px; font-size: 0.78rem;"' : ''}
+              onclick="window.MoB.loadAnalyticsEventsPage(${page - 1})"
+              title="Page précédente"
+            >
+              ‹ Précédent
+            </button>
+
+            ${pageButtons.join('')}
+
+            <button 
+              type="button" 
+              class="btn-action-sm btn-dark" 
+              style="padding: 0 10px; height: 34px; font-size: 0.78rem; cursor: pointer;"
+              ${page >= totalPages ? 'disabled style="opacity: 0.4; cursor: not-allowed; padding: 0 10px; height: 34px; font-size: 0.78rem;"' : ''}
+              onclick="window.MoB.loadAnalyticsEventsPage(${page + 1})"
+              title="Page suivante"
+            >
+              Suivant ›
+            </button>
+          </div>
+        </div>
+      `}
+    </div>
+  `;
+}
+
 function renderAnalyticsTab(analytics) {
   const gsm = analytics.phone_call || 0;
   const wa = analytics.whatsapp || 0;
@@ -910,19 +1155,46 @@ function renderAnalyticsTab(analytics) {
   const booking = analytics.booking || 0;
   const shopper = analytics.shopper || 0;
   const loyalty = analytics.loyalty || 0;
+  const events = Array.isArray(analytics.events) ? analytics.events : [];
 
   return `
     <div class="admin-tab-header">
       <div>
-        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">📊 Tableau de Bord Analytique & Tracking des Clics CTA</h4>
-        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Suivi en temps réel des interactions sur vos boutons d'action (CTA) et réseaux sociaux.</p>
+        <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">📊 Tableau de Bord Analytique & Tracking des Visites</h4>
+        <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Analyse multi-angles : Trafic Web Vercel (Où, Quand, Comment) et Conversions directes en temps réel.</p>
       </div>
-      <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.handleResetAnalytics()">
-        🔄 Réinitialiser les Compteurs
-      </button>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <button class="btn btn-gold btn-sm" onclick="window.MoB.loadVercelAnalytics(true)">
+          🔄 Actualiser Vercel
+        </button>
+        <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" class="btn btn-dark btn-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+          🌐 Console Vercel ↗
+        </a>
+        <button class="btn btn-outline-danger btn-sm" onclick="window.MoB.handleResetAnalytics()" style="color: #DC2626; border-color: #FECACA; background: #FEF2F2;" title="Archiver le trafic actuel dans MongoDB et remettre les compteurs à zéro">
+          📦 Archiver & Réinitialiser
+        </button>
+      </div>
     </div>
 
-    <!-- Grille des Métriques Détaillées -->
+    <!-- Section Dynamique Vercel Web Analytics (Où, Quand, Comment) -->
+    <!--div id="vercel-analytics-section" style="margin-bottom: 24px;">
+      <div style="background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 24px; text-align: center; color: #64748B;">
+        <div style="font-size: 1.8rem; margin-bottom: 8px;">🌐</div>
+        <div style="font-weight: 700; color: #0F172A; font-size: 1rem;">Chargement des données Vercel Web Analytics en direct...</div>
+        <div style="font-size: 0.82rem; margin-top: 4px;">Récupération des visiteurs uniques, pages vues, canaux d'acquisition et pays.</div>
+      </div>
+    </div-->
+
+    <!-- Titre Section 2 : Conversions Directes -->
+    <div style="margin: 28px 0 14px 0; display: flex; align-items: center; justify-content: space-between;">
+      <div>
+        <h5 style="margin: 0; font-size: 1rem; color: #0F172A; font-weight: 800;">⚡ Conversions & Actions Directes (CTA)</h5>
+        <p style="margin: 2px 0 0 0; font-size: 0.8rem; color: #64748B;">Clics immédiats sur WhatsApp, appels téléphoniques et redirections réseaux.</p>
+      </div>
+      <span class="badge" style="background: #F8FAFC; border: 1px solid #CBD5E1; color: #334155; font-weight: 700;">${analytics.total || 0} clics au total</span>
+    </div>
+
+    <!-- Grille des Métriques CTA -->
     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px;">
       <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #2563EB;">
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
@@ -983,6 +1255,18 @@ function renderAnalyticsTab(analytics) {
         <span>Dernier événement : <strong style="color: #0F172A;">${analytics.lastEvent || 'Aucun'}</strong></span>
         <span>Dernière mise à jour : <strong style="color: #0F172A;">${new Date(analytics.updatedAt || Date.now()).toLocaleTimeString('fr-FR')}</strong></span>
       </div>
+    </div>
+
+    <!-- JOURNAL DÉTAILLÉ AVEC PAGINATION & ARCHIVE MONGODB -->
+    <div id="admin-analytics-events-container">
+      ${renderAnalyticsEventsTableMarkup({
+    items: events.slice(0, 20),
+    total: events.length,
+    page: 1,
+    limit: 20,
+    totalPages: Math.ceil(events.length / 20) || 1,
+    selectedType: 'all'
+  })}
     </div>
   `;
 }
@@ -1405,6 +1689,16 @@ export function switchAdminTabLive(tab) {
     container.className = `mob-admin-content theme-${tab}`;
     container.innerHTML = renderAdminTabContent(tab);
     container.scrollTop = 0;
+  }
+
+  // 4. Déclencher le chargement des analytics Vercel et de l'historique paginé si l'onglet est actif
+  if (tab === "analytics" && typeof window !== "undefined" && window.MoB) {
+    if (typeof window.MoB.loadVercelAnalytics === "function") {
+      setTimeout(() => window.MoB.loadVercelAnalytics(), 40);
+    }
+    if (typeof window.MoB.loadAnalyticsEventsPage === "function") {
+      setTimeout(() => window.MoB.loadAnalyticsEventsPage(1), 60);
+    }
   }
 }
 
