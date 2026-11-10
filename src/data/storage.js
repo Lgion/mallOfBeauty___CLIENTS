@@ -1000,15 +1000,17 @@ export async function archiveAndResetAnalyticsClicks() {
     eventsCompact: compactEvents
   };
 
-  // 3. Sauvegarde dans la collection dédiée d'archives condensées
-  try {
-    await fetch('/api/analytics_archives', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(archiveRecord)
-    });
-  } catch (e) {
-    console.error("Échec de la sauvegarde de l'archive dans MongoDB", e);
+  // 3. Sauvegarde dans la collection dédiée d'archives condensées (uniquement s'il y a du trafic réel à archiver)
+  if ((currentStats.total || 0) > 0 || compactEvents.length > 0) {
+    try {
+      await fetch('/api/analytics_archives', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(archiveRecord)
+      });
+    } catch (e) {
+      console.error("Échec de la sauvegarde de l'archive dans MongoDB", e);
+    }
   }
 
   // 4. Réinitialisation propre du document principal dans MongoDB (id: "analytics")
