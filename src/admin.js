@@ -1306,6 +1306,175 @@ window.MoB.deleteSingleArchive = async (archiveId) => {
   }
 };
 
+// --- MODALE DE DÉTAILS CHRONOLOGIQUES PAR CANAL CTA & FORMULAIRES ---
+window.MoB.openAnalyticsDetailModal = async (type, title) => {
+  const oldModal = document.getElementById("mob-analytics-detail-modal");
+  if (oldModal) oldModal.remove();
+
+  const modalOverlay = document.createElement("div");
+  modalOverlay.id = "mob-analytics-detail-modal";
+  modalOverlay.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.78);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  `;
+
+  modalOverlay.innerHTML = `
+    <div style="background: #FFFFFF; border-radius: 20px; box-shadow: 0 25px 60px rgba(0,0,0,0.3); width: 100%; max-width: 840px; max-height: 88vh; display: flex; flex-direction: column; overflow: hidden; border: 1.5px solid #E2E8F0;">
+      <!-- Entête Modale -->
+      <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); padding: 18px 24px; color: #FFFFFF; display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #D4AF37;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span style="background: #D4AF37; color: #0F172A; width: 34px; height: 34px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 800;">
+            📊
+          </span>
+          <div>
+            <h3 style="margin: 0; font-size: 1.1rem; font-weight: 800; color: #F8FAFC;">Historique Chronologique • ${title}</h3>
+            <span style="font-size: 0.78rem; color: #94A3B8;">Détail complet des interactions enregistrées pour ce canal</span>
+          </div>
+        </div>
+        <button onclick="window.MoB.closeAnalyticsDetailModal()" style="background: transparent; border: none; color: #94A3B8; font-size: 1.4rem; cursor: pointer; padding: 4px; line-height: 1;" title="Fermer">&times;</button>
+      </div>
+
+      <!-- Corps Défilable -->
+      <div id="mob-analytics-detail-modal-body" style="flex: 1; overflow-y: auto; padding: 24px; background: #FAFBFD;">
+        <div style="text-align: center; padding: 40px 20px; color: #64748B;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>
+          <div style="font-weight: 700; color: #0F172A;">Chargement des interactions chronologiques...</div>
+        </div>
+      </div>
+
+      <!-- Pied de page -->
+      <div style="padding: 14px 24px; background: #FFFFFF; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <div id="mob-analytics-detail-modal-footer-info" style="font-size: 0.8rem; color: #64748B;"></div>
+        <div style="display: flex; gap: 10px;">
+          <button type="button" class="btn btn-outline-gold btn-sm" onclick="window.MoB.filterFromDetailModal('${type}')" style="display: inline-flex; align-items: center; gap: 6px;">
+            <span>🎯 Voir dans le journal</span>
+          </button>
+          <button type="button" class="btn btn-dark btn-sm" onclick="window.MoB.closeAnalyticsDetailModal()">Fermer</button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modalOverlay);
+
+  // Charger les données du canal ciblé
+  try {
+    const body = document.getElementById("mob-analytics-detail-modal-body");
+    const footerInfo = document.getElementById("mob-analytics-detail-modal-footer-info");
+    
+    // Récupérer tous les événements de ce type depuis MongoDB
+    const res = await fetch(`/api/analytics_events?export=true&type=${encodeURIComponent(type)}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const items = Array.isArray(data.items) ? data.items : [];
+
+    if (items.length === 0) {
+      body.innerHTML = `
+        <div style="padding: 48px 24px; text-align: center; color: #64748B; background: #FFFFFF; border-radius: 14px; border: 1.5px dashed #CBD5E1;">
+          <div style="font-size: 2.2rem; margin-bottom: 10px;">✨</div>
+          <div style="font-weight: 700; color: #0F172A; font-size: 1rem;">Aucune interaction enregistrée pour ${title}.</div>
+          <div style="font-size: 0.82rem; margin-top: 4px;">Dès qu'un visiteur effectuera cette action, chaque événement sera archivé ici par ordre chronologique.</div>
+        </div>
+      `;
+      if (footerInfo) footerInfo.textContent = "0 action trouvée";
+      return;
+    }
+
+    if (footerInfo) {
+      footerInfo.innerHTML = `<strong>${items.length}</strong> interaction${items.length > 1 ? 's' : ''} répertoriée${items.length > 1 ? 's' : ''} (de la plus récente à la plus ancienne)`;
+    }
+
+    body.innerHTML = `
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.03);">
+          <div class="admin-table-wrap" style="margin: 0; border: none;">
+            <table class="admin-table" style="margin: 0;">
+              <thead>
+                <tr style="background: #F8FAFC;">
+                  <th style="width: 140px; padding: 10px 16px; font-size: 0.76rem;">Date & Heure</th>
+                  <th style="padding: 10px 16px; font-size: 0.76rem;">Détail de l'action / Label</th>
+                  <th style="width: 170px; padding: 10px 16px; font-size: 0.76rem;">Page / Emplacement</th>
+                  <th style="width: 140px; padding: 10px 16px; font-size: 0.76rem;">Session Visiteur</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${items.map((item, idx) => {
+                  const dateStr = item.dateFormatted ? `${item.dateFormatted} à ${item.timeFormatted || ''}` : (item.timestamp ? new Date(item.timestamp).toLocaleString('fr-FR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '-');
+                  const sess = item.sessionId ? item.sessionId.replace(/^sess_/, '#') : 'Legacy';
+                  return `
+                    <tr style="${idx % 2 === 0 ? 'background: #FFFFFF;' : 'background: #FAFAFA;'}">
+                      <td style="padding: 10px 16px; white-space: nowrap;">
+                        <strong style="color: #0F172A; font-size: 0.82rem;">${dateStr}</strong>
+                      </td>
+                      <td style="padding: 10px 16px;">
+                        <div style="font-weight: 700; color: #0F172A; font-size: 0.86rem;">
+                          ${item.label || item.type}
+                        </div>
+                      </td>
+                      <td style="padding: 10px 16px;">
+                        <code style="background: #F1F5F9; color: #475569; padding: 2px 7px; border-radius: 5px; font-size: 0.74rem; font-weight: 600;">
+                          ${item.path || '/'}
+                        </code>
+                      </td>
+                      <td style="padding: 10px 16px; font-family: monospace; color: #2563EB; font-size: 0.78rem; font-weight: 600;">
+                        ${sess}
+                      </td>
+                    </tr>
+                  `;
+                }).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    `;
+  } catch (err) {
+    console.error("Erreur chargement détails modal CTA:", err);
+    const body = document.getElementById("mob-analytics-detail-modal-body");
+    if (body) {
+      body.innerHTML = `
+        <div style="background: #FFF1F2; border: 1.5px solid #FECDD3; border-radius: 12px; padding: 20px; color: #991B1B; text-align: center;">
+          <strong style="font-size: 0.95rem;">Impossible de charger les données pour ce canal.</strong>
+          <p style="font-size: 0.82rem; margin: 6px 0 12px 0;">Une erreur réseau s'est produite lors de la connexion à MongoDB.</p>
+          <button class="btn btn-outline-danger btn-sm" onclick="window.MoB.openAnalyticsDetailModal('${type}', '${title}')">Réessayer</button>
+        </div>
+      `;
+    }
+  }
+};
+
+window.MoB.closeAnalyticsDetailModal = () => {
+  const modal = document.getElementById("mob-analytics-detail-modal");
+  if (modal) modal.remove();
+};
+
+window.MoB.filterFromDetailModal = (type) => {
+  window.MoB.closeAnalyticsDetailModal();
+  const select = document.getElementById("analytics-events-filter-select");
+  if (select) {
+    select.value = type;
+  }
+  if (typeof window.MoB.filterAnalyticsEvents === "function") {
+    window.MoB.filterAnalyticsEvents(type);
+  }
+  // Faire défiler jusqu'au journal
+  const container = document.getElementById("admin-analytics-events-container");
+  if (container) {
+    container.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+};
+
 window.MoB.toggleGalleryForm = () => {
   toggleAddGalleryFormState();
   refreshAdminActiveTab();

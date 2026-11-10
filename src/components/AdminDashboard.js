@@ -994,7 +994,7 @@ export function renderAnalyticsEventsTableMarkup(state) {
           <select 
             id="analytics-events-filter-select"
             class="form-select" 
-            style="font-size: 0.82rem; padding: 6px 12px; border-radius: 8px; border: 1.5px solid #CBD5E1; color: #0F172A; font-weight: 600;"
+            style="font-size: 0.82rem; padding: 7px 14px; border-radius: 8px; border: 1.5px solid #0F172A; background-color: #FFFFFF; color: #0F172A; font-weight: 700; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.06);"
             onchange="window.MoB.filterAnalyticsEvents(this.value)"
           >
             <option value="all" ${selectedType === 'all' ? 'selected' : ''}>🎯 Tous les types d'actions</option>
@@ -1212,40 +1212,72 @@ function renderAnalyticsTab(analytics) {
 
     <!-- Grille des Métriques CTA -->
     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px;">
-      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #2563EB;">
+      <div 
+        class="luxury-card cta-clickable-card" 
+        onclick="window.MoB.openAnalyticsDetailModal('phone_call', 'Appels Directs GSM')"
+        style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #2563EB; cursor: pointer; transition: all 0.2s ease; position: relative;"
+        title="Cliquer pour voir l'historique chronologique des Appels GSM"
+      >
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
           <span style="font-size: 0.75rem; text-transform: uppercase; color: #2563EB; font-weight: 700;">Appels Directs GSM</span>
           <span style="font-size: 1.3rem;">📞</span>
         </div>
         <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${gsm}</div>
-        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Clics sur le numéro portable classique</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px; display: flex; justify-content: space-between; align-items: center;">
+          <span>Clics sur le numéro mobile</span>
+          <span style="font-size: 0.7rem; color: #2563EB; font-weight: 700;">Détails ↗</span>
+        </div>
       </div>
 
-      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #059669;">
+      <div 
+        class="luxury-card cta-clickable-card" 
+        onclick="window.MoB.openAnalyticsDetailModal('whatsapp', 'WhatsApp Business')"
+        style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #059669; cursor: pointer; transition: all 0.2s ease; position: relative;"
+        title="Cliquer pour voir l'historique chronologique des clics WhatsApp"
+      >
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
           <span style="font-size: 0.75rem; text-transform: uppercase; color: #059669; font-weight: 700;">WhatsApp Business</span>
           <span style="font-size: 1.3rem;">💬</span>
         </div>
         <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${wa}</div>
-        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Commandes & prises de contact</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px; display: flex; justify-content: space-between; align-items: center;">
+          <span>Commandes & prises de contact</span>
+          <span style="font-size: 0.7rem; color: #059669; font-weight: 700;">Détails ↗</span>
+        </div>
       </div>
 
-      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #DB2777;">
+      <div 
+        class="luxury-card cta-clickable-card" 
+        onclick="window.MoB.openAnalyticsDetailModal('instagram', 'Visites Instagram')"
+        style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #DB2777; cursor: pointer; transition: all 0.2s ease; position: relative;"
+        title="Cliquer pour voir l'historique chronologique des visites Instagram"
+      >
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
           <span style="font-size: 0.75rem; text-transform: uppercase; color: #DB2777; font-weight: 700;">Visites Instagram</span>
           <span style="font-size: 1.3rem;">📷</span>
         </div>
         <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${ig}</div>
-        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Redirections vers @mallofbeauty_mofb</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px; display: flex; justify-content: space-between; align-items: center;">
+          <span>Redirections @mallofbeauty_mofb</span>
+          <span style="font-size: 0.7rem; color: #DB2777; font-weight: 700;">Détails ↗</span>
+        </div>
       </div>
 
-      <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #0891B2;">
+      <div 
+        class="luxury-card cta-clickable-card" 
+        onclick="window.MoB.openAnalyticsDetailModal('tiktok', 'Vidéos TikTok')"
+        style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-top: 4px solid #0891B2; cursor: pointer; transition: all 0.2s ease; position: relative;"
+        title="Cliquer pour voir l'historique chronologique des redirections TikTok"
+      >
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
           <span style="font-size: 0.75rem; text-transform: uppercase; color: #0891B2; font-weight: 700;">Vidéos TikTok</span>
           <span style="font-size: 1.3rem;">🎵</span>
         </div>
         <div style="font-size: 2rem; font-family: var(--font-serif); font-weight: 800; color: #0F172A;">${tt}</div>
-        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px;">Redirections vers @mallofbeauty1</div>
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 4px; display: flex; justify-content: space-between; align-items: center;">
+          <span>Redirections @mallofbeauty1</span>
+          <span style="font-size: 0.7rem; color: #0891B2; font-weight: 700;">Détails ↗</span>
+        </div>
       </div>
     </div>
 
@@ -1253,15 +1285,30 @@ function renderAnalyticsTab(analytics) {
     <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0; margin-bottom: 24px;">
       <h5 style="color: #0F172A; font-size: 1rem; margin-bottom: 16px; font-weight: 700;">Engagement & Soumissions de Formulaires</h5>
       <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; text-align: center;">
-        <div style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md);">
+        <div 
+          class="cta-clickable-card"
+          onclick="window.MoB.openAnalyticsDetailModal('booking', 'Rendez-vous Conseils Validés')"
+          style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md); cursor: pointer; transition: all 0.2s ease;"
+          title="Cliquer pour voir les détails chronologiques des RDV"
+        >
           <div style="font-size: 1.6rem; font-weight: 800; color: #D97706;">${booking}</div>
           <div style="font-size: 0.82rem; color: #475569; margin-top: 4px; font-weight: 600;">RDV Conseils Validés</div>
         </div>
-        <div style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md);">
+        <div 
+          class="cta-clickable-card"
+          onclick="window.MoB.openAnalyticsDetailModal('shopper', 'Demandes Personal Shopper')"
+          style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md); cursor: pointer; transition: all 0.2s ease;"
+          title="Cliquer pour voir les détails chronologiques Personal Shopper"
+        >
           <div style="font-size: 1.6rem; font-weight: 800; color: #2563EB;">${shopper}</div>
           <div style="font-size: 0.82rem; color: #475569; margin-top: 4px; font-weight: 600;">Demandes Personal Shopper</div>
         </div>
-        <div style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md);">
+        <div 
+          class="cta-clickable-card"
+          onclick="window.MoB.openAnalyticsDetailModal('loyalty', 'Adhésions Carte Privilège')"
+          style="padding: 16px; background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: var(--radius-md); cursor: pointer; transition: all 0.2s ease;"
+          title="Cliquer pour voir les détails chronologiques Carte Privilège"
+        >
           <div style="font-size: 1.6rem; font-weight: 800; color: #DB2777;">${loyalty}</div>
           <div style="font-size: 0.82rem; color: #475569; margin-top: 4px; font-weight: 600;">Adhésions Carte Privilège</div>
         </div>
