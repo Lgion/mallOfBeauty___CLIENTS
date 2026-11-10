@@ -68,11 +68,129 @@ function showToast(message, type = "success") {
   }, 3500);
 }
 
+// --- TIROIR DE NAVIGATION PLIABLE MOBILE (POPOVER + SCROLL SNAP) ---
+let drawerKeydownBound = false;
+
+function initAdminNavigationDrawer() {
+  const drawer = document.getElementById("mob-admin-sidebar");
+  const openBtn = document.getElementById("mob-drawer-open");
+  const closeBtn = document.getElementById("mob-drawer-close");
+  const scroller = drawer?.querySelector(".mob-drawer-scroller");
+  const sheet = drawer?.querySelector(".mob-drawer-sheet");
+  const mainRegion = document.querySelector(".mob-admin-main");
+  const topPill = document.querySelector(".mob-clerk-top-pill");
+
+  if (!drawer || !openBtn || !closeBtn || !scroller || !sheet) return;
+
+  const mobileQuery = window.matchMedia("(max-width: 960px)");
+
+  function syncDrawerMode(isMobile) {
+    if (isMobile) {
+      drawer.setAttribute("popover", "manual");
+      drawer.setAttribute("role", "dialog");
+    } else {
+      try {
+        if (drawer.matches(":popover-open")) drawer.hidePopover();
+      } catch (_) {}
+      if (mainRegion) mainRegion.inert = false;
+      if (topPill) topPill.inert = false;
+      drawer.removeAttribute("popover");
+      drawer.removeAttribute("role");
+      drawer.removeAttribute("aria-modal");
+      openBtn.setAttribute("aria-expanded", "false");
+    }
+  }
+
+  async function openDrawer() {
+    if (!mobileQuery.matches || !drawer.hasAttribute("popover")) return;
+    drawer.showPopover();
+    if (mainRegion) mainRegion.inert = true;
+    if (topPill) topPill.inert = true;
+    drawer.setAttribute("aria-modal", "true");
+
+    if (!CSS.supports("scroll-initial-target", "nearest")) {
+      scroller.scrollTo({ left: scroller.offsetWidth, behavior: "instant" });
+      await new Promise((r) =>
+        requestAnimationFrame(() => requestAnimationFrame(r))
+      );
+    }
+
+    scroller.scrollTo({ left: 0, behavior: "auto" });
+  }
+
+  function closeDrawer() {
+    if (!drawer.hasAttribute("aria-modal")) return;
+    scroller.scrollTo({ left: scroller.offsetWidth, behavior: "auto" });
+  }
+
+  function onDrawerOpened() {
+    openBtn.setAttribute("aria-expanded", "true");
+  }
+
+  function onDrawerClosed() {
+    if (!drawer.hasAttribute("aria-modal")) return;
+    try {
+      if (drawer.matches(":popover-open")) drawer.hidePopover();
+    } catch (_) {}
+    if (mainRegion) mainRegion.inert = false;
+    if (topPill) topPill.inert = false;
+    drawer.removeAttribute("aria-modal");
+    openBtn.setAttribute("aria-expanded", "false");
+    openBtn.focus();
+  }
+
+  const visibleThreshold = 1 / Math.max(window.innerWidth, 1);
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (!mobileQuery.matches || !drawer.hasAttribute("popover")) return;
+      const entry = entries.at(-1);
+      if (!entry) return;
+      if (entry.intersectionRatio < visibleThreshold) onDrawerClosed();
+      if (entry.intersectionRatio === 1) onDrawerOpened();
+    },
+    { root: drawer, threshold: [visibleThreshold, 1] }
+  );
+  observer.observe(sheet);
+
+  if (!CSS.supports("animation-timeline: scroll()")) {
+    scroller.addEventListener("scroll", () => {
+      if (!mobileQuery.matches || !sheet.offsetWidth) return;
+      const ratio = Math.max(0, Math.min(1, 1 - scroller.scrollLeft / sheet.offsetWidth));
+      drawer.style.setProperty("--drawer-backdrop", String(ratio));
+    }, { passive: true });
+  }
+
+  openBtn.addEventListener("click", openDrawer);
+  closeBtn.addEventListener("click", closeDrawer);
+
+  drawer.addEventListener("click", (event) => {
+    if (mobileQuery.matches && !sheet.contains(event.target)) {
+      closeDrawer();
+    }
+  });
+
+  if (!drawerKeydownBound) {
+    drawerKeydownBound = true;
+    document.addEventListener("keydown", (event) => {
+      const activeDrawer = document.getElementById("mob-admin-sidebar");
+      if (event.key === "Escape" && mobileQuery.matches && activeDrawer?.hasAttribute("aria-modal")) {
+        window.MoB.closeMobileDrawer?.();
+      }
+    });
+  }
+
+  mobileQuery.addEventListener("change", (e) => syncDrawerMode(e.matches));
+  syncDrawerMode(mobileQuery.matches);
+
+  window.MoB.closeMobileDrawer = closeDrawer;
+}
+
 // --- INITIALISATION DU DASHBOARD ---
 function initAdmin() {
   const root = document.getElementById("admin-root");
   if (!root) return;
   root.innerHTML = renderAdminDashboard("products");
+  initAdminNavigationDrawer();
   checkMonthlyAutoArchive();
 }
 
@@ -85,6 +203,9 @@ window.MoB.closeAdminModal = () => {
 
 window.MoB.switchAdminTab = (tab) => {
   switchAdminTabLive(tab);
+  if (window.innerWidth <= 960 && typeof window.MoB.closeMobileDrawer === "function") {
+    window.MoB.closeMobileDrawer();
+  }
 };
 
 // --- CLOUDINARY UPLOAD & DESTROY HELPERS ---

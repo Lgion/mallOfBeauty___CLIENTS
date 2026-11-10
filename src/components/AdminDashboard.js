@@ -112,97 +112,106 @@ export function renderAdminDashboard(activeTab = "products") {
 
   return `
     <div class="mob-admin-app">
-      <!-- SIDEBAR LATÉRALE DÉDIÉE -->
-      <aside class="mob-admin-sidebar">
-        <!-- Logo & Titre Boutique -->
-        <div class="mob-sidebar-brand">
-          <div class="mob-brand-icon">⚡</div>
-          <div class="mob-brand-info">
-            <div class="mob-brand-title">MALL OF BEAUTY</div>
-            <div class="mob-brand-subtitle">Administration • Les Vallons</div>
+      <!-- SIDEBAR LATÉRALE DÉDIÉE (Tiroir pliable sur mobile via Popover API + Scroll Snap) -->
+      <aside class="mob-admin-sidebar" id="mob-admin-sidebar" aria-label="Menu de navigation administration">
+        <div class="mob-drawer-scroller">
+          <div class="mob-drawer-sheet">
+            <!-- Logo & Titre Boutique + Bouton fermer (mobile) -->
+            <div class="mob-sidebar-brand">
+              <div style="display: flex; align-items: center; gap: 12px; min-width: 0;">
+                <div class="mob-brand-icon">⚡</div>
+                <div class="mob-brand-info">
+                  <div class="mob-brand-title">MALL OF BEAUTY</div>
+                  <div class="mob-brand-subtitle">Administration • Les Vallons</div>
+                </div>
+              </div>
+              <button type="button" id="mob-drawer-close" class="mob-drawer-close-btn" aria-label="Fermer le menu" autofocus>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </button>
+            </div>
+
+            <!-- Statut Système & Base de données -->
+            <div class="mob-sidebar-status">
+              <span class="mob-status-dot"></span>
+              <span>MongoDB Atlas Connecté</span>
+            </div>
+
+            <!-- 9 Sections Réorganisées avec Icônes SVG et Badges Clairs -->
+            <nav class="mob-sidebar-nav">
+              <div class="mob-nav-group-title">Catalogue & Vente</div>
+              
+              <button class="mob-nav-item ${currentTab === 'products' ? 'active' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.products}</span>
+                <span class="mob-nav-label">Produits</span>
+                <span class="mob-nav-badge" data-tab-badge="products">${products.length}</span>
+              </button>
+
+              <button class="mob-nav-item ${currentTab === 'featured' ? 'active' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.featured}</span>
+                <span class="mob-nav-label">Vitrine Phares</span>
+                <span class="mob-nav-badge gold" data-tab-badge="featured">${featuredCount}</span>
+              </button>
+
+              <button class="mob-nav-item ${currentTab === 'gallery' ? 'active' : ''}" data-tab="gallery" onclick="window.MoB.switchAdminTab('gallery')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.gallery}</span>
+                <span class="mob-nav-label">Galerie Photos</span>
+                <span class="mob-nav-badge" data-tab-badge="gallery">${galleryImages.length}</span>
+              </button>
+
+              <div class="mob-nav-group-title">Services & Clients</div>
+
+              <button class="mob-nav-item ${currentTab === 'appointments' ? 'active' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.appointments}</span>
+                <span class="mob-nav-label">Rendez-vous</span>
+                <span class="mob-nav-badge ${pendingAppointments > 0 ? 'warning' : ''}" data-tab-badge="appointments">
+                  ${appointments.length}
+                </span>
+              </button>
+
+              <button class="mob-nav-item ${currentTab === 'personal-shopper' ? 'active' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.personalShopper}</span>
+                <span class="mob-nav-label">Personal Shopper</span>
+                <span class="mob-nav-badge ${pendingPS > 0 ? 'warning' : ''}" data-tab-badge="personal-shopper">
+                  ${psRequests.length}
+                </span>
+              </button>
+
+              <button class="mob-nav-item ${currentTab === 'loyalty' ? 'active' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.loyalty}</span>
+                <span class="mob-nav-label">Carte Privilège</span>
+                <span class="mob-nav-badge" data-tab-badge="loyalty">${loyaltyMembers.length}</span>
+              </button>
+
+              <button class="mob-nav-item ${currentTab === 'contacts' ? 'active' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.contacts}</span>
+                <span class="mob-nav-label">Messages</span>
+                <span class="mob-nav-badge ${unreadContacts > 0 ? 'danger' : ''}" data-tab-badge="contacts">
+                  ${contacts.length}
+                </span>
+              </button>
+
+              <div class="mob-nav-group-title">Système & Pilotage</div>
+
+              <button class="mob-nav-item ${currentTab === 'analytics' ? 'active' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.analytics}</span>
+                <span class="mob-nav-label">Statistiques Clics</span>
+                <span class="mob-nav-badge" data-tab-badge="analytics">${analytics.total || 0}</span>
+              </button>
+
+              <button class="mob-nav-item ${currentTab === 'settings' ? 'active' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')">
+                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.settings}</span>
+                <span class="mob-nav-label">Paramètres Boutique</span>
+              </button>
+            </nav>
+
+            <!-- Bas de Sidebar : Lien Direct vers le Site Public -->
+            <div class="mob-sidebar-footer">
+              <a href="/" class="mob-btn-return-site" title="Accéder à la boutique publique">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                <span>Retour au site public</span>
+              </a>
+            </div>
           </div>
-        </div>
-
-        <!-- Statut Système & Base de données -->
-        <div class="mob-sidebar-status">
-          <span class="mob-status-dot"></span>
-          <span>MongoDB Atlas Connecté</span>
-        </div>
-
-        <!-- 9 Sections Réorganisées avec Icônes SVG et Badges Clairs -->
-        <nav class="mob-sidebar-nav">
-          <div class="mob-nav-group-title">Catalogue & Vente</div>
-          
-          <button class="mob-nav-item ${currentTab === 'products' ? 'active' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.products}</span>
-            <span class="mob-nav-label">Produits</span>
-            <span class="mob-nav-badge" data-tab-badge="products">${products.length}</span>
-          </button>
-
-          <button class="mob-nav-item ${currentTab === 'featured' ? 'active' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.featured}</span>
-            <span class="mob-nav-label">Vitrine Phares</span>
-            <span class="mob-nav-badge gold" data-tab-badge="featured">${featuredCount}</span>
-          </button>
-
-          <button class="mob-nav-item ${currentTab === 'gallery' ? 'active' : ''}" data-tab="gallery" onclick="window.MoB.switchAdminTab('gallery')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.gallery}</span>
-            <span class="mob-nav-label">Galerie Photos</span>
-            <span class="mob-nav-badge" data-tab-badge="gallery">${galleryImages.length}</span>
-          </button>
-
-          <div class="mob-nav-group-title">Services & Clients</div>
-
-          <button class="mob-nav-item ${currentTab === 'appointments' ? 'active' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.appointments}</span>
-            <span class="mob-nav-label">Rendez-vous</span>
-            <span class="mob-nav-badge ${pendingAppointments > 0 ? 'warning' : ''}" data-tab-badge="appointments">
-              ${appointments.length}
-            </span>
-          </button>
-
-          <button class="mob-nav-item ${currentTab === 'personal-shopper' ? 'active' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.personalShopper}</span>
-            <span class="mob-nav-label">Personal Shopper</span>
-            <span class="mob-nav-badge ${pendingPS > 0 ? 'warning' : ''}" data-tab-badge="personal-shopper">
-              ${psRequests.length}
-            </span>
-          </button>
-
-          <button class="mob-nav-item ${currentTab === 'loyalty' ? 'active' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.loyalty}</span>
-            <span class="mob-nav-label">Carte Privilège</span>
-            <span class="mob-nav-badge" data-tab-badge="loyalty">${loyaltyMembers.length}</span>
-          </button>
-
-          <button class="mob-nav-item ${currentTab === 'contacts' ? 'active' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.contacts}</span>
-            <span class="mob-nav-label">Messages</span>
-            <span class="mob-nav-badge ${unreadContacts > 0 ? 'danger' : ''}" data-tab-badge="contacts">
-              ${contacts.length}
-            </span>
-          </button>
-
-          <div class="mob-nav-group-title">Système & Pilotage</div>
-
-          <button class="mob-nav-item ${currentTab === 'analytics' ? 'active' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.analytics}</span>
-            <span class="mob-nav-label">Statistiques Clics</span>
-            <span class="mob-nav-badge" data-tab-badge="analytics">${analytics.total || 0}</span>
-          </button>
-
-          <button class="mob-nav-item ${currentTab === 'settings' ? 'active' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')">
-            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.settings}</span>
-            <span class="mob-nav-label">Paramètres Boutique</span>
-          </button>
-        </nav>
-
-        <!-- Bas de Sidebar : Lien Direct vers le Site Public -->
-        <div class="mob-sidebar-footer">
-          <a href="/" class="mob-btn-return-site" title="Accéder à la boutique publique">
-            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            <span>Retour au site public</span>
-          </a>
         </div>
       </aside>
 
@@ -210,13 +219,18 @@ export function renderAdminDashboard(activeTab = "products") {
       <div class="mob-admin-main">
         <header class="mob-admin-topbar">
           <div class="mob-topbar-left">
-            <div class="mob-topbar-breadcrumb">
-              <span>Mall of Beauty</span>
-              <span class="separator">/</span>
-              <span id="mob-admin-active-breadcrumb" class="active">${tabInfo.breadcrumb}</span>
+            <button type="button" id="mob-drawer-open" class="mob-drawer-open-btn" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="mob-admin-sidebar">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+            <div class="mob-topbar-titles">
+              <div class="mob-topbar-breadcrumb">
+                <span>Mall of Beauty</span>
+                <span class="separator">/</span>
+                <span id="mob-admin-active-breadcrumb" class="active">${tabInfo.breadcrumb}</span>
+              </div>
+              <h2 id="mob-admin-active-title" class="mob-topbar-title">${tabInfo.title}</h2>
+              <p id="mob-admin-active-desc" class="mob-topbar-desc">${tabInfo.desc}</p>
             </div>
-            <h2 id="mob-admin-active-title" class="mob-topbar-title">${tabInfo.title}</h2>
-            <p id="mob-admin-active-desc" class="mob-topbar-desc">${tabInfo.desc}</p>
           </div>
 
           <div class="mob-topbar-right">
@@ -478,7 +492,7 @@ function renderProductsTab(products) {
             <input type="hidden" id="form-product-gallery" value='${JSON.stringify(currentGallery)}'>
 
             <!-- Carte Visuel Principal Actuel + Bouton Téléversement Direct -->
-            <div style="display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+            <div class="admin-upload-grid" style="background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
               <div style="position: relative; width: 140px; height: 140px; border-radius: 10px; overflow: hidden; border: 2px solid #D4AF37; box-shadow: 0 4px 12px rgba(0,0,0,0.08); background: #0F172A;">
                 <img id="form-product-main-preview" src="${currentMainImg}" alt="Aperçu Produit" style="width: 100%; height: 100%; object-fit: cover;">
                 <span style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(15, 23, 42, 0.88); color: #F8FAFC; font-size: 0.68rem; font-weight: 800; text-align: center; padding: 4px 0; text-transform: uppercase; letter-spacing: 0.5px;">
@@ -1217,7 +1231,7 @@ function renderAnalyticsTab(analytics) {
     </div>
 
     <!-- Grille des Métriques CTA -->
-    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px;">
+    <div class="admin-cta-grid">
       <div 
         class="luxury-card cta-clickable-card" 
         onclick="window.MoB.openAnalyticsDetailModal('phone_call', 'Appels Directs GSM')"
@@ -1290,7 +1304,7 @@ function renderAnalyticsTab(analytics) {
     <!-- Récapitulatif des Conversions Formulaires -->
     <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0; margin-bottom: 24px;">
       <h5 style="color: #0F172A; font-size: 1rem; margin-bottom: 16px; font-weight: 700;">Engagement & Soumissions de Formulaires</h5>
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; text-align: center;">
+      <div class="admin-engagement-grid">
         <div 
           class="cta-clickable-card"
           onclick="window.MoB.openAnalyticsDetailModal('booking', 'Rendez-vous Conseils Validés')"
@@ -1320,7 +1334,7 @@ function renderAnalyticsTab(analytics) {
         </div>
       </div>
       
-      <div style="margin-top: 20px; padding-top: 14px; border-top: 1px solid #E2E8F0; font-size: 0.8rem; color: #64748B; display: flex; justify-content: space-between;">
+      <div style="margin-top: 20px; padding-top: 14px; border-top: 1px solid #E2E8F0; font-size: 0.8rem; color: #64748B; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
         <span>Dernier événement : <strong style="color: #0F172A;">${analytics.lastEvent || 'Aucun'}</strong></span>
         <span>Dernière mise à jour : <strong style="color: #0F172A;">${new Date(analytics.updatedAt || Date.now()).toLocaleTimeString('fr-FR')}</strong></span>
       </div>
@@ -1465,7 +1479,7 @@ function renderSettingsTab(settings) {
             </div>
           </div>
 
-          <div style="display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: start; margin-top: 14px;">
+          <div class="admin-wave-grid" style="margin-top: 14px;">
             <div>
               <div class="form-group">
                 <label class="form-label">Image ou Chemin du QR Code Wave</label>
@@ -1539,7 +1553,7 @@ function renderBackupTab() {
       </div>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+    <div class="admin-split-2col">
       <!-- Carte Sauvegarde JSON -->
       <div class="luxury-card" style="padding: 24px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 12px;">
         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
@@ -1639,7 +1653,7 @@ function renderGalleryTab(galleryImages) {
         <form id="admin-gallery-form" onsubmit="window.MoB.handleSaveGalleryItem(event)">
           <input type="hidden" id="gal-edit-id" value="${editingItem ? editingItem.id : ''}">
 
-          <div style="display: grid; grid-template-columns: 1fr 180px; gap: 20px; align-items: start;">
+          <div class="admin-gallery-form-grid">
             <div>
               <div class="form-group" style="margin-bottom: 14px;">
                 <label class="form-label" style="color: #78350F; font-weight: 700;">Photo de la Boutique (Cloudinary) *</label>
