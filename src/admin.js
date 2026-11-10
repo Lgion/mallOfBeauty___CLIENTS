@@ -966,6 +966,346 @@ window.MoB.exportAnalyticsEventsCSV = async () => {
   }
 };
 
+// --- GESTION & CONSULTATION DES ARCHIVES MONGODB ---
+let cachedArchivesList = [];
+
+function formatArchiveDate(dateStr) {
+  if (!dateStr) return "Date inconnue";
+  try {
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return dateStr;
+    return d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" });
+  } catch (e) {
+    return dateStr;
+  }
+}
+
+function formatPeriodDate(dateStr) {
+  if (!dateStr) return "";
+  try {
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return dateStr;
+    return d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short", year: "numeric" });
+  } catch (e) {
+    return dateStr;
+  }
+}
+
+window.MoB.openAnalyticsArchivesModal = async () => {
+  const oldModal = document.getElementById("mob-analytics-archives-modal");
+  if (oldModal) oldModal.remove();
+
+  const modalOverlay = document.createElement("div");
+  modalOverlay.id = "mob-analytics-archives-modal";
+  modalOverlay.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.78);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  `;
+
+  modalOverlay.innerHTML = `
+    <div style="background: #FFFFFF; border-radius: 20px; box-shadow: 0 25px 60px rgba(0,0,0,0.3); width: 100%; max-width: 880px; max-height: 88vh; display: flex; flex-direction: column; overflow: hidden; border: 1.5px solid #E2E8F0;">
+      <!-- Entête Modale -->
+      <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); padding: 18px 24px; color: #FFFFFF; display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #D4AF37;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span style="background: #D4AF37; color: #0F172A; width: 34px; height: 34px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 800;">
+            🗄️
+          </span>
+          <div>
+            <h3 style="margin: 0; font-size: 1.1rem; font-weight: 800; color: #F8FAFC;">Archives Historiques du Trafic & Sessions</h3>
+            <span style="font-size: 0.78rem; color: #94A3B8;">Consultation des snapshots condensés et sauvegardés dans MongoDB Atlas</span>
+          </div>
+        </div>
+        <button onclick="window.MoB.closeAnalyticsArchivesModal()" style="background: transparent; border: none; color: #94A3B8; font-size: 1.4rem; cursor: pointer; padding: 4px; line-height: 1;" title="Fermer">&times;</button>
+      </div>
+
+      <!-- Corps Défilable -->
+      <div id="mob-archives-modal-body" style="flex: 1; overflow-y: auto; padding: 24px; background: #FAFBFD;">
+        <div style="text-align: center; padding: 40px 20px; color: #64748B;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>
+          <div style="font-weight: 700; color: #0F172A;">Chargement des archives depuis MongoDB...</div>
+        </div>
+      </div>
+
+      <!-- Pied de page -->
+      <div style="padding: 14px 24px; background: #FFFFFF; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <span style="font-size: 0.78rem; color: #64748B;">
+          💡 Les archives sont stockées sous format condensé pour préserver les quotas de la base de données.
+        </span>
+        <button type="button" class="btn btn-dark btn-sm" onclick="window.MoB.closeAnalyticsArchivesModal()">Fermer</button>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modalOverlay);
+
+  // Charger les données
+  await window.MoB.refreshAnalyticsArchivesList();
+};
+
+window.MoB.closeAnalyticsArchivesModal = () => {
+  const modal = document.getElementById("mob-analytics-archives-modal");
+  if (modal) modal.remove();
+};
+
+window.MoB.refreshAnalyticsArchivesList = async () => {
+  const body = document.getElementById("mob-archives-modal-body");
+  if (!body) return;
+
+  try {
+    const res = await fetch("/api/analytics_archives");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    cachedArchivesList = Array.isArray(data) ? data : [];
+
+    // Trier de la plus récente à la plus ancienne
+    cachedArchivesList.sort((a, b) => new Date(b.archivedAt || 0) - new Date(a.archivedAt || 0));
+
+    if (cachedArchivesList.length === 0) {
+      body.innerHTML = `
+        <div style="padding: 48px 24px; text-align: center; color: #64748B; background: #FFFFFF; border-radius: 14px; border: 1.5px dashed #CBD5E1;">
+          <div style="font-size: 2.5rem; margin-bottom: 12px;">📦</div>
+          <div style="font-weight: 700; color: #0F172A; font-size: 1.05rem;">Aucune archive de trafic enregistrée pour l'instant.</div>
+          <div style="font-size: 0.85rem; margin-top: 6px; max-width: 500px; margin-left: auto; margin-right: auto; line-height: 1.5;">
+            Lorsque vous cliquez sur le bouton <strong>« Archiver & Réinitialiser »</strong> dans l'onglet des statistiques, l'historique complet est automatiquement sauvegardé ici sous forme condensée.
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    body.innerHTML = `
+      <div style="margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+        <span style="font-size: 0.85rem; font-weight: 700; color: #0F172A;">
+          ${cachedArchivesList.length} archive${cachedArchivesList.length > 1 ? 's' : ''} conservée${cachedArchivesList.length > 1 ? 's' : ''} dans MongoDB
+        </span>
+        <button class="btn btn-outline-gold btn-sm" onclick="window.MoB.refreshAnalyticsArchivesList()" style="font-size: 0.78rem;">
+          🔄 Actualiser
+        </button>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        ${cachedArchivesList.map((a) => {
+          const m = a.metrics || {};
+          const p = a.period || {};
+          const fromStr = formatPeriodDate(p.from);
+          const toStr = formatPeriodDate(p.to);
+          const periodLabel = (fromStr && toStr) ? (fromStr === toStr ? fromStr : `${fromStr} au ${toStr}`) : "Période";
+          const compact = Array.isArray(a.eventsCompact) ? a.eventsCompact : [];
+
+          // Regrouper les événements compacts par session ID (position [5])
+          const sessionMap = new Map();
+          compact.forEach(evt => {
+            const sid = evt[5] || "sess_legacy";
+            if (!sessionMap.has(sid)) sessionMap.set(sid, []);
+            sessionMap.get(sid).push(evt);
+          });
+          const sessionsCount = sessionMap.size;
+
+          return `
+            <div class="luxury-card" style="padding: 20px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
+              <!-- Entête de l'archive -->
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 14px; border-bottom: 1px solid #F1F5F9; padding-bottom: 12px;">
+                <div>
+                  <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 8px; background: #0F172A; color: #D4AF37; font-size: 0.85rem;">📦</span>
+                    <strong style="color: #0F172A; font-size: 0.98rem;">Archive du ${periodLabel}</strong>
+                    <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1px solid #FCD34D; font-weight: 800; font-size: 0.75rem;">
+                      ${a.totalClicks || 0} clics
+                    </span>
+                    ${compact.length > 0 ? `
+                      <span class="badge" style="background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; font-weight: 700; font-size: 0.72rem;">
+                        ${sessionsCount} session${sessionsCount > 1 ? 's' : ''} (${compact.length} actions)
+                      </span>
+                    ` : ''}
+                  </div>
+                  <div style="font-size: 0.78rem; color: #64748B; margin-top: 5px;">
+                    Archivée le <strong>${formatArchiveDate(a.archivedAt)}</strong>
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 8px;">
+                  <button type="button" class="btn btn-outline-gold btn-sm" onclick="window.MoB.exportSingleArchiveCSV('${a.id}')" title="Télécharger cette archive au format CSV" style="display: inline-flex; align-items: center; gap: 5px; font-size: 0.78rem;">
+                    <span>📥 Exporter CSV</span>
+                  </button>
+                  <button type="button" class="btn btn-outline-danger btn-sm" onclick="window.MoB.deleteSingleArchive('${a.id}')" title="Supprimer définitivement cette archive" style="color: #DC2626; border-color: #FECACA; background: #FEF2F2; font-size: 0.78rem;">
+                    🗑️
+                  </button>
+                </div>
+              </div>
+
+              <!-- Grille des métriques -->
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(105px, 1fr)); gap: 8px; margin-bottom: 12px;">
+                <div style="padding: 8px 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; text-align: center;">
+                  <div style="font-size: 1.15rem; font-weight: 800; color: #2563EB;">${m.phone_call || 0}</div>
+                  <div style="font-size: 0.7rem; color: #64748B; margin-top: 2px;">📞 Appels GSM</div>
+                </div>
+                <div style="padding: 8px 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; text-align: center;">
+                  <div style="font-size: 1.15rem; font-weight: 800; color: #059669;">${m.whatsapp || 0}</div>
+                  <div style="font-size: 0.7rem; color: #64748B; margin-top: 2px;">💬 WhatsApp</div>
+                </div>
+                <div style="padding: 8px 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; text-align: center;">
+                  <div style="font-size: 1.15rem; font-weight: 800; color: #DB2777;">${m.instagram || 0}</div>
+                  <div style="font-size: 0.7rem; color: #64748B; margin-top: 2px;">📷 Instagram</div>
+                </div>
+                <div style="padding: 8px 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; text-align: center;">
+                  <div style="font-size: 1.15rem; font-weight: 800; color: #0891B2;">${m.tiktok || 0}</div>
+                  <div style="font-size: 0.7rem; color: #64748B; margin-top: 2px;">🎵 TikTok</div>
+                </div>
+                <div style="padding: 8px 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; text-align: center;">
+                  <div style="font-size: 1.15rem; font-weight: 800; color: #D97706;">${m.booking || 0}</div>
+                  <div style="font-size: 0.7rem; color: #64748B; margin-top: 2px;">📅 RDV Salon</div>
+                </div>
+                <div style="padding: 8px 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; text-align: center;">
+                  <div style="font-size: 1.15rem; font-weight: 800; color: #7C3AED;">${m.shopper || 0}</div>
+                  <div style="font-size: 0.7rem; color: #64748B; margin-top: 2px;">🛍️ Concierge</div>
+                </div>
+                <div style="padding: 8px 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; text-align: center;">
+                  <div style="font-size: 1.15rem; font-weight: 800; color: #BE185D;">${m.loyalty || 0}</div>
+                  <div style="font-size: 0.7rem; color: #64748B; margin-top: 2px;">💳 Privilège</div>
+                </div>
+              </div>
+
+              <!-- Parcours détaillé ou note de synthèse -->
+              ${compact.length > 0 ? `
+                <details class="session-foldable-group" style="border: 1px solid #E2E8F0; border-radius: 10px; overflow: hidden; margin-top: 10px;">
+                  <summary style="background: #F8FAFC; padding: 10px 14px; font-size: 0.82rem; font-weight: 700; color: #0F172A; cursor: pointer; display: flex; justify-content: space-between; align-items: center; list-style: none;">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                      <span>🔍</span>
+                      <span>Consulter les ${compact.length} interactions (${sessionsCount} session${sessionsCount > 1 ? 's' : ''})</span>
+                    </div>
+                    <span class="session-chevron" style="display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: #E2E8F0; font-size: 0.75rem;">▼</span>
+                  </summary>
+                  <div class="admin-table-wrap" style="margin: 0; border: none; border-top: 1px solid #E2E8F0; max-height: 280px; overflow-y: auto;">
+                    <table class="admin-table" style="margin: 0; font-size: 0.78rem;">
+                      <thead>
+                        <tr style="background: #FFFFFF;">
+                          <th style="padding: 6px 12px;">Date & Heure</th>
+                          <th style="padding: 6px 12px;">Canal</th>
+                          <th style="padding: 6px 12px;">Détails</th>
+                          <th style="padding: 6px 12px;">Page</th>
+                          <th style="padding: 6px 12px;">Session ID</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${compact.map((evt, eIdx) => `
+                          <tr style="${eIdx % 2 === 0 ? 'background: #FFFFFF;' : 'background: #FAFAFA;'}">
+                            <td style="padding: 8px 12px;"><strong>${evt[0] || ''} ${evt[1] || ''}</strong></td>
+                            <td style="padding: 8px 12px;">${getEventBadge(evt[2])}</td>
+                            <td style="padding: 8px 12px; font-weight: 600; color: #0F172A;">${evt[3] || evt[2]}</td>
+                            <td style="padding: 8px 12px;"><code style="background: #F1F5F9; color: #475569; padding: 2px 6px; border-radius: 4px; font-size: 0.72rem;">${evt[4] || '/'}</code></td>
+                            <td style="padding: 8px 12px; font-family: monospace; color: #2563EB; font-size: 0.72rem;">${evt[5] ? evt[5].replace(/^sess_/, '#') : '-'}</td>
+                          </tr>
+                        `).join('')}
+                      </tbody>
+                    </table>
+                  </div>
+                </details>
+              ` : `
+                <div style="font-size: 0.76rem; color: #64748B; background: #F8FAFC; border: 1px dashed #CBD5E1; border-radius: 8px; padding: 8px 12px; display: flex; align-items: center; gap: 8px;">
+                  <span>ℹ️</span>
+                  <span>Archive de synthèse globale (conserve la répartition des ${a.totalClicks || 0} clics de cette période).</span>
+                </div>
+              `}
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  } catch (err) {
+    console.error("Erreur lors de la récupération des archives:", err);
+    body.innerHTML = `
+      <div style="background: #FFF1F2; border: 1.5px solid #FECDD3; border-radius: 12px; padding: 20px; color: #991B1B; text-align: center;">
+        <strong style="font-size: 0.95rem;">Impossible de charger les archives depuis MongoDB.</strong>
+        <p style="font-size: 0.82rem; margin: 6px 0 12px 0;">Vérifiez votre connexion internet ou réessayez.</p>
+        <button class="btn btn-outline-danger btn-sm" onclick="window.MoB.refreshAnalyticsArchivesList()">Réessayer</button>
+      </div>
+    `;
+  }
+};
+
+window.MoB.exportSingleArchiveCSV = (archiveId) => {
+  const archive = cachedArchivesList.find(a => a.id === archiveId);
+  if (!archive) {
+    showToast("Archive introuvable.", "danger");
+    return;
+  }
+
+  const escapeCsv = (val) => {
+    const s = String(val ?? "").replace(/"/g, '""');
+    return `"${s}"`;
+  };
+
+  const compact = Array.isArray(archive.eventsCompact) ? archive.eventsCompact : [];
+  let csvContent = "";
+
+  if (compact.length > 0) {
+    const headers = ["Date", "Heure", "Type d'action", "Détail de l'action", "Page / URL", "Session ID"];
+    const rows = compact.map(row => [
+      escapeCsv(row[0] || ""),
+      escapeCsv(row[1] || ""),
+      escapeCsv(row[2] || ""),
+      escapeCsv(row[3] || ""),
+      escapeCsv(row[4] || ""),
+      escapeCsv(row[5] || "")
+    ].join(","));
+    csvContent = "\uFEFF" + [headers.join(","), ...rows].join("\r\n");
+  } else {
+    const m = archive.metrics || {};
+    const headers = ["Canal / Indicateur", "Nombre de conversions"];
+    const rows = [
+      ["Total Clics CTA", archive.totalClicks || 0],
+      ["Appels Directs GSM", m.phone_call || 0],
+      ["Commandes WhatsApp", m.whatsapp || 0],
+      ["Visites Instagram", m.instagram || 0],
+      ["Vidéos TikTok", m.tiktok || 0],
+      ["RDV Conseils Validés", m.booking || 0],
+      ["Demandes Personal Shopper", m.shopper || 0],
+      ["Adhésions Carte Privilège", m.loyalty || 0]
+    ].map(([k, v]) => `${escapeCsv(k)},${escapeCsv(v)}`);
+    csvContent = "\uFEFF" + [headers.join(","), ...rows].join("\r\n");
+  }
+
+  const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `mall_of_beauty_archive_${archive.id}.csv`;
+  link.click();
+  URL.revokeObjectURL(url);
+
+  showToast("Téléchargement du CSV de l'archive démarré !", "success");
+};
+
+window.MoB.deleteSingleArchive = async (archiveId) => {
+  if (!confirm("Voulez-vous vraiment supprimer cette archive historique de MongoDB Atlas ?\nCette opération est irréversible.")) {
+    return;
+  }
+
+  showToast("Suppression de l'archive...", "gold");
+  try {
+    const res = await fetch(`/api/analytics_archives?id=${encodeURIComponent(archiveId)}`, {
+      method: 'DELETE'
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    showToast("Archive supprimée avec succès.", "success");
+    await window.MoB.refreshAnalyticsArchivesList();
+  } catch (err) {
+    console.error("Erreur suppression archive:", err);
+    showToast("Impossible de supprimer l'archive.", "danger");
+  }
+};
+
 window.MoB.toggleGalleryForm = () => {
   toggleAddGalleryFormState();
   refreshAdminActiveTab();

@@ -991,7 +991,10 @@ export async function archiveAndResetAnalyticsClicks() {
       tiktok: currentStats.tiktok || 0,
       booking: currentStats.booking || 0,
       shopper: currentStats.shopper || 0,
-      loyalty: currentStats.loyalty || 0
+      loyalty: currentStats.loyalty || 0,
+      vip_service: currentStats.vip_service || 0,
+      catalog: currentStats.catalog || 0,
+      wave: currentStats.wave || 0
     },
     eventsCount: compactEvents.length,
     eventsCompact: compactEvents

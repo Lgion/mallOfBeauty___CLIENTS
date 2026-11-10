@@ -1009,6 +1009,17 @@ export function renderAnalyticsEventsTableMarkup(state) {
             <option value="tiktok" ${selectedType === 'tiktok' ? 'selected' : ''}>🎵 Visites TikTok</option>
           </select>
 
+          <!-- Bouton Archives -->
+          <button 
+            type="button" 
+            class="btn btn-outline-dark btn-sm" 
+            onclick="window.MoB.openAnalyticsArchivesModal()"
+            style="display: inline-flex; align-items: center; gap: 6px;"
+            title="Consulter l'historique de toutes les sessions et métriques archivées dans MongoDB"
+          >
+            <span>🗄️ Archives</span>
+          </button>
+
           <!-- Bouton Export CSV -->
           <button 
             type="button" 
@@ -1166,6 +1177,9 @@ function renderAnalyticsTab(analytics) {
         <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Analyse multi-angles : Trafic Web Vercel (Où, Quand, Comment) et Conversions directes en temps réel.</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <button class="btn btn-outline-dark btn-sm" onclick="window.MoB.openAnalyticsArchivesModal()" style="display: inline-flex; align-items: center; gap: 6px;" title="Consulter l'historique de tous les trafics et sessions archivés dans MongoDB">
+          <span>🗄️ Consulter les Archives</span>
+        </button>
         <button class="btn btn-gold btn-sm" onclick="window.MoB.loadVercelAnalytics(true)">
           🔄 Actualiser Vercel
         </button>
