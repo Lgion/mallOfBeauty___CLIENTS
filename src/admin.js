@@ -68,121 +68,78 @@ function showToast(message, type = "success") {
   }, 3500);
 }
 
-// --- TIROIR DE NAVIGATION PLIABLE MOBILE (POPOVER + SCROLL SNAP) ---
+// --- TIROIR DE NAVIGATION PLIABLE MOBILE ---
 let drawerKeydownBound = false;
 
-function initAdminNavigationDrawer() {
+window.MoB = window.MoB || {};
+
+window.MoB.openMobileDrawer = () => {
   const drawer = document.getElementById("mob-admin-sidebar");
+  const backdrop = document.getElementById("mob-drawer-backdrop");
   const openBtn = document.getElementById("mob-drawer-open");
   const closeBtn = document.getElementById("mob-drawer-close");
-  const scroller = drawer?.querySelector(".mob-drawer-scroller");
-  const sheet = drawer?.querySelector(".mob-drawer-sheet");
+
+  if (!drawer) return;
+  drawer.classList.add("is-open");
+  drawer.setAttribute("role", "dialog");
+  drawer.setAttribute("aria-modal", "true");
+  if (backdrop) backdrop.classList.add("is-open");
+  if (openBtn) openBtn.setAttribute("aria-expanded", "true");
+  if (closeBtn) setTimeout(() => closeBtn.focus({ preventScroll: true }), 40);
+};
+
+window.MoB.closeMobileDrawer = () => {
+  const drawer = document.getElementById("mob-admin-sidebar");
+  const backdrop = document.getElementById("mob-drawer-backdrop");
+  const openBtn = document.getElementById("mob-drawer-open");
   const mainRegion = document.querySelector(".mob-admin-main");
   const topPill = document.querySelector(".mob-clerk-top-pill");
 
-  if (!drawer || !openBtn || !closeBtn || !scroller || !sheet) return;
+  if (mainRegion) mainRegion.inert = false;
+  if (topPill) topPill.inert = false;
+
+  if (drawer) {
+    drawer.classList.remove("is-open");
+    drawer.removeAttribute("role");
+    drawer.removeAttribute("aria-modal");
+  }
+  if (backdrop) backdrop.classList.remove("is-open");
+  if (openBtn) {
+    openBtn.setAttribute("aria-expanded", "false");
+    if (window.innerWidth <= 960) openBtn.focus({ preventScroll: true });
+  }
+};
+
+function initAdminNavigationDrawer() {
+  const drawer = document.getElementById("mob-admin-sidebar");
+  if (!drawer) return;
 
   const mobileQuery = window.matchMedia("(max-width: 960px)");
-
-  function syncDrawerMode(isMobile) {
-    if (isMobile) {
-      drawer.setAttribute("popover", "manual");
-      drawer.setAttribute("role", "dialog");
-    } else {
-      try {
-        if (drawer.matches(":popover-open")) drawer.hidePopover();
-      } catch (_) {}
-      if (mainRegion) mainRegion.inert = false;
-      if (topPill) topPill.inert = false;
-      drawer.removeAttribute("popover");
-      drawer.removeAttribute("role");
-      drawer.removeAttribute("aria-modal");
-      openBtn.setAttribute("aria-expanded", "false");
-    }
-  }
-
-  async function openDrawer() {
-    if (!mobileQuery.matches || !drawer.hasAttribute("popover")) return;
-    drawer.showPopover();
-    if (mainRegion) mainRegion.inert = true;
-    if (topPill) topPill.inert = true;
-    drawer.setAttribute("aria-modal", "true");
-
-    if (!CSS.supports("scroll-initial-target", "nearest")) {
-      scroller.scrollTo({ left: scroller.offsetWidth, behavior: "instant" });
-      await new Promise((r) =>
-        requestAnimationFrame(() => requestAnimationFrame(r))
-      );
-    }
-
-    scroller.scrollTo({ left: 0, behavior: "auto" });
-  }
-
-  function closeDrawer() {
-    if (!drawer.hasAttribute("aria-modal")) return;
-    scroller.scrollTo({ left: scroller.offsetWidth, behavior: "auto" });
-  }
-
-  function onDrawerOpened() {
-    openBtn.setAttribute("aria-expanded", "true");
-  }
-
-  function onDrawerClosed() {
-    if (!drawer.hasAttribute("aria-modal")) return;
-    try {
-      if (drawer.matches(":popover-open")) drawer.hidePopover();
-    } catch (_) {}
-    if (mainRegion) mainRegion.inert = false;
-    if (topPill) topPill.inert = false;
-    drawer.removeAttribute("aria-modal");
-    openBtn.setAttribute("aria-expanded", "false");
-    openBtn.focus();
-  }
-
-  const visibleThreshold = 1 / Math.max(window.innerWidth, 1);
-  const observer = new IntersectionObserver(
-    (entries) => {
-      if (!mobileQuery.matches || !drawer.hasAttribute("popover")) return;
-      const entry = entries.at(-1);
-      if (!entry) return;
-      if (entry.intersectionRatio < visibleThreshold) onDrawerClosed();
-      if (entry.intersectionRatio === 1) onDrawerOpened();
-    },
-    { root: drawer, threshold: [visibleThreshold, 1] }
-  );
-  observer.observe(sheet);
-
-  if (!CSS.supports("animation-timeline: scroll()")) {
-    scroller.addEventListener("scroll", () => {
-      if (!mobileQuery.matches || !sheet.offsetWidth) return;
-      const ratio = Math.max(0, Math.min(1, 1 - scroller.scrollLeft / sheet.offsetWidth));
-      drawer.style.setProperty("--drawer-backdrop", String(ratio));
-    }, { passive: true });
-  }
-
-  openBtn.addEventListener("click", openDrawer);
-  closeBtn.addEventListener("click", closeDrawer);
-
-  drawer.addEventListener("click", (event) => {
-    if (mobileQuery.matches && !sheet.contains(event.target)) {
-      closeDrawer();
-    }
+  mobileQuery.addEventListener("change", (e) => {
+    if (!e.matches) window.MoB.closeMobileDrawer();
   });
+
+  // Support du glissement tactile vers la gauche pour replier le tiroir
+  let touchStartX = null;
+  drawer.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 1) touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  drawer.addEventListener("touchend", (e) => {
+    if (touchStartX === null || !mobileQuery.matches) return;
+    const deltaX = e.changedTouches[0].clientX - touchStartX;
+    touchStartX = null;
+    if (deltaX < -55) window.MoB.closeMobileDrawer();
+  }, { passive: true });
 
   if (!drawerKeydownBound) {
     drawerKeydownBound = true;
     document.addEventListener("keydown", (event) => {
       const activeDrawer = document.getElementById("mob-admin-sidebar");
-      if (event.key === "Escape" && mobileQuery.matches && activeDrawer?.hasAttribute("aria-modal")) {
-        window.MoB.closeMobileDrawer?.();
+      if (event.key === "Escape" && activeDrawer?.classList.contains("is-open")) {
+        window.MoB.closeMobileDrawer();
       }
     });
   }
-
-  mobileQuery.addEventListener("change", (e) => syncDrawerMode(e.matches));
-  syncDrawerMode(mobileQuery.matches);
-
-  window.MoB.closeMobileDrawer = closeDrawer;
 }
 
 // --- INITIALISATION DU DASHBOARD ---
@@ -195,8 +152,6 @@ function initAdmin() {
 }
 
 // --- INTERFACE GLOBALE WINDOW.MOB ---
-window.MoB = window.MoB || {};
-
 window.MoB.closeAdminModal = () => {
   window.location.href = "/";
 };

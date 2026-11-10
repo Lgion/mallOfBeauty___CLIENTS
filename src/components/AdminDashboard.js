@@ -112,106 +112,105 @@ export function renderAdminDashboard(activeTab = "products") {
 
   return `
     <div class="mob-admin-app">
-      <!-- SIDEBAR LATÉRALE DÉDIÉE (Tiroir pliable sur mobile via Popover API + Scroll Snap) -->
+      <!-- Backdrop mobile pour fermer le tiroir au toucher extérieur -->
+      <div id="mob-drawer-backdrop" class="mob-drawer-backdrop" onclick="window.MoB.closeMobileDrawer && window.MoB.closeMobileDrawer()" aria-hidden="true"></div>
+
+      <!-- SIDEBAR LATÉRALE DÉDIÉE (Fixe sur desktop, Tiroir pliable sur mobile) -->
       <aside class="mob-admin-sidebar" id="mob-admin-sidebar" aria-label="Menu de navigation administration">
-        <div class="mob-drawer-scroller">
-          <div class="mob-drawer-sheet">
-            <!-- Logo & Titre Boutique + Bouton fermer (mobile) -->
-            <div class="mob-sidebar-brand">
-              <div style="display: flex; align-items: center; gap: 12px; min-width: 0;">
-                <div class="mob-brand-icon">⚡</div>
-                <div class="mob-brand-info">
-                  <div class="mob-brand-title">MALL OF BEAUTY</div>
-                  <div class="mob-brand-subtitle">Administration • Les Vallons</div>
-                </div>
-              </div>
-              <button type="button" id="mob-drawer-close" class="mob-drawer-close-btn" aria-label="Fermer le menu" autofocus>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-              </button>
-            </div>
-
-            <!-- Statut Système & Base de données -->
-            <div class="mob-sidebar-status">
-              <span class="mob-status-dot"></span>
-              <span>MongoDB Atlas Connecté</span>
-            </div>
-
-            <!-- 9 Sections Réorganisées avec Icônes SVG et Badges Clairs -->
-            <nav class="mob-sidebar-nav">
-              <div class="mob-nav-group-title">Catalogue & Vente</div>
-              
-              <button class="mob-nav-item ${currentTab === 'products' ? 'active' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.products}</span>
-                <span class="mob-nav-label">Produits</span>
-                <span class="mob-nav-badge" data-tab-badge="products">${products.length}</span>
-              </button>
-
-              <button class="mob-nav-item ${currentTab === 'featured' ? 'active' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.featured}</span>
-                <span class="mob-nav-label">Vitrine Phares</span>
-                <span class="mob-nav-badge gold" data-tab-badge="featured">${featuredCount}</span>
-              </button>
-
-              <button class="mob-nav-item ${currentTab === 'gallery' ? 'active' : ''}" data-tab="gallery" onclick="window.MoB.switchAdminTab('gallery')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.gallery}</span>
-                <span class="mob-nav-label">Galerie Photos</span>
-                <span class="mob-nav-badge" data-tab-badge="gallery">${galleryImages.length}</span>
-              </button>
-
-              <div class="mob-nav-group-title">Services & Clients</div>
-
-              <button class="mob-nav-item ${currentTab === 'appointments' ? 'active' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.appointments}</span>
-                <span class="mob-nav-label">Rendez-vous</span>
-                <span class="mob-nav-badge ${pendingAppointments > 0 ? 'warning' : ''}" data-tab-badge="appointments">
-                  ${appointments.length}
-                </span>
-              </button>
-
-              <button class="mob-nav-item ${currentTab === 'personal-shopper' ? 'active' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.personalShopper}</span>
-                <span class="mob-nav-label">Personal Shopper</span>
-                <span class="mob-nav-badge ${pendingPS > 0 ? 'warning' : ''}" data-tab-badge="personal-shopper">
-                  ${psRequests.length}
-                </span>
-              </button>
-
-              <button class="mob-nav-item ${currentTab === 'loyalty' ? 'active' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.loyalty}</span>
-                <span class="mob-nav-label">Carte Privilège</span>
-                <span class="mob-nav-badge" data-tab-badge="loyalty">${loyaltyMembers.length}</span>
-              </button>
-
-              <button class="mob-nav-item ${currentTab === 'contacts' ? 'active' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.contacts}</span>
-                <span class="mob-nav-label">Messages</span>
-                <span class="mob-nav-badge ${unreadContacts > 0 ? 'danger' : ''}" data-tab-badge="contacts">
-                  ${contacts.length}
-                </span>
-              </button>
-
-              <div class="mob-nav-group-title">Système & Pilotage</div>
-
-              <button class="mob-nav-item ${currentTab === 'analytics' ? 'active' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.analytics}</span>
-                <span class="mob-nav-label">Statistiques Clics</span>
-                <span class="mob-nav-badge" data-tab-badge="analytics">${analytics.total || 0}</span>
-              </button>
-
-              <button class="mob-nav-item ${currentTab === 'settings' ? 'active' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')">
-                <span class="mob-nav-icon">${ADMIN_SVG_ICONS.settings}</span>
-                <span class="mob-nav-label">Paramètres Boutique</span>
-              </button>
-            </nav>
-
-            <!-- Bas de Sidebar : Lien Direct vers le Site Public -->
-            <div class="mob-sidebar-footer">
-              <a href="/" class="mob-btn-return-site" title="Accéder à la boutique publique">
-                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                <span>Retour au site public</span>
-              </a>
+        <!-- Logo & Titre Boutique + Bouton fermer (mobile) -->
+        <div class="mob-sidebar-brand">
+          <div style="display: flex; align-items: center; gap: 12px; min-width: 0;">
+            <div class="mob-brand-icon">⚡</div>
+            <div class="mob-brand-info">
+              <div class="mob-brand-title">MALL OF BEAUTY</div>
+              <div class="mob-brand-subtitle">Administration • Les Vallons</div>
             </div>
           </div>
+          <button type="button" id="mob-drawer-close" class="mob-drawer-close-btn" onclick="window.MoB.closeMobileDrawer && window.MoB.closeMobileDrawer()" aria-label="Fermer le menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+
+        <!-- Statut Système & Base de données -->
+        <div class="mob-sidebar-status">
+          <span class="mob-status-dot"></span>
+          <span>MongoDB Atlas Connecté</span>
+        </div>
+
+        <!-- 9 Sections Réorganisées avec Icônes SVG et Badges Clairs -->
+        <nav class="mob-sidebar-nav">
+          <div class="mob-nav-group-title">Catalogue & Vente</div>
+          
+          <button class="mob-nav-item ${currentTab === 'products' ? 'active' : ''}" data-tab="products" onclick="window.MoB.switchAdminTab('products')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.products}</span>
+            <span class="mob-nav-label">Produits</span>
+            <span class="mob-nav-badge" data-tab-badge="products">${products.length}</span>
+          </button>
+
+          <button class="mob-nav-item ${currentTab === 'featured' ? 'active' : ''}" data-tab="featured" onclick="window.MoB.switchAdminTab('featured')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.featured}</span>
+            <span class="mob-nav-label">Vitrine Phares</span>
+            <span class="mob-nav-badge gold" data-tab-badge="featured">${featuredCount}</span>
+          </button>
+
+          <button class="mob-nav-item ${currentTab === 'gallery' ? 'active' : ''}" data-tab="gallery" onclick="window.MoB.switchAdminTab('gallery')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.gallery}</span>
+            <span class="mob-nav-label">Galerie Photos</span>
+            <span class="mob-nav-badge" data-tab-badge="gallery">${galleryImages.length}</span>
+          </button>
+
+          <div class="mob-nav-group-title">Services & Clients</div>
+
+          <button class="mob-nav-item ${currentTab === 'appointments' ? 'active' : ''}" data-tab="appointments" onclick="window.MoB.switchAdminTab('appointments')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.appointments}</span>
+            <span class="mob-nav-label">Rendez-vous</span>
+            <span class="mob-nav-badge ${pendingAppointments > 0 ? 'warning' : ''}" data-tab-badge="appointments">
+              ${appointments.length}
+            </span>
+          </button>
+
+          <button class="mob-nav-item ${currentTab === 'personal-shopper' ? 'active' : ''}" data-tab="personal-shopper" onclick="window.MoB.switchAdminTab('personal-shopper')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.personalShopper}</span>
+            <span class="mob-nav-label">Personal Shopper</span>
+            <span class="mob-nav-badge ${pendingPS > 0 ? 'warning' : ''}" data-tab-badge="personal-shopper">
+              ${psRequests.length}
+            </span>
+          </button>
+
+          <button class="mob-nav-item ${currentTab === 'loyalty' ? 'active' : ''}" data-tab="loyalty" onclick="window.MoB.switchAdminTab('loyalty')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.loyalty}</span>
+            <span class="mob-nav-label">Carte Privilège</span>
+            <span class="mob-nav-badge" data-tab-badge="loyalty">${loyaltyMembers.length}</span>
+          </button>
+
+          <button class="mob-nav-item ${currentTab === 'contacts' ? 'active' : ''}" data-tab="contacts" onclick="window.MoB.switchAdminTab('contacts')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.contacts}</span>
+            <span class="mob-nav-label">Messages</span>
+            <span class="mob-nav-badge ${unreadContacts > 0 ? 'danger' : ''}" data-tab-badge="contacts">
+              ${contacts.length}
+            </span>
+          </button>
+
+          <div class="mob-nav-group-title">Système & Pilotage</div>
+
+          <button class="mob-nav-item ${currentTab === 'analytics' ? 'active' : ''}" data-tab="analytics" onclick="window.MoB.switchAdminTab('analytics')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.analytics}</span>
+            <span class="mob-nav-label">Statistiques Clics</span>
+            <span class="mob-nav-badge" data-tab-badge="analytics">${analytics.total || 0}</span>
+          </button>
+
+          <button class="mob-nav-item ${currentTab === 'settings' ? 'active' : ''}" data-tab="settings" onclick="window.MoB.switchAdminTab('settings')">
+            <span class="mob-nav-icon">${ADMIN_SVG_ICONS.settings}</span>
+            <span class="mob-nav-label">Paramètres Boutique</span>
+          </button>
+        </nav>
+
+        <!-- Bas de Sidebar : Lien Direct vers le Site Public -->
+        <div class="mob-sidebar-footer">
+          <a href="/" class="mob-btn-return-site" title="Accéder à la boutique publique">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>Retour au site public</span>
+          </a>
         </div>
       </aside>
 
@@ -219,7 +218,7 @@ export function renderAdminDashboard(activeTab = "products") {
       <div class="mob-admin-main">
         <header class="mob-admin-topbar">
           <div class="mob-topbar-left">
-            <button type="button" id="mob-drawer-open" class="mob-drawer-open-btn" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="mob-admin-sidebar">
+            <button type="button" id="mob-drawer-open" class="mob-drawer-open-btn" onclick="window.MoB.openMobileDrawer && window.MoB.openMobileDrawer()" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="mob-admin-sidebar">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
             </button>
             <div class="mob-topbar-titles">
