@@ -749,6 +749,10 @@ export function getStoreSettings() {
       if (parsed.contacts.googlePlacesApiKey === undefined) parsed.contacts.googlePlacesApiKey = STORE_INFO.contacts.googlePlacesApiKey || '';
       if (parsed.contacts.googlePlaceId === undefined) parsed.contacts.googlePlaceId = STORE_INFO.contacts.googlePlaceId || '';
       if (parsed.contacts.googleWidgetCode === undefined) parsed.contacts.googleWidgetCode = STORE_INFO.contacts.googleWidgetCode || '';
+
+      if (typeof parsed.analyticsRetentionDays !== 'number' || parsed.analyticsRetentionDays < 7) {
+        parsed.analyticsRetentionDays = STORE_INFO.analyticsRetentionDays || 60;
+      }
     }
     return parsed;
   } catch (e) {
@@ -758,7 +762,7 @@ export function getStoreSettings() {
 
 export function updateStoreSettings(newSettings) {
   const current = getStoreSettings();
-  const merged = { ...current, ...newSettings, id: "settings" };
+  const merged = { ...current, ...newSettings, id: current.id || "main-settings" };
   localStorage.setItem(STORAGE_KEYS.STORE_SETTINGS, JSON.stringify(merged));
   syncToDb('store_settings', 'PUT', merged);
   emitChange({ type: "SETTINGS_UPDATED", settings: merged });

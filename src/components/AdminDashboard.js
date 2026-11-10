@@ -1031,14 +1031,15 @@ export function renderAnalyticsEventsTableMarkup(state) {
             <span>📥 Exporter CSV</span>
           </button>
 
-          <!-- Bouton Rafraîchir -->
+          <!-- Bouton Rafraîchir (Force le rechargement depuis MongoDB Atlas) -->
           <button 
             type="button" 
             class="btn btn-dark btn-sm" 
-            onclick="window.MoB.loadAnalyticsEventsPage(${page})"
-            title="Rafraîchir depuis la base MongoDB"
+            onclick="window.MoB.loadAnalyticsEventsPage(1, 20, document.getElementById('analytics-events-filter-select')?.value || 'all', true)"
+            style="display: inline-flex; align-items: center; gap: 5px;"
+            title="Forcer le rafraîchissement depuis la base MongoDB"
           >
-            🔄
+            <span>🔄</span>
           </button>
         </div>
       </div>
@@ -1161,6 +1162,8 @@ export function renderAnalyticsEventsTableMarkup(state) {
 }
 
 function renderAnalyticsTab(analytics) {
+  const settings = getStoreSettings();
+  const retentionDays = settings.analyticsRetentionDays || 60;
   const gsm = analytics.phone_call || 0;
   const wa = analytics.whatsapp || 0;
   const ig = analytics.instagram || 0;
@@ -1176,7 +1179,10 @@ function renderAnalyticsTab(analytics) {
         <h4 style="font-size: 1.15rem; color: #0F172A; margin: 0; font-weight: 700;">📊 Tableau de Bord Analytique & Tracking des Visites</h4>
         <p style="font-size: 0.85rem; color: #64748B; margin: 4px 0 0 0;">Analyse multi-angles : Trafic Web Vercel (Où, Quand, Comment) et Conversions directes en temps réel.</p>
       </div>
-      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+        <span class="badge" style="background: #F1F5F9; border: 1.5px solid #CBD5E1; color: #334155; font-size: 0.74rem; font-weight: 700; padding: 6px 10px; display: inline-flex; align-items: center; gap: 6px;" title="Règle d'archivage automatique mensuel le 1er de chaque mois">
+          <span>🔄 Auto-archivage : &gt; ${retentionDays}j</span>
+        </span>
         <button class="btn btn-outline-dark btn-sm" onclick="window.MoB.openAnalyticsArchivesModal()" style="display: inline-flex; align-items: center; gap: 6px;" title="Consulter l'historique de tous les trafics et sessions archivés dans MongoDB">
           <span>🗄️ Consulter les Archives</span>
         </button>
@@ -1476,6 +1482,39 @@ function renderSettingsTab(settings) {
             <div style="text-align: center; background: #FFFFFF; border: 1.5px solid #BAE6FD; border-radius: 12px; padding: 12px; width: 140px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
               <span style="font-size: 0.72rem; color: #0284C7; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 6px;">Aperçu QR Code</span>
               <img src="${settings.contacts.waveQrCode || './imgs/wave_qr_code.svg'}" id="wave-qrcode-admin-preview" alt="Aperçu QR Code Wave" style="width: 110px; height: 110px; object-fit: contain; border-radius: 8px; background: #FFF; padding: 4px;">
+            </div>
+          </div>
+        </div>
+
+        <!-- Configuration Archivage Automatique Mensuel du Trafic -->
+        <div style="background: #F8FAFC; border: 1.5px solid #CBD5E1; border-radius: 12px; padding: 20px; margin: 24px 0;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 10px;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="font-size: 1.4rem;">📦</span>
+              <div>
+                <h4 style="font-size: 1.05rem; color: #0F172A; margin: 0; font-weight: 700;">Archivage Automatique Mensuel du Trafic</h4>
+                <p style="font-size: 0.8rem; color: #64748B; margin: 2px 0 0 0;">Exécuté chaque 1er du mois pour archiver automatiquement le journal ancien et préserver les quotas.</p>
+              </div>
+            </div>
+            <button type="button" class="btn btn-outline-dark btn-sm" onclick="window.MoB.triggerManualAutoArchive()" style="display: inline-flex; align-items: center; gap: 6px;">
+              <span>⚡ Exécuter l'archivage maintenant</span>
+            </button>
+          </div>
+
+          <div class="admin-form-grid">
+            <div class="form-group">
+              <label class="form-label">Délai de conservation du journal en direct (en jours)</label>
+              <input type="number" id="set-analytics-retention" class="form-input" min="7" max="365" value="${settings.analyticsRetentionDays || 60}">
+              <span style="font-size: 0.75rem; color: #64748B; margin-top: 4px; display: block;">
+                Par défaut : <strong>60 jours</strong> (les données du mois en cours + 60 jours restent visibles, le surplus est archivé le 1er du mois).
+              </span>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Statut du dernier archivage automatique</label>
+              <div style="padding: 10px 14px; background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 8px; font-size: 0.82rem; color: #334155;">
+                📅 Dernier mois traité : <strong>${settings.lastAutoArchiveMonth || 'Aucun pour le moment'}</strong>
+                ${settings.lastAutoArchiveDate ? `<br><span style="font-size: 0.74rem; color: #64748B;">Date d'exécution : ${new Date(settings.lastAutoArchiveDate).toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>` : ''}
+              </div>
             </div>
           </div>
         </div>

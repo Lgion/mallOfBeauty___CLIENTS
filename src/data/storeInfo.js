@@ -70,5 +70,9 @@ export const STORE_INFO = {
   personalShopperRules: {
     minDepositRate: 60, // 60% d'acompte obligatoire comme mentionné dans l'enregistrement
     description: "Recherche sur-mesure de parfums exclusifs, maroquinerie rare et pagnes haute couture. Un acompte minimum de 60% est requis à la confirmation de la recherche."
-  }
+  },
+  // Paramétrage de la rétention du journal d'interactions avant archivage automatique
+  analyticsRetentionDays: 60,
+  lastAutoArchiveMonth: "",
+  lastAutoArchiveDate: ""
 };

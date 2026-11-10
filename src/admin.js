@@ -73,6 +73,7 @@ function initAdmin() {
   const root = document.getElementById("admin-root");
   if (!root) return;
   root.innerHTML = renderAdminDashboard("products");
+  checkMonthlyAutoArchive();
 }
 
 // --- INTERFACE GLOBALE WINDOW.MOB ---
@@ -470,10 +471,11 @@ window.MoB.handleResetAnalytics = async () => {
     showToast("Archivage et réinitialisation en cours...", "gold");
     await resetAnalyticsClicks();
     showToast("Trafic archivé dans MongoDB et compteurs remis à zéro !", "success");
+    allActiveEventsCache = [];
     cachedAnalyticsEventsData = null;
     refreshAdminActiveTab();
     if (typeof window.MoB.loadAnalyticsEventsPage === "function") {
-      window.MoB.loadAnalyticsEventsPage(1);
+      window.MoB.loadAnalyticsEventsPage(1, 20, 'all', true);
     }
   } else {
     showToast("Action annulée : mot de confirmation incorrect.", "danger");
@@ -833,7 +835,7 @@ function renderVercelAnalyticsUI(data, container) {
   `;
 }
 
-// --- HISTORIQUE D'INTERACTIONS PAGINÉ MONGODB (ARCHIVE ILLIMITÉE) ---
+// --- CACHE EN MÉMOIRE & HISTORIQUE D'INTERACTIONS ---
 let currentEventsPageState = {
   page: 1,
   limit: 20,
@@ -841,10 +843,45 @@ let currentEventsPageState = {
 };
 let isFetchingEventsPage = false;
 let cachedAnalyticsEventsData = null;
+let allActiveEventsCache = null;
+let isFetchingActiveEvents = false;
+
+async function ensureActiveEventsLoaded(force = false) {
+  if (allActiveEventsCache && !force) {
+    return allActiveEventsCache;
+  }
+  if (isFetchingActiveEvents) {
+    let waited = 0;
+    while (isFetchingActiveEvents && waited < 2000) {
+      await new Promise(r => setTimeout(r, 40));
+      waited += 40;
+    }
+    return allActiveEventsCache || [];
+  }
+  isFetchingActiveEvents = true;
+  try {
+    const res = await fetch("/api/analytics_events?export=true");
+    if (res.ok) {
+      const data = await res.json();
+      allActiveEventsCache = Array.isArray(data.items) ? data.items : [];
+    }
+  } catch (err) {
+    console.warn("Erreur chargement allActiveEventsCache:", err);
+    if (!allActiveEventsCache) {
+      allActiveEventsCache = getAnalyticsClicks().events || [];
+    }
+  } finally {
+    isFetchingActiveEvents = false;
+  }
+  return allActiveEventsCache || [];
+}
 
 window.MoB.getCurrentEventsPage = () => currentEventsPageState.page;
 
 window.MoB.getCachedAnalyticsTotal = () => {
+  if (allActiveEventsCache && typeof allActiveEventsCache.length === "number") {
+    return allActiveEventsCache.length;
+  }
   if (cachedAnalyticsEventsData && typeof cachedAnalyticsEventsData.total === "number") {
     return cachedAnalyticsEventsData.total;
   }
@@ -869,7 +906,7 @@ window.MoB.getCachedAnalyticsEventsHtml = () => {
   return null;
 };
 
-window.MoB.loadAnalyticsEventsPage = async (page = 1, limit = currentEventsPageState.limit, type = currentEventsPageState.type) => {
+window.MoB.loadAnalyticsEventsPage = async (page = 1, limit = currentEventsPageState.limit, type = currentEventsPageState.type, forceFetch = false) => {
   currentEventsPageState.page = page;
   currentEventsPageState.limit = limit;
   currentEventsPageState.type = type;
@@ -887,30 +924,39 @@ window.MoB.loadAnalyticsEventsPage = async (page = 1, limit = currentEventsPageS
   isFetchingEventsPage = true;
 
   try {
-    const data = await getPaginatedAnalyticsEvents(page, limit, type);
+    // 1. Récupération depuis le cache en mémoire (ou réseau si forceFetch / 1er affichage)
+    const all = await ensureActiveEventsLoaded(forceFetch);
+
+    // 2. Filtrage & pagination 100% instantanés en mémoire RAM (0ms, 0 requête réseau)
+    const filtered = (type === 'all') ? all : all.filter(e => e.type === type);
+    const total = filtered.length;
+    const totalPages = Math.max(1, Math.ceil(total / limit));
+    const validPage = Math.max(1, Math.min(page, totalPages));
+    const startIdx = (validPage - 1) * limit;
+    const items = filtered.slice(startIdx, startIdx + limit);
+
     cachedAnalyticsEventsData = {
-      items: data.items || [],
-      total: data.total || 0,
-      page: data.page || page,
-      limit: data.limit || limit,
-      totalPages: data.totalPages || 1,
+      items,
+      total,
+      page: validPage,
+      limit,
+      totalPages,
       selectedType: type
     };
 
-    // Mettre à jour les badges si type === 'all'
-    if (type === 'all' && typeof data.total === 'number') {
-      const badges = document.querySelectorAll('[data-tab-badge="analytics"]');
-      badges.forEach(b => { b.textContent = data.total; });
-      const totalHeaderBadge = document.querySelector("#analytics-total-clicks-badge");
-      if (totalHeaderBadge) totalHeaderBadge.textContent = `${data.total} clics au total`;
-    }
+    // Mettre à jour les badges globaux avec le total d'événements actifs
+    const totalAll = all.length;
+    const badges = document.querySelectorAll('[data-tab-badge="analytics"]');
+    badges.forEach(b => { b.textContent = totalAll; });
+    const totalHeaderBadge = document.querySelector("#analytics-total-clicks-badge");
+    if (totalHeaderBadge) totalHeaderBadge.textContent = `${totalAll} clics au total`;
 
     container.innerHTML = renderAnalyticsEventsTableMarkup({
       ...cachedAnalyticsEventsData,
       openSessionIds
     });
   } catch (err) {
-    console.error("Erreur lors du chargement des événements paginés", err);
+    console.error("Erreur pagination en mémoire", err);
     showToast("Erreur lors de la pagination des événements", "danger");
   } finally {
     isFetchingEventsPage = false;
@@ -918,7 +964,8 @@ window.MoB.loadAnalyticsEventsPage = async (page = 1, limit = currentEventsPageS
 };
 
 window.MoB.filterAnalyticsEvents = (type) => {
-  window.MoB.loadAnalyticsEventsPage(1, currentEventsPageState.limit, type);
+  // Filtrage 100% instantané en mémoire RAM sans aucun fetch réseau !
+  window.MoB.loadAnalyticsEventsPage(1, currentEventsPageState.limit, type, false);
 };
 
 window.MoB.exportAnalyticsEventsCSV = async () => {
@@ -968,6 +1015,51 @@ window.MoB.exportAnalyticsEventsCSV = async () => {
 
 // --- GESTION & CONSULTATION DES ARCHIVES MONGODB ---
 let cachedArchivesList = [];
+
+// Vérification en arrière-plan de l'archivage automatique mensuel (> X jours)
+async function checkMonthlyAutoArchive(force = false) {
+  try {
+    const res = await fetch(`/api/analytics-auto-archive${force ? '?force=true' : ''}`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data.executed && data.archivedCount > 0) {
+        showToast(`📦 Archivage auto mensuel : ${data.archivedCount} interaction(s) de plus de ${data.retentionDays} jours ont été archivées.`, "info");
+        allActiveEventsCache = null;
+        cachedAnalyticsEventsData = null;
+        refreshAdminActiveTab();
+      }
+      return data;
+    }
+  } catch (err) {
+    console.warn("Vérification auto-archive mensuel silencieuse ignorée:", err);
+  }
+  return null;
+}
+
+window.MoB.triggerManualAutoArchive = async () => {
+  const settings = getStoreSettings();
+  const retentionDays = settings.analyticsRetentionDays || 60;
+  if (!confirm(`Exécuter l'archivage automatique maintenant pour toutes les interactions datant de plus de ${retentionDays} jours ?\n\nLes clics plus récents que ${retentionDays} jours resteront intacts dans le journal en direct.`)) {
+    return;
+  }
+  showToast("Vérification et archivage en cours...", "info");
+  const result = await checkMonthlyAutoArchive(true);
+  if (result) {
+    if (result.archivedCount > 0) {
+      showToast(`✓ Succès : ${result.archivedCount} interaction(s) archivée(s) dans MongoDB !`, "success");
+      allActiveEventsCache = null;
+      cachedAnalyticsEventsData = null;
+      refreshAdminActiveTab();
+      if (typeof window.MoB.refreshAnalyticsArchivesList === "function") {
+        window.MoB.refreshAnalyticsArchivesList();
+      }
+    } else {
+      showToast(`Information : Aucune interaction active n'est antérieure à ${retentionDays} jours.`, "info");
+    }
+  } else {
+    showToast("Erreur lors de l'archivage automatique.", "danger");
+  }
+};
 
 function formatArchiveDate(dateStr) {
   if (!dateStr) return "Date inconnue";
@@ -1094,6 +1186,21 @@ window.MoB.refreshAnalyticsArchivesList = async () => {
         </button>
       </div>
 
+      <!-- Bandeau Règle Auto-Archivage -->
+      <div style="background: #EFF6FF; border: 1.5px solid #BFDBFE; border-radius: 12px; padding: 12px 16px; margin-bottom: 18px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <div>
+          <strong style="color: #1E40AF; font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+            <span>🔄 Auto-archivage Mensuel Programmé</span>
+          </strong>
+          <div style="font-size: 0.78rem; color: #2563EB; margin-top: 2px;">
+            Chaque 1er du mois, les interactions actives de plus de <strong>${getStoreSettings().analyticsRetentionDays || 60} jours</strong> sont automatiquement condensées et sauvegardées ici.
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-dark btn-sm" onclick="window.MoB.triggerManualAutoArchive()" style="font-size: 0.76rem; background: #FFF;" title="Déclencher manuellement l'archivage automatique">
+          ⚡ Archiver maintenant (> ${getStoreSettings().analyticsRetentionDays || 60}j)
+        </button>
+      </div>
+
       <div style="display: flex; flex-direction: column; gap: 16px;">
         ${cachedArchivesList.map((a) => {
           const m = a.metrics || {};
@@ -1123,6 +1230,11 @@ window.MoB.refreshAnalyticsArchivesList = async () => {
                     <span class="badge" style="background: #FEF3C7; color: #92400E; border: 1px solid #FCD34D; font-weight: 800; font-size: 0.75rem;">
                       ${a.totalClicks || 0} clics
                     </span>
+                    ${a.isAutoArchive ? `
+                      <span class="badge" style="background: #F0FDF4; color: #166534; border: 1px solid #BBF7D0; font-weight: 700; font-size: 0.72rem;">
+                        🔄 Auto (> ${a.retentionDaysApplied || 60}j)
+                      </span>
+                    ` : ''}
                     ${compact.length > 0 ? `
                       <span class="badge" style="background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; font-weight: 700; font-size: 0.72rem;">
                         ${sessionsCount} session${sessionsCount > 1 ? 's' : ''} (${compact.length} actions)
@@ -1368,16 +1480,14 @@ window.MoB.openAnalyticsDetailModal = async (type, title) => {
 
   document.body.appendChild(modalOverlay);
 
-  // Charger les données du canal ciblé
+  // Charger les données du canal ciblé directement depuis le cache mémoire sans requête réseau
   try {
     const body = document.getElementById("mob-analytics-detail-modal-body");
     const footerInfo = document.getElementById("mob-analytics-detail-modal-footer-info");
     
-    // Récupérer tous les événements de ce type depuis MongoDB
-    const res = await fetch(`/api/analytics_events?export=true&type=${encodeURIComponent(type)}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    const items = Array.isArray(data.items) ? data.items : [];
+    // Récupération instantanée depuis la mémoire
+    const all = await ensureActiveEventsLoaded(false);
+    const items = all.filter(e => e.type === type);
 
     if (items.length === 0) {
       body.innerHTML = `
@@ -1834,10 +1944,14 @@ window.MoB.handleSaveSettings = (e) => {
   const waveDisplay = document.getElementById("set-wave")?.value.trim() || current.contacts?.waveDisplay || "+225 07 77 02 72 35";
   const wavePaymentUrl = document.getElementById("set-wave-url")?.value.trim() || current.contacts?.wavePaymentUrl || "";
   const waveQrCode = document.getElementById("set-wave-qrcode")?.value.trim() || current.contacts?.waveQrCode || "";
+  
+  const retentionInput = document.getElementById("set-analytics-retention");
+  const analyticsRetentionDays = retentionInput ? Math.max(7, parseInt(retentionInput.value, 10) || 60) : (current.analyticsRetentionDays || 60);
 
   updateStoreSettings({
     slogan,
     announcement,
+    analyticsRetentionDays,
     contacts: {
       ...current.contacts,
       orderPhoneDisplay: current.contacts?.orderPhoneDisplay || whatsappDisplay,
@@ -1865,6 +1979,14 @@ window.MoB.handleSaveSettings = (e) => {
       landmark
     }
   });
+
+  try {
+    fetch('/api/analytics-auto-archive', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ retentionDays: analyticsRetentionDays })
+    }).catch(() => {});
+  } catch (e) {}
 
   showToast("Paramètres généraux & Wave mis à jour avec succès !", "success");
   refreshAdminActiveTab();
@@ -1901,8 +2023,14 @@ window.MoB.syncFromDbNow = async () => {
 
 // Écoute des mises à jour asynchrones (ex: synchronisation MongoDB)
 subscribeToDataChanges((event) => {
-  if (event && event.type === "ANALYTICS_UPDATED" && event.stats && event.stats.total === 0) {
-    cachedAnalyticsEventsData = null;
+  if (event && event.type === "ANALYTICS_UPDATED") {
+    if (event.stats && event.stats.total === 0) {
+      allActiveEventsCache = [];
+      cachedAnalyticsEventsData = null;
+    } else {
+      allActiveEventsCache = null;
+      cachedAnalyticsEventsData = null;
+    }
   }
   refreshAdminActiveTab();
 });
